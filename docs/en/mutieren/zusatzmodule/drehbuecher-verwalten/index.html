@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GroupAlarm Manual</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.37.1" />
+
+<title>Manage Alert Scenarios :: GroupAlarm Manual</title>
+<link rel="shortcut icon" href="/img/ga_solo.png" type="image/x-icon" />
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/hybrid.css" rel="stylesheet">
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<link href="/css/auto-complete.css" rel="stylesheet">
+<link href="/theme-original/style.css" rel="stylesheet">
+
+  <link href="/theme-original/variant-default.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<meta name="description" content="">
+
+
+    
+  </head>
+  <body data-url="/en/mutieren/zusatzmodule/drehbuecher-verwalten/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+  <span style="font-size:smaller">
+		<a id="logo" href="https://HannahMM.github.io/">
+		
+		  <span>
+		  <img src="/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
+		</a>
+    
+  
+
+    </div>
+  </div>
+
+      <ul class="topics">
+    <li data-nav-id="/en/einfuehrung/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="/en/einfuehrung/">Introduction</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/einfuehrung/merkblaetter/" class="dd-item">
+        <div>
+          <a href="/en/einfuehrung/merkblaetter/">
+            Handout Documents
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/einfuehrung/grundkonzepte/" class="dd-item">
+        <div>
+          <a href="/en/einfuehrung/grundkonzepte/">
+            Basic Concept
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/einfuehrung/landingpage/" class="dd-item">
+        <div>
+          <a href="/en/einfuehrung/landingpage/">
+            Landing page
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/en/mutieren/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="/en/mutieren/">Mutation</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/en/mutieren/mutation/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="/en/mutieren/mutation/">Changes</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/mutieren/mutation/organigramm/" class="dd-item">
+        <div>
+          <a href="/en/mutieren/mutation/organigramm/">
+            Organigram / tree view
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/mutieren/mutation/teilnehmerliste/" class="dd-item">
+        <div>
+          <a href="/en/mutieren/mutation/teilnehmerliste/">
+            Participant list
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/mutieren/mutation/texte/" class="dd-item">
+        <div>
+          <a href="/en/mutieren/mutation/texte/">
+            Texts
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/en/mutieren/zusatzmodule/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="/en/mutieren/zusatzmodule/">Add-On Modules</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/" class="dd-item">
+        <div>
+          <a href="/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/">
+            Manage Alert Templates
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/mutieren/zusatzmodule/drehbuecher-verwalten/" class="dd-item active">
+        <div>
+          <a href="/en/mutieren/zusatzmodule/drehbuecher-verwalten/">
+            Manage Alert Scenarios
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/" class="dd-item">
+        <div>
+          <a href="/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/">
+            Manage Conference Templates
+          </a>
+        </div>
+    </li>
+    <li data-nav-id="/en/mutieren/zusatzmodule/importexport/" class="dd-item
+        ">
+      <div>
+      <a href="/en/mutieren/zusatzmodule/importexport/">Import/Export</a>
+      </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    <hr />
+    <li>
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="de" value="/mutieren/zusatzmodule/drehbuecher-verwalten/">de</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="fr" value="/fr/mutieren/zusatzmodule/drehbuecher-verwalten/">fr</option>
+	      
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="en" value="/en/mutieren/zusatzmodule/drehbuecher-verwalten/" selected>en</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select></li>
+    
+    </ul>
+
+ <section id="footer">
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+
+
+
+ <a href='/en/'>GroupAlarm Manual</a> > <a href='/en/mutieren/'>Mutation</a> > <a href='/en/mutieren/zusatzmodule/'>Add-On Modules</a> > Manage Alert Scenarios
+
+ 
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#manage-alert-scenarios">Manage alert scenarios</a></li>
+<li><a href="#general">General</a></li>
+<li><a href="#template-assignement">Template assignement</a></li>
+<li><a href="#texts">Texts</a></li>
+<li><a href="#copy-scenario">Copy scenario</a></li>
+<li><a href="#lock-scenario">Lock scenario</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>Manage Alert Scenarios</h1>
+  
+
+
+
+    
+    
+    
+    
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li><p><a href="#general">General</a></p></li>
+
+<li><p><a href="#template_assignement">Template assignement</a></p></li>
+
+<li><p><a href="#texts">Texts</a></p></li>
+
+<li><p><a href="#copy_scenario">Copy scenario</a></p></li>
+
+<li><p><a href="#lock_scenario">Lock scenario</a></p></li>
+</ul>
+
+<h3 id="manage-alert-scenarios">Manage alert scenarios</h3>
+
+<p>In so-called scenarios, multiple alert and conference templates can be
+arranged successively on a timeline. This way, if an alert has not ended
+after a certain, predefined amount of time, the next alert/conference
+template is triggered automatically. This allows automatic alert
+escalations to be predefined, which otherwise would have to be done
+manually.</p>
+
+<p>Alert templates are created in the first step (see previous chapter
+“Manage alert templates”). Once the alert templates (or conference
+templates) have been made, a scenario can be created. The scenarios are
+saved under a freely definable name and given a customer-specific
+trigger code that is particularly important for remote triggering.</p>
+
+<p><img src="/img/drehbuch_.fb4e2dbaa2fda2fbee6634bb66ce3ed7.png" alt="" /></p>
+
+<p>Click on “Manage alert scenarios”. Create a new scenario
+( <img src="/img/newscenariao.png" alt="" />)
+or manage an existing scenario by clicking on the blue
+<img src="/img/blaues_bearbeitungsicon_en.png" alt="" /> edit icon.</p>
+
+<p><img src="/img/qwe.2d6cab8a04edacb64e20f3110dec1393.png" alt="" /></p>
+
+<p>In this example, we are selecting a new scenario. You are taken directly
+to the “General” tab.</p>
+
+<p><a name="general"></a></p>
+
+<h3 id="general">General</h3>
+
+<p>A trigger code appears at the top of the screen. Either leave it as it
+is or change it to any another code. Give the script a name and describe
+it in more detail if you wish.</p>
+
+<p><img src="/img/newnew.5e0d9d56df629340cfcecf89ecf5cdaa.png" alt="" /></p>
+
+<p><a name="template_assignement"></a></p>
+
+<h3 id="template-assignement">Template assignement</h3>
+
+<p><img src="/img/tempateassignement.d9a0ec384a2ea0cf76f5dfa6863d92f6.png" alt="" /></p>
+
+<p>You can add any templates that are available under “Attributable
+templates”.</p>
+
+<p>Select one or several templates you require and then click on “add”.</p>
+
+<p><img src="/img/add.032e3afd513d8a0e66d13ff3b22d9951.png" alt="" /></p>
+
+<p>As soon as you have added a number of templates, they will be listed and
+displayed in a grey frame. The first template always starts at 0 time
+(can be overridden). You can move the individual templates using drag &amp;
+drop and in this way change their sequence. This is also possible under
+“*Simulation view Timeline*”. You can also set the time delay in the
+same way. Click on “save scenario” to save your changes.</p>
+
+<p><img src="/img/zeitendragrop.d07b708cf933a30352f67a3f5b4397d4.png" alt="" /></p>
+
+<p><a name="texts"></a></p>
+
+<h3 id="texts">Texts</h3>
+
+<p>When making a change, you can set a global freely definable text. Or,
+you can also choose the text from each template.</p>
+
+<p><img src="/img/texte_en.312be144ef9dcd6ee74cdf5d29201a19.png" alt="" /></p>
+
+<p><a name="copy_scenario"></a></p>
+
+<h3 id="copy-scenario">Copy scenario</h3>
+
+<p>You can easily copy an existing scenario. During the copying process,
+all of the data sets are also copied. To do this, click the copy icon.</p>
+
+<p><img src="/img/drehbuch_kopieren.327a30cf859bda9f6b4ae764c42212d3.png" alt="" /></p>
+
+<p>Once you have clicked the copy icon, a copy of the scenario is created.
+The system names it “copy 1”.</p>
+
+<p><img src="/img/drehbuch_kopieren_2_en_.216b2d2d2fba3d95e0ff23f714052d08.png" alt="" /></p>
+
+<p><a name="lock_scenario"></a></p>
+
+<h3 id="lock-scenario">Lock scenario</h3>
+
+<p>The scenario can be locked via the
+ <img src="/img/schloesschen_fr.png" alt="" />
+icon. This prevents an unauthorised person from editing or deleting the
+scenario. Only the author or super user can unlock the scenario.</p>
+
+<p><img src="/img/lock.png" alt="" /></p>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+</div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="/js/clipboard.min.js"></script>
+<script src="/js/featherlight.min.js"></script>
+<script src="/js/html5shiv-printshiv.min.js"></script>
+
+<script src="/js/modernizr.custom.71422.js"></script>
+<script src="/js/docdock.js"></script>
+<script src="/theme-original/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>
