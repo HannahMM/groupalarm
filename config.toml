@@ -1,0 +1,42 @@
+baseURL = "https://HannahMM.github.io/"
+languageCode = "en-us"
+title = "GroupAlarm Handbuch"
+defaultContentLanguage = "de"
+
+
+theme = "hugo-theme-docdock"
+
+[params]
+themeStyle = "original"
+themeVariant = "default"
+defaultContentLanguageInSubdir= true
+enableMissingTranslationPlaceholders = true
+
+disableHomeIcon = true
+disableNavChevron = true
+disableSearch = true
+
+
+[imaging]
+anchor = "center"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+[Languages]
+
+[Languages.de]
+title = "GroupAlarm Handbuch"
+languageName = "de"
+
+[Languages.en]
+title = "GroupAlarm Manual"
+languageName = "en"
+
+[Languages.fr]
+title = "GroupAlarm Manuel"
+languageName = "fr"
+
+[Languages.it]
+title = "GroupAlarm Manuale"
+languageName = "it"
+
