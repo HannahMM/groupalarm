@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GroupAlarm Manuel</title>
-    <link>https://HannahMM.github.io/fr/</link>
+    <link>https://hannahmm.github.io/groupalarm/fr/</link>
     <description>Recent content on GroupAlarm Manuel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://HannahMM.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hannahmm.github.io/groupalarm/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gestion des dispositifs d’alarme</title>
-      <link>https://HannahMM.github.io/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
       <description>Table des matières  Création d`un dispositif d`alarme
  Copie d`un dispositif d`alarme
   Gestion des dispositifs d’alarme Les dispositifs d’alarme sont des alarmes prédéfinies, ce qui signifie que le cercle de participants et les éventuels textes d’alarme sont déjà prédéfinis. En cas d’événement grave, le dispositif d’alarme prévu peut être déclenché et les participants prédéfinis sont alarmés au travers du texte d&amp;rsquo;alarme via les moyens correspondants.
@@ -24,10 +24,10 @@ Il existe différentes manières de créer un dispositif d’alarme:</descriptio
     
     <item>
       <title>Organigramme / arborescence</title>
-      <link>https://HannahMM.github.io/fr/mutieren/mutation/organigramm/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/mutieren/mutation/organigramm/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/</guid>
       <description>Table des matières  Racine
  Groupe
  Participant(s)
@@ -38,10 +38,10 @@ Racine Pour créer une racine, saisissez son nom dans le champ de saisie et conf
     
     <item>
       <title>Gestion des scénarios</title>
-      <link>https://HannahMM.github.io/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
       <description>Table des matières  Généralités
  Attribution des dispositifs
  Textes
@@ -52,10 +52,10 @@ Racine Pour créer une racine, saisissez son nom dans le champ de saisie et conf
     
     <item>
       <title>Liste des participants</title>
-      <link>https://HannahMM.github.io/fr/mutieren/mutation/teilnehmerliste/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/teilnehmerliste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/mutieren/mutation/teilnehmerliste/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/teilnehmerliste/</guid>
       <description>Table des matières  Domaine des participants
  Copier un Participant
  Participants dans les groupes
@@ -66,10 +66,10 @@ Vous pouvez également définir de nouveaux critères de tri dans le menu Admin 
     
     <item>
       <title>Gestion des dispositifs de conférence</title>
-      <link>https://HannahMM.github.io/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
       <description>Table des matières  Création d&amp;rsquo;un dispositif pour conférence
  Copie d&amp;rsquo;un dispositif pour conférence
   Gestion des dispositifs de conférence Dans ce sous-menu, l’utilisateur peut créer et gérer les dispositifs pour conférence. Il existe différentes manières de créer un dispositif pour conférence:
@@ -81,10 +81,10 @@ Création d&amp;rsquo;un dispositif pour conférence Sélectionnez dans le masqu
     
     <item>
       <title>Traitement des textes</title>
-      <link>https://HannahMM.github.io/fr/mutieren/mutation/texte/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/texte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/mutieren/mutation/texte/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/texte/</guid>
       <description>Table des matières  Traitement des textes
  Options d`éditeur vocal pour le texte d`alarme
   
@@ -93,29 +93,29 @@ Traitement des textes eAlarm emergency vous permet de rédiger des textes d’al
     
     <item>
       <title>Aide-mémoires</title>
-      <link>https://HannahMM.github.io/fr/einfuehrung/merkblaetter/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/einfuehrung/merkblaetter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/einfuehrung/merkblaetter/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/einfuehrung/merkblaetter/</guid>
       <description>Vous trouverez ici les principales notices explicatives sur eAlarm emergency, dont:</description>
     </item>
     
     <item>
       <title>Concepts de base</title>
-      <link>https://HannahMM.github.io/fr/einfuehrung/grundkonzepte/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/einfuehrung/grundkonzepte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/einfuehrung/grundkonzepte/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/einfuehrung/grundkonzepte/</guid>
       <description>Pour faciliter vos premiers pas avec eAlarm, nous vous indiquons ci-après quelques concepts de base. Nous vous recommandons en premier lieu de considérer la structure de votre entreprise. Comment ses différentes unités d’organisation sont-elles structurées sur un plan hiérarchique? Réfléchissez ensuite aux droits d’accès. Cela est primordial. Demandez-vous qui pourra, à l’avenir, administrer, muter ou alerter?
  Nous vous conseillons tout d’abord de créer les arborescences de niveau supérieure (= racines).</description>
     </item>
     
     <item>
       <title>Page d`accueil</title>
-      <link>https://HannahMM.github.io/fr/einfuehrung/landingpage/</link>
+      <link>https://hannahmm.github.io/groupalarm/fr/einfuehrung/landingpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/fr/einfuehrung/landingpage/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/fr/einfuehrung/landingpage/</guid>
       <description>Avec votre navigateur Internet (de préférence, Mozilla Firefox), connectez-vous à https://emergency.swisscom-alarm.ch à l’aide de votre nom d’utilisateur et de votre mot de passe. La page d’accueil d’eAlarm emergency est représentée ci-après.
 Aprés le login vous vous retrouvez dans l&amp;rsquo;onglet &amp;ldquo;Alarmer&amp;rdquo;. Ici vous avez accès aux fonctions d&amp;rsquo;eAlarm emergency</description>
     </item>

@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GroupAlarm Handbuch</title>
-    <link>https://HannahMM.github.io/</link>
+    <link>https://hannahmm.github.io/groupalarm/</link>
     <description>Recent content on GroupAlarm Handbuch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://HannahMM.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hannahmm.github.io/groupalarm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alarmvorlagen verwalten (optionales Modul)</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
       <description>Alarmvorlagen Alarmvorlagen sind vordefinierte Alarme. Das bedeutet, der Teilnehmerkreis und die möglichen Alarmtexte sind bereits vordefiniert. Im Ernstfall kann bei der Alarmierung die vorher erfasste Alarmvorlage ausgelöst werden und die definierten Alarmteilnehmer werden über die entsprechenden Mittel mit dem Alarmtext alarmiert.
 Im Menü „Alarmvorlagen“ werden Ihre vorhandenen Alarmvorlagen aufgelistet. Sie können die Vorlagen nach Alarmname, Auslösecode, Beschreibung, Zeitpunkt der letzen Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
     </item>
     
     <item>
       <title>Export</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/importexport/export/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/importexport/export/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/</guid>
       <description>Um eine Datei herunterzuladen, klicken Sie den entsprechenden Link an und speichern Sie die Datei an einem beliebigen Ort. Im Anschluss kann die CSV Datei mit einem geeigneten Programm geöffnet werden (bei Windows Computern wird der Dateityp automatisch in Excel geöffnet, falls dieses installiert ist).
 Sie können den Report auch nur als Textdatei herunterladen. Klicken Sie dazu auf die Schaltfläche „[Text]“ hinter dem entsprechenden Eintrag. Es öffnet sich ein neues Browserfenster mit den Daten.</description>
     </item>
     
     <item>
       <title>Organigramm / Baumansicht</title>
-      <link>https://HannahMM.github.io/mutieren/mutation/organigramm/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/mutation/organigramm/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</guid>
       <description>Organigramm / Baumansicht Im Menü „Organigramm / Baumansicht“ können Sie Ihre Alarmierungs- und Mobilisationsstruktur als Baumdiagramm erstellen und verwalten.
 Baumansicht Auf der linken Seite wird die aktuelle Wurzeln mit untergeordneten Ordner und Teilnehmern angezeigt.
 Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen zugeordnet werden können. Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten. Einer Gruppe werden einen oder mehrere Teilnehmer zugewiesen.</description>
@@ -43,10 +43,10 @@ Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder m
     
     <item>
       <title>Ereignisse verwalten (Optionales Modul)</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/ereignisse-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/ereignisse-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/</guid>
       <description>Ereignisse Mit dem Modul „Ereignisse“ können Sie bestimmten Ereignissen eine Ihrer erstellten Vorlagen zuordnen. Diese Ereignisse können z.b. von externen Systemen aktiviert werden. Der Vorteil dabei ist, das Änderungen direkt an der Vorlage vorgenommen werden können, wärend das Ereignis unverändert bleibt.
 Im Menü „Ereignisse“ werden Ihre vorhandenen Ereignisse aufgelistet. Sie können die Vorlagen nach Ereignissname,
 Beschreibung, Bearbeitungszeitpunkt und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
@@ -54,10 +54,10 @@ Beschreibung, Bearbeitungszeitpunkt und Disponent filtern. Geben Sie dazu die ge
     
     <item>
       <title>Import</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/importexport/import/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/importexport/import/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/</guid>
       <description>Import/Datenbank Import Hier können Sie erstellte bzw. modifizierte Datensätze wieder in das System importieren. Wichtig ist hierbei, dass die Dateinamen und Spaltenbezeichnungen nicht verändert wurden und Sie die entsprechenden Konventionen einhalten.
 Dynamischer Import Mit dem dynamischen Import importieren Sie die im dynamischen Export erstellte Datei wieder in das System. Er bietet sich vor allem für den Erstimport um die Datenbank schnell und einfach mit Teilnehmern zu füllen.
 Klicken Sie hierzu auf die Schaltfläche „Dateien auswählen“ und wählen Sie die Datei „import.</description>
@@ -65,10 +65,10 @@ Klicken Sie hierzu auf die Schaltfläche „Dateien auswählen“ und wählen Si
     
     <item>
       <title>Teilnehmerliste</title>
-      <link>https://HannahMM.github.io/mutieren/mutation/teilnehmerliste/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/mutation/teilnehmerliste/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</guid>
       <description>Teilnehmerliste In der Teilnehmerliste werden alle Teilnehmer tabellarisch aufgelistet.
 Die angezeigten Spalten können über das Symbol angepasst werden.
 Es können auch neue Sortierkriterien im Admin-Bereich unter dem Menü „Datenfelder“ definiert werden.
@@ -78,50 +78,50 @@ Mit den Pfeilen können Sie die Liste nach verschiedenen Kriterien alphabetisch/
     
     <item>
       <title>Drehbücher verwalten (optionales Modul)</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
       <description>Drebücher In Drehbüchern können mehrere Alarm- und Konferenzvorlagen auf einem Zeitstrahl hintereinander gereiht werden. So wird erreicht, dass nach einer gewissen vordefinierten Zeit – falls der Alarm bis dahin nicht schon beendet wurde – automatisch eine nächste Alarm- / Konferenzvorlage ausgelöst wird. So können automatische Alarm-Eskalationen vordefiniert werden, die ansonsten manuell durchgeführt werden müssten.
 Im Menü „Drehbücher“ werden Ihre vorhandenen Drehbücher aufgelistet. Sie können die Vorlagen nach Drehbuchname, Auslösecode, Beschreibung und Disponent filtern.</description>
     </item>
     
     <item>
       <title>Texte</title>
-      <link>https://HannahMM.github.io/mutieren/mutation/texte/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/mutation/texte/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</guid>
       <description>Texte Mit eAlarm emergency können Sie vordefinierte Alarmtexte in vier Sprachen verfassen: Deutsch, Französisch, Italienisch und Englisch (optionales Modul).
 Im Menü „Texte“ können Sie Ihre vorhandenen Alarmtexte einsehen und bearbeiten sowie mit dem Text-Editor neue Texte in entsprechender Sprache anlegen. Neuer Text Um einen neuen Text anzulegen, geben Sie den Text in das der jeweiligen Sprache entsprechende Eingabefenster ein und bestätigen Sie mit der Schaltfläche „anlegen“ Für einen Alarm bzw.</description>
     </item>
     
     <item>
       <title>Konferenzvorlagen verwalten (optionales Modul)</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
       <description>Konferenzvorlagen Konferenzvorlagen sind vordefinierte Konferenzen. Das bedeutet, der Teilnehmerkreis und die Alarmmittel sind bereits vordefiniert. Im Ernstfall kann bei der Alarmierung die vorher erfasste Konferenzvorlage ausgelöst werden und die definierten Alarmteilnehmer werden über die entsprechenden Mittel für Telefonkonferenzen angerufen.
 Im Menü „Konferenzvorlagen“ werden Ihre vorhandenen Konferenzvorlagen aufgelistet. Sie können die Vorlagen nach Konferenzname, Auslösecode, Beschreibung, Zeitpunkt der letzen Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
     </item>
     
     <item>
       <title>Merkblätter</title>
-      <link>https://HannahMM.github.io/einfuehrung/merkblaetter/</link>
+      <link>https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/einfuehrung/merkblaetter/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/</guid>
       <description>Hier finden Sie die wichtigsten Merkblätter zu eAlarm emergency:
    Name Dokumentname     doc1 Schulungsdokument PDF (457.4 KB)   doc2 Rechteverwaltung PDF (1 MB)    Durch das Klicken auf ein Merkblatt wird die Datei aufgerufen. Sie kann im Browser angesehen oder lokal abgespeichert werden.</description>
     </item>
     
     <item>
       <title>Grundkonzept</title>
-      <link>https://HannahMM.github.io/einfuehrung/grundkonzepte/</link>
+      <link>https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/einfuehrung/grundkonzepte/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/</guid>
       <description>Um Ihnen den Einstieg in eAlarm zu erleichtern und eine optimale und effektive Alarmauslösung zu gewährleisten, empfehlen wir Ihnen, die Alarmierungs- und Mobilisationsstruktur Ihres Unternehmens vor Beginn zu skizzieren.
 Folgende Fragen können Ihnen dabei behilflich sein:
  Welche über-/untergeordneten Organisation-/Einsatzseinheiten liegen vor ? Welche Spezialeinheiten gibt es? Welche Alarmierungsszenarien erwarten Sie und welche Alarmierungs- und Mobilisationsabläufe entstehen daraus? Welche Nutzer sollen Zugriffsrechte bekommen, d.h. wer soll künftig administrieren, mutieren, alarmieren können?</description>
@@ -129,10 +129,10 @@ Folgende Fragen können Ihnen dabei behilflich sein:
     
     <item>
       <title>Zeitsteuerung verwalten (optionales Modul)</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/zeitsteuerungen/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/zeitsteuerungen/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</guid>
       <description>Zeitsteuerung Das optionale Zusatzmodul „Zeitsteuerung“ ermöglichet den Erfassen von Bereitschaftsdiensten.
 Um einen neue Zeitsteuerung anzulegen, gehen Sie im Register „Mutieren“ in das Menü „Organigramm/Baumansicht“ und klicken Sie in der rechten Spalte unter „Verfügbar“ auf „Neue Zeitsteuerung“ Fügen Sie die erstellte Zeitsteuerung zu einer Wurzel oder einem Ordner hinzu.
 Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt, die den Bereitschaftsdienst an bestimmten Tagen haben werden. Im folgenden Beispiel sind das:</description>
@@ -140,10 +140,10 @@ Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt,
     
     <item>
       <title>Startseite</title>
-      <link>https://HannahMM.github.io/einfuehrung/landingpage/</link>
+      <link>https://hannahmm.github.io/groupalarm/einfuehrung/landingpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/einfuehrung/landingpage/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/einfuehrung/landingpage/</guid>
       <description>Login Um Zugang zu Ihrem Account zu erhalten, melden Sie sich auf https://pro.groupalarm.de/ mit zugewiesenem Benutzernamen und Passwort an.
 Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf alle Funktionen von eAlarm emergency. Navigation Die Struktur dieses Handbuches ist analog zu der Struktur von eAlarm emergency aufgebaut.
 Register Hier rot markiert sind die vier Hauptregister „Alarmieren“, „Status“, „Mutieren“, „Admin“. Alle Funktionen, die Sie unter diesen Registern finden, werden in den entsprechenden Menüpunkten erläutert.</description>
@@ -151,20 +151,20 @@ Register Hier rot markiert sind die vier Hauptregister „Alarmieren“, „Stat
     
     <item>
       <title>eAlarmApp</title>
-      <link>https://HannahMM.github.io/mutieren/zusatzmodule/ealarm_app/</link>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ealarm_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/mutieren/zusatzmodule/ealarm_app/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ealarm_app/</guid>
       <description>eAlarmApp (Optionales Modul) Mit der eAlarmApp 2.0 wurden verschiedene neue Funktionalitäten entwickelt und Verbesserungen vorgenommen. Gewisse Features zielen auf die eAlarmApp ab, andere das System eAlarm. Sämtliche neuen Features und Verbesserungen sind, sofern nicht explizit anders vermerkt, für alle Kunden mit dem Modul eAlarmApp standardmässig aktiviert.
 Verwenden aktiver Inhalte Wenn auf die eAlarmApp ein Alarm und/oder eine Info zugestellt wird, können die darin verwendeten „aktiven Inhalte“ mittels Klick direkt aus der App angewählt werden - analog den Alarmmittel SMS &amp;amp; eMail.</description>
     </item>
     
     <item>
       <title>Mitbenutzerverwaltung</title>
-      <link>https://HannahMM.github.io/einfuehrung/mitbenutzerverwaltung/</link>
+      <link>https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/einfuehrung/mitbenutzerverwaltung/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/</guid>
       <description>Mitbenutzerverwaltung Bei eAlarm emergency kann sich jeder angelegte Teilnehmer mit seinem persönlichen Login (Benutzername) und Passwort auf der Einstiegsseite identifizieren und anmelden. Seine Rechte sind zunächst auf Eigene Daten beschränkt, d. h. die einzigen Daten, die er einsehen und bearbeiten kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und -Adressen, Abwesenheiten und die optionalen Felder.
 Wichtig!Ein Login ist noch kein MitbenutzerDie Voraussetzung für einen Mitbenutzer, d. h.</description>
     </item>

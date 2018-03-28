@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GroupAlarm Manual</title>
-    <link>https://HannahMM.github.io/en/</link>
+    <link>https://hannahmm.github.io/groupalarm/en/</link>
     <description>Recent content on GroupAlarm Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://HannahMM.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hannahmm.github.io/groupalarm/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Manage Alert Templates</title>
-      <link>https://HannahMM.github.io/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
       <description>Table of Contents  Creating a new alert template
  Copying alert templates
   Manage alert templates Alert templates are predefined alerts, i.e. the participant group and the possible alert texts are already predefined. In the event of an emergency, the predefined alert template can be triggered and the defined alert participants are sent the alert text via the respective media.
@@ -24,10 +24,10 @@ There are different ways to create an alert template:</description>
     
     <item>
       <title>Organigram / tree view</title>
-      <link>https://HannahMM.github.io/en/mutieren/mutation/organigramm/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/mutieren/mutation/organigramm/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/</guid>
       <description>Table of Contents  Organisational chart / Tree view
  Roots
  Group
@@ -40,10 +40,10 @@ Roots To create a new root, enter the name of the new root in the input field an
     
     <item>
       <title>Manage Alert Scenarios</title>
-      <link>https://HannahMM.github.io/en/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
       <description>Table of Contents  General
  Template assignement
  Texts
@@ -54,10 +54,10 @@ Roots To create a new root, enter the name of the new root in the input field an
     
     <item>
       <title>Participant list</title>
-      <link>https://HannahMM.github.io/en/mutieren/mutation/teilnehmerliste/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/mutieren/mutation/teilnehmerliste/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/</guid>
       <description>Table of Contents  List of subscribers
  Subscriber Zone
  Copying subscribers
@@ -69,10 +69,10 @@ You can also define new sorting criteria in the ADMIN menu under “Data fields�
     
     <item>
       <title>Manage Conference Templates</title>
-      <link>https://HannahMM.github.io/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
       <description>Table of Contents  Create new conference template
  Copy conference template
   Manage conference templates The user can create and manage conference templates in this sub-menu. There are different ways to create a conference template:
@@ -84,10 +84,10 @@ Create New Conference Template Choose the target people from the alerting screen
     
     <item>
       <title>Texts</title>
-      <link>https://HannahMM.github.io/en/mutieren/mutation/texte/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/mutieren/mutation/texte/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/</guid>
       <description>Table of Contents  Edit Texts
  Voiceoutput option for alert texts
   
@@ -96,29 +96,29 @@ Texts Predefined alert texts can be written in four languages (German, English, 
     
     <item>
       <title>Handout Documents</title>
-      <link>https://HannahMM.github.io/en/einfuehrung/merkblaetter/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/einfuehrung/merkblaetter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/einfuehrung/merkblaetter/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/einfuehrung/merkblaetter/</guid>
       <description>…coming soon…</description>
     </item>
     
     <item>
       <title>Basic Concept</title>
-      <link>https://HannahMM.github.io/en/einfuehrung/grundkonzepte/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/einfuehrung/grundkonzepte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/einfuehrung/grundkonzepte/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/einfuehrung/grundkonzepte/</guid>
       <description>For an easier start with eAlarm emergency and to ensure an effective alerting process, we would advise you to outline a basic scheme of your company structure. You may ask yourself the following questions:
  Which organisational/operational units exist and what is their hierarchy? What alerting scenarios do you expect and what is the following course of events? Which User should get administrative rights, who should be allowed to alert, mutate, administrate?</description>
     </item>
     
     <item>
       <title>Landing page</title>
-      <link>https://HannahMM.github.io/en/einfuehrung/landingpage/</link>
+      <link>https://hannahmm.github.io/groupalarm/en/einfuehrung/landingpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://HannahMM.github.io/en/einfuehrung/landingpage/</guid>
+      <guid>https://hannahmm.github.io/groupalarm/en/einfuehrung/landingpage/</guid>
       <description>To access your account, visit http://emergency.swisscom-alarm.ch and log in with your user name and password.
 After logging in, you will see the following page. From here you have access to all functionalities of eAlarm emergency</description>
     </item>

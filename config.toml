@@ -1,4 +1,4 @@
-baseURL = "https://HannahMM.github.io/"
+baseURL = "https://hannahmm.github.io/groupalarm/"
 languageCode = "en-us"
 publishDir  = "docs"
 title = "GroupAlarm Handbuch"
