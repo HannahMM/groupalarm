@@ -103,6 +103,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="https://HannahMM.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://HannahMM.github.io/categories/"
                 />
@@ -110,11 +115,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://HannahMM.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://HannahMM.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -153,6 +153,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="https://HannahMM.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://HannahMM.github.io/tags/"
                 />
@@ -160,11 +165,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://HannahMM.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://HannahMM.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
