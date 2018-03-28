@@ -3,6 +3,7 @@ languageCode = "en-us"
 publishDir  = "docs"
 title = "GroupAlarm Handbuch"
 defaultContentLanguage = "de"
+canonifyURLs = true
 
 
 theme = "hugo-theme-docdock"
