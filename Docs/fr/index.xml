@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GroupAlarm Manuel</title>
+    <link>https://HannahMM.github.io/fr/</link>
+    <description>Recent content on GroupAlarm Manuel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://HannahMM.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gestion des dispositifs d’alarme</title>
+      <link>https://HannahMM.github.io/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <description>Table des matières  Création d`un dispositif d`alarme
+ Copie d`un dispositif d`alarme
+  Gestion des dispositifs d’alarme Les dispositifs d’alarme sont des alarmes prédéfinies, ce qui signifie que le cercle de participants et les éventuels textes d’alarme sont déjà prédéfinis. En cas d’événement grave, le dispositif d’alarme prévu peut être déclenché et les participants prédéfinis sont alarmés au travers du texte d&amp;rsquo;alarme via les moyens correspondants.
+Il existe différentes manières de créer un dispositif d’alarme:</description>
+    </item>
+    
+    <item>
+      <title>Organigramme / arborescence</title>
+      <link>https://HannahMM.github.io/fr/mutieren/mutation/organigramm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/mutieren/mutation/organigramm/</guid>
+      <description>Table des matières  Racine
+ Groupe
+ Participant(s)
+  Les actions possibles apparaissent dans la barre de droite sous Disponible. Vous pouvez créer et ajouter de nouveaux scénarios, dispositifs, dispositifs pour conférence, dossiers, gestions de temps et/ou utilisateurs (participants).
+
+Racine Pour créer une racine, saisissez son nom dans le champ de saisie et confirmez-le à l’aide de la touche “Créer”. La racine créée apparaît immédiatement dans le champ d’affichage.</description>
+    </item>
+    
+    <item>
+      <title>Gestion des scénarios</title>
+      <link>https://HannahMM.github.io/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <description>Table des matières  Généralités
+ Attribution des dispositifs
+ Textes
+ Copier des scénarios
+ Bloquer le scénario
+  Gestion des scénarios Dans les scénarios, plusieurs dispositifs d’alarme et pour conférence peuvent s’enchaîner les uns après les autres de façon chronologique. De cette manière, si l’alarme en cours n’est pas arrêtée au bout d’un certain temps, un autre dispositif d’alarme/pour conférence se déclenche automatiquement. Il est ainsi possible de prédéfinir des transferts en escalade d’alarmes qui, sinon, devraient être effectués manuellement.</description>
+    </item>
+    
+    <item>
+      <title>Liste des participants</title>
+      <link>https://HannahMM.github.io/fr/mutieren/mutation/teilnehmerliste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/mutieren/mutation/teilnehmerliste/</guid>
+      <description>Table des matières  Domaine des participants
+ Copier un Participant
+ Participants dans les groupes
+  Tous les participants sont répertoriés dans la liste des participants. Après avoir saisi un mot clé, on peut y rechercher les participants en fonction de différents paramètres, p. ex. nom de famille, rue, ville (“Utiliser les filtres”).
+{.mediacenter width=&amp;ldquo;700&amp;rdquo;}](../teilnehmerliste_rot_fr.png_fr_ea_teilnehmerliste.fr.md &amp;ldquo;fr:teilnehmerliste_rot_fr.png&amp;rdquo;)
+Vous pouvez également définir de nouveaux critères de tri dans le menu Admin sous “Champs suppl.</description>
+    </item>
+    
+    <item>
+      <title>Gestion des dispositifs de conférence</title>
+      <link>https://HannahMM.github.io/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <description>Table des matières  Création d&amp;rsquo;un dispositif pour conférence
+ Copie d&amp;rsquo;un dispositif pour conférence
+  Gestion des dispositifs de conférence Dans ce sous-menu, l’utilisateur peut créer et gérer les dispositifs pour conférence. Il existe différentes manières de créer un dispositif pour conférence:
+ via la «Liste des participants»;
+ via la «Gestion des dispositifs de conférence».
+  
+Création d&amp;rsquo;un dispositif pour conférence Sélectionnez dans le masque «Créer l’alarme» les personnes ciblées, en déplaçant les participants par glisser-déposer dans la colonne des participants à l’alarme.</description>
+    </item>
+    
+    <item>
+      <title>Traitement des textes</title>
+      <link>https://HannahMM.github.io/fr/mutieren/mutation/texte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/mutieren/mutation/texte/</guid>
+      <description>Table des matières  Traitement des textes
+ Options d`éditeur vocal pour le texte d`alarme
+  
+Traitement des textes eAlarm emergency vous permet de rédiger des textes d’alarme prédéfinis en quatre langues (allemand, français, italien et anglais). Vous accédez à l’éditeur de texte, où ces textes peuvent être créés et traités, via le sous-menu “Textes”. Saisissez le texte de votre choix dans la fenêtre de saisie correspondant à chaque langue et confirmez la saisie à l’aide du bouton “Créer”: La langue du texte, qui s’avère importante pour la traduction dudit texte dans les autres langues (via l’interface Text-to-Speech), s’affiche devant le texte créé.</description>
+    </item>
+    
+    <item>
+      <title>Aide-mémoires</title>
+      <link>https://HannahMM.github.io/fr/einfuehrung/merkblaetter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/einfuehrung/merkblaetter/</guid>
+      <description>Vous trouverez ici les principales notices explicatives sur eAlarm emergency, dont:</description>
+    </item>
+    
+    <item>
+      <title>Concepts de base</title>
+      <link>https://HannahMM.github.io/fr/einfuehrung/grundkonzepte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/einfuehrung/grundkonzepte/</guid>
+      <description>Pour faciliter vos premiers pas avec eAlarm, nous vous indiquons ci-après quelques concepts de base. Nous vous recommandons en premier lieu de considérer la structure de votre entreprise. Comment ses différentes unités d’organisation sont-elles structurées sur un plan hiérarchique? Réfléchissez ensuite aux droits d’accès. Cela est primordial. Demandez-vous qui pourra, à l’avenir, administrer, muter ou alerter?
+ Nous vous conseillons tout d’abord de créer les arborescences de niveau supérieure (= racines).</description>
+    </item>
+    
+    <item>
+      <title>Page d`accueil</title>
+      <link>https://HannahMM.github.io/fr/einfuehrung/landingpage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/fr/einfuehrung/landingpage/</guid>
+      <description>Avec votre navigateur Internet (de préférence, Mozilla Firefox), connectez-vous à https://emergency.swisscom-alarm.ch à l’aide de votre nom d’utilisateur et de votre mot de passe. La page d’accueil d’eAlarm emergency est représentée ci-après.
+Aprés le login vous vous retrouvez dans l&amp;rsquo;onglet &amp;ldquo;Alarmer&amp;rdquo;. Ici vous avez accès aux fonctions d&amp;rsquo;eAlarm emergency</description>
+    </item>
+    
+  </channel>
+</rss>

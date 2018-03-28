@@ -1,0 +1,50 @@
+[
+{
+	"uri": "https://HannahMM.github.io/it/einfuehrung/",
+	"title": "Introduzione",
+	"tags": [],
+	"description": "",
+	"content": " eAlarm emergency: Allarmare e informare in modo professionale Nelle situazioni in cui ogni secondo conta, eAlarm emergency vi offre una soluzione mobile altamente disponibile per gestire in modo ottimale emergenze, crisi e rischi nonché per un perfetto Business Continuity Management.\nPotete fornire al momento giusto le informazioni giuste alle persone giuste e riconoscere a colpo d’occhio lo stato d’avanzamento dell’allarme. Vi basta premere un pulsante per contattare all\u0026rsquo;istante molte persone tramite diversi canali d\u0026rsquo;allarme, come Voice, SMS, e-mail, fax, pager e eAlarmApp.\neAlarm emergency è un servizio modulare che potete allestire in modo adeguato alle vostre specifiche esigenze. Siete voi a decidere quali moduli e opzioni usare e pagate esclusivamente ciò che utilizzate.\n"
+},
+{
+	"uri": "https://HannahMM.github.io/it/einfuehrung/merkblaetter/",
+	"title": "Fogli informativi",
+	"tags": [],
+	"description": "",
+	"content": "Qui si possono trovare i principali fogli informativi su eAlarm emergency, tra cui:\n"
+},
+{
+	"uri": "https://HannahMM.github.io/it/einfuehrung/grundkonzepte/",
+	"title": "Concetti fondamentali",
+	"tags": [],
+	"description": "",
+	"content": "Per facilitare all’utente l’accesso a eAlarm, nelle pagine seguenti vengono illustrati i concetti di base per iniziare a usare il software.\nInnanzitutto si consiglia all’utente di considerare la propria struttura aziendale. Quale unità organizzativa deve essere sovraordinata e quale subordinata? Inoltre è estremamente importante riflettere attentamente sui diritti di accesso.\nChi sarà la persona che in futuro disporrà dei diritti per amministrare dati, modificare dati, inviare allarmi risp. dei rispettivi singoli diritti?\n Innanzitutto si consiglia di creare alberi gerarchici (= radici). Contemporaneamente alle «radici» organizzative interne all’azienda, vengono create altre «radici» che l’utente definisce «Diritti d’accesso».\n Creare tutte le cartelle necessarie (= gruppi, sottocategorie delle radici).\n In dette cartelle inserire tutti i rispettivi partecipanti con le informazioni necessarie. Importante: assegnare agli utenti i loro rispettivi ruoli. I ruoli vengono definiti alla voce «Admin».\n Creare e gestire i modelli di allarme. I modelli di allarme contengono i testi per i vari eventi e i codici di allarme.\n Creare e gestire gli scenari (indicare l’intervallo di tempo tra i diversi modelli).\n Inserire i modelli di allarme e gli scenari nell’albero corrispondente. A tale proposito, per prima cosa è necessario inserire gli scenari e il modello di allarme in una cartella separata e successivamente aggiungerli all’albero.\n Dopo aver aggiunto il modello di allarme e gli scenari è possibile inserire nella radice “Diritti di accesso” le cartelle autorizzate, quindi gli utenti autorizzati. Infine, indicare anche il tipo / la categoria della cartella e rinominarla in “Gruppo diritti”.\n Quindi, per ogni partecipante spuntare la casella relativa al diritto attribuito.\n  "
+},
+{
+	"uri": "https://HannahMM.github.io/it/einfuehrung/landingpage/",
+	"title": "Landing Page",
+	"tags": [],
+	"description": "",
+	"content": "Nel proprio browser internet (preferibilmente Mozilla Firefox) aprire la pagina http://emergency.swisscom-alarm.ch e inserire nome utente e password. L’immagine sotto riportata mostra la Landing Page di eAlarm emergency.\n"
+},
+{
+	"uri": "https://HannahMM.github.io/it/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://HannahMM.github.io/it/",
+	"title": "GroupAlarm Manuale",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://HannahMM.github.io/it/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

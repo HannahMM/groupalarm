@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GroupAlarm Manual</title>
+    <link>https://HannahMM.github.io/en/</link>
+    <description>Recent content on GroupAlarm Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://HannahMM.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manage Alert Templates</title>
+      <link>https://HannahMM.github.io/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <description>Table of Contents  Creating a new alert template
+ Copying alert templates
+  Manage alert templates Alert templates are predefined alerts, i.e. the participant group and the possible alert texts are already predefined. In the event of an emergency, the predefined alert template can be triggered and the defined alert participants are sent the alert text via the respective media.
+There are different ways to create an alert template:</description>
+    </item>
+    
+    <item>
+      <title>Organigram / tree view</title>
+      <link>https://HannahMM.github.io/en/mutieren/mutation/organigramm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/mutieren/mutation/organigramm/</guid>
+      <description>Table of Contents  Organisational chart / Tree view
+ Roots
+ Group
+ Subscriber
+  
+Organisational chart / Tree view You can see which actions are possible in the right-hand taskbar under “*Available*”. You can create and add new scenarios, alert templates, conference templates, Folders (Groups), schedules and/or users (subscribers).
+
+Roots To create a new root, enter the name of the new root in the input field and confirm by clicking the “Create” button.</description>
+    </item>
+    
+    <item>
+      <title>Manage Alert Scenarios</title>
+      <link>https://HannahMM.github.io/en/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <description>Table of Contents  General
+ Template assignement
+ Texts
+ Copy scenario
+ Lock scenario
+  Manage alert scenarios In so-called scenarios, multiple alert and conference templates can be arranged successively on a timeline. This way, if an alert has not ended after a certain, predefined amount of time, the next alert/conference template is triggered automatically. This allows automatic alert escalations to be predefined, which otherwise would have to be done manually.</description>
+    </item>
+    
+    <item>
+      <title>Participant list</title>
+      <link>https://HannahMM.github.io/en/mutieren/mutation/teilnehmerliste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/mutieren/mutation/teilnehmerliste/</guid>
+      <description>Table of Contents  List of subscribers
+ Subscriber Zone
+ Copying subscribers
+ Subscribers in groups
+  
+List of subscribers All participants are listed in the list of subscribers. You can search for participants here by entering a keyword based on various parameters, e.g. by surname, street, city and other parameters (“apply filter”).
+You can also define new sorting criteria in the ADMIN menu under “Data fields”.</description>
+    </item>
+    
+    <item>
+      <title>Manage Conference Templates</title>
+      <link>https://HannahMM.github.io/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <description>Table of Contents  Create new conference template
+ Copy conference template
+  Manage conference templates The user can create and manage conference templates in this sub-menu. There are different ways to create a conference template:
+ via the “List of subscriber”
+ via “Manage conference templates”
+  
+Create New Conference Template Choose the target people from the alerting screen by adding the participants to the alert participant column via the drag &amp;amp; drop method.</description>
+    </item>
+    
+    <item>
+      <title>Texts</title>
+      <link>https://HannahMM.github.io/en/mutieren/mutation/texte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/mutieren/mutation/texte/</guid>
+      <description>Table of Contents  Edit Texts
+ Voiceoutput option for alert texts
+  
+Texts Predefined alert texts can be written in four languages (German, English, French and Italian) using eAlarm emergency. The text editor required to create and edit these texts can be found in the “Texts” sub-menu. Enter the required text in the input window of the respective language and confirm your entry by clicking the “Create” button: The text language, which is relevant for converting the text to speech (using the text-to-speech interface), is displayed in front of the created text.</description>
+    </item>
+    
+    <item>
+      <title>Handout Documents</title>
+      <link>https://HannahMM.github.io/en/einfuehrung/merkblaetter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/einfuehrung/merkblaetter/</guid>
+      <description>…coming soon…</description>
+    </item>
+    
+    <item>
+      <title>Basic Concept</title>
+      <link>https://HannahMM.github.io/en/einfuehrung/grundkonzepte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/einfuehrung/grundkonzepte/</guid>
+      <description>For an easier start with eAlarm emergency and to ensure an effective alerting process, we would advise you to outline a basic scheme of your company structure. You may ask yourself the following questions:
+ Which organisational/operational units exist and what is their hierarchy? What alerting scenarios do you expect and what is the following course of events? Which User should get administrative rights, who should be allowed to alert, mutate, administrate?</description>
+    </item>
+    
+    <item>
+      <title>Landing page</title>
+      <link>https://HannahMM.github.io/en/einfuehrung/landingpage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HannahMM.github.io/en/einfuehrung/landingpage/</guid>
+      <description>To access your account, visit http://emergency.swisscom-alarm.ch and log in with your user name and password.
+After logging in, you will see the following page. From here you have access to all functionalities of eAlarm emergency</description>
+    </item>
+    
+  </channel>
+</rss>
