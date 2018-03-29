@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GroupAlarm Handbuch</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.37.1" />
+
+<title>Abgeschlossene Alarme :: GroupAlarm Handbuch</title>
+<link rel="shortcut icon" href="https://hannahmm.github.io/groupalarm/img/ga_solo.png" type="image/x-icon" />
+<link href="https://hannahmm.github.io/groupalarm/css/nucleus.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/hybrid.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/featherlight.min.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/auto-complete.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/theme-original/style.css" rel="stylesheet">
+
+  <link href="https://hannahmm.github.io/groupalarm/theme-original/variant-default.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://hannahmm.github.io/groupalarm/css/bootstrap.min.css">
+<script src="https://hannahmm.github.io/groupalarm/js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<meta name="description" content="">
+
+
+    
+  </head>
+  <body data-url="/status/alarm-status/abgeschlossene-alarme/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+  <span style="font-size:smaller">
+		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
+		
+		  <span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
+		</a>
+    
+  
+
+    </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+		</script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
+  </div>
+
+      <ul class="topics">
+    <li data-nav-id="/einfuehrung/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/einfuehrung/"><i class='fa fa-home'></i>Einführung</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/einfuehrung/merkblaetter/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/">
+            Merkblätter
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/einfuehrung/grundkonzepte/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/">
+            Grundkonzept
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/einfuehrung/landingpage/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/einfuehrung/landingpage/">
+            Startseite
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/einfuehrung/mitbenutzerverwaltung/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/">
+            Mitbenutzerverwaltung
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/alarmieren/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/alarmieren/"><i class='fa fa-bell'></i> Alarmieren</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/alarmieren/alarm/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/alarm/">
+            Alarm erstellen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/alarmieren/info-sms/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/info-sms/">
+            Info-SMS
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/alarmieren/telefonkonferenz/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/">
+            Konferenz (optionales Modul)
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/status/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/"><i class='fa fa-list-alt'></i> Status</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/status/alarm-status/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/">Alarm-Status</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/status/alarm-status/laufende-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/">
+            Laufende Alarme
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/alarm-status/disponierte-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/">
+            Disponierte Alarme
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/alarm-status/abgeschlossene-alarme/" class="dd-item active">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/">
+            Abgeschlossene Alarme
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/status/konferenz-status/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/">Konferenz Status (optionales Modul)</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/status/konferenz-status/aktive-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/">
+            Aktive Konferenzen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/konferenz-status/disponierte-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/">
+            Disponierte Konferenzen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/konferenz-status/beendete-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/">
+            Beendete Konferenzen
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/status/auswertung/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/auswertung/">Auswertung (Versandstatistik)</a>
+      </div>
+    </li>
+    <li data-nav-id="/status/aktuelle-karte/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/aktuelle-karte/">Aktuelle Karte</a>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    <hr />
+    <li>
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="de" value="/status/alarm-status/abgeschlossene-alarme/" selected>de</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="fr" value="/fr/status/alarm-status/abgeschlossene-alarme/">fr</option>
+	      
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="en" value="/en/status/alarm-status/abgeschlossene-alarme/">en</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select></li>
+    
+    </ul>
+
+ <section id="footer">
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+
+
+
+ <a href='https://hannahmm.github.io/groupalarm/'></a> > <a href='https://hannahmm.github.io/groupalarm/status/'>Status</a> > <a href='https://hannahmm.github.io/groupalarm/status/alarm-status/'>Alarm-Status</a> > Abgeschlossene Alarme
+
+ 
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#abgeschlossene-alarme">Abgeschlossene Alarme</a>
+<ul>
+<li><a href="#1-pdf-alarmprotokoll-img-src-img-pdficon-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">1. PDF-Alarmprotokoll <img src="https://hannahmm.github.io/groupalarm/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></a></li>
+<li><a href="#2-alarmlog-img-src-img-pdficon-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">2. Alarmlog <img src="https://hannahmm.github.io/groupalarm/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></a></li>
+<li><a href="#3-kostenauswertung-img-src-img-kostenauswertungsymbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">3. Kostenauswertung <img src="https://hannahmm.github.io/groupalarm/img/kostenauswertungsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></a></li>
+<li><a href="#4-csv-protokoll-img-src-img-csvsymbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">4. CSV-Protokoll <img src="https://hannahmm.github.io/groupalarm/img/csvsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></a></li>
+<li><a href="#5-erweitertes-csv-protokoll-img-src-img-csv-erweitert-symbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">5. erweitertes CSV Protokoll <img src="https://hannahmm.github.io/groupalarm/img/csv_erweitert_symbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></a></li>
+<li><a href="#6-protokolle-per-e-mail-img-src-img-emailsymbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">6. Protokolle per E-Mail <img src="https://hannahmm.github.io/groupalarm/img/emailsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>Abgeschlossene Alarme</h1>
+  
+
+
+
+    
+    
+    
+    
+
+<p><a name="abgeschlossene_alarme"></a></p>
+
+<h3 id="abgeschlossene-alarme">Abgeschlossene Alarme</h3>
+
+<p>Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein
+Alarm-Log und eine Kostenauswertung unter dem Register „<strong>Status</strong>“
+unter „<strong>Abgeschlossene Alarme</strong>“ abgelegt.
+<img src="https://hannahmm.github.io/groupalarm/img/abgeschlossene_alarme.png?width=700px&amp;classes=shadow" alt="" /></p>
+
+<p>Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen.</p>
+
+<p>Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst, welche auch
+per E-Mail versendet werden können.</p>
+
+<p>Folgende Funktionen stehen zur Verfügung:
+<img src="https://hannahmm.github.io/groupalarm/img/abgeschlossene_alarme_nr.png?classes=shadow" alt="" /></p>
+
+<p><a name="alarmprotokoll"></a></p>
+
+<h4 id="1-pdf-alarmprotokoll-img-src-img-pdficon-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">1. PDF-Alarmprotokoll <img src="https://hannahmm.github.io/groupalarm/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></h4>
+
+<p>Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format.
+<img src="https://hannahmm.github.io/groupalarm/img/alarmprotokol_pdf_de.45709c947b07fd475467b74205ee5205.png?width=700px&amp;classes=shadow" alt="" />
+Folgende Informationen sind darin verzeichnet:</p>
+
+<ul>
+<li>Alarmname, Auslöser, Auslöse- und Endzeitpunkt mit exaktem Datum
+und Uhrzeit</li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alert_report_nr1_new.2fa2675ab0698c4f966fc3a610864f76.png" alt="" /></p>
+
+<ul>
+<li>alarmierte Einheiten (Klammervermerk gibt an, wie viele Teilnehmer der Gruppe zugeteilt sind und
+wie viele davon alarmiert wurden.)</li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alert_report_nr2.png" alt="" /></p>
+
+<ul>
+<li>Alarmtext in allen genutzen Sprachen</li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alert_report_nr3.png" alt="" /></p>
+
+<ul>
+<li><p>Alarmoptionen:</p>
+
+<ul>
+<li><p>Alarmmittel: ALLE, sofern keine Einschränkungen gemacht wurden.
+Ansonsten werden die einzelnen Mittel aufgeführt.</p></li>
+
+<li><p>SMS: SMSprio oder SMS normal</p></li>
+
+<li><p>Eskalationsstufen</p></li>
+
+<li><p>Abbruchkriterien, falls definiert</p></li>
+
+<li><p>Protokollempfänger, sofern E-Mail oder Faxnummer eingetragen wurde</p></li>
+</ul></li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alert_report_nr4.png" alt="" /></p>
+
+<ul>
+<li>Zusammenfassung und Verlauf des Alarms, Übersicht über Anzahl der Quittierungen und Art der Rückmeldungen</li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/zusammenfassung_pdf_de.c3f32893e3ae2f904ccd4eb9901bcd1d.png" alt="" /></p>
+
+<ul>
+<li>Übersicht der Teilnehmer mit zugehörigem Status.</li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/ist-soll_pdf_de.png" alt="" /></p>
+
+<ul>
+<li>detaillierte Zusammenfassung des Versand- und Verkehrsvolumens.</li>
+</ul>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alert_report_nr7.3040b6f543e22573402eefe1f0f8c987.png?width=700px&amp;classes=shadow" alt="" /></p>
+
+<p><a name="alarmlog"></a></p>
+
+<h4 id="2-alarmlog-img-src-img-pdficon-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">2. Alarmlog <img src="https://hannahmm.github.io/groupalarm/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></h4>
+
+<p>Ein detaillierter Überblick zu den einzelnen alarmierten Teilnehmern im PDF-Format.
+Hieraus geht hervor, wer, wie, über welches Mittel und wann alarmiert
+worden ist (inkl. der jeweiligen Zeitstempel). In der Symbol-Legende
+werden die verschiedenen Stati und Symbole erläutert.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/ealarm_emergency_alarm_log.d7dd67c87f0c268c3cc344a201c357ae.png?width=700px&amp;classes=shadow" alt="" /></p>
+
+<p><a name="kostenauswertung"></a></p>
+
+<h4 id="3-kostenauswertung-img-src-img-kostenauswertungsymbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">3. Kostenauswertung <img src="https://hannahmm.github.io/groupalarm/img/kostenauswertungsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></h4>
+
+<p>Übersicht der entstanden Kosten im PDF-Format.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/kostenauswertung_new.26f06835d137414234ceced34a2ee228.png?width=700px&amp;classes=shadow" alt="" /></p>
+
+<p><a name="cvs_protokoll"></a></p>
+
+<h4 id="4-csv-protokoll-img-src-img-csvsymbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">4. CSV-Protokoll <img src="https://hannahmm.github.io/groupalarm/img/csvsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></h4>
+
+<p>Öffnet ein Excel Dokument, welches einen Überblick über Ablauf und Rückmeldungen des Alarms gibt
+<img src="https://hannahmm.github.io/groupalarm/img/abgeschlossene_alarme_cvs_protokoll.png?width=700px&amp;classes=shadow" alt="" /></p>
+
+<ul>
+<li>Spalte A: Zeitpunkt</li>
+<li>Spalte B: Ereignis</li>
+<li>Spalte C: Betroffener Teilnehmer</li>
+<li>Spalte D: Adresse des Alarmmittels</li>
+<li>Spalte E: Details</li>
+</ul>
+
+<p><a name="erweitertes_cvs_protokoll"></a></p>
+
+<h4 id="5-erweitertes-csv-protokoll-img-src-img-csv-erweitert-symbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">5. erweitertes CSV Protokoll <img src="https://hannahmm.github.io/groupalarm/img/csv_erweitert_symbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></h4>
+
+<p>Öffnet eine CVS-Datei, welche zusätzliche Informationen über die alarmierten Teilnehmer enthält, unter anderem optionale Datenfelder.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/abgeschlossene_alarme_erweitertes_cvs_protokoll.png?classes=shadow" alt="" /></p>
+
+<p><a name="protokolle_per_email"></a></p>
+
+<h4 id="6-protokolle-per-e-mail-img-src-img-emailsymbol-png-alt-pdf-style-vertical-align-middle-display-inline-margin-0px-5px">6. Protokolle per E-Mail <img src="https://hannahmm.github.io/groupalarm/img/emailsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '></h4>
+
+<p>Öffnet ein Fenster, in dem eine beliebige E-Mail-Adresse angegeben
+werden kann. An diese Adresse wird dann das Alarmprotokoll versendet.</p>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+</div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="https://hannahmm.github.io/groupalarm/js/clipboard.min.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/js/featherlight.min.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/js/html5shiv-printshiv.min.js"></script>
+
+<script src="https://hannahmm.github.io/groupalarm/js/modernizr.custom.71422.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/js/docdock.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/theme-original/script.js"></script>
+<link href="https://themes.gohugo.io/theme/docdock/css/featherlight.min.css" rel="stylesheet">
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

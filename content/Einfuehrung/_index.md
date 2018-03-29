@@ -2,7 +2,7 @@
 title = "Einführung"
 weight = 1
 alwaysopen = true
-pre ="<i class='fa fa-home'></i> "
+pre ="<i class='fa fa-home'></i>"
 +++
 
 ### groupAlarm pro: Zuverlässig alarmieren und informieren

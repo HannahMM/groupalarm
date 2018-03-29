@@ -3,21 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/</loc>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/"
+                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/"
+                href="https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/aktive-konferenzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/"
+                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/alarm-status/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/status/alarm-status/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/en/alarmieren/alarm/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/alarmieren/alarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/alarmieren/alarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://hannahmm.github.io/groupalarm/it/alarmieren/alarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/alarmieren/alarm/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/laufende-alarme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/"
                 />
   </url>
   
@@ -46,135 +108,192 @@
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/"
-                />
+    <loc>https://hannahmm.github.io/groupalarm/en/alarmieren/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/"
+                href="https://hannahmm.github.io/groupalarm/fr/alarmieren/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/alarmieren/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://hannahmm.github.io/groupalarm/it/alarmieren/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/"
+                href="https://hannahmm.github.io/groupalarm/en/alarmieren/"
                 />
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/</loc>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/"
+                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/"
+                href="https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/"
+                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/"
                 />
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/</loc>
+    <loc>https://hannahmm.github.io/groupalarm/en/alarmieren/info-sms/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/"
+                href="https://hannahmm.github.io/groupalarm/fr/alarmieren/info-sms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/"
+                href="https://hannahmm.github.io/groupalarm/alarmieren/info-sms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/"
+                href="https://hannahmm.github.io/groupalarm/en/alarmieren/info-sms/"
                 />
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/"
-                />
+    <loc>https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/"
+                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/disponierte-alarme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/"
+                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/"
                 />
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/</loc>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/teilnehmerliste/"
+                href="https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/disponierte-konferenzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/"
+                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/"
+                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/"
                 />
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/"
-                />
+    <loc>https://hannahmm.github.io/groupalarm/en/status/auswertung/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/"
+                href="https://hannahmm.github.io/groupalarm/status/auswertung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/status/auswertung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/"
+                href="https://hannahmm.github.io/groupalarm/en/status/auswertung/"
                 />
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/</loc>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/texte/"
+                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/"
+                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/abgeschlossene-alarme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/en/status/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/status/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/status/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/status/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/en/alarmieren/telefonkonferenz/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/alarmieren/telefonkonferenz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/alarmieren/telefonkonferenz/"
                 />
   </url>
   
@@ -199,25 +318,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hannahmm.github.io/groupalarm/en/einfuehrung/merkblaetter/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/"
                 />
   </url>
   
@@ -274,11 +374,6 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="it"
-                href="https://hannahmm.github.io/groupalarm/it/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="de"
                 href="https://hannahmm.github.io/groupalarm/categories/"
                 />
@@ -286,6 +381,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://hannahmm.github.io/groupalarm/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://hannahmm.github.io/groupalarm/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -320,32 +420,8 @@
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/importexport/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/importexport/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/importexport/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hannahmm.github.io/groupalarm/en/tags/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://hannahmm.github.io/groupalarm/it/tags/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -355,6 +431,11 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://hannahmm.github.io/groupalarm/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://hannahmm.github.io/groupalarm/it/tags/"
                 />
     <xhtml:link
                 rel="alternate"

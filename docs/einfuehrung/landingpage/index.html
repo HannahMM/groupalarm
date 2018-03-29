@@ -53,13 +53,26 @@
   
 
     </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+		</script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
   </div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/einfuehrung/"><i class='fa fa-home'></i> Einführung</a>
+      <a href="https://hannahmm.github.io/groupalarm/einfuehrung/"><i class='fa fa-home'></i>Einführung</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
@@ -93,115 +106,114 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/mutieren/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/alarmieren/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/"><i class='fa fa-edit'></i> Mutieren</a>
+      <a href="https://hannahmm.github.io/groupalarm/alarmieren/"><i class='fa fa-bell'></i> Alarmieren</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/mutieren/mutation/" class="dd-item alwaysopen haschildren
-        ">
-      <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/">Mutation</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/mutieren/mutation/organigramm/" class="dd-item">
+      <li data-nav-id="/alarmieren/alarm/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/">
-            Organigramm / Baumansicht
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/alarm/">
+            Alarm erstellen
           </a>
         </div>
     </li>
-      <li data-nav-id="/mutieren/mutation/teilnehmerliste/" class="dd-item">
+      <li data-nav-id="/alarmieren/info-sms/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/">
-            Teilnehmerliste
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/info-sms/">
+            Info-SMS
           </a>
         </div>
     </li>
-      <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
+      <li data-nav-id="/alarmieren/telefonkonferenz/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
-            Texte
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/">
+            Konferenz (optionales Modul)
           </a>
         </div>
     </li>
         </ul>
     </li>
-    <li data-nav-id="/mutieren/zusatzmodule/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/status/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/">Zusatzmodule</a>
+      <a href="https://hannahmm.github.io/groupalarm/status/"><i class='fa fa-list-alt'></i> Status</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/mutieren/zusatzmodule/alarmvorlagen-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/">
-            Alarmvorlagen verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/ereignisse-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/">
-            Ereignisse verwalten (Optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/drehbuecher-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/">
-            Drehbücher verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/konferenzvorlagen-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/">
-            Konferenzvorlagen verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/zeitsteuerungen/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/">
-            Zeitsteuerung verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/ealarm_app/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ealarm_app/">
-            eAlarmApp
-          </a>
-        </div>
-    </li>
-    <li data-nav-id="/mutieren/zusatzmodule/importexport/" class="dd-item haschildren
+    <li data-nav-id="/status/alarm-status/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/">Import/Export</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/">Alarm-Status</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/mutieren/zusatzmodule/importexport/export/" class="dd-item">
+      <li data-nav-id="/status/alarm-status/laufende-alarme/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/">
-            Export
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/">
+            Laufende Alarme
           </a>
         </div>
     </li>
-      <li data-nav-id="/mutieren/zusatzmodule/importexport/import/" class="dd-item">
+      <li data-nav-id="/status/alarm-status/disponierte-alarme/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/">
-            Import
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/">
+            Disponierte Alarme
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/alarm-status/abgeschlossene-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/">
+            Abgeschlossene Alarme
           </a>
         </div>
     </li>
         </ul>
     </li>
+    <li data-nav-id="/status/konferenz-status/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/">Konferenz Status (optionales Modul)</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/status/konferenz-status/aktive-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/">
+            Aktive Konferenzen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/konferenz-status/disponierte-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/">
+            Disponierte Konferenzen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/konferenz-status/beendete-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/">
+            Beendete Konferenzen
+          </a>
+        </div>
+    </li>
         </ul>
+    </li>
+    <li data-nav-id="/status/auswertung/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/auswertung/">Auswertung (Versandstatistik)</a>
+      </div>
+    </li>
+    <li data-nav-id="/status/aktuelle-karte/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/aktuelle-karte/">Aktuelle Karte</a>
+      </div>
     </li>
         </ul>
     </li>
@@ -218,21 +230,19 @@
 	  
 	  
 	    
+	  
+	    
+	  
+	    
+	  
+	    
 	      
 	        <option id="it" value="/it/einfuehrung/landingpage/">it</option>
 	      
 	    
 	  
-	    
-	  
-	    
-	  
-	    
-	  
 	
 	  
-	  
-	    
 	  
 	    
 	  
@@ -244,10 +254,10 @@
 	  
 	    
 	  
+	    
+	  
 	
 	  
-	  
-	    
 	  
 	    
 	  
@@ -259,15 +269,17 @@
 	      
 	    
 	  
+	    
+	  
 	
 	  
-	  
-	    
 	  
 	    
 	      
 	        <option id="de" value="/einfuehrung/landingpage/" selected>de</option>
 	      
+	    
+	  
 	    
 	  
 	    
@@ -369,19 +381,21 @@ Passwort an.</p>
 <p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_startseite.png" width="900" class="shadow"/></p>
 
 <p>Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf alle Funktionen von
-<strong>eAlarm emergency</strong>.
-<img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_startseite_nach_login.png" width="900" class="shadow"/>
-<img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_startseite_nach_login.png?width=800px&amp;classes=shadow" alt="" /></p>
+<strong>GroupAlarm pro</strong>.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_startseite_nach_login.png?width=800px&amp;classes=border" alt="login" /></p>
 
 <h3 id="navigation">Navigation</h3>
 
-<p>Die Struktur dieses Handbuches ist analog zu der Struktur von eAlarm emergency aufgebaut.</p>
+<p>Die Struktur dieses Handbuches ist analog zu der Struktur von <strong>GroupAlarm pro</strong> aufgebaut.</p>
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_startseite_navigation.png?width=1000px&amp;classes=shadow" alt="" /></p>
 
+<p>TODO</p>
+
 <h4 id="register">Register</h4>
 
-<p>Hier rot markiert sind die vier Hauptregister <a href="https://hannahmm.github.io/groupalarm/de/alarmieren/">„Alarmieren“</a>, <a href="https://hannahmm.github.io/groupalarm/de/status/">„Status“</a>, <a href="https://hannahmm.github.io/groupalarm/de/mutieren/">„Mutieren“</a>, <a href="https://hannahmm.github.io/groupalarm/de/admin/">„Admin“</a>.
+<p>Hier rot markiert sind die vier Hauptregister <a href="https://hannahmm.github.io/groupalarm/alarmieren/">„Alarmieren“</a>, <a href="https://hannahmm.github.io/groupalarm/status/">„Status“</a>, <a href="https://hannahmm.github.io/groupalarm/mutieren/">„Mutieren“</a>, <a href="https://hannahmm.github.io/groupalarm/admin/">„Admin“</a>.
 Alle Funktionen, die Sie unter diesen Registern finden, werden in den entsprechenden Menüpunkten erläutert.</p>
 
 <h4 id="navigationsleiste">Navigationsleiste</h4>
@@ -424,6 +438,7 @@ Module möglich, z.B. aktive Konferenzen.</p>
 <script src="https://hannahmm.github.io/groupalarm/js/modernizr.custom.71422.js"></script>
 <script src="https://hannahmm.github.io/groupalarm/js/docdock.js"></script>
 <script src="https://hannahmm.github.io/groupalarm/theme-original/script.js"></script>
+<link href="https://themes.gohugo.io/theme/docdock/css/featherlight.min.css" rel="stylesheet">
 
 
     

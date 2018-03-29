@@ -11,87 +11,105 @@
     
     
     <item>
-      <title>Manage Alert Templates</title>
-      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <title>Active conferences</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
-      <description>Table of Contents  Creating a new alert template
- Copying alert templates
-  Manage alert templates Alert templates are predefined alerts, i.e. the participant group and the possible alert texts are already predefined. In the event of an emergency, the predefined alert template can be triggered and the defined alert participants are sent the alert text via the respective media.
-There are different ways to create an alert template:</description>
+      <guid>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/</guid>
+      <description>As with ongoing alerts, an ongoing conference can be accessed via menu “Status” – “*Conference status*” – “active conferences”. If several conferences are active at the same time, one must be selected for viewing. During ongoing conferences, initiators can:
+ Add a subscriber by entering a number
+ Exclude subscriber from the conference by clicking the red X
+ Mute (subscriber can then only listen but are themselves not heard) and unmute subscriber</description>
     </item>
     
     <item>
-      <title>Organigram / tree view</title>
-      <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/</link>
+      <title>Alert creation</title>
+      <link>https://hannahmm.github.io/groupalarm/en/alarmieren/alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/</guid>
-      <description>Table of Contents  Organisational chart / Tree view
- Roots
- Group
- Subscriber
+      <guid>https://hannahmm.github.io/groupalarm/en/alarmieren/alarm/</guid>
+      <description>Table of Contents  Alert creation
+ General
+ Units
+ Text
+ Coordinates
+ Alert options
+ Schedule
   
-Organisational chart / Tree view You can see which actions are possible in the right-hand taskbar under “*Available*”. You can create and add new scenarios, alert templates, conference templates, Folders (Groups), schedules and/or users (subscribers).
-
-Roots To create a new root, enter the name of the new root in the input field and confirm by clicking the “Create” button.</description>
+Alert creation The input screen “Create alert” opens, once a participant a group or root is chosen and the button “Alert” is clicked.
+General: See the alert name and an optional description of the current alert.
+Units: See the amount of subscribers within the amount of units that are planned for the alert.</description>
     </item>
     
     <item>
-      <title>Manage Alert Scenarios</title>
-      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <title>Current alerts</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
-      <description>Table of Contents  General
- Template assignement
- Texts
- Copy scenario
- Lock scenario
-  Manage alert scenarios In so-called scenarios, multiple alert and conference templates can be arranged successively on a timeline. This way, if an alert has not ended after a certain, predefined amount of time, the next alert/conference template is triggered automatically. This allows automatic alert escalations to be predefined, which otherwise would have to be done manually.</description>
+      <guid>https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/</guid>
+      <description>If an alert was triggered, the “Alert feedback” screen appears. All recipients to whom an alert was sent, are included in the feedback list. Follow the alert process in real-time here.
+The participant responses can be viewed immediately at the feedback view and are updated on an ongoing basis. The dialogue window (“red box”) displays a graphical overview of the analysed acknowledgements. This overview shows the amount of participants with a specific status.</description>
     </item>
     
     <item>
-      <title>Participant list</title>
-      <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/</link>
+      <title>Info SMS</title>
+      <link>https://hannahmm.github.io/groupalarm/en/alarmieren/info-sms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/</guid>
-      <description>Table of Contents  List of subscribers
- Subscriber Zone
- Copying subscribers
- Subscribers in groups
+      <guid>https://hannahmm.github.io/groupalarm/en/alarmieren/info-sms/</guid>
+      <description>Table of Contents  Info SMS
+ Alert to
+ Alert text
+ Timed alert
   
-List of subscribers All participants are listed in the list of subscribers. You can search for participants here by entering a keyword based on various parameters, e.g. by surname, street, city and other parameters (“apply filter”).
-You can also define new sorting criteria in the ADMIN menu under “Data fields”.</description>
+Info SMS View the Info SMS screen by clicking the “Quick-Launch” button or via the “Alerting” tab. When messages are sent via the “Info SMS” function, it is not possible for the participants to make an acknowledgement. Therefore, the “Status” menu does not provide any feedback on the Info SMS dispatch. Unlike the SMSprio alert, the Info SMS is treated like a normal SMS.</description>
     </item>
     
     <item>
-      <title>Manage Conference Templates</title>
-      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <title>Scheduled alerts</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
-      <description>Table of Contents  Create new conference template
- Copy conference template
-  Manage conference templates The user can create and manage conference templates in this sub-menu. There are different ways to create a conference template:
- via the “List of subscriber”
- via “Manage conference templates”
-  
-Create New Conference Template Choose the target people from the alerting screen by adding the participants to the alert participant column via the drag &amp;amp; drop method.</description>
+      <guid>https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/</guid>
+      <description>Alerts which are not triggered immediately but are defined with a trigger time can be viewed in “scheduled alerts”. Scheduled alerts, like conferences, can only be deleted, not changed.</description>
     </item>
     
     <item>
-      <title>Texts</title>
-      <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/</link>
+      <title>Scheduled conferences</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/</guid>
-      <description>Table of Contents  Edit Texts
- Voiceoutput option for alert texts
-  
-Texts Predefined alert texts can be written in four languages (German, English, French and Italian) using eAlarm emergency. The text editor required to create and edit these texts can be found in the “Texts” sub-menu. Enter the required text in the input window of the respective language and confirm your entry by clicking the “Create” button: The text language, which is relevant for converting the text to speech (using the text-to-speech interface), is displayed in front of the created text.</description>
+      <guid>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/</guid>
+      <description>Conferences that are not to be triggered immediately, but at a later time, are entered under “Scheduled conferences”.</description>
+    </item>
+    
+    <item>
+      <title>Closed conferences</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/</guid>
+      <description>All conferences are listed consecutively in an endless list. As is the case with the subscriber list, it is also possible to search for specific conferences using the filter menu.
+Once the conference has come to an end, a protocol is saved under “closed conferences” in the “*Status*” menu. The entire conference process is summarised in various reports, which can subsequently be sent via e-mail. The table shows the following from left to right:</description>
+    </item>
+    
+    <item>
+      <title>Completed alerts</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/</guid>
+      <description>Before archived, all alerts are listed consecutively in an endless list. As known from the participant list, it&amp;rsquo;s also possible to search for specific alerts using the filter menu.
+Once the alert has been completed, an alert protocol is stored under “completed alerts” in the “Status” menu. The entire alert process is summarized in various reports that can be made available for other applications and sent via e-mail. The table shows the following from left to right:</description>
+    </item>
+    
+    <item>
+      <title>Teleconference (optional)</title>
+      <link>https://hannahmm.github.io/groupalarm/en/alarmieren/telefonkonferenz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/alarmieren/telefonkonferenz/</guid>
+      <description>Select a root, a group and/or a participant directly from the column view of the “Alerting” screen and click “Telephone conference”: . Next step is “Telephone conference” screen (“Test_Ordner_2” was selected in the following example). The conference initiator is displayed as the first participant. The telephone number the initiator wants to participate in the conference with, must be entered in the input field. Trigger the conference with defined participants immediately or later point via the “start conference” button.</description>
     </item>
     
     <item>

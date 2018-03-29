@@ -11,84 +11,93 @@
     
     
     <item>
-      <title>Gestion des dispositifs d’alarme</title>
-      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <title>Alarme</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/alarmieren/alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
-      <description>Table des matières  Création d`un dispositif d`alarme
- Copie d`un dispositif d`alarme
-  Gestion des dispositifs d’alarme Les dispositifs d’alarme sont des alarmes prédéfinies, ce qui signifie que le cercle de participants et les éventuels textes d’alarme sont déjà prédéfinis. En cas d’événement grave, le dispositif d’alarme prévu peut être déclenché et les participants prédéfinis sont alarmés au travers du texte d&amp;rsquo;alarme via les moyens correspondants.
-Il existe différentes manières de créer un dispositif d’alarme:</description>
-    </item>
-    
-    <item>
-      <title>Organigramme / arborescence</title>
-      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/</guid>
-      <description>Table des matières  Racine
- Groupe
+      <guid>https://hannahmm.github.io/groupalarm/fr/alarmieren/alarm/</guid>
+      <description>Table des matières  Général
  Participant(s)
-  Les actions possibles apparaissent dans la barre de droite sous Disponible. Vous pouvez créer et ajouter de nouveaux scénarios, dispositifs, dispositifs pour conférence, dossiers, gestions de temps et/ou utilisateurs (participants).
-
-Racine Pour créer une racine, saisissez son nom dans le champ de saisie et confirmez-le à l’aide de la touche “Créer”. La racine créée apparaît immédiatement dans le champ d’affichage.</description>
-    </item>
-    
-    <item>
-      <title>Gestion des scénarios</title>
-      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
-      <description>Table des matières  Généralités
- Attribution des dispositifs
  Textes
- Copier des scénarios
- Bloquer le scénario
-  Gestion des scénarios Dans les scénarios, plusieurs dispositifs d’alarme et pour conférence peuvent s’enchaîner les uns après les autres de façon chronologique. De cette manière, si l’alarme en cours n’est pas arrêtée au bout d’un certain temps, un autre dispositif d’alarme/pour conférence se déclenche automatiquement. Il est ainsi possible de prédéfinir des transferts en escalade d’alarmes qui, sinon, devraient être effectués manuellement.</description>
+ Coordonnées
+ Options d`alarme
+ Délai d&amp;rsquo;envoi de suite
+  Dès que vous avez sélectionné un participant, un groupe ou une racine et cliqué sur *Alarme*, le masque Créer l’alarme s’ouvre.
+Général: le nom de l’alarme actuelle ainsi que son éventuelle description s’affichent.
+Participants: Le nombre de participants par groupe devant être alarmés s’affiche sous Participant(s).
+Texte: vous pouvez saisir un nouveau texte sous «Texte libre» avant de le confirmer via le bouton «Déclencher l’alarme».</description>
     </item>
     
     <item>
-      <title>Liste des participants</title>
-      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/teilnehmerliste/</link>
+      <title>Alarmes en cours</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/laufende-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/teilnehmerliste/</guid>
-      <description>Table des matières  Domaine des participants
- Copier un Participant
- Participants dans les groupes
-  Tous les participants sont répertoriés dans la liste des participants. Après avoir saisi un mot clé, on peut y rechercher les participants en fonction de différents paramètres, p. ex. nom de famille, rue, ville (“Utiliser les filtres”).
-{.mediacenter width=&amp;ldquo;700&amp;rdquo;}](../teilnehmerliste_rot_fr.png_fr_ea_teilnehmerliste.fr.md &amp;ldquo;fr:teilnehmerliste_rot_fr.png&amp;rdquo;)
-Vous pouvez également définir de nouveaux critères de tri dans le menu Admin sous “Champs suppl.</description>
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/laufende-alarme/</guid>
+      <description>Dès que l’alarme est déclenchée, le masque “Feedback d&amp;rsquo;alarme” s’affiche. Tous les destinataires auxquels une alarme a été envoyée sont enregistrés dans le \$\$Feedbackspeicher, d’où on peut suivre la procédure exacte d’alarme en temps réel.
+Les feedback des participants s’affichent immédiatement dans la vue “Feedback d&amp;rsquo;alarme” et sont actualisés en permanence. Un graphique d&amp;rsquo;évaluation des quittances s’affiche dans la boîte de dialogue (“cadre rouge”). Il indique combien de participants se trouvent dans quel statut.</description>
     </item>
     
     <item>
-      <title>Gestion des dispositifs de conférence</title>
-      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <title>Conférence active</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/aktive-konferenzen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
-      <description>Table des matières  Création d&amp;rsquo;un dispositif pour conférence
- Copie d&amp;rsquo;un dispositif pour conférence
-  Gestion des dispositifs de conférence Dans ce sous-menu, l’utilisateur peut créer et gérer les dispositifs pour conférence. Il existe différentes manières de créer un dispositif pour conférence:
- via la «Liste des participants»;
- via la «Gestion des dispositifs de conférence».
-  
-Création d&amp;rsquo;un dispositif pour conférence Sélectionnez dans le masque «Créer l’alarme» les personnes ciblées, en déplaçant les participants par glisser-déposer dans la colonne des participants à l’alarme.</description>
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/aktive-konferenzen/</guid>
+      <description>Une conférence active peut être consultée comme une alarme en cours via le menu “Statut” – “Statut de conférence” – “Conférences actives”. Si plusieurs conférences sont actives en même temps, il convient d’en sélectionner une pour l’afficher. Dans le cadre des conférences actives, les participants peuvent:
+ ajouter un participant, en saisissant un numéro;
+ exclure un participant de la réunion, en cliquant sur le X rouge;
+ mettre un participant en mode silencieux (le participant peut encore écouter, mais on ne l’entend plus) et annuler le mode silencieux;</description>
     </item>
     
     <item>
-      <title>Traitement des textes</title>
-      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/texte/</link>
+      <title>Alarmes planifiées</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/disponierte-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/texte/</guid>
-      <description>Table des matières  Traitement des textes
- Options d`éditeur vocal pour le texte d`alarme
-  
-Traitement des textes eAlarm emergency vous permet de rédiger des textes d’alarme prédéfinis en quatre langues (allemand, français, italien et anglais). Vous accédez à l’éditeur de texte, où ces textes peuvent être créés et traités, via le sous-menu “Textes”. Saisissez le texte de votre choix dans la fenêtre de saisie correspondant à chaque langue et confirmez la saisie à l’aide du bouton “Créer”: La langue du texte, qui s’avère importante pour la traduction dudit texte dans les autres langues (via l’interface Text-to-Speech), s’affiche devant le texte créé.</description>
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/disponierte-alarme/</guid>
+      <description>Les conférences qui ne sont pas immédiatement terminées mais qui sont définies avec une heure de déclenchement s’affichent sous Conférences planifiées. Les conférences planifiées peuvent uniquement, comme les alarmes, être supprimées et non mutées.</description>
+    </item>
+    
+    <item>
+      <title>Conférence planifiée</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/disponierte-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/disponierte-konferenzen/</guid>
+      <description>Les conférences qui ne sont pas initiées immédiatement mais à une date ultérieure sont saisies sous Conférences planifiées.</description>
+    </item>
+    
+    <item>
+      <title>Info-SMS</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/alarmieren/info-sms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/alarmieren/info-sms/</guid>
+      <description>Table des matières  Alarme à
+ Texte d’alarme
+ Heure de déclenchement
+  Vous accédez au masque info SMS via le bouton d’accès direct ou l’onglet «Alarmer». Les participants ne peuvent pas quittancer en cas d’envoi des informations via la fonction «info SMS». Vous ne recevez donc pas non plus, dans le menu «Statut», de feed-back suite à l’envoi de l’info SMS. Contrairement à l’Alarme SMSprio, le SMS est traité comme un SMS normal.</description>
+    </item>
+    
+    <item>
+      <title>Alarmes clôturées</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/abgeschlossene-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/abgeschlossene-alarme/</guid>
+      <description>Avant d’être archivées, toutes les alarmes sont listées l’une après l’autre dans une liste continue. En outre, il est possible, comme avec la liste des participants, de rechercher des alarmes spécifiques via le menu Filtre.
+Dès que l’alarme est clôturée, un protocole d’alarme est déposé sous “Alarmes clôturées” dans le menu “Statut”. Toute la procédure de l’alarme est résumée en différents rapports, disponibles pour d’autres applications et pouvant être envoyés par e-mail.</description>
+    </item>
+    
+    <item>
+      <title>Conférence (en option)</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/alarmieren/telefonkonferenz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/alarmieren/telefonkonferenz/</guid>
+      <description>Vous pouvez directement sélectionner une racine, un groupe et/ou un participant dans la vue par colonnes du masque «Créer l’alarme» et cliquer sur Conférence téléphonique: vous accédez alors au masque «Conférence téléphonique» (dans l’exemple suivant, «Test_Ordner_2» a été sélectionné).
+Le premier participant affiché est l’initiateur de la conférence. Le numéro de téléphone avec lequel ce dernier souhaite participer à la conférence apparaît dans le champ de saisie. Vous pouvez lancer immédiatement ou ultérieurement la conférence avec les participants définis via le bouton “Conférence” du champ “Déclencher la conférence”.</description>
     </item>
     
     <item>

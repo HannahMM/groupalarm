@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GroupAlarm Manual</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.37.1" />
+
+<title>Alert creation :: GroupAlarm Manual</title>
+<link rel="shortcut icon" href="https://hannahmm.github.io/groupalarm/img/ga_solo.png" type="image/x-icon" />
+<link href="https://hannahmm.github.io/groupalarm/css/nucleus.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/hybrid.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/featherlight.min.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/css/auto-complete.css" rel="stylesheet">
+<link href="https://hannahmm.github.io/groupalarm/theme-original/style.css" rel="stylesheet">
+
+  <link href="https://hannahmm.github.io/groupalarm/theme-original/variant-default.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://hannahmm.github.io/groupalarm/css/bootstrap.min.css">
+<script src="https://hannahmm.github.io/groupalarm/js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<meta name="description" content="">
+
+
+    
+  </head>
+  <body data-url="/en/alarmieren/alarm/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+  <span style="font-size:smaller">
+		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
+		
+		  <span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
+		</a>
+    
+  
+
+    </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="Search...">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/\/en";
+        
+		</script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
+  </div>
+
+      <ul class="topics">
+    <li data-nav-id="/en/einfuehrung/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/en/einfuehrung/">Introduction</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/einfuehrung/merkblaetter/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/einfuehrung/merkblaetter/">
+            Handout Documents
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/einfuehrung/grundkonzepte/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/einfuehrung/grundkonzepte/">
+            Basic Concept
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/einfuehrung/landingpage/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/einfuehrung/landingpage/">
+            Landing page
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/en/alarmieren/" class="dd-item parent alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/en/alarmieren/">Alerting</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/alarmieren/alarm/" class="dd-item active">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/alarmieren/alarm/">
+            Alert creation
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/alarmieren/info-sms/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/alarmieren/info-sms/">
+            Info SMS
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/alarmieren/telefonkonferenz/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/alarmieren/telefonkonferenz/">
+            Teleconference (optional)
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/en/status/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/en/status/">Status/Reports</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/en/status/alarm-status/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/">Alarm status</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/status/alarm-status/laufende-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/">
+            Current alerts
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/status/alarm-status/disponierte-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/">
+            Scheduled alerts
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/status/alarm-status/abgeschlossene-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/">
+            Completed alerts
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/en/status/konferenz-status/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/">Conference status</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/en/status/konferenz-status/aktive-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/">
+            Active conferences
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/status/konferenz-status/disponierte-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/">
+            Scheduled conferences
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/en/status/konferenz-status/beendete-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/">
+            Closed conferences
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/en/status/auswertung/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/en/status/auswertung/">Analysis / dispatch statistics</a>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    <hr />
+    <li>
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="de" value="/alarmieren/alarm/">de</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="fr" value="/fr/alarmieren/alarm/">fr</option>
+	      
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="en" value="/en/alarmieren/alarm/" selected>en</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="it" value="/it/alarmieren/alarm/">it</option>
+	      
+	    
+	  
+	
+</select></li>
+    
+    </ul>
+
+ <section id="footer">
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+ <a href='https://hannahmm.github.io/groupalarm/en/'>GroupAlarm Manual</a> > <a href='https://hannahmm.github.io/groupalarm/en/alarmieren/'>Alerting</a> > Alert creation
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#alert-creation">Alert creation</a></li>
+<li><a href="#general">General</a></li>
+<li><a href="#units">Units</a></li>
+<li><a href="#text">Text</a></li>
+<li><a href="#coordinates">Coordinates</a></li>
+<li><a href="#alert-options">Alert options</a></li>
+<li><a href="#schedule">Schedule</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>Alert creation</h1>
+  
+
+
+
+    
+    
+    
+    
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li><p><a href="#alert_creation">Alert creation</a></p></li>
+
+<li><p><a href="#general">General</a></p></li>
+
+<li><p><a href="#units">Units</a></p></li>
+
+<li><p><a href="#text">Text</a></p></li>
+
+<li><p><a href="#coordinates">Coordinates</a></p></li>
+
+<li><p><a href="#alert_options">Alert options</a></p></li>
+
+<li><p><a href="#schedule">Schedule</a></p></li>
+</ul>
+
+<p><a name="alert_creation"></a></p>
+
+<h3 id="alert-creation">Alert creation</h3>
+
+<p>The input screen <em>“Create alert”</em> opens, once a participant a group or
+root is chosen and the button <strong>“Alert”</strong> is clicked.</p>
+
+<p><strong>General:</strong> See the alert name and an optional description of the
+current alert.</p>
+
+<p><strong>Units:</strong> See the amount of subscribers within the amount of units that
+are planned for the alert.</p>
+
+<p><strong>Text:</strong> Enter a new free text in <em>“Free text”</em> before subsequently
+enabling it (clicking the <em>“Send Alert”</em> button). If predefined text was
+created, optionally use this as alert text by clicking <img src="https://hannahmm.github.io/groupalarm/img/runderblauesdings.png?classes=shadow" alt="" />
+or with <em>“QuickEdit”</em>. Texts from “Previous alerts” can be incorporated
+into the free text and reused with <em>“QuickEdit”</em>.</p>
+
+<p><strong>Coordinates:</strong> Define, if you want to include coordinates in the alert
+message.</p>
+
+<p><strong>Alert options:</strong> Define other settings for alert media, termination
+criteria, info transmission, etc. here.</p>
+
+<p><strong>Schedule:</strong> Define, whether the alert should be sent immediately or
+scheduled for a future date.</p>
+
+<p>If all required settings are done, the alert can be triggered by
+pressing the “<strong>Send Alert</strong>” button (button switched to red).</p>
+
+<p>In addition to the alert trigger option directly from the GUI, <strong>eAlarm
+emergency</strong> also supports several remote triggers. Trigger the alert by
+SMS, call+ DTMF menu, direct dial and via a web link. Find more details
+about triggering alerts remotely in handout: “eAlarm emergency remote
+triggering”.</p>
+
+<p>(coming soon…)</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarm_erstellen_freitext_en.34542f25cb3bf6b54af64377f65e68e4.png?classes=shadow" alt="" /></p>
+
+<p><a name="general"></a></p>
+
+<h3 id="general">General</h3>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/ealarm_erstellen_allgemein_en.png?classes=shadow" alt="" />
+Changing the <strong>“Alert name”</strong>. Describe the alert in <strong>“Description”</strong>
+(optional). The alert creator is shown in <strong>“Creator”</strong>. The alert
+creation date can be found in <strong>“Date/time”</strong>.</p>
+
+<p><a name="units"></a></p>
+
+<h3 id="units">Units</h3>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarm_erstellen_einheit_en.072081be3fe2f6fff7012d0fd8c8bc3f.png?classes=shadow" alt="" /></p>
+
+<p>See how many participants have been selected for the alert and being
+assigned to which units in <strong>“Unit”</strong>. Duplicate participants and such
+participants which cannot be alerted are not shown. Other
+units/participants can be added under <em>[edit].</em></p>
+
+<p><a name="text"></a></p>
+
+<h3 id="text">Text</h3>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarm_erstellen_text_en.de7d3eeb6846176eeb25a2118fd8cd9b.png" alt="" />
+Before triggering the alert, it is possible to determine whether you
+want to select the predefined text (by clicking
+<img src="https://hannahmm.github.io/groupalarm/img/runderblauesdings.png?classes=shadow" alt="" />)
+or create a new
+<img src="https://hannahmm.github.io/groupalarm/img/freitext_en.png?classes=shadow" alt="" />
+free text at this time. A predefined text can be incorporated and
+changed by clicking <em>“QuickEdit”.</em> In advantage, the dispatcher does not
+have to re-enter the entire text in <em>“QuickEdit”</em> but is able to use
+predefined text that can be changed to its needs.</p>
+
+<p><a name="coordinates"></a></p>
+
+<h3 id="coordinates">Coordinates</h3>
+
+<p>Decide in the “Transmit coordinates” section, whether coordinates shall
+be transmitted or
+not.<img src="https://hannahmm.github.io/groupalarm/img/koordinaten_yes_no.png?classes=shadow" alt="" /></p>
+
+<p>Enter the required address in “Address details”.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/koordinaten_1.png?classes=shadow" alt="" /></p>
+
+<p>Alternatively, enter the coordinates here:</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/koordinaten_2.png?classes=shadow" alt="" /></p>
+
+<p>Once an address was entered, it will be automatically converted into the
+WGS84 format.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/koordinaten_3.a70bc0475016d483158f82c1ad7c3d8a.png?classes=shadow" alt="" /></p>
+
+<p><a name="alert_options"></a></p>
+
+<h3 id="alert-options">Alert options</h3>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarm_erstellen_alarmoptionen_en.edc077dabe6c246ea46ee6a2e5ed68c8.png?classes=shadow" alt="" /></p>
+
+<p><strong>“Alert the following media”:</strong> Decide which resource has to be alerted
+and which not.</p>
+
+<p><strong>“SMSprio”:</strong> Specify whether the alert should be sent over “SMSprio”
+or not. If <strong>“NO”</strong> is selected, the Flash SMS will not be sent.
+<strong>“Weekly planner”:</strong> (available in Media Priority List Plus module
+only)</p>
+
+<ul>
+<li><p>From participant data: the participants are alerted based on the
+predefined weekly planner</p></li>
+
+<li><p>Test (default): the predefined weekly planner (optional module) is
+not used for this option.</p></li>
+</ul>
+
+<p><strong>“Cancel”:</strong> Specify criteria to automatically terminate an alert here.
+Once one of the defined termination criteria is achieved during the
+alert process, the alert is being terminated.</p>
+
+<ul>
+<li><p>Termination due to x% of participants sending a positive
+acknowledgement</p></li>
+
+<li><p>Termination due to x participants sending a positive acknowledgement</p></li>
+
+<li><p>Termination x minutes after the alert was triggered</p></li>
+</ul>
+
+<p><strong>“Info transmission”:</strong> Define the people who should receive a specific
+document by e-mail/fax. In this section, it is also defineable which
+e-mail address, fax and/or mobile number is used for sending a regular
+summary about the alert status.</p>
+
+<p><strong>Comment:</strong> Regular summaries regarding an ongoing alert can also be
+sent.</p>
+
+<p><a name="schedule"></a></p>
+
+<h3 id="schedule">Schedule</h3>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarm_erstellen_versandstatistik_en.b25eacbba3534406a4ca854153036b94.png?classes=shadow" alt="" /></p>
+
+<p><strong>eAlarm</strong> is generally configured for an alert to be triggered
+directly. You can also schedule an alert to be triggered under
+scheduling options (“Send at this date”) by defining which day and at
+what time the alert should be triggered. For instance, these kinds of
+“scheduled” alerts can be used for test alerts, as they can be planned
+relatively easily in advance. Scheduled alerts can be viewed and deleted
+in the “Status” menu.</p>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+</div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="https://hannahmm.github.io/groupalarm/js/clipboard.min.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/js/featherlight.min.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/js/html5shiv-printshiv.min.js"></script>
+
+<script src="https://hannahmm.github.io/groupalarm/js/modernizr.custom.71422.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/js/docdock.js"></script>
+<script src="https://hannahmm.github.io/groupalarm/theme-original/script.js"></script>
+<link href="https://themes.gohugo.io/theme/docdock/css/featherlight.min.css" rel="stylesheet">
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

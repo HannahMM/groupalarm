@@ -11,99 +11,103 @@
     
     
     <item>
-      <title>Alarmvorlagen verwalten (optionales Modul)</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <title>Aktive Konferenzen</title>
+      <link>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
-      <description>Alarmvorlagen Alarmvorlagen sind vordefinierte Alarme. Das bedeutet, der Teilnehmerkreis und die möglichen Alarmtexte sind bereits vordefiniert. Im Ernstfall kann bei der Alarmierung die vorher erfasste Alarmvorlage ausgelöst werden und die definierten Alarmteilnehmer werden über die entsprechenden Mittel mit dem Alarmtext alarmiert.
-Im Menü „Alarmvorlagen“ werden Ihre vorhandenen Alarmvorlagen aufgelistet. Sie können die Vorlagen nach Alarmname, Auslösecode, Beschreibung, Zeitpunkt der letzen Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
+      <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</guid>
+      <description>Im Menü „aktive Konferenzen“ sehen sie einen Überblick über die aktuell laufenden Telefonkonferenzen. Aufgeführt wird der Name der Konferenz, der Auslöser und Auslösezeitpunkt sowie das vorraussichtiliche Ende (standardmäßig nach einer Stunde).
+Mit einem Klick auf das Telefonsymbol können Sie die laufende Konferenz bearbeiten:
+ Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer und mit der Eingabetaste oder Klick auf bestätigen
+ Teilnehmer aus der Konferenz ausschließen mit einem Klick auf das rote Kreuz  Teilnehmer Stummschalten (Teilnehmer kann nur noch zuhören, wird aber selber nicht gehört) schalten und die Stummschaltung wieder aufheben mit Klick auf das Lautsprechersymbol  Die Konferenz beenden:   </description>
     </item>
     
     <item>
-      <title>Export</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/</link>
+      <title>Alarm erstellen</title>
+      <link>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/</guid>
-      <description>Um eine Datei herunterzuladen, klicken Sie den entsprechenden Link an und speichern Sie die Datei an einem beliebigen Ort. Im Anschluss kann die CSV Datei mit einem geeigneten Programm geöffnet werden (bei Windows Computern wird der Dateityp automatisch in Excel geöffnet, falls dieses installiert ist).
-Sie können den Report auch nur als Textdatei herunterladen. Klicken Sie dazu auf die Schaltfläche „[Text]“ hinter dem entsprechenden Eintrag. Es öffnet sich ein neues Browserfenster mit den Daten.</description>
+      <guid>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</guid>
+      <description>Alarm erstellen Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche „Alarm“ geklickt wurde, öffnet sich die Maske „Alarm erstellen“.
+Hier können Sie verschiedene Einstellung für Ihren Alarm vornehmen und anschließend mit der Schaltfläche auslösen. Die Schaltfläche wird grau dargestellt solange noch nicht alle nötigen Einstellungen vorgenommen wurden.
+Neben einer Alarmauslösung direkt aus dem Webbrowser unterstützt GroupAlarm pro mehrere Wege der Fernauslösung. Ob Alarm per SMS, Anruf und DTMF-Menü, Durchwahl und über einen Web-Link, die Auslösung ist von nahezu allen Plattformen realisierbar.</description>
     </item>
     
     <item>
-      <title>Organigramm / Baumansicht</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</link>
+      <title>Laufende Alarme</title>
+      <link>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</guid>
-      <description>Organigramm / Baumansicht Im Menü „Organigramm / Baumansicht“ können Sie Ihre Alarmierungs- und Mobilisationsstruktur als Baumdiagramm erstellen und verwalten.
-Baumansicht Auf der linken Seite wird die aktuelle Wurzeln mit untergeordneten Ordner und Teilnehmern angezeigt.
-Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen zugeordnet werden können. Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten. Einer Gruppe werden einen oder mehrere Teilnehmer zugewiesen.</description>
+      <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</guid>
+      <description>Alarm-Feedback Sobald ein Alarm ausgelöst wird, erscheint er in der Maske „Alarm-Feedback“. Hier erhalten Sie in Echtzeit einen Überblick über Alarmverlauf und Rückmeldungen Ihrer Teilnehmer.
+Mit der Schaltfläche „Alarm schließen“ wird der Alarm beendet.
+Übersicht Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
+ Auslösezeitpunkt und Dauer des Alarms, Alarmtext Statusbalken der Quittierungen Ampel: Gibt Aufschluss darüber, ob vordefinierte Grenze erfolgreicher Alarmierungen erreicht wurde. Orange bedeutet, eine vordefinierte Anzahl Teilnehmer hat den Alarm bereits positiv quittiert.</description>
     </item>
     
     <item>
-      <title>Ereignisse verwalten (Optionales Modul)</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/</link>
+      <title>Disponierte Alarme</title>
+      <link>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/</guid>
-      <description>Ereignisse Mit dem Modul „Ereignisse“ können Sie bestimmten Ereignissen eine Ihrer erstellten Vorlagen zuordnen. Diese Ereignisse können z.b. von externen Systemen aktiviert werden. Der Vorteil dabei ist, das Änderungen direkt an der Vorlage vorgenommen werden können, wärend das Ereignis unverändert bleibt.
-Im Menü „Ereignisse“ werden Ihre vorhandenen Ereignisse aufgelistet. Sie können die Vorlagen nach Ereignissname,
-Beschreibung, Bearbeitungszeitpunkt und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
+      <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</guid>
+      <description>Alarme, die nicht sofort gestartet werden, sondern mit einem Auslösezeitpunkt definiert wurden, sind im Register „Status“ unter „disponierte Alarme“ einsehbar. Disponierte Alarme können nur gelöscht, jedoch nicht mutiert werden.</description>
     </item>
     
     <item>
-      <title>Import</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/</link>
+      <title>Disponierte Konferenzen</title>
+      <link>https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/</guid>
-      <description>Import/Datenbank Import Hier können Sie erstellte bzw. modifizierte Datensätze wieder in das System importieren. Wichtig ist hierbei, dass die Dateinamen und Spaltenbezeichnungen nicht verändert wurden und Sie die entsprechenden Konventionen einhalten.
-Dynamischer Import Mit dem dynamischen Import importieren Sie die im dynamischen Export erstellte Datei wieder in das System. Er bietet sich vor allem für den Erstimport um die Datenbank schnell und einfach mit Teilnehmern zu füllen.
-Klicken Sie hierzu auf die Schaltfläche „Dateien auswählen“ und wählen Sie die Datei „import.</description>
+      <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/</guid>
+      <description>Konferenzen, die nicht sofort gestartet werden sondern mit einem Auslösezeitpunkt definiert wurden, sind im Menü „disponierte Konferenzen“ einsehbar. Disponierte Konferenzen können mit einem Klick auf das Löschsymbol gelöscht, jedoch nicht bearbeitet werden.</description>
     </item>
     
     <item>
-      <title>Teilnehmerliste</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</link>
+      <title>Info-SMS</title>
+      <link>https://hannahmm.github.io/groupalarm/alarmieren/info-sms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</guid>
-      <description>Teilnehmerliste In der Teilnehmerliste werden alle Teilnehmer tabellarisch aufgelistet.
-Die angezeigten Spalten können über das Symbol angepasst werden.
-Es können auch neue Sortierkriterien im Admin-Bereich unter dem Menü „Datenfelder“ definiert werden.
-Durch Klick auf das Dreieck (Sortierkriterium) des Dropdown-Menüs unten rechts können Sie unerwünschte Kriterien aus der Anzeigezeile löschen, per Drag&amp;amp;Drop können Sie die Spalten neu sortieren.
-Mit den Pfeilen können Sie die Liste nach verschiedenen Kriterien alphabetisch/umgekehrt alphabetisch sortieren.</description>
+      <guid>https://hannahmm.github.io/groupalarm/alarmieren/info-sms/</guid>
+      <description>Info SMS Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und der Button „Info-SMS“ geklickt wurde, öffnet sich die Maske „Info-SMS“.
+Beim Versand einer „Info-SMS“ ist keine Quittierung durch den Empfänger möglich. Deshalb wird im Register „Status“ auch keinerlei Feedback zum Versand der „Info-SMS“ gegeben.
+Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurde, leuchtet Schaltfläche „Info versenden“ (unten rechts) rot auf: Die Info SMS kann nun an die selektierten Teilnehmer versendet werden.</description>
     </item>
     
     <item>
-      <title>Drehbücher verwalten (optionales Modul)</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <title>Abgeschlossene Alarme</title>
+      <link>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
-      <description>Drebücher In Drehbüchern können mehrere Alarm- und Konferenzvorlagen auf einem Zeitstrahl hintereinander gereiht werden. So wird erreicht, dass nach einer gewissen vordefinierten Zeit – falls der Alarm bis dahin nicht schon beendet wurde – automatisch eine nächste Alarm- / Konferenzvorlage ausgelöst wird. So können automatische Alarm-Eskalationen vordefiniert werden, die ansonsten manuell durchgeführt werden müssten.
-Im Menü „Drehbücher“ werden Ihre vorhandenen Drehbücher aufgelistet. Sie können die Vorlagen nach Drehbuchname, Auslösecode, Beschreibung und Disponent filtern.</description>
+      <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</guid>
+      <description>Abgeschlossene Alarme Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein Alarm-Log und eine Kostenauswertung unter dem Register „Status“ unter „Abgeschlossene Alarme“ abgelegt. Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen.
+Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst, welche auch per E-Mail versendet werden können.
+Folgende Funktionen stehen zur Verfügung: 
+1. PDF-Alarmprotokoll  Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format.</description>
     </item>
     
     <item>
-      <title>Texte</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</link>
+      <title>Beendete Konferenzen</title>
+      <link>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</guid>
-      <description>Texte Mit eAlarm emergency können Sie vordefinierte Alarmtexte in vier Sprachen verfassen: Deutsch, Französisch, Italienisch und Englisch (optionales Modul).
-Im Menü „Texte“ können Sie Ihre vorhandenen Alarmtexte einsehen und bearbeiten sowie mit dem Text-Editor neue Texte in entsprechender Sprache anlegen. Neuer Text Um einen neuen Text anzulegen, geben Sie den Text in das der jeweiligen Sprache entsprechende Eingabefenster ein und bestätigen Sie mit der Schaltfläche „anlegen“ Für einen Alarm bzw.</description>
+      <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</guid>
+      <description>Beendete Konferenzen Sobald die Konferenz beendet ist, wird ein Konferenzprotokoll und eine Kostenauswertung im Register „Status“ unter „Beendete Konferenzen“ abgelegt. Der gesamte Verlauf einer Konferenz wird in unterschiedlichen Reports zusammengefasst. Diese können anschliessend per E-Mail versendet werden.
+In der Tabelle erscheinen von links nach rechts:
+ Konferenz: Die Konferenznummer.
+ Disponent: Wer hat die Konferenz ausgelöst?
+ Aufgenommen: Für wann wurde die Konferenz disponiert?
+ Gestartet: Wann wurde die Konferenz gestartet?</description>
     </item>
     
     <item>
-      <title>Konferenzvorlagen verwalten (optionales Modul)</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <title>Konferenz (optionales Modul)</title>
+      <link>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
-      <description>Konferenzvorlagen Konferenzvorlagen sind vordefinierte Konferenzen. Das bedeutet, der Teilnehmerkreis und die Alarmmittel sind bereits vordefiniert. Im Ernstfall kann bei der Alarmierung die vorher erfasste Konferenzvorlage ausgelöst werden und die definierten Alarmteilnehmer werden über die entsprechenden Mittel für Telefonkonferenzen angerufen.
-Im Menü „Konferenzvorlagen“ werden Ihre vorhandenen Konferenzvorlagen aufgelistet. Sie können die Vorlagen nach Konferenzname, Auslösecode, Beschreibung, Zeitpunkt der letzen Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
+      <guid>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</guid>
+      <description>Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die zu alarmierenden Einheiten angezeigt.
+In der ersten Spalte wird der Initiator der Konferenz angezeigt. In das Eingabefeld wird die Telefonnummer, mit welcher der Initiator an der Konferenz teilnehmen will, eingetragen. Die ausgewählten Konferenzteilnehmer werden separat aufgeführt. Für jeden Teilnehmer werden alle konferenzfähigen Kommunikationsmittel (Mobile- und Festnetznummern) angezeigt. Die Checkboxen der Alarmmittel, welche beim Teilnehmer vorgängig als „Konferenzmittel“ definiert wurden, sind standardmässig vorausgewählt und können bei Bedarf deaktiviert werden.</description>
     </item>
     
     <item>
@@ -128,35 +132,16 @@ Folgende Fragen können Ihnen dabei behilflich sein:
     </item>
     
     <item>
-      <title>Zeitsteuerung verwalten (optionales Modul)</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</guid>
-      <description>Zeitsteuerung Das optionale Zusatzmodul „Zeitsteuerung“ ermöglichet den Erfassen von Bereitschaftsdiensten.
-Um einen neue Zeitsteuerung anzulegen, gehen Sie im Register „Mutieren“ in das Menü „Organigramm/Baumansicht“ und klicken Sie in der rechten Spalte unter „Verfügbar“ auf „Neue Zeitsteuerung“ Fügen Sie die erstellte Zeitsteuerung zu einer Wurzel oder einem Ordner hinzu.
-Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt, die den Bereitschaftsdienst an bestimmten Tagen haben werden. Im folgenden Beispiel sind das:</description>
-    </item>
-    
-    <item>
       <title>Startseite</title>
       <link>https://hannahmm.github.io/groupalarm/einfuehrung/landingpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/einfuehrung/landingpage/</guid>
       <description>Login Um Zugang zu Ihrem Account zu erhalten, melden Sie sich auf https://pro.groupalarm.de/ mit zugewiesenem Benutzernamen und Passwort an.
-Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf alle Funktionen von eAlarm emergency. Navigation Die Struktur dieses Handbuches ist analog zu der Struktur von eAlarm emergency aufgebaut.
+Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf alle Funktionen von GroupAlarm pro.
+Navigation Die Struktur dieses Handbuches ist analog zu der Struktur von GroupAlarm pro aufgebaut.
+TODO
 Register Hier rot markiert sind die vier Hauptregister „Alarmieren“, „Status“, „Mutieren“, „Admin“. Alle Funktionen, die Sie unter diesen Registern finden, werden in den entsprechenden Menüpunkten erläutert.</description>
-    </item>
-    
-    <item>
-      <title>eAlarmApp</title>
-      <link>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ealarm_app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ealarm_app/</guid>
-      <description>eAlarmApp (Optionales Modul) Mit der eAlarmApp 2.0 wurden verschiedene neue Funktionalitäten entwickelt und Verbesserungen vorgenommen. Gewisse Features zielen auf die eAlarmApp ab, andere das System eAlarm. Sämtliche neuen Features und Verbesserungen sind, sofern nicht explizit anders vermerkt, für alle Kunden mit dem Modul eAlarmApp standardmässig aktiviert.
-Verwenden aktiver Inhalte Wenn auf die eAlarmApp ein Alarm und/oder eine Info zugestellt wird, können die darin verwendeten „aktiven Inhalte“ mittels Klick direkt aus der App angewählt werden - analog den Alarmmittel SMS &amp;amp; eMail.</description>
     </item>
     
     <item>
@@ -165,8 +150,8 @@ Verwenden aktiver Inhalte Wenn auf die eAlarmApp ein Alarm und/oder eine Info zu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/</guid>
-      <description>Mitbenutzerverwaltung Bei eAlarm emergency kann sich jeder angelegte Teilnehmer mit seinem persönlichen Login (Benutzername) und Passwort auf der Einstiegsseite identifizieren und anmelden. Seine Rechte sind zunächst auf Eigene Daten beschränkt, d. h. die einzigen Daten, die er einsehen und bearbeiten kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und -Adressen, Abwesenheiten und die optionalen Felder.
-Wichtig!Ein Login ist noch kein MitbenutzerDie Voraussetzung für einen Mitbenutzer, d. h.</description>
+      <description>Mitbenutzerverwaltung Bei GroupAlarm pro kann sich jeder angelegte Teilnehmer mit seinem persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Hauptaccount vergeben)auf der Einstiegsseite identifizieren und anmelden. Seine Rechte sind zunächst auf Eigene Daten beschränkt, d. h. die einzigen Daten, die er einsehen und bearbeiten kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und -Adressen, Abwesenheiten und die optionalen Felder.
+Wichtig!Ein Login ist noch kein MitbenutzerDie Voraussetzung für einen Mitbenutzer, d.</description>
     </item>
     
   </channel>

@@ -11,6 +11,23 @@
     
     
     <item>
+      <title>Allarme</title>
+      <link>https://hannahmm.github.io/groupalarm/it/alarmieren/alarm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/it/alarmieren/alarm/</guid>
+      <description>Indice  Generale
+ Utenti
+ Testi definiti
+ Koorditnaten
+ Opzioni di allarme
+ Ora d’invio/Gestione del tempo
+  Dopo aver selezionato un utente, un gruppo o una radice e cliccato sul pulsante «Allarmare» si apre la schermata “Creare l’allarm”. Nominativo dell’allarme
+Generale: qui viene indicato il nominativo dell’allarme ed è possibile inserire una descrizione facoltativa dell’allarme attuale.
+Utenti: qui si vede qual è il numero previsto di utenti da allarmare e il numero delle rispettive unità.</description>
+    </item>
+    
+    <item>
       <title>Fogli informativi</title>
       <link>https://hannahmm.github.io/groupalarm/it/einfuehrung/merkblaetter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

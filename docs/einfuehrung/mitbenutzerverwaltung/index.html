@@ -53,13 +53,26 @@
   
 
     </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+		</script>
+		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
   </div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/einfuehrung/"><i class='fa fa-home'></i> Einführung</a>
+      <a href="https://hannahmm.github.io/groupalarm/einfuehrung/"><i class='fa fa-home'></i>Einführung</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
@@ -93,115 +106,114 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/mutieren/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/alarmieren/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/"><i class='fa fa-edit'></i> Mutieren</a>
+      <a href="https://hannahmm.github.io/groupalarm/alarmieren/"><i class='fa fa-bell'></i> Alarmieren</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/mutieren/mutation/" class="dd-item alwaysopen haschildren
-        ">
-      <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/">Mutation</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/mutieren/mutation/organigramm/" class="dd-item">
+      <li data-nav-id="/alarmieren/alarm/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/">
-            Organigramm / Baumansicht
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/alarm/">
+            Alarm erstellen
           </a>
         </div>
     </li>
-      <li data-nav-id="/mutieren/mutation/teilnehmerliste/" class="dd-item">
+      <li data-nav-id="/alarmieren/info-sms/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/">
-            Teilnehmerliste
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/info-sms/">
+            Info-SMS
           </a>
         </div>
     </li>
-      <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
+      <li data-nav-id="/alarmieren/telefonkonferenz/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
-            Texte
+          <a href="https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/">
+            Konferenz (optionales Modul)
           </a>
         </div>
     </li>
         </ul>
     </li>
-    <li data-nav-id="/mutieren/zusatzmodule/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/status/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/">Zusatzmodule</a>
+      <a href="https://hannahmm.github.io/groupalarm/status/"><i class='fa fa-list-alt'></i> Status</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/mutieren/zusatzmodule/alarmvorlagen-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/">
-            Alarmvorlagen verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/ereignisse-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/">
-            Ereignisse verwalten (Optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/drehbuecher-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/">
-            Drehbücher verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/konferenzvorlagen-verwalten/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/">
-            Konferenzvorlagen verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/zeitsteuerungen/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/">
-            Zeitsteuerung verwalten (optionales Modul)
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/mutieren/zusatzmodule/ealarm_app/" class="dd-item">
-        <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ealarm_app/">
-            eAlarmApp
-          </a>
-        </div>
-    </li>
-    <li data-nav-id="/mutieren/zusatzmodule/importexport/" class="dd-item haschildren
+    <li data-nav-id="/status/alarm-status/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/">Import/Export</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/">Alarm-Status</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/mutieren/zusatzmodule/importexport/export/" class="dd-item">
+      <li data-nav-id="/status/alarm-status/laufende-alarme/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/">
-            Export
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/">
+            Laufende Alarme
           </a>
         </div>
     </li>
-      <li data-nav-id="/mutieren/zusatzmodule/importexport/import/" class="dd-item">
+      <li data-nav-id="/status/alarm-status/disponierte-alarme/" class="dd-item">
         <div>
-          <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/">
-            Import
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/">
+            Disponierte Alarme
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/alarm-status/abgeschlossene-alarme/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/">
+            Abgeschlossene Alarme
           </a>
         </div>
     </li>
         </ul>
     </li>
+    <li data-nav-id="/status/konferenz-status/" class="dd-item alwaysopen haschildren
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/">Konferenz Status (optionales Modul)</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/status/konferenz-status/aktive-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/">
+            Aktive Konferenzen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/konferenz-status/disponierte-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/">
+            Disponierte Konferenzen
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/status/konferenz-status/beendete-konferenzen/" class="dd-item">
+        <div>
+          <a href="https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/">
+            Beendete Konferenzen
+          </a>
+        </div>
+    </li>
         </ul>
+    </li>
+    <li data-nav-id="/status/auswertung/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/auswertung/">Auswertung (Versandstatistik)</a>
+      </div>
+    </li>
+    <li data-nav-id="/status/aktuelle-karte/" class="dd-item
+        ">
+      <div>
+      <a href="https://hannahmm.github.io/groupalarm/status/aktuelle-karte/">Aktuelle Karte</a>
+      </div>
     </li>
         </ul>
     </li>
@@ -218,11 +230,11 @@
 	  
 	  
 	    
-	  
-	    
 	      
 	        <option id="de" value="/einfuehrung/mitbenutzerverwaltung/" selected>de</option>
 	      
+	    
+	  
 	    
 	  
 	    
@@ -283,7 +295,11 @@
 <ul>
 <li><a href="#mitbenutzerverwaltung">Mitbenutzerverwaltung</a></li>
 <li><a href="#mitbenutzer-rollen">Mitbenutzer-Rollen</a></li>
-<li><a href="#zuweisung-der-rechte">Zuweisung der Rechte</a></li>
+<li><a href="#zuweisung-der-rechte">Zuweisung der Rechte</a>
+<ul>
+<li><a href="#rechtevergabe-an-einzelpersonen">Rechtevergabe an Einzelpersonen</a></li>
+<li><a href="#rechtevergabe-an-rechtegruppen-empfohlen">Rechtevergabe an Rechtegruppen (empfohlen)</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -309,9 +325,10 @@
 
 <h3 id="mitbenutzerverwaltung">Mitbenutzerverwaltung</h3>
 
-<p>Bei eAlarm emergency kann sich jeder angelegte Teilnehmer mit seinem
-persönlichen Login (Benutzername) und Passwort auf der Einstiegsseite
-identifizieren und anmelden. Seine Rechte sind zunächst auf <strong>Eigene Daten</strong>
+<p>Bei GroupAlarm pro kann sich jeder angelegte Teilnehmer mit seinem
+persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Hauptaccount vergeben)auf der Einstiegsseite
+identifizieren und anmelden.
+Seine Rechte sind zunächst auf <strong>Eigene Daten</strong>
 beschränkt, d. h. die einzigen Daten, die er einsehen und bearbeiten
 kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und
 -Adressen, Abwesenheiten und die optionalen Felder.</p>
@@ -333,11 +350,14 @@ wird.</p>
 
 <h3 id="mitbenutzer-rollen">Mitbenutzer-Rollen</h3>
 
-<p>eAlarm emergency kennt standardmässig 1 bis 4 Mitbenutzer-Rollen.</p>
+<p>GroupAlarm pro kennt standardmässig 1 bis 4 Mitbenutzer-Rollen.</p>
 
 <ul>
 <li><p><strong>Superuser</strong>: Dieser Nutzer hat uneingeschränkte
-Rechte und kann auch die Rechte anderer uneingeschränkt definieren.</p></li>
+Rechte und kann auch die Rechte anderer uneingeschränkt definieren.
+<strong>Diese Rolle ist fest dem Hauptaccount des
+Kunden zugeordnet und kann nicht an weitere Mitbenutzer vergeben
+werden.</strong></p></li>
 
 <li><p><strong>Alarmieren &amp; Mutieren</strong>: Diese Rolle erlaubt es dem Teilnehmer,
 die dafür definierten Einheiten und alle Untereinheiten zu
@@ -361,11 +381,7 @@ Rechte wie Alarmieren, Nachalarmieren und Mutieren.</p></li>
 das Admin-Register einzusehen und zu bearbeiten.</p></li>
 </ul>
 
-<p><strong>Von diesen Rollen ist die Superuser-Rolle fest dem Hauptaccount des
-Kunden zugeordnet und kann nicht an weitere Mitbenutzer vergeben
-werden.</strong><br />
-Es bleiben also vier Rechte-Rollen für die Mitbenutzer. Die
-Status-Rolle ist global, d. h. wer sie innehat, kann alles im
+<p>Die Feedback-Rolle ist global, d. h. wer sie innehat, kann alles im
 Status-Menü einsehen. Die anderen Rollen sind lokal, d. h. die Rechte
 beschränken sich auf die Gruppen, Untergruppen und die darin enthaltenen
 Teilnehmer.</p>
@@ -374,18 +390,20 @@ Teilnehmer.</p>
 
 <h3 id="zuweisung-der-rechte">Zuweisung der Rechte</h3>
 
+<h4 id="rechtevergabe-an-einzelpersonen">Rechtevergabe an Einzelpersonen</h4>
+
 <p>Die Zuweisung von Rechten erfolgt im Organigramm/Baumansicht. Um zur Rechteverwaltung einer Gruppe zu gelangen,
 klicken Sie auf das Schlüssel-Symbol <img src="https://hannahmm.github.io/groupalarm/img/schluesselsymbol.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 des entsprechenden Ordners.</p>
 
-<p>Hier sehen Sie eine Übersicht der Berechtigungen. Im folgenden Beispiel hat Erika Mustermann Admin-Rechte am Ordner „Test_Ordner2“</p>
+<p>Hier sehen Sie eine Übersicht der Berechtigungen. Im folgenden Beispiel hat Anna Bauer Admin-Rechte am Ordner „Ordner_1“. Alle untergeordneten Ordner erben diese Berechtigungen.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung3.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung1.png?classes=shadow" alt="" /></p>
 
 <p>Um eine neue Berechtigung hinzuzufügen, wählen Sie die gewünschte Person im Dropdown-Menü und die entsprechenden
 Rechte-Rolle aus. Bestätigen Sie mit der Schaltfläche „hinzufügen“.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung4.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung2.png?classes=shadow" alt="" /></p>
 
 <div class="panel panel-danger">
 	<div class="panel-heading">Achtung!</div>
@@ -409,6 +427,8 @@ Rechteverwaltung zuzuordnen. Dieses Vorgehen hat den Vorteil, dass die
 Rechteverwaltung praktisch nur einmal konfiguriert werden muss. So
 findet die gesamte Rechte-Verwaltung nur noch im Mitbenutzer-Baum statt.</p>
 
+<h4 id="rechtevergabe-an-rechtegruppen-empfohlen">Rechtevergabe an Rechtegruppen (empfohlen)</h4>
+
 <p>Ist ein Mitbenutzer Mitglied in einer Mitbenutzergruppe, hat er
 automatisch alle Rechte auf allen definierten Stufen, die dieser
 Mitbenutzergruppe zugeordnet wurden. Wird der Mitbenutzer aus allen
@@ -418,7 +438,7 @@ Eigene Daten.</p>
 
 <p>Erstellen Sie also eine neue Wurzel und verschiedene Ordner, die die Rechte-Rollen darstellen. Ordnen Sie dann die Teilnehmer den
 entsprechenden Gruppen zu.
-<img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung5.png?classes=shadow" alt="" /></p>
+<img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung3.png?classes=shadow" alt="" /></p>
 
 <div class="panel panel-info">
 	<div class="panel-heading">Wichtig!</div>
@@ -430,13 +450,12 @@ setzen Sie im Organisationsbereich den Typ auf <strong>„Rechtegruppe“</stron
 </div>
 
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung4.png?classes=shadow" alt="" /></p>
 
 <p>Wechslen Sie anschließen wieder auf die Wurzel Ihrer Unternehmensstruktur und ordnen Sie den verschiedenen Ordnern die
-entsprechenden Rechte-Ordner zu. Alle Teilnehmer, die im Rechte-Ordner „Berechtigung Mutieren“ sind, haben nun das
-Recht, den Ordner „Test_Ordner2“ zu mutieren.</p>
+entsprechenden Rechte-Ordner zu. Alle Teilnehmer, die im Rechte-Ordner „Berechtigung Admin“ sind, haben nun Admin-Rechte für den Ordner „Ordner_1“.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung6.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung5.png?classes=shadow" alt="" /></p>
 
 <p>Zusätzliche Rechte-Optionen können im Register <strong>„Admin“</strong> im <strong>„Menü
 Registry“</strong> konfiguriert werden.</p>
@@ -465,6 +484,7 @@ Registry“</strong> konfiguriert werden.</p>
 <script src="https://hannahmm.github.io/groupalarm/js/modernizr.custom.71422.js"></script>
 <script src="https://hannahmm.github.io/groupalarm/js/docdock.js"></script>
 <script src="https://hannahmm.github.io/groupalarm/theme-original/script.js"></script>
+<link href="https://themes.gohugo.io/theme/docdock/css/featherlight.min.css" rel="stylesheet">
 
 
     

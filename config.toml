@@ -4,8 +4,6 @@ publishDir  = "docs"
 title = "GroupAlarm Handbuch"
 defaultContentLanguage = "de"
 canonifyURLs = true
-
-
 theme = "hugo-theme-docdock"
 
 [params]
@@ -16,7 +14,7 @@ enableMissingTranslationPlaceholders = true
 
 disableHomeIcon = true
 disableNavChevron = true
-disableSearch = true
+disableSearch = false
 
 
 [imaging]
@@ -24,6 +22,7 @@ anchor = "center"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
 [Languages]
 
 [Languages.de]

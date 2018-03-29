@@ -13,21 +13,25 @@ Passwort an.
 
 
 Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf alle Funktionen von 
-**eAlarm emergency**.
-<img src="/img/einfuehrung_startseite_nach_login.png" width="900" class="shadow"/>
-![](/img/einfuehrung_startseite_nach_login.png?width=800px&classes=shadow)
+**GroupAlarm pro**.
+
+![login](/img/einfuehrung_startseite_nach_login.png?width=800px&classes=border)
+
+
 
 ### Navigation
 
 
-Die Struktur dieses Handbuches ist analog zu der Struktur von eAlarm emergency aufgebaut. 
+Die Struktur dieses Handbuches ist analog zu der Struktur von **GroupAlarm pro** aufgebaut. 
 
 
 ![](/img/einfuehrung_startseite_navigation.png?width=1000px&classes=shadow)
 
+
+TODO 
 #### Register
 
-Hier rot markiert sind die vier Hauptregister [„Alarmieren“](/de/alarmieren/), [„Status“](/de/status/), [„Mutieren“](/de/mutieren/), [„Admin“](/de/admin/). 
+Hier rot markiert sind die vier Hauptregister [„Alarmieren“](/alarmieren/), [„Status“](/status/), [„Mutieren“](/mutieren/), [„Admin“](/admin/). 
 Alle Funktionen, die Sie unter diesen Registern finden, werden in den entsprechenden Menüpunkten erläutert.
 
 #### Navigationsleiste
