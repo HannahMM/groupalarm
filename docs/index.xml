@@ -11,18 +11,6 @@
     
     
     <item>
-      <title>Aktive Konferenzen</title>
-      <link>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</guid>
-      <description>Im Menü „aktive Konferenzen“ sehen sie einen Überblick über die aktuell laufenden Telefonkonferenzen. Aufgeführt wird der Name der Konferenz, der Auslöser und Auslösezeitpunkt sowie das vorraussichtiliche Ende (standardmäßig nach einer Stunde).
-Mit einem Klick auf das Telefonsymbol können Sie die laufende Konferenz bearbeiten:
- Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer und mit der Eingabetaste oder Klick auf bestätigen
- Teilnehmer aus der Konferenz ausschließen mit einem Klick auf das rote Kreuz  Teilnehmer Stummschalten (Teilnehmer kann nur noch zuhören, wird aber selber nicht gehört) schalten und die Stummschaltung wieder aufheben mit Klick auf das Lautsprechersymbol  Die Konferenz beenden:   </description>
-    </item>
-    
-    <item>
       <title>Alarm erstellen</title>
       <link>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,33 +22,15 @@ Neben einer Alarmauslösung direkt aus dem Webbrowser unterstützt GroupAlarm pr
     </item>
     
     <item>
-      <title>Laufende Alarme</title>
-      <link>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</link>
+      <title>Organigramm / Baumansicht</title>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</guid>
-      <description>Alarm-Feedback Sobald ein Alarm ausgelöst wird, erscheint er in der Maske „Alarm-Feedback“. Hier erhalten Sie in Echtzeit einen Überblick über Alarmverlauf und Rückmeldungen Ihrer Teilnehmer.
-Mit der Schaltfläche „Alarm schließen“ wird der Alarm beendet.
-Übersicht Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
- Auslösezeitpunkt und Dauer des Alarms, Alarmtext Statusbalken der Quittierungen Ampel: Gibt Aufschluss darüber, ob vordefinierte Grenze erfolgreicher Alarmierungen erreicht wurde. Orange bedeutet, eine vordefinierte Anzahl Teilnehmer hat den Alarm bereits positiv quittiert.</description>
-    </item>
-    
-    <item>
-      <title>Disponierte Alarme</title>
-      <link>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</guid>
-      <description>Alarme, die nicht sofort gestartet werden, sondern mit einem Auslösezeitpunkt definiert wurden, sind im Register „Status“ unter „disponierte Alarme“ einsehbar. Disponierte Alarme können nur gelöscht, jedoch nicht mutiert werden.</description>
-    </item>
-    
-    <item>
-      <title>Disponierte Konferenzen</title>
-      <link>https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/</guid>
-      <description>Konferenzen, die nicht sofort gestartet werden sondern mit einem Auslösezeitpunkt definiert wurden, sind im Menü „disponierte Konferenzen“ einsehbar. Disponierte Konferenzen können mit einem Klick auf das Löschsymbol gelöscht, jedoch nicht bearbeitet werden.</description>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</guid>
+      <description>Organigramm / Baumansicht In diesem Menü findet die zentrale Verwaltung Ihrer Unternehmens- und Alarmierungsstruktur statt.
+Baumansicht Die Darstellung Ihrer Unternehmens und der entsprechenden Alarmierungsstrukturen erfolgt in einem Baumdiagramm. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und weitere Module angezeigt.
+Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordnern zugeordnet werden können.
+Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten.</description>
     </item>
     
     <item>
@@ -75,29 +45,16 @@ Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurde, leuchtet S
     </item>
     
     <item>
-      <title>Abgeschlossene Alarme</title>
-      <link>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</link>
+      <title>Teilnehmerliste</title>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</guid>
-      <description>Abgeschlossene Alarme Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein Alarm-Log und eine Kostenauswertung unter dem Register „Status“ unter „Abgeschlossene Alarme“ abgelegt. Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen.
-Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst, welche auch per E-Mail versendet werden können.
-Folgende Funktionen stehen zur Verfügung: 
-1. PDF-Alarmprotokoll  Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format.</description>
-    </item>
-    
-    <item>
-      <title>Beendete Konferenzen</title>
-      <link>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</guid>
-      <description>Beendete Konferenzen Sobald die Konferenz beendet ist, wird ein Konferenzprotokoll und eine Kostenauswertung im Register „Status“ unter „Beendete Konferenzen“ abgelegt. Der gesamte Verlauf einer Konferenz wird in unterschiedlichen Reports zusammengefasst. Diese können anschliessend per E-Mail versendet werden.
-In der Tabelle erscheinen von links nach rechts:
- Konferenz: Die Konferenznummer.
- Disponent: Wer hat die Konferenz ausgelöst?
- Aufgenommen: Für wann wurde die Konferenz disponiert?
- Gestartet: Wann wurde die Konferenz gestartet?</description>
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</guid>
+      <description>Teilnehmerliste In der Teilnehmerliste werden alle Teilnehmer und deren hinterlegte Informationen tabellarisch aufgelistet.
+Die angezeigten Spalten können über das Symbol angepasst werden.
+Um eine Spalte aus der Anzeige zu entfernen klicken Sie auf das Dreieck rechts und wählen Sie „löschen“. Per Drag&amp;amp;Drop können Sie die Spalten auch neu sortieren.
+Mit den Pfeilen links können Sie die Liste nach den verschiedenen Kriterien alphabetisch/umgekehrt alphabetisch sortieren.
+Neue Kriterien können im Admin-Bereich unter dem Menü „Datenfelder“ definiert werden.</description>
     </item>
     
     <item>
@@ -108,6 +65,16 @@ In der Tabelle erscheinen von links nach rechts:
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</guid>
       <description>Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die zu alarmierenden Einheiten angezeigt.
 In der ersten Spalte wird der Initiator der Konferenz angezeigt. In das Eingabefeld wird die Telefonnummer, mit welcher der Initiator an der Konferenz teilnehmen will, eingetragen. Die ausgewählten Konferenzteilnehmer werden separat aufgeführt. Für jeden Teilnehmer werden alle konferenzfähigen Kommunikationsmittel (Mobile- und Festnetznummern) angezeigt. Die Checkboxen der Alarmmittel, welche beim Teilnehmer vorgängig als „Konferenzmittel“ definiert wurden, sind standardmässig vorausgewählt und können bei Bedarf deaktiviert werden.</description>
+    </item>
+    
+    <item>
+      <title>Texte</title>
+      <link>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</guid>
+      <description>Texte Mit eAlarm emergency können Sie vordefinierte Alarmtexte in vier Sprachen verfassen: Deutsch, Französisch und Italienisch (optionales Modul).
+Im Menü „Texte“ können Sie Ihre vorhandenen Alarmtexte einsehen und bearbeiten sowie mit dem Text-Editor neue Texte in entsprechender Sprache anlegen. Neuer Text Um einen neuen Text anzulegen, geben Sie den Text in das der jeweiligen Sprache entsprechende Eingabefenster ein und bestätigen Sie mit der Schaltfläche „anlegen“ Für einen Alarm bzw.</description>
     </item>
     
     <item>

@@ -3,25 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/aktive-konferenzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,25 +23,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://hannahmm.github.io/groupalarm/alarmieren/alarm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/alarm-status/"
                 />
   </url>
   
@@ -89,21 +51,40 @@
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/laufende-alarme/"
-                />
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/"
+                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/"
+                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/organigramm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/"
                 />
   </url>
   
@@ -132,44 +113,6 @@
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/disponierte-alarme/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/disponierte-konferenzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hannahmm.github.io/groupalarm/alarmieren/info-sms/</loc>
     <xhtml:link
                 rel="alternate"
@@ -189,73 +132,21 @@
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/"
-                />
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/alarm-status/abgeschlossene-alarme/"
+                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/teilnehmerliste/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/"
+                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/auswertung/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/auswertung/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/auswertung/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/auswertung/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/"
+                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/"
                 />
   </url>
   
@@ -279,26 +170,22 @@
   </url>
   
   <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/</loc>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hannahmm.github.io/groupalarm/en/status/"
+                href="https://hannahmm.github.io/groupalarm/en/mutieren/mutation/texte/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hannahmm.github.io/groupalarm/fr/status/"
+                href="https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/texte/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/status/"
+                href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hannahmm.github.io/groupalarm/status/aktuelle-karte/</loc>
   </url>
   
   <url>
@@ -322,6 +209,25 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hannahmm.github.io/groupalarm/en/mutieren/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hannahmm.github.io/groupalarm/fr/mutieren/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/mutieren/"
                 />
   </url>
   

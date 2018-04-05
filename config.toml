@@ -20,6 +20,8 @@ disableSearch = false
 [imaging]
 anchor = "center"
 
+
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
