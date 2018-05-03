@@ -4,7 +4,7 @@ publishDir  = "docs"
 title = "GroupAlarm Handbuch"
 defaultContentLanguage = "de"
 canonifyURLs = true
-theme = "hugo-theme-docdock-master"
+theme = "hugo-theme-docdock"
 
 [params]
 themeStyle = "original"
