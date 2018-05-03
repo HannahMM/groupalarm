@@ -18,7 +18,7 @@ Symbol angepasst werden.
 
 
   
-Um eine Spalte aus der Anzeige zu entfernen klicken Sie auf das Dreieck rechts und wählen Sie „löschen“. Per Drag&Drop können Sie die Spalten auch neu sortieren.
+Um eine Spalte aus der Anzeige zu entfernen klicken Sie auf das Dreieck rechts und wählen Sie „löschen“. Per Drag & Drop können Sie die Spalten auch neu sortieren.
 
 ![](/img/mutieren_mutation_teilnehmerliste_spalten_anpassen3.png)
 
@@ -39,19 +39,19 @@ Teilnehmer.
 
 In dieser Spalte können folgende Aktionen vorgenommen werden:
 
-- Teilnehmer in eine neue Gruppe erfassen und hinzufügen
+- Neuer Ordner (Teilnehmer in eine neue Gruppe erfassen und hinzufügen)
 
-- Teilnehmer zu einer bestehenden Gruppen hinzufügen
+- Zu Ordner hinzu (Teilnehmer zu einer bestehenden Gruppen hinzufügen)
 
-- Neue Alarmvorlage erstellen
+- Alarmvorlage erstellen
 
-- Bestehende Alarmvorlage aktualisieren
+- Alarmvorlage aktualisieren
 
-- Neue Konferenzvorlage erstellen
+- Konferenzvorlage erstellen
 
-- Bestehende Konferenzvorlage aktualisieren
+- Konferenzvorlage aktualisieren
 
-- Diesen Teilnehmer löschen
+- Diese Teilnehmer löschen
 
 In der Teilnehmerliste können auch neue Teilnehmer erfasst werden. Mit Klick auf „Neuer
 Teilnehmer“ <img src="/img/mutieren_mutation_teilnehmerliste_neuer_teilnehmer.png" alt="neuer teilnehmer" style='vertical-align:middle;display:inline;margin:0px 5px; '>
@@ -96,7 +96,7 @@ Sie können Filter beliebig kombinieren. Mit dem Filtersymbol oben links <img sr
 ### Teilnehmerbereich 
 
 Mit einem Klick auf das Bearbeitungssymbol <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> neben einem Teilnehmer
-gelange Sie in dessen **Teilnehmerbereich**. Hier lassen sich sämtliche relevanten Merkmale der Person definieren und bearbeiten.   
+gelangen Sie in dessen **Teilnehmerbereich**. Hier lassen sich sämtliche relevanten Merkmale der Person definieren und bearbeiten.   
 
 {{% panel theme="info" header="Wichtig!" %}}Denken Sie daran, Ihre Änderungen mit dem Feld <img src="/img/teilnehmerbereich_speichern.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px;'> zu speichern, bevor Sie
 den Teilnehmerbereich wieder verlassen.{{% /panel %}}
@@ -124,28 +124,28 @@ Kriterien erleichtern. Optionale [Datenfelder](/admin/datenfelder/) können im A
 <a name="alarmmittel"></a>
 #### Alarmmittel
 
-Im Register „Alarmmittel“ können die verfügbaren Alarmmittel eines Teilnehmer hinzugefügt, angezeigt und verwaltet werden. Alarmmittel müssen zwingend bei der ersten Erfassung im ADMIN-Bereich unter [Mittelbezeichner](/admin/mittelbezeichner/)
+Im Register „Alarmmittel“ können die verfügbaren Alarmmittel eines Teilnehmers hinzugefügt, angezeigt und verwaltet werden. Alarmmittel müssen zwingend bei der ersten Erfassung im ADMIN-Bereich unter [Mittelbezeichner](/admin/mittelbezeichner/)
  definiert werden.
 ![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel.png?classes=shadow&width=700px)
 
 Um ein neues Alarmmittel hinzuzufügen, wählen Sie zunächst über das Dropdown-Menü **„Alarmmittel“** das gewünschte Mittel aus, geben Sie im  Feld **„Nummer“** die entsprechende Nummer oder Adresse ein und wählen Sie im Feld **„Mittelbezeichner“**
 die Bezeichnung aus. Das System prüft dabei automatisch auf zulässige Formate. Soll ein Alarmmittel auch als Konferenzmittel nutzbar sein, setzen sie das entsprechende Häkchen
-<img src="/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_konferenzmittel.png" alt="konferenz" style='vertical-align:middle;display:inline;margin:0px 5px; '>. Mittel können auch als „Privat“ gekennzeichnet werden; sie werden dann unkenntlich gemacht (Option muss erst im 
-ADMIN-Bereich unter Registry aktiviert werden)
+<img src="/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_konferenzmittel.png" alt="konferenz" style='vertical-align:middle;display:inline;margin:0px 5px; '>. Mittel können auch als „Privat“ gekennzeichnet werden; 
+sie werden dann anonymisiert dargestellt (Option muss erst im ADMIN-Bereich unter Registry aktiviert werden).
 
 ![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_neu.png)
 
 Mit einem Klick auf *„Hinzufügen“*
-<img src="/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_hinzufuegen.png" alt="konferenz" style='vertical-align:middle;display:inline;margin:0px 5px; '>  wird das Alarmmittel dann hinzugefügt.
+<img src="/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_hinzufuegen.png" alt="konferenz" style='vertical-align:middle;display:inline;margin:0px 5px; '>  wird das Alarmmittel hinzugefügt.
 
  
-Die verschiedenen Alarmmittel werden in der Reihenfolge der Eingabe aufgelistet. Eine Alarmierung verläuft anhand dieser Reihenfolge, indem
+Die verschiedenen Alarmmittel werden in der Reihenfolge der Eingabe aufgelistet. Eine Alarmierung verläuft anhand dieser Reihenfolge/Kaskade, indem
 zuerst das oberste Alarmmittel alarmiert wird und der Alarm dann an die
 nachfolgenden Mittel weitergeleitet wird. Die Alarmreihenfolge kann
 flexibel geändert werden, indem ein Alarmmittel angeklickt und per Drag
-& Drop nach oben / unten geschoben wird.   
+& Drop nach oben / unten verschoben wird.   
 
-{{% panel theme="info" header="Wichtig!" %}}Um ein Alarmmittel verwenden zu können muss es aktiviert werden. Hierfür muss das Häkchen neben dem Alarmmittel gesetzt werden. Inaktive Alarmmittel werden grau dargestellt.In diesem Fall wird das betreffende Alarmmittel beim Alarm nicht mehr
+{{% panel theme="info" header="Wichtig!" %}}Um ein Alarmmittel verwenden zu können muss es aktiviert werden. Hierfür muss das Häkchen neben dem Alarmmittel gesetzt werden. Inaktive Alarmmittel werden grau dargestellt. In diesem Fall wird das betreffende Alarmmittel beim Alarm nicht mehr
 berücksichtigt.
 ![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_alarmreihenfolge.png?classes=shadow){{% /panel %}}
 
@@ -170,12 +170,12 @@ Sie das entsprechende Profil im Dropdown-Menü links auswählen und in der Kalen
 
 ![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_abwesenheit.png?classes=shadow&width=700px)
 
-Im Menü **„Abwesenheit“** können Zeiträume definert werden, in denen ein Teilnehmer nicht erreichbar ist (z.B. aufgrund von Krankheit oder Urlaub).
+Im Menü **„Abwesenheit“** können Zeiträume definiert werden, in denen ein Teilnehmer nicht erreichbar ist (z.B. aufgrund von Krankheit oder Urlaub).
 
 <a name="gruppen"></a>
 #### Gruppen
 
-Im Menü **„Gruppen“** kann ein Teilnehmer direkt einer Gruppe/Wurzel zugeordnet werden. 
+Im Menü **„Gruppen“** kann ein Teilnehmer direkt einer Gruppe zugeordnet werden. 
 ![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_gruppen.png?width=700px&classes=shadow)
 
 Links befinden sich die frei verfügbaren Gruppen und rechts die

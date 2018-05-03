@@ -17,7 +17,7 @@ beschränkt, d. h. die einzigen Daten, die er einsehen und bearbeiten
 kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und
 -Adressen, Abwesenheiten und die optionalen Felder.
 
-{{% panel theme="info" header="Wichtig!" %}}Ein Login ist noch kein Mitbenutzer{{% /panel %}}
+**Wichtig:** Ein Login ist noch kein Mitbenutzer.
 
 
 
@@ -25,7 +25,7 @@ kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und
 Die Voraussetzung für einen Mitbenutzer, d. h. für einen Zugang mit mehr
 Rechten als nur für **Eigene Daten**, ist ein Benutzerlogin. Sobald der
 Teilnehmer ein Benutzerlogin hat, kann er über die Rechteverwaltung zu
-einem Mitbenutzer gemacht werden, indem ihm eine Rechte-Rolle zugewiesen
+einem Mitbenutzer gemacht werden, indem ihm eine Mitbenutzer-Rolle zugewiesen
 wird.
 
 
@@ -34,7 +34,7 @@ wird.
 
 
 
-GroupAlarm pro kennt standardmässig 1 bis 4 Mitbenutzer-Rollen.
+GroupAlarm pro hat verschiedene Mitbenutzer-Rollen.
 
 -   
 
@@ -86,8 +86,7 @@ werden.**
 
     
 
-Die Feedback-Rolle ist global, d. h. wer sie innehat, kann alles im
-Status-Menü einsehen. Die anderen Rollen sind lokal, d. h. die Rechte
+Es bleiben also verschiedene Rechte-Rollen für die Mitbenutzer. Diese sind lokal, d. h. die Rechte
 beschränken sich auf die Gruppen, Untergruppen und die darin enthaltenen
 Teilnehmer. 
 
@@ -111,7 +110,7 @@ Rechte-Rolle aus. Bestätigen Sie mit der Schaltfläche „hinzufügen“.
 
 ![](/img/einfuehrung_mitbenutzerverwaltung_berechtigung2.png?classes=shadow)
 
-{{% panel theme="danger" header="Achtung!" %}}Die Zuordnung von Rechte-Rollen an einzelne Teilnehmer hat ihre
+{{% panel theme="danger" header="Achtung!" %}}Die Zuordnung von Mitbenutzer-Rollen an einzelne Teilnehmer hat ihre
 Tücken. Stellen Sie sich vor, Sie haben nach dem oben beschriebenen Weg
 etlichen Mitbenutzern nun Rechte zugewiesen. Dabei dürfte ein und
 derselbe Mitbenutzer sogar in verschiedenen Bäumen und Gruppen bestimmte
@@ -121,37 +120,37 @@ jeder Stelle, an denen er Rechte hat, entsprechend mutieren. Das kann
 umständlich und bei grösseren Organisationen auch unübersichtlich
 werden.{{% /panel %}}
 
-Es ist daher empfehlenswert, eine separate Gruppe/Wurzel „Mitbenutzer“ zu erstellen und
+Es ist daher empfehlenswert, eine separate Gruppe/Wurzel „Mitbenutzerverwaltung“ zu erstellen und
 dann ganzen Gruppen (statt einzelnen Teilnehmern) Rechte über die
 Rechteverwaltung zuzuordnen. Dieses Vorgehen hat den Vorteil, dass die
-Rechteverwaltung praktisch nur einmal konfiguriert werden muss. So
-findet die gesamte Rechte-Verwaltung nur noch im Mitbenutzer-Baum statt.
+Rechte-Verwaltung praktisch nur einmal konfiguriert werden muss. So
+findet die gesamte Rechte-Verwaltung nur noch in der Wurzle „Mitbenutzerverwaltung“ statt.
 
 #### Rechtevergabe an Rechtegruppen (empfohlen)
 
 
 
 
-Ist ein Mitbenutzer Mitglied in einer Mitbenutzergruppe, hat er
+Ist ein Mitbenutzer in einer Rechtegruppe, hat er
 automatisch alle Rechte auf allen definierten Stufen, die dieser
-Mitbenutzergruppe zugeordnet wurden. Wird der Mitbenutzer aus allen
-Mitbenutzergruppen entfernt, verfallen auch alle Rechte, die er
+Rechtegruppe zugeordnet wurden. Wird der Mitbenutzer aus allen
+Rechtegruppe entfernt, verfallen auch alle Rechte, die er
 ursprünglich hatte, und er fällt zurück auf das Benutzerlogin-Recht
 Eigene Daten.
 
-Erstellen Sie also eine neue Wurzel und verschiedene Ordner, die die Rechte-Rollen darstellen. Ordnen Sie dann die Teilnehmer den 
+Erstellen Sie also eine neue Wurzel und verschiedene Ordner, die die Mitbenutzer-Rollen darstellen. Ordnen Sie dann die Teilnehmer den 
 entsprechenden Gruppen zu.
 ![](/img/einfuehrung_mitbenutzerverwaltung_berechtigung3.png?classes=shadow)
 
-{{% panel theme="info" header="Wichtig!" %}}Zuvor müssen Sie den Ordner als Rechte-Ordner definieren. Klicken Sie dazu auf das Bearbeitungssymbol 
+**Wichtig:** Zuvor müssen Sie den Ordner als Rechtegruppe definieren. Klicken Sie dazu auf das Bearbeitungssymbol 
 <img src="/img/bearbeitungsicon.png" alt="edit" style='vertical-align:middle;display:inline;margin:0px 5px; '> und
-setzen Sie im Organisationsbereich den Typ auf **„Rechtegruppe“**.{{% /panel %}}
+setzen Sie im Organisationsbereich den Typ auf **„Rechtegruppe“**.
 
 ![](/img/einfuehrung_mitbenutzerverwaltung_berechtigung4.png?classes=shadow)
 
 
 Wechslen Sie anschließen wieder auf die Wurzel Ihrer Unternehmensstruktur und ordnen Sie den verschiedenen Ordnern die 
-entsprechenden Rechte-Ordner zu. Alle Teilnehmer, die im Rechte-Ordner „Berechtigung Admin“ sind, haben nun Admin-Rechte für den Ordner „Ordner_1“.
+entsprechenden Rechte-Ordner zu. Alle Teilnehmer, die in der Rechtegruppe „Berechtigung Admin“ sind, haben nun Admin-Rechte für den Ordner „Ordner_1“.
 
 ![](/img/einfuehrung_mitbenutzerverwaltung_berechtigung5.png?classes=shadow)
 

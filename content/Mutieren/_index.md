@@ -12,7 +12,7 @@ abgebildet, dass sie den Bedürfnissen des Anwenders entspricht.
 Im Menü **„Mutation“** kann die
 Struktur der Alarmorganisation angelegt und verwaltet werden.  
 
-Im Menü **„Zusatzmodule“** können Sie Ihre Zusatzmmmodule verwalten und anpassen und somit die Alarmierung noch effizienter gestalten.
+Im Menü **„Zusatzmodule“** können Sie Ihre Zusatzmodule verwalten und anpassen und somit die Alarmierung noch effizienter gestalten.
 
 
 

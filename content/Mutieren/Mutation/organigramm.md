@@ -21,17 +21,17 @@ Die Darstellung Ihrer Unternehmens und der entsprechenden Alarmierungsstrukturen
 Eine **Wurzel** stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordnern zugeordnet werden können. 
 
 
-Die **Gruppe** selber kann auch wiederum eine oder mehrere Gruppen beinhalten. Einer Gruppe werden einen oder mehrere Teilnehmer zugewiesen. Eine Gruppe und ein Teilnehmer
-können in der Organisationsstruktur auch mehrmals vorkommen.
+Die **Gruppe** selber kann auch wiederum eine oder mehrere Gruppen beinhalten. Einer Gruppe wird ein oder mehrere Teilnehmer zugewiesen. Eine Gruppe und ein Teilnehmer
+können in der Organisationsstruktur auch mehrmals vorkommen (die gleiche Gruppe allerdings standardmäßig nur in einer anderen Wurzel).
    
 Gruppe und Teilnehmer lassen sich per Drag & Drop einer Wurzel / Gruppe
 zuordnen. 
 ![](/img/mutieren_mutation_organigramm_hierarchie.png?classes=shadow)
 
 Wenn Sie hier mit dem Löschsymbol <img src="/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '> 
-Einheiten oder Teilnehmer löschen, werden Sie nur aus der Struktur entfernt, bleiben aber im System vorhanden.
+Gruppen oder Teilnehmer löschen, werden sie nur aus der Struktur entfernt, bleiben aber im System vorhanden.
 
-Im Dropdown-Menü „Wurzel auswählen“ können Sie die akutell angezeigte Wurzel ändern.
+Im Dropdown-Menü „Wurzel auswählen“ können Sie zwischen verschiedenen Wurzlen umschalten.
 
 
 ![](/img/mutieren_mutation_organigramm_wurzel_auswaehlen.png?classes=shadow)
@@ -123,7 +123,7 @@ werden die angelegten Gruppen zwar unwiderruflich gelöscht, die darin
 enthaltenen Teilnehmer bleiben jedoch erhalten, nur die Zuteilung zu
 dieser Gruppe wird eliminiert.   
 
-Per Drag&Drop lässt sich der Ordner nun einfach zu einer Wurzel oder einem anderen Ordner hinzufügen.
+Per Drag & Drop lässt sich der Ordner nun einfach zu einer Wurzel oder einem anderen Ordner hinzufügen.
 
 
 <a name="teilnehmer"></a>
@@ -137,9 +137,12 @@ anlegen. Klicken Sie dazu auf die Option  **„Neuer Teilnehmer“**, geben den 
 
 Über das Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 gelangen Sie in den [Teilnehmerbereich](/mutieren/mutation/teilnehmerliste/#teilnehmerbereich), wo Sie die Möglichkeit haben, den Teilnehmer zu bearbeiten.   
+
+**Achtung**: Nach dem Anlegen des neuen Teilnehmers sollten unbedingt die Alarmmittel und gegebenenfalls weitere Informationen eingepflegt werden.
+
 {{% panel theme="danger" header="Achtung!" %}}Mit der Löschfunktion <img src="/img/loesch-icon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 wird der Teilnehmer endgültig gelöscht. {{% /panel %}}
 
-Per Drag&Drop lässt sich der Teilnehmer nun einfach zu einer Wurzel oder beliebig vielen Gruppen hinzufügen.
+Per Drag & Drop lässt sich der Teilnehmer nun einfach zu einer Gruppe hinzufügen.
 
 

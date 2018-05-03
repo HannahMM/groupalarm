@@ -48,10 +48,9 @@ Kopieren Sie den Text in Ihre Zwischenablage, um ihn nach dem Bearbeiten wieder 
 
 
 
-Bevor Info-SMS verschickt werden, müssen Sie im Textfeld einen Alarmtext verfassen (max. 160 Zeichen). Ausserdem kann hier noch die
+Bevor eine Info-SMS verschickt werden kann, müssen Sie im Textfeld einen Alarmtext verfassen (max. 160 Zeichen). Ausserdem kann hier noch die
 Sprache des Textes definiert werden.
 
-gefügt werden.
 
 ![](/img/alarmieren_info_sms_alarmtext.png?classes=shadow)
 

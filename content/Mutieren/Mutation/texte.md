@@ -20,10 +20,10 @@ Um einen neuen Text anzulegen, geben Sie den Text in das der jeweiligen Sprache 
 <img src="/img/anlegen.png" alt="anlegen" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 Für einen Alarm bzw. eine Nachricht stehen 160 Zeichen zur Verfügung.   
 
-{{% panel theme="danger" header="Achtung!" %}}Die Zeichen  <strong> | ^ € { } [  ] ~ \ </strong>,  **Seitenumbruch (sogenannter „Page Break“)** und ein **ESC** benötigen im GSM-Alphabet (d.h in einer SMS) zwei Zeichen, werden im Textfeld von **eAlarm** jedoch nur als ein Zeichen angezeigt.
+{{% panel theme="danger" header="Achtung!" %}}Die Zeichen  <strong> | ^ € { } [  ] ~ \ </strong>,  **Seitenumbruch (sogenannter „Page Break“)** und ein **ESC** benötigen im GSM-Alphabet (d.h. in einer SMS) zwei Zeichen, werden im Textfeld von **eAlarm** jedoch nur als ein Zeichen angezeigt.
 Es kann daher zu einer Diskrepanz zwischen der Anzeige und dem eigentlichen Versand entstehen. Wir empfehlen daher, die oben erwähnten Zeichen nur sporadisch zu verwenden.{{% /panel %}}
 
-Beachten Sie auch die Hinweise im unteren Bereich des Text-Editors :
+Beachten Sie auch die Hinweise im unteren Bereich des Text-Editors:
 
 - Ein Zeitstempel des Formates **03Apr2135** (für 3.4. 21:35 Uhr) wird durch den Platzhalter <strong>###dat###</strong> in den Nachrichtentext eingefügt.
 
@@ -40,14 +40,14 @@ Beachten Sie auch die Hinweise im unteren Bereich des Text-Editors :
 
 ![](/img/mutieren_mutation_texte_angelegt.png?classes=shadow)
 
-Hier finden Sie eine übersicht aller angelegten Texte und ihrer Textcodes.
+Hier finden Sie eine Übersicht aller angelegten Texte und ihrer Textcodes.
 Vor dem angelegten Text wird die Textsprache (DE, FR, IT, EN) angezeigt, die für die
 Umwandlung des Textes in Sprache (über die Text-to-Speech-Schnittstelle)
 relevant ist.
  Die angelegten Texte können über *Sprachmenü* angehört, mit *Ändern*
-geändert und und mit *Löschen* gelöscht werden. 
+geändert und mit *Löschen* gelöscht werden. 
 
-### Sprachausgabe-Optionen für Alarm-Texte
+### Sprachausgabe-Optionen für Alarm-Texte (Optionales Modul)
 
 Jeder angelegte Text kann über das  *[Sprachmenü]* abgespielt werden.
  Im Sprachmenü können Audiodateien im Windows-Wave-Format (*.wav) hochgeladen werden. Wenn keine Audiodatei hochgeladen werden kann, 

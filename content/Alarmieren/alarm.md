@@ -45,15 +45,15 @@ wurde.
 ![](/img/alarmieren_alarm_erstellen_einheiten.png?width=700px&classes=shadow)
 
 Unter **„Einheit“** werden Ihnen die selektierten Teilnehmer und Einheiten angezeigt. Mit <img src="/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-können Sie Teilnehmer direkt löschen, über *\[bearbeiten\]* gelangen Sie zurück in das Menü *Alarm erstellen* und können
-weitere Teilnehmer hinzufügen.
+können Sie Teilnehmer oder Gruppen direkt löschen, über *\[bearbeiten\]* gelangen Sie zurück in das Menü *Alarm erstellen* und können
+weitere Teilnehmer und Gruppen hinzufügen.
 
 
 <a name="text"></a>
 #### Text 
 
 
-![](/img/alarmieren_alarm_erstellen_text.png?classes=shadow)
+![](/img/alarmieren_alarm_erstellen_text1.png?classes=shadow)
 
 Bevor ein Alarm ausgelöst werden kann, muss ein Alarmtext gewählt werden. Folgende Möglichkeiten stehen zur Verfügung:
 
@@ -62,6 +62,8 @@ Bevor ein Alarm ausgelöst werden kann, muss ein Alarmtext gewählt werden. Folg
  können Sie die Vorlage direkt anpassen.
  
  - **Freitext**: Verfassen Sie einen neuen Alarmtext. Mit der Schaltfläche „Datei auswählen“ können Sie der Nachricht eine Datei anhängen. (Dateiformate: TODO, PDF, Word-Doc)
+ 
+ ![](/img/alarmieren_alarm_erstellen_text2.png?classes=shadow)
  
  - **Live-Sprachaufnahme**: Option, eine eigene Sprachnachricht aufzunehmen. Geben Sie hierzu eine gültige Rufnummer ein und klicken Sie auf „Alarmansage aufnehmen“. Sie werden nun auf dieser Nummer angerufen; folgen Sie den Anweisungen der Ansage um die
  Nachricht aufzunehmen.
@@ -74,7 +76,7 @@ Bevor ein Alarm ausgelöst werden kann, muss ein Alarmtext gewählt werden. Folg
 <a name="koordinaten"></a>
 #### Koordinaten 
 
-Unter „Koordinaten übermitteln“ können Sie entscheiden, ob Sie Koordinaten oder eine Adresse übermitteln möchten.
+Unter „Koordinaten übermitteln“ können Sie entscheiden, ob Sie Koordinaten oder eine Adresse eingeben möchten.
 ![](/img/alarmieren_alarm_erstellen_koordinaten.png?width=700px&classes=shadow)
 
 
@@ -126,7 +128,7 @@ gestoppt und geschlossen.
 
 
 <a name="versandzeitzeitsteuerung"></a>
-#### Versandzeit/Zeitsteuerung 
+#### Zeitsteuerung 
 
 ![](/img/alarmieren_alarm_erstellen_zeitsteuerung.png?classes=shadow)
 

@@ -12,7 +12,7 @@ Passwort an.
 <img src="/img/einfuehrung_startseite.png" width="900" class="shadow"/>
 
 
-Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf alle Funktionen von 
+Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf die (Ihrer Mitbenutzer-Rolle entsprechenden) Funktionen von 
 **GroupAlarm pro**.
 
 ![login](/img/einfuehrung_startseite_nach_login.png?width=800px&classes=border)
@@ -43,7 +43,7 @@ Je nachdem, welche Zusatzmodule Sie aktiv haben, können weitere Menüpunkte daz
 
 ![](/img/einfuehrung_startseite_navigation_leiste.png?classes=shadow)
 
-Im Menüpunkt „Sitzung“ befindet sich zudem der Logout. 
+Im Menüpunkt „Sitzung“ befindet sich zudem der Logoutbutton. 
 
 #### Schnellstart-Schaltflächen
 
