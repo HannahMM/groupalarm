@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Active conferences</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/aktive-konferenzen/</guid>
+      <description>As with ongoing alerts, an ongoing conference can be accessed via menu “Status” – “*Conference status*” – “active conferences”. If several conferences are active at the same time, one must be selected for viewing. During ongoing conferences, initiators can:
+ Add a subscriber by entering a number
+ Exclude subscriber from the conference by clicking the red X
+ Mute (subscriber can then only listen but are themselves not heard) and unmute subscriber</description>
+    </item>
+    
+    <item>
       <title>Alert creation</title>
       <link>https://hannahmm.github.io/groupalarm/en/alarmieren/alarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -27,6 +39,42 @@
 Alert creation The input screen “Create alert” opens, once a participant a group or root is chosen and the button “Alert” is clicked.
 General: See the alert name and an optional description of the current alert.
 Units: See the amount of subscribers within the amount of units that are planned for the alert.</description>
+    </item>
+    
+    <item>
+      <title>Basic settings</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/grundeinstellungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/grundeinstellungen/</guid>
+      <description>Table of Contents  Trigger PIN
+ Trigger authorisation numbers
+ Telephone authorisation with Syspin
+  Basic settings The access rights for triggering an alert by SMS and phone call are configured in the DTMF menu under “Basic settings”.
+
+Trigger PIN The trigger PIN is a 4-digit number. The PIN can be freely defined and can occur multiple times in the system. The participant can use the PIN to trigger an alert by SMS in combination with a trigger authorisation number.</description>
+    </item>
+    
+    <item>
+      <title>Current alerts</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/alarm-status/laufende-alarme/</guid>
+      <description>If an alert was triggered, the “Alert feedback” screen appears. All recipients to whom an alert was sent, are included in the feedback list. Follow the alert process in real-time here.
+The participant responses can be viewed immediately at the feedback view and are updated on an ongoing basis. The dialogue window (“red box”) displays a graphical overview of the analysed acknowledgements. This overview shows the amount of participants with a specific status.</description>
+    </item>
+    
+    <item>
+      <title>Manage Alert Templates</title>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <description>Table of Contents  Creating a new alert template
+ Copying alert templates
+  Manage alert templates Alert templates are predefined alerts, i.e. the participant group and the possible alert texts are already predefined. In the event of an emergency, the predefined alert template can be triggered and the defined alert participants are sent the alert text via the respective media.
+There are different ways to create an alert template:</description>
     </item>
     
     <item>
@@ -60,6 +108,20 @@ Info SMS View the Info SMS screen by clicking the “Quick-Launch” button or v
     </item>
     
     <item>
+      <title>Manage Alert Scenarios</title>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <description>Table of Contents  General
+ Template assignement
+ Texts
+ Copy scenario
+ Lock scenario
+  Manage alert scenarios In so-called scenarios, multiple alert and conference templates can be arranged successively on a timeline. This way, if an alert has not ended after a certain, predefined amount of time, the next alert/conference template is triggered automatically. This allows automatic alert escalations to be predefined, which otherwise would have to be done manually.</description>
+    </item>
+    
+    <item>
       <title>Participant list</title>
       <link>https://hannahmm.github.io/groupalarm/en/mutieren/mutation/teilnehmerliste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,6 +134,68 @@ Info SMS View the Info SMS screen by clicking the “Quick-Launch” button or v
   
 List of subscribers All participants are listed in the list of subscribers. You can search for participants here by entering a keyword based on various parameters, e.g. by surname, street, city and other parameters (“apply filter”).
 You can also define new sorting criteria in the ADMIN menu under “Data fields”.</description>
+    </item>
+    
+    <item>
+      <title>Scheduled alerts</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/alarm-status/disponierte-alarme/</guid>
+      <description>Alerts which are not triggered immediately but are defined with a trigger time can be viewed in “scheduled alerts”. Scheduled alerts, like conferences, can only be deleted, not changed.</description>
+    </item>
+    
+    <item>
+      <title>Scheduled conferences</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/disponierte-konferenzen/</guid>
+      <description>Conferences that are not to be triggered immediately, but at a later time, are entered under “Scheduled conferences”.</description>
+    </item>
+    
+    <item>
+      <title>Substitutions for TTS</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/tts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/tts/</guid>
+      <description>Substitutions for TTS TTS stands for text-to-speech (automatic conversion from written text to speech). Cases can be defined here where the written form of words is different from how they are pronounced. eAlarm itself is an example. “eAlarm” is pronounced [E-alarm]. In addition, the user can define all abbreviations here that are spoken in full during a voice alert transmission.</description>
+    </item>
+    
+    <item>
+      <title>Closed conferences</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/konferenz-status/beendete-konferenzen/</guid>
+      <description>All conferences are listed consecutively in an endless list. As is the case with the subscriber list, it is also possible to search for specific conferences using the filter menu.
+Once the conference has come to an end, a protocol is saved under “closed conferences” in the “*Status*” menu. The entire conference process is summarised in various reports, which can subsequently be sent via e-mail. The table shows the following from left to right:</description>
+    </item>
+    
+    <item>
+      <title>Completed alerts</title>
+      <link>https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/status/alarm-status/abgeschlossene-alarme/</guid>
+      <description>Before archived, all alerts are listed consecutively in an endless list. As known from the participant list, it&amp;rsquo;s also possible to search for specific alerts using the filter menu.
+Once the alert has been completed, an alert protocol is stored under “completed alerts” in the “Status” menu. The entire alert process is summarized in various reports that can be made available for other applications and sent via e-mail. The table shows the following from left to right:</description>
+    </item>
+    
+    <item>
+      <title>Manage Conference Templates</title>
+      <link>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <description>Table of Contents  Create new conference template
+ Copy conference template
+  Manage conference templates The user can create and manage conference templates in this sub-menu. There are different ways to create a conference template:
+ via the “List of subscriber”
+ via “Manage conference templates”
+  
+Create New Conference Template Choose the target people from the alerting screen by adding the participants to the alert participant column via the drag &amp;amp; drop method.</description>
     </item>
     
     <item>
@@ -96,6 +220,16 @@ Texts Predefined alert texts can be written in four languages (German, English, 
     </item>
     
     <item>
+      <title>Data fields</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/datenfelder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/datenfelder/</guid>
+      <description>Change optional fields If additional criteria are to be entered for the individual participants (e.g. function, languages, training, etc.), these fields can be defined under “Changes”. The individual values for the respective data fields can be entered in the “Optional” section in the participants&amp;rsquo; area.
+{.mediacenter width=&amp;ldquo;700&amp;rdquo;}](../datafiles_en.png_en_ea_datenfelder.en.md &amp;ldquo;en:datafiles_en.png&amp;rdquo;)</description>
+    </item>
+    
+    <item>
       <title>Handout Documents</title>
       <link>https://hannahmm.github.io/groupalarm/en/einfuehrung/merkblaetter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,6 +249,16 @@ Texts Predefined alert texts can be written in four languages (German, English, 
     </item>
     
     <item>
+      <title>Media designations</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/mittelbezeichner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/mittelbezeichner/</guid>
+      <description>Change the permanent media designations A standard designation must be defined here for every medium to be entered. One of the suggested media (SMS, phone call, etc.) is selected from the list and a short, explanatory description provided.
+The designations defined here are the clearly defined media designations and can be assigned to “Alert media” under “Changes” when entering alert media.</description>
+    </item>
+    
+    <item>
       <title>Landing page</title>
       <link>https://hannahmm.github.io/groupalarm/en/einfuehrung/landingpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -122,6 +266,71 @@ Texts Predefined alert texts can be written in four languages (German, English, 
       <guid>https://hannahmm.github.io/groupalarm/en/einfuehrung/landingpage/</guid>
       <description>To access your account, visit http://emergency.swisscom-alarm.ch and log in with your user name and password.
 After logging in, you will see the following page. From here you have access to all functionalities of eAlarm emergency</description>
+    </item>
+    
+    <item>
+      <title>Registry</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/registry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/registry/</guid>
+      <description>Registry User rights can be defined in further detail here. Several configuration elements are described in the following table. IMPORTANT: comma-separated values must be entered without spaces (e.g. de,fr,it).</description>
+    </item>
+    
+    <item>
+      <title>Schedules</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/einsatzplaene/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/einsatzplaene/</guid>
+      <description>Deployement plans In addition to the scheduling options, the new deployment plans can be used as an alternative for deployment and rotation planning. One of the two options must be chosen; they cannot be used in parallel. The deployment plans are defined in the admin area; i.e. deployment times are determined on the basis of day/night, weekdays and public holidays, calendar weeks and months.
+One or more deployment plans can then be assigned to a group via group settings, and this produces copies for the respective groups with the corresponding deployment plan.</description>
+    </item>
+    
+    <item>
+      <title>Holidays</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/feiertage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/feiertage/</guid>
+      <description> Holidays Public holidays can be defined here. The cantonal differences are taken into account in the calendar of public holidays.
+ You can select the canton required on the right-hand side. The predefined holidays are directly transferred by clicking “Insert”.
+ You can enter additional holidays with the name of the holiday and the respective date on the left-hand side by clicking “add”.
+  </description>
+    </item>
+    
+    <item>
+      <title>Weekly planner</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/wochenplaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/wochenplaner/</guid>
+      <description>Weekly planner In the weekly planner, it is possible to define the respective media cascade for each time profile on the basis of the medium designation. This happens by enabling or disabling the desired media for each profile. They can be organised into the order required using the drop-down menu. If necessary, all of the media can be triggered simultaneously. In this section, up to ten weekly planners can be created, each with up to four time profiles.</description>
+    </item>
+    
+    <item>
+      <title>Change log</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/mutationslog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/mutationslog/</guid>
+      <description>Change log Here you can open the change log for the last 30 days.
+You can select the time period, user or the categories for the search criterion. Once you have selected the required criteria, click on “Filter” to confirm your entries.
+A table is automatically generated.
+In the table, you can see which “change” was made to which “object” by which “user” in which “category” and on what “date and time”.</description>
+    </item>
+    
+    <item>
+      <title>Password</title>
+      <link>https://hannahmm.github.io/groupalarm/en/admin/passwort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/en/admin/passwort/</guid>
+      <description>Password The password can be changed here. To protect your data against unauthorised access more effectively in eAlarm emergency, minimum requirements are set for your passwords. Minimum requirements for the password strength:
+ At least 8 characters
+ At least 1 upper case, 1 lower case letter and 1 digit
+ No sequences or duplicates (e.g. 1234, dcba, 5555)
+  COMMENT: There are still no restrictions in place as regards for how long passwords are in place in eAlarm.</description>
     </item>
     
   </channel>

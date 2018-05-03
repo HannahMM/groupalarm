@@ -29,6 +29,54 @@ Texte: vous pouvez saisir un nouveau texte sous «Texte libre» avant de le conf
     </item>
     
     <item>
+      <title>Alarmes en cours</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/laufende-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/laufende-alarme/</guid>
+      <description>Dès que l’alarme est déclenchée, le masque “Feedback d&amp;rsquo;alarme” s’affiche. Tous les destinataires auxquels une alarme a été envoyée sont enregistrés dans le \$\$Feedbackspeicher, d’où on peut suivre la procédure exacte d’alarme en temps réel.
+Les feedback des participants s’affichent immédiatement dans la vue “Feedback d&amp;rsquo;alarme” et sont actualisés en permanence. Un graphique d&amp;rsquo;évaluation des quittances s’affiche dans la boîte de dialogue (“cadre rouge”). Il indique combien de participants se trouvent dans quel statut.</description>
+    </item>
+    
+    <item>
+      <title>Configuration de base</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/grundeinstellungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/grundeinstellungen/</guid>
+      <description>Table des matières  PIN pour déclenchement
+ Numéros autorisés effectuer un déclenchement
+ Autorisation par Téléphone avec Syspin
+  Configuration de base Les autorisations pour le déclenchement par SMS et par appel avec le menu DTMF sont configurées sous “Configuration de base”».
+ ###PIN pour déclenchement
+Le PIN de déclenchement consiste en un code à 4 chiffres. Celui-ci peut être défini librement et peut également être utilisé à plusieurs reprises à l’intérieur du système.</description>
+    </item>
+    
+    <item>
+      <title>Conférence active</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/aktive-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/aktive-konferenzen/</guid>
+      <description>Une conférence active peut être consultée comme une alarme en cours via le menu “Statut” – “Statut de conférence” – “Conférences actives”. Si plusieurs conférences sont actives en même temps, il convient d’en sélectionner une pour l’afficher. Dans le cadre des conférences actives, les participants peuvent:
+ ajouter un participant, en saisissant un numéro;
+ exclure un participant de la réunion, en cliquant sur le X rouge;
+ mettre un participant en mode silencieux (le participant peut encore écouter, mais on ne l’entend plus) et annuler le mode silencieux;</description>
+    </item>
+    
+    <item>
+      <title>Gestion des dispositifs d’alarme</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
+      <description>Table des matières  Création d`un dispositif d`alarme
+ Copie d`un dispositif d`alarme
+  Gestion des dispositifs d’alarme Les dispositifs d’alarme sont des alarmes prédéfinies, ce qui signifie que le cercle de participants et les éventuels textes d’alarme sont déjà prédéfinis. En cas d’événement grave, le dispositif d’alarme prévu peut être déclenché et les participants prédéfinis sont alarmés au travers du texte d&amp;rsquo;alarme via les moyens correspondants.
+Il existe différentes manières de créer un dispositif d’alarme:</description>
+    </item>
+    
+    <item>
       <title>Organigramme / arborescence</title>
       <link>https://hannahmm.github.io/groupalarm/fr/mutieren/mutation/organigramm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +88,38 @@ Texte: vous pouvez saisir un nouveau texte sous «Texte libre» avant de le conf
   Les actions possibles apparaissent dans la barre de droite sous Disponible. Vous pouvez créer et ajouter de nouveaux scénarios, dispositifs, dispositifs pour conférence, dossiers, gestions de temps et/ou utilisateurs (participants).
 
 Racine Pour créer une racine, saisissez son nom dans le champ de saisie et confirmez-le à l’aide de la touche “Créer”. La racine créée apparaît immédiatement dans le champ d’affichage.</description>
+    </item>
+    
+    <item>
+      <title>Alarmes planifiées</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/disponierte-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/disponierte-alarme/</guid>
+      <description>Les conférences qui ne sont pas immédiatement terminées mais qui sont définies avec une heure de déclenchement s’affichent sous Conférences planifiées. Les conférences planifiées peuvent uniquement, comme les alarmes, être supprimées et non mutées.</description>
+    </item>
+    
+    <item>
+      <title>Conférence planifiée</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/disponierte-konferenzen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/konferenz-status/disponierte-konferenzen/</guid>
+      <description>Les conférences qui ne sont pas initiées immédiatement mais à une date ultérieure sont saisies sous Conférences planifiées.</description>
+    </item>
+    
+    <item>
+      <title>Gestion des scénarios</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/drehbuecher-verwalten/</guid>
+      <description>Table des matières  Généralités
+ Attribution des dispositifs
+ Textes
+ Copier des scénarios
+ Bloquer le scénario
+  Gestion des scénarios Dans les scénarios, plusieurs dispositifs d’alarme et pour conférence peuvent s’enchaîner les uns après les autres de façon chronologique. De cette manière, si l’alarme en cours n’est pas arrêtée au bout d’un certain temps, un autre dispositif d’alarme/pour conférence se déclenche automatiquement. Il est ainsi possible de prédéfinir des transferts en escalade d’alarmes qui, sinon, devraient être effectués manuellement.</description>
     </item>
     
     <item>
@@ -69,6 +149,25 @@ Vous pouvez également définir de nouveaux critères de tri dans le menu Admin 
     </item>
     
     <item>
+      <title>Texte de remplacement pour TTS</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/tts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/tts/</guid>
+      <description>Texte de remplacement pour TTS TTS est l’abréviation de Text-to-Speech (traitement automatique de texte écrit en texte vocal). On peut ici définir des cas dans lesquels l’orthographe de certains termes se différencie de leur prononciation. C’est le cas de eAlarm qui se prononce [ialarm]. En outre, l’utilisateur peut définir ici toutes les abréviations qui sont prononcées entièrement lors d’une transmission vocale d’alarme.</description>
+    </item>
+    
+    <item>
+      <title>Alarmes clôturées</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/abgeschlossene-alarme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/status/alarm-status/abgeschlossene-alarme/</guid>
+      <description>Avant d’être archivées, toutes les alarmes sont listées l’une après l’autre dans une liste continue. En outre, il est possible, comme avec la liste des participants, de rechercher des alarmes spécifiques via le menu Filtre.
+Dès que l’alarme est clôturée, un protocole d’alarme est déposé sous “Alarmes clôturées” dans le menu “Statut”. Toute la procédure de l’alarme est résumée en différents rapports, disponibles pour d’autres applications et pouvant être envoyés par e-mail.</description>
+    </item>
+    
+    <item>
       <title>Conférence (en option)</title>
       <link>https://hannahmm.github.io/groupalarm/fr/alarmieren/telefonkonferenz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -76,6 +175,21 @@ Vous pouvez également définir de nouveaux critères de tri dans le menu Admin 
       <guid>https://hannahmm.github.io/groupalarm/fr/alarmieren/telefonkonferenz/</guid>
       <description>Vous pouvez directement sélectionner une racine, un groupe et/ou un participant dans la vue par colonnes du masque «Créer l’alarme» et cliquer sur Conférence téléphonique: vous accédez alors au masque «Conférence téléphonique» (dans l’exemple suivant, «Test_Ordner_2» a été sélectionné).
 Le premier participant affiché est l’initiateur de la conférence. Le numéro de téléphone avec lequel ce dernier souhaite participer à la conférence apparaît dans le champ de saisie. Vous pouvez lancer immédiatement ou ultérieurement la conférence avec les participants définis via le bouton “Conférence” du champ “Déclencher la conférence”.</description>
+    </item>
+    
+    <item>
+      <title>Gestion des dispositifs de conférence</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</guid>
+      <description>Table des matières  Création d&amp;rsquo;un dispositif pour conférence
+ Copie d&amp;rsquo;un dispositif pour conférence
+  Gestion des dispositifs de conférence Dans ce sous-menu, l’utilisateur peut créer et gérer les dispositifs pour conférence. Il existe différentes manières de créer un dispositif pour conférence:
+ via la «Liste des participants»;
+ via la «Gestion des dispositifs de conférence».
+  
+Création d&amp;rsquo;un dispositif pour conférence Sélectionnez dans le masque «Créer l’alarme» les personnes ciblées, en déplaçant les participants par glisser-déposer dans la colonne des participants à l’alarme.</description>
     </item>
     
     <item>
@@ -100,6 +214,15 @@ Traitement des textes eAlarm emergency vous permet de rédiger des textes d’al
     </item>
     
     <item>
+      <title>Champs supplémentaire</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/datenfelder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/datenfelder/</guid>
+      <description>Modifier le champ optionnel Si des critères supplémentaires (p. ex. fonction, langues, formation, etc.) doivent être saisis pour certains participants, ces champs peuvent être définis sous «Mutations». Les valeurs individuelles de chaque champ supplémentaire peuvent être saisies dans la rubrique «Modifier le champ optionnel» dans le champ relatif aux participants.</description>
+    </item>
+    
+    <item>
       <title>Concepts de base</title>
       <link>https://hannahmm.github.io/groupalarm/fr/einfuehrung/grundkonzepte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,6 +233,16 @@ Traitement des textes eAlarm emergency vous permet de rédiger des textes d’al
     </item>
     
     <item>
+      <title>Désignation des moyens</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/mittelbezeichner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/mittelbezeichner/</guid>
+      <description>Modifier les désignations fixes des moyens Une désignation uniforme de chaque moyen à saisir doit être définie ici. Sélectionnez dans la liste un des moyens proposés (SMS, appel, etc.) et attribuez-lui une description courte et claire.
+Les descriptions définies ici sont les désignations de moyens clairement définies et elles peuvent être affectées lors de la saisie de dispositifs d’alarme sous “Mutations”, “Dispositifs”.</description>
+    </item>
+    
+    <item>
       <title>Page d`accueil</title>
       <link>https://hannahmm.github.io/groupalarm/fr/einfuehrung/landingpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -117,6 +250,70 @@ Traitement des textes eAlarm emergency vous permet de rédiger des textes d’al
       <guid>https://hannahmm.github.io/groupalarm/fr/einfuehrung/landingpage/</guid>
       <description>Avec votre navigateur Internet (de préférence, Mozilla Firefox), connectez-vous à https://emergency.swisscom-alarm.ch à l’aide de votre nom d’utilisateur et de votre mot de passe. La page d’accueil d’eAlarm emergency est représentée ci-après.
 Aprés le login vous vous retrouvez dans l&amp;rsquo;onglet &amp;ldquo;Alarmer&amp;rdquo;. Ici vous avez accès aux fonctions d&amp;rsquo;eAlarm emergency</description>
+    </item>
+    
+    <item>
+      <title>Registre</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/registry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/registry/</guid>
+      <description>Registre La configuration relative aux droits des co-utilisateurs peut encore être affinée à cet endroit. Le tableau suivant décrit certains éléments de configuration.
+IMPORTANT: les valeurs séparées par une virgule doivent obligatoirement être saisies sans espace (p.ex. de,fr,it).</description>
+    </item>
+    
+    <item>
+      <title>Plans d&#39;engagement</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/einsatzplaene/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/einsatzplaene/</guid>
+      <description>Plans D&amp;rsquo;engagement Outre les plans d’engagement, les plannings sont également disponibles pour la planification des rotations et des interventions. L’une des deux variantes doit être définie, une utilisation parallèle n’étant pas possible.
+Les plannings sont définis dans la zone Admin, à savoir que les heures d’intervention sont définies en fonction des heures du jour et de la nuit, des jours ouvrables et des jours fériés, des semaines et des mois.</description>
+    </item>
+    
+    <item>
+      <title>Jours fériés</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/feiertage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/feiertage/</guid>
+      <description>Jours fériés Les jours fériés peuvent être définis ici. Les différences cantonales en matière de jours fériés du calendrier sont prises en compte.
+ Sélectionnez le canton désiré à droite. Les jours fériés prédéfinis peuvent être directement repris via Insérer.
+ Vous pouvez saisir à gauche des jours fériés supplémentaires avec le nom du jour férié et la date correspondante et les ajouter à l’aide de la commande Ajouter.</description>
+    </item>
+    
+    <item>
+      <title>Semainier</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/wochenplaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/wochenplaner/</guid>
+      <description>Semainier Le semainier permet de définir en même temps, sur la base de la désignation des dispositifs, le transfert en cascade des dispositifs correspondant à chaque profil horaire. Pour ce faire, activez ou désactivez pour chaque profil les dispositifs de votre choix. Ils peuvent être placés dans l’ordre souhaité via le menu déroulant. On peut, en cas de besoin, définir que tous les dispositifs soient déclenchés en parallèle. Il est possible de créer ici jusqu’à dix semainiers comprenant chacun jusqu’à quatre profils horaires.</description>
+    </item>
+    
+    <item>
+      <title>Log des données</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/mutationslog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/mutationslog/</guid>
+      <description>Log des mutations Vous pouvez consulter ici le log des mutations des 30 derniers jours.
+Vous pouvez sélectionner la date et l’heure, le collaborateur ou les catégories comme critère de recherche. Une fois les critères de votre choix sélectionnés, cliquez sur “Filtrer” pour confirmer les données.
+Un tableau est généré automatiquement.
+Le tableau vous permet de voir quelle «Modification» a été effectuée dans quel «Objet» de quel «Collaborateur», dans quelle «Catégorie» et à quelle «Heure et date».</description>
+    </item>
+    
+    <item>
+      <title>Mot de passe</title>
+      <link>https://hannahmm.github.io/groupalarm/fr/admin/passwort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/fr/admin/passwort/</guid>
+      <description>Mot de passe Le mot de passe du superuser peut être modifié ici. Des exigences minimales s’appliquent afin de mieux protéger vos données dans eAlarm emergency contre un accès non autorisé, Exigences minimales relatives au niveau de cryptage:
+ 8 caractères au minimum;
+ le mot de passe doit comporter au moins 1 majuscule, 1 minuscule et 1 chiffre;
+ il ne doit comprendre aucune séquence (suite) ni doublage (p.</description>
     </item>
     
   </channel>
