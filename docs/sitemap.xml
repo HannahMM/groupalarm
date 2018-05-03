@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://hannahmm.github.io/groupalarm/fr/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://hannahmm.github.io/groupalarm/it/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
 	   	<loc>https://hannahmm.github.io/groupalarm/de/sitemap.xml</loc>
 		
 	</sitemap>
 	
 	<sitemap>
 	   	<loc>https://hannahmm.github.io/groupalarm/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://hannahmm.github.io/groupalarm/fr/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://hannahmm.github.io/groupalarm/it/sitemap.xml</loc>
 		
 	</sitemap>
 	

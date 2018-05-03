@@ -754,6 +754,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://hannahmm.github.io/groupalarm/fr/categories/"
                 />
@@ -761,11 +766,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://hannahmm.github.io/groupalarm/it/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -823,6 +823,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://hannahmm.github.io/groupalarm/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://hannahmm.github.io/groupalarm/fr/tags/"
                 />
@@ -830,11 +835,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://hannahmm.github.io/groupalarm/it/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://hannahmm.github.io/groupalarm/tags/"
                 />
     <xhtml:link
                 rel="alternate"

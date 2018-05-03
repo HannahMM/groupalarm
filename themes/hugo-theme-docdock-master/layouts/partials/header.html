@@ -1,0 +1,16 @@
+{{ $header := print "_header." .Lang }}
+	{{ range where .Site.Pages "Source.BaseFileName" $header }}
+	{{ .Content }} 
+	{{else}}
+  {{ if .Site.GetPage "page" "_header.md" }}
+    {{(.Site.GetPage "page" "_header.md").Content}}
+  {{else}}
+  <span style="font-size:smaller">
+		<a id="logo" href="{{.Site.BaseURL}}">
+		
+		  <span>
+		  <img src="/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
+		</a>
+    
+  {{end}}
+{{end}}
