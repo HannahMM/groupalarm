@@ -4,7 +4,7 @@ weight = 6
 +++
 
 
-### Serielle vertikale Eskalation (serielle Alarmierung) 
+
 
 
 

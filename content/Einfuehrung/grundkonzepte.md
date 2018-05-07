@@ -38,19 +38,3 @@ Datensätzen und Rechten versehen und können mehreren Wurzen oder Gruppen zugeo
 Strukturen können jederzeit angepasst oder modifiziert werden. 
 
 
-
-#### Ablauf einer GroupAlarm pro Konfiguration
-
- 1. Mittelbezeichner festlegen
- 
- 2. Optionale Freifelder für Teilnehmer festlegen
- 
- 3. Wurzel eröffnen
- 
- 4. Gruppen anlegen und zuweisen
- 
- 5. Teilnehmer in die Gruppen zuweisen
- 
- 6. ggf Alarmvorlagen, Drehbücher und Konferenzvorlagen anlegen
- 
- 7. Registry Einträge anpassen

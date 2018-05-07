@@ -8,18 +8,18 @@ weight = 1
 	
 ### Auslöseberechtigungen
 
-In „Grundeinstellungen” werden die Berechtigungen für die Auslösung per SMS und per Anruf mit DTMF-Menü konfiguriert. 
+In „Grundeinstellungen” werden die Berechtigungen für die [Fernauslösung](/alarmieren/fernausloese/) per SMS und per Anruf mit DTMF-Menü konfiguriert. 
 
 
 Als Auslöse-PIN dient ein 4-stelliger Code. Dieser kann beliebig gewählt
 werden und darf innerhalb des Systems mehrfach vorkommen. In Kombination
 mit einer auslöseberechtigten Nummer kann der Teilnehmer damit einen
-Alarm per SMS auslösen.
+Alarm per SMS oder Anruf auslösen.
 
 
 #### Auslöseberechtigte Nummern
 
-Hier wird angezeigt, wie viele Nummern auslöseberechtigt sind. 
+Hier wird angezeigt, wie viele Nummern für die Fernauslöse berechtigt sind. 
 
 Über den Link \[*bearbeiten*\] gelangt man zu einer Liste mit den
 Nummern, die eine Auslöseberechtigung für den Account haben. Sie können die Einträge ändern oder löschen. Unter
@@ -33,7 +33,12 @@ Nummern, die eine Auslöseberechtigung für den Account haben. Sie können die E
     ausschliesslich der späteren Lesbarkeit der Liste
     der Auslöseberechtigten.
 
-![](/img/admin_grundeinstellungen_ausloeseberechtigte.png?width=700px&classes=shadow)
+![](/img/admin_grundeinstellungen_ausloeseberechtigte.png?classes=shadow)
+
+{{% panel theme="danger" header="Achtung" %}}Für die Fernauslöse per Anruf muss die Nummer ohne Ländervorwahl hinterlegt sein, also 0178 1234567.
+Für die Fernauslöse per SMS muss die Nummer jedoch dem Angezeigten Syntax entsprechen, also Ländervorwahl ohne + oder Ähnliches, z.B. 491781234567{{% /panel %}}
+
+
 
 #### Berechtigung am Telefon mit Syspin
 	
@@ -45,78 +50,12 @@ Möglichkeit geschaffen, von einem beliebigen Telefonanschluss aus Alarme
 auszulösen. Voraussetzung ist dann die Kenntnis der 6-stelligen Syspin,
 die im Sprachmenü eingegeben werden muss.
 
-**Die Syspin ist eine global eindeutige Nummer und wird von groupAlarm fest vorgegeben.** Sie stellt sicher, dass ein Anrufer dem
+**Die Syspin ist eine global eindeutige Nummer und wird von GroupAlarm fest vorgegeben.** Sie stellt sicher, dass ein Anrufer dem
 richtigen Kundenaccount zugeordnet werden kann. Als weitere Sicherheit
 wird auch bei einer Berechtigung über die Syspin zusätzlich die
 4-stellige Auslöse-PIN abgefragt.
 
 
-### Alarmauslösung per SMS
-
-
-**GroupAlarm pro** unterstützt die Auslösung per SMS. Hierfür wird
-eine SMS mit definiertem Inhalt an **groupAlarm pro** gesendet. Die
-Auslöseberechtigung wird zum einen über die Absendernummer und zum
-anderen über eine im SMS-Text enthaltene PIN sichergestellt.
-
-{{% panel theme="info" header="Wichtig!" %}}Mit der Auslösung per SMS kann immer nur genau **EINE**
-Einheit, d.h. eine Vorlage, ein Drehbuch oder eine Konferenzvorlage
-ausgelöst werden, die Kombination mehrerer Einheiten wird nicht
-unterstützt. Dieser Umstand ist bei der Definition von Alarmvorlagen/Drehbüchern und Konferenzvorlagen zu berücksichtigen.{{% /panel %}}
-
-
-Um in **GroupAlarm pro** eine Alarmvorlage, ein Drehbuch oder eine
-Konferenzvorlage per SMS auszulösen muss eine Auslöse-SMS an die Nummer
-079 252 76 32 gesendet werden.
-
-Beachten Sie dabei: Damit von GroupAlarm überhaupt eine Auslösung per SMS
-in Betracht gezogen wird, muss die Absendernummer der Auslöse-SMS mit
-einer der als „auslöseberechtigt“ konfigurierten Nummern übereinstimmen.
-
-
-
-Der Inhalt der Auslöse-SMS muss folgender Syntax folgen:
-**PINa\_@xyz\_TEXT**
-
- - **PIN:** Die 4-stellige PIN muss mit der online konfigurierten
-Auslöse-PIN korrespondieren
-
- - **a:** a=0 Wird a=0 gesetzt, so wird der TEXT-Teil nicht als Freitext
-interpretiert, sondern nach definierten Alarm- Variablen geparst
-
- - **@:** Steht für den auszulösenden Einheitstyp, dabei gilt folgende
-Konvention:
-  - „#“ (Raute/Hash)        =     Alarmvorlage 
-  - „*“ (Stern/Star)        =       Drehbuch 
-  - „!“ (Ausrufezeichen)     =  Konferenzvorlage
-
-
- - **xyz:** steht für den jeweiligen Auslösecode der gewählten Einheit.
-Dieser kann aus 1 – n Stellen bestehen. (der Auslösecode ist bei
-aktiviertem Modul Fernauslösung online in der jeweiligen Verwaltung
-(Alarmvorlagen, Drehbücher oder Konferenzvorlagen) ersichtlich!
-
- - **\_:** Leerschlag (ist zwingend!!)
-
- - **TEXT:** Alarmtext
- 
- Ist der Parameter a=0 gesetzt, dann wird der TEXT-Teil nicht
-1:1 als Alarmtext übernommen, sondern der Inhalt des Freitextes nach
-auffälligen Variablen geparst und entsprechend die Platzhalter im
-Standard-Alarmtext der ausgelösten Einheit mit den Parsing-Ergebnissen
-substituiert
-
-#### Bestätigung per SMS
-
-Standardmässig wird eine Auslösung per SMS mit einer Antwort-SMS an die
-auslösende Nummer bestätigt. Dies kann durch den Masteruser bei Bedarf in
-der Admin Registry unterdrückt werden, indem der Key „Suppress SMS
-Reply“ mit einer 1 aktiviert wird.
-
-Die Bestätigung kann sowohl positiv ausfallen (OK) oder negativ
-(NOT\_OK), wenn aufgrund fehlender oder falscher Informationen der Alarm
-nicht ausgelöst werden konnte. Details zu einem allfälligen Fehler sind
-in englischer Sprache ebenfalls in der SMS enthalten.
 
 	
 ###	Sprach- und Konferenzanrufe

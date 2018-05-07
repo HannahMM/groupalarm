@@ -85,6 +85,10 @@ per Checkbox auswählen:
 	und wissen somit, dass der erste Teilnehmer bereits mit dem Anrufenden in Kontakt ist.
 	
 Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). 
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Konferenzvorlage per 
+[Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
+
+![](/img/mutieren_zusatzmodule_konferenzvorlagen_erstellen_ausloeseberechtigt.png?classes=shadow)
 
 Im unteren Bereich der Anzeige werden die Gruppen aufgelistet.  
 Speichern Sie am Ende Ihre Vorlage mit der Schaltfläche „Konferenzvorlage speichern“.

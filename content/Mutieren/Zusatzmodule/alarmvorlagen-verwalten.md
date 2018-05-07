@@ -85,7 +85,7 @@ Im Reiter „Allgemein“ legen Sie Auslösecode und Alarmname fest sowie option
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein.png?classes=shadow)
 
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Alarmvorlage per Durchwahl auszulösen.
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Alarmvorlage per [Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein_ausloeseberechtigt.png?classes=shadow)
 

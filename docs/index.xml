@@ -59,9 +59,9 @@ Sie können den Report auch nur als Textdatei herunterladen. Klicken Sie dazu au
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/</guid>
-      <description>Auslöseberechtigungen In „Grundeinstellungen” werden die Berechtigungen für die Auslösung per SMS und per Anruf mit DTMF-Menü konfiguriert.
-Als Auslöse-PIN dient ein 4-stelliger Code. Dieser kann beliebig gewählt werden und darf innerhalb des Systems mehrfach vorkommen. In Kombination mit einer auslöseberechtigten Nummer kann der Teilnehmer damit einen Alarm per SMS auslösen.
-Auslöseberechtigte Nummern Hier wird angezeigt, wie viele Nummern auslöseberechtigt sind.
+      <description>Auslöseberechtigungen In „Grundeinstellungen” werden die Berechtigungen für die Fernauslösung per SMS und per Anruf mit DTMF-Menü konfiguriert.
+Als Auslöse-PIN dient ein 4-stelliger Code. Dieser kann beliebig gewählt werden und darf innerhalb des Systems mehrfach vorkommen. In Kombination mit einer auslöseberechtigten Nummer kann der Teilnehmer damit einen Alarm per SMS oder Anruf auslösen.
+Auslöseberechtigte Nummern Hier wird angezeigt, wie viele Nummern für die Fernauslöse berechtigt sind.
 Über den Link [bearbeiten] gelangt man zu einer Liste mit den Nummern, die eine Auslöseberechtigung für den Account haben.</description>
     </item>
     
@@ -145,8 +145,8 @@ Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurde, leuchtet S
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/</guid>
-      <description>Hier finden Sie die wichtigsten Merkblätter zu GroupAlarm pro:
-   Name Dokumentname     doc1 Schulungsdokument PDF (457.4 KB)   doc2 Rechteverwaltung PDF (1 MB)    Durch das Klicken auf ein Merkblatt wird die Datei aufgerufen. Sie kann im Browser angesehen oder lokal abgespeichert werden.</description>
+      <description>Hier finden Sie die wichtigsten Merkblätter und Leitfäden zu GroupAlarm pro und dem ERIC Pager:
+   Name Dokumentname     ERIC Handbuch ERIC_Handbuch_pagerV3_2   ERIC FAQ ERIC FAQ   Leitfaden: Alarmvorlage erstellen Leitfaden_Alarmvorlagen_erstellen   Leitfaden: Alarmvorlage bearbeiten Leitfaden_Alarmvorlagen_bearbeiten   Leitfaden: Alarmieren Leitfaden_Disponenten   Leitfaden: Einsatzpläne Leitfaden_Einsatzpläne   Leitfaden: Rotationsgruppe Leitfaden_Rotationsgruppen   Leitfaden: Teilnehmer Leitfaden_Teilnehmer   Leitfaden: Zeitsteuerung Leitfaden_Zeitsteuerung    Durch das Klicken auf ein Merkblatt wird die Datei aufgerufen.</description>
     </item>
     
     <item>
@@ -238,7 +238,9 @@ In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/statusfelder/</guid>
-      <description>Im Menü „Statusfelder“ lassen sich erweiterte Quittierungsstatus definieren. Wählen Sie dazu im Dropdown-Menü den gewünschten Status aus und geben den entsprechenden Wert ein. Bestätigen Sie die Eingabe mit „hinzufügen“.</description>
+      <description>Im Menü „Statusfelder“ lassen sich erweiterte Quittierungsstatus definieren. Wählen Sie dazu im Dropdown-Menü den gewünschten Status aus und geben den entsprechenden Wert ein. Bestätigen Sie die Eingabe mit „hinzufügen“.
+Bei einer Alarmierung per SMS oder Anruf kann nun anstatt einer reinen JA/NEIN Quittierung auch eine spezielle Statusmeldung zurückgegeben werden. Bei einem laufenden Alarm sehen Sie neben den standartmäßigen Feedback-Optionen auch die entsprechenden Status-Ziffer.
+Anruf Wählen Sie nach dem Ansagetext auf dem Ziffernblock die Nummer des entsprecheneden Status.</description>
     </item>
     
     <item>
@@ -274,6 +276,17 @@ Die individuellen Werte für die jeweiligen Datenfelder können in der Rubrik �
  Ladung.: Ladestatus des Pagers (Aktualisierung in Echtzeit)
  Verfügbarkeit: Aktueller Bereitschaftsstatus
  ok, aktiv: voll einsatzbereit und erreichbar abgeschaltet, aktiv: einsatzbereit jedoch nicht erreichbar inaktiv: nicht einsatzbereit, nciht erreichbar   Funktion : Übersicht der aktuellen Konfiguration, Event-Log sowie Verwaltung des Pagers  Pager sperren/entsperren: Fernsperre des Pagers Sperrtext senden/löschen: Individuellen Text zur Sperrung des Pagers senden Name setzen: Anpassung des Pager-Namen auf den zugeordneten Teilnehmernamen Notruf-Vorlage setzen: Absetzen des Notrufs einer vordefinierten Alarmvorlage (Eintrag Auslösecode) Pager neu starten Pager initialisieren (Werkseinstellungen): Zurücksetzen des Pagers auf Auslieferungszustand Pager zum Update auffordern    </description>
+    </item>
+    
+    <item>
+      <title>Fernauslöse</title>
+      <link>https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/</guid>
+      <description>Groupalarm pro unterstützt neben der Auslöung über die Web-Oberfläche mehrere Arten der Fernauslöung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.
+Auslöse per SMS Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegtem Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.
+Wichtig: Damit die Auslöse per SMS funktioniert, muss die Absendernummer im Menü Grundeinstellungen unter „Auslöseberechtigt“ gespeichert sein.</description>
     </item>
     
     <item>

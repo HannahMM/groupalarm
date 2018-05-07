@@ -67,7 +67,8 @@ Im Reiter „Allgemein“ legen Sie Auslösecode und Drehbuchname fest sowie opt
 
 ![](/img/mutieren_zusatzmodule_drehbuecher_allgemein.png?classes=shadow)
 
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten. Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, das Drehbuch per Durchwahl auszulösen.
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten. Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, das Drehbuch per 
+[Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
 
 ![](/img/mutieren_zusatzmodule_drehbuecher_allgemein_ausloeseberechtigt.png?classes=shadow)
 

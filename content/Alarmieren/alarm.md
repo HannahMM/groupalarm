@@ -63,7 +63,7 @@ Bevor ein Alarm ausgelöst werden kann, muss ein Alarmtext gewählt werden. Folg
  - **Live-Sprachaufnahme**: Option, eine eigene Sprachnachricht aufzunehmen. Geben Sie hierzu eine gültige Rufnummer ein und klicken Sie auf „Alarmansage aufnehmen“. Sie werden nun auf dieser Nummer angerufen; folgen Sie den Anweisungen der Ansage um die
  Nachricht aufzunehmen.
  
- - **Audio-Datei hochladen**: Laden Sie eine gespeicherte Audio-Datei hoch 
+ - **Audio-Datei hochladen**: Laden Sie eine gespeicherte Audio-Datei hoch (Dateiformate: mp3, wav)
 
 
 #### Koordinaten 

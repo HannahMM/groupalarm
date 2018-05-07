@@ -103,11 +103,17 @@ Beispiele für gültige Antworten:
 | OK                     | NOK                     |
 | ok ich komme           | nok ich komme nicht     |
 
+
+![](/img/status_alarm_status_laufende_alarme_quittung_sms.png?classes=shadow)
+
 Beispiele für ungültige Antworten:
 
 -  Ist OK ich komme (Antwort beginnt nicht mit Schlüsselwort)
 
-- Ja, in 15 min (Abtrennung des Schlüsselwortes durch Komma)
+- JaSofort (Kein Leerzeichen nach Schlüsselwort)
+
+
+
 
 Kann GroupAlarm die Antworten wegen einer falschen Syntax nicht
 auswerten, so erhält der Alarmempfänger den Status „ungültig“ und

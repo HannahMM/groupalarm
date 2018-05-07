@@ -118,6 +118,11 @@
           <span>Konferenz (optionales Modul)</span>
         </a>
     </li>
+      <li data-nav-id="/alarmieren/fernausloese/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/">
+          <span>Fernauslöse</span>
+        </a>
+    </li>
         </ul>
     </li>
     <li data-nav-id="/status/" class="dd-item parent">
@@ -353,28 +358,6 @@
 
 
 		<hr />
-		<li>
-			<select id="select-language" onchange="location = this.value;">
-				
-				
-				
-					
-					
-						
-							
-								<option id="de" value="/admin/statusfelder/" selected>de</option>
-							
-						
-					
-						
-					
-						
-					
-						
-					
-				
-			</select>
-		</li>
 
 
     </ul>
@@ -420,7 +403,21 @@
     
     <div class="progress">
         <div class="wrapper">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#anruf">Anruf</a></li>
+<li><a href="#sms">SMS</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
         </div>
     </div>
     
@@ -438,8 +435,23 @@
     
     
     
-    <p><img src="https://hannahmm.github.io/groupalarm/img/admin_statusfelder.png?classes=shadow" alt="" />
+    
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/admin_statusfelder.png?classes=shadow" alt="" />
 Im Menü „Statusfelder“ lassen sich erweiterte Quittierungsstatus definieren. Wählen Sie dazu im Dropdown-Menü den gewünschten Status aus und geben den entsprechenden Wert ein. Bestätigen Sie die Eingabe mit „hinzufügen“.</p>
+
+<p>Bei einer Alarmierung per SMS oder Anruf kann nun anstatt einer reinen JA/NEIN Quittierung auch eine spezielle Statusmeldung zurückgegeben werden.
+Bei einem laufenden Alarm sehen Sie neben den standartmäßigen Feedback-Optionen auch die entsprechenden Status-Ziffer.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/admin_statusfelder_alarmfeedback.png?classes=shadow" alt="" /></p>
+
+<h4 id="anruf">Anruf</h4>
+
+<p>Wählen Sie nach dem Ansagetext auf dem Ziffernblock die Nummer des entsprecheneden Status.</p>
+
+<h4 id="sms">SMS</h4>
+
+<p>Beginnen Sie die Quittierungs-SMS mit der Nummer ihrers Status. Sie können noch weiteren Text übermitteln, allerdings muss zwischen Zahl und Text zwingend eine Leerstelle bleiben.</p>
 
 
     

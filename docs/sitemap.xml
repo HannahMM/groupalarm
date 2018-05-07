@@ -1,24 +1,223 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://hannahmm.github.io/groupalarm/de/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://hannahmm.github.io/groupalarm/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://hannahmm.github.io/groupalarm/fr/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://hannahmm.github.io/groupalarm/it/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/einfuehrung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/export/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/alarmieren/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/disponierte-konferenzen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/alarmieren/info-sms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/tts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/lagekarte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/statusfelder/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/status/auswertung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/datenfelder/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/einfuehrung/landingpage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/mittelbezeichner/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/backup/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/registry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/serielle_vertikale_eskalation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/einsatzplaene/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/feiertage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/wochenplaner/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/mutationslog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/alarmlog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/admin/passwort/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hannahmm.github.io/groupalarm/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

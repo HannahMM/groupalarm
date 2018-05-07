@@ -118,6 +118,11 @@
           <span>Konferenz (optionales Modul)</span>
         </a>
     </li>
+      <li data-nav-id="/alarmieren/fernausloese/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/">
+          <span>Fernauslöse</span>
+        </a>
+    </li>
         </ul>
     </li>
     <li data-nav-id="/status/" class="dd-item parent">
@@ -353,28 +358,6 @@
 
 
 		<hr />
-		<li>
-			<select id="select-language" onchange="location = this.value;">
-				
-				
-				
-					
-					
-						
-							
-								<option id="de" value="/admin/grundeinstellungen/" selected>de</option>
-							
-						
-					
-						
-					
-						
-					
-						
-					
-				
-			</select>
-		</li>
 
 
     </ul>
@@ -431,10 +414,6 @@
 <li><a href="#auslöseberechtigte-nummern">Auslöseberechtigte Nummern</a></li>
 <li><a href="#berechtigung-am-telefon-mit-syspin">Berechtigung am Telefon mit Syspin</a></li>
 </ul></li>
-<li><a href="#alarmauslösung-per-sms">Alarmauslösung per SMS</a>
-<ul>
-<li><a href="#bestätigung-per-sms">Bestätigung per SMS</a></li>
-</ul></li>
 <li><a href="#sprach-und-konferenzanrufe">Sprach- und Konferenzanrufe</a></li>
 </ul></li>
 </ul></li>
@@ -463,16 +442,16 @@
 
 <h3 id="auslöseberechtigungen">Auslöseberechtigungen</h3>
 
-<p>In „Grundeinstellungen” werden die Berechtigungen für die Auslösung per SMS und per Anruf mit DTMF-Menü konfiguriert.</p>
+<p>In „Grundeinstellungen” werden die Berechtigungen für die <a href="https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/">Fernauslösung</a> per SMS und per Anruf mit DTMF-Menü konfiguriert.</p>
 
 <p>Als Auslöse-PIN dient ein 4-stelliger Code. Dieser kann beliebig gewählt
 werden und darf innerhalb des Systems mehrfach vorkommen. In Kombination
 mit einer auslöseberechtigten Nummer kann der Teilnehmer damit einen
-Alarm per SMS auslösen.</p>
+Alarm per SMS oder Anruf auslösen.</p>
 
 <h4 id="auslöseberechtigte-nummern">Auslöseberechtigte Nummern</h4>
 
-<p>Hier wird angezeigt, wie viele Nummern auslöseberechtigt sind.</p>
+<p>Hier wird angezeigt, wie viele Nummern für die Fernauslöse berechtigt sind.</p>
 
 <p>Über den Link [<em>bearbeiten</em>] gelangt man zu einer Liste mit den
 Nummern, die eine Auslöseberechtigung für den Account haben. Sie können die Einträge ändern oder löschen. Unter
@@ -488,7 +467,16 @@ ausschliesslich der späteren Lesbarkeit der Liste
 der Auslöseberechtigten.</p></li>
 </ul>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/admin_grundeinstellungen_ausloeseberechtigte.png?width=700px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/admin_grundeinstellungen_ausloeseberechtigte.png?classes=shadow" alt="" /></p>
+
+<div class="panel panel-danger">
+	<div class="panel-heading">Achtung</div>
+	<div class="panel-body"><p>Für die Fernauslöse per Anruf muss die Nummer ohne Ländervorwahl hinterlegt sein, also 0178 1234567.
+Für die Fernauslöse per SMS muss die Nummer jedoch dem Angezeigten Syntax entsprechen, also Ländervorwahl ohne + oder Ähnliches, z.B. 491781234567</p>
+</div>
+	
+</div>
+
 
 <h4 id="berechtigung-am-telefon-mit-syspin">Berechtigung am Telefon mit Syspin</h4>
 
@@ -500,83 +488,10 @@ Möglichkeit geschaffen, von einem beliebigen Telefonanschluss aus Alarme
 auszulösen. Voraussetzung ist dann die Kenntnis der 6-stelligen Syspin,
 die im Sprachmenü eingegeben werden muss.</p>
 
-<p><strong>Die Syspin ist eine global eindeutige Nummer und wird von groupAlarm fest vorgegeben.</strong> Sie stellt sicher, dass ein Anrufer dem
+<p><strong>Die Syspin ist eine global eindeutige Nummer und wird von GroupAlarm fest vorgegeben.</strong> Sie stellt sicher, dass ein Anrufer dem
 richtigen Kundenaccount zugeordnet werden kann. Als weitere Sicherheit
 wird auch bei einer Berechtigung über die Syspin zusätzlich die
 4-stellige Auslöse-PIN abgefragt.</p>
-
-<h3 id="alarmauslösung-per-sms">Alarmauslösung per SMS</h3>
-
-<p><strong>GroupAlarm pro</strong> unterstützt die Auslösung per SMS. Hierfür wird
-eine SMS mit definiertem Inhalt an <strong>groupAlarm pro</strong> gesendet. Die
-Auslöseberechtigung wird zum einen über die Absendernummer und zum
-anderen über eine im SMS-Text enthaltene PIN sichergestellt.</p>
-
-<div class="panel panel-info">
-	<div class="panel-heading">Wichtig!</div>
-	<div class="panel-body"><p>Mit der Auslösung per SMS kann immer nur genau <strong>EINE</strong>
-Einheit, d.h. eine Vorlage, ein Drehbuch oder eine Konferenzvorlage
-ausgelöst werden, die Kombination mehrerer Einheiten wird nicht
-unterstützt. Dieser Umstand ist bei der Definition von Alarmvorlagen/Drehbüchern und Konferenzvorlagen zu berücksichtigen.</p>
-</div>
-	
-</div>
-
-
-<p>Um in <strong>GroupAlarm pro</strong> eine Alarmvorlage, ein Drehbuch oder eine
-Konferenzvorlage per SMS auszulösen muss eine Auslöse-SMS an die Nummer
-079 252 76 32 gesendet werden.</p>
-
-<p>Beachten Sie dabei: Damit von GroupAlarm überhaupt eine Auslösung per SMS
-in Betracht gezogen wird, muss die Absendernummer der Auslöse-SMS mit
-einer der als „auslöseberechtigt“ konfigurierten Nummern übereinstimmen.</p>
-
-<p>Der Inhalt der Auslöse-SMS muss folgender Syntax folgen:
-<strong>PINa_@xyz_TEXT</strong></p>
-
-<ul>
-<li><p><strong>PIN:</strong> Die 4-stellige PIN muss mit der online konfigurierten
-Auslöse-PIN korrespondieren</p></li>
-
-<li><p><strong>a:</strong> a=0 Wird a=0 gesetzt, so wird der TEXT-Teil nicht als Freitext
-interpretiert, sondern nach definierten Alarm- Variablen geparst</p></li>
-
-<li><p><strong>@:</strong> Steht für den auszulösenden Einheitstyp, dabei gilt folgende
-Konvention:</p>
-
-<ul>
-<li>„#“ (Raute/Hash)        =     Alarmvorlage</li>
-<li>„*“ (Stern/Star)        =       Drehbuch</li>
-<li>„!“ (Ausrufezeichen)     =  Konferenzvorlage</li>
-</ul></li>
-
-<li><p><strong>xyz:</strong> steht für den jeweiligen Auslösecode der gewählten Einheit.
-Dieser kann aus 1 – n Stellen bestehen. (der Auslösecode ist bei
-aktiviertem Modul Fernauslösung online in der jeweiligen Verwaltung
-(Alarmvorlagen, Drehbücher oder Konferenzvorlagen) ersichtlich!</p></li>
-
-<li><p><strong>_:</strong> Leerschlag (ist zwingend!!)</p></li>
-
-<li><p><strong>TEXT:</strong> Alarmtext</p></li>
-</ul>
-
-<p>Ist der Parameter a=0 gesetzt, dann wird der TEXT-Teil nicht
-1:1 als Alarmtext übernommen, sondern der Inhalt des Freitextes nach
-auffälligen Variablen geparst und entsprechend die Platzhalter im
-Standard-Alarmtext der ausgelösten Einheit mit den Parsing-Ergebnissen
-substituiert</p>
-
-<h4 id="bestätigung-per-sms">Bestätigung per SMS</h4>
-
-<p>Standardmässig wird eine Auslösung per SMS mit einer Antwort-SMS an die
-auslösende Nummer bestätigt. Dies kann durch den Masteruser bei Bedarf in
-der Admin Registry unterdrückt werden, indem der Key „Suppress SMS
-Reply“ mit einer 1 aktiviert wird.</p>
-
-<p>Die Bestätigung kann sowohl positiv ausfallen (OK) oder negativ
-(NOT_OK), wenn aufgrund fehlender oder falscher Informationen der Alarm
-nicht ausgelöst werden konnte. Details zu einem allfälligen Fehler sind
-in englischer Sprache ebenfalls in der SMS enthalten.</p>
 
 <h3 id="sprach-und-konferenzanrufe">Sprach- und Konferenzanrufe</h3>
 

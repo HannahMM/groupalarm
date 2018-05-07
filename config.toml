@@ -16,7 +16,6 @@ disableHomeIcon = true
 disableNavChevron = true
 disableSearch = false
 
-
 [imaging]
 anchor = "center"
 
@@ -31,15 +30,4 @@ home = [ "HTML", "RSS", "JSON"]
 title = "GroupAlarm Handbuch"
 languageName = "de"
 
-[Languages.en]
-title = "GroupAlarm Manual"
-languageName = "en"
-
-[Languages.fr]
-title = "GroupAlarm Manuel"
-languageName = "fr"
-
-[Languages.it]
-title = "GroupAlarm Manuale"
-languageName = "it"
 
