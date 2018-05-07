@@ -5,8 +5,6 @@ weight = 3
 
 
 
- 
-<a name="abgeschlossene_alarme"></a>
 ### Abgeschlossene Alarme
 
 Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein
@@ -17,8 +15,7 @@ unter „**Abgeschlossene Alarme**“ abgelegt.
 
 Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen. 
 
-Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst, welche auch
-per E-Mail versendet werden können. 
+Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst.
 
 Folgende Funktionen stehen zur Verfügung:
 
@@ -26,7 +23,7 @@ Folgende Funktionen stehen zur Verfügung:
 #### 1. PDF-Alarmprotokoll <img src="/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  
 Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format. 
-![](/img/status_alarm_status_abgeschlossene_alarme_protokoll.png?width=700px&classes=shadow)
+![](/img/status_alarm_status_abgeschlossene_alarme_protokoll.png?classes=shadow)
 Folgende Informationen sind darin verzeichnet:
   
 - Alarmname, Auslöser, Auslöse- und Endzeitpunkt mit exaktem Datum und Uhrzeit 

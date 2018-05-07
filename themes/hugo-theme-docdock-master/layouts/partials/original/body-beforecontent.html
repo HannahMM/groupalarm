@@ -6,25 +6,7 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-<!-- 	<p><img src="/swisscom-logo.png" height=28px alt="swisscom logo" align="absmiddle"> <a href="/">eAlarm emergency</a></p>
- -->
-    {{ $header := print "_header." .Lang }}
-		{{ range where .Site.Pages "Source.BaseFileName" $header }}
-		{{ .Content }} 
-		{{else}}
-		<span style="font-size:smaller">
-		<a id="logo" href="{{.Site.BaseURL}}">
-		
-		  <span>
-		  <img src="/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
-		</a>
-<!-- 	Sidebar header old	
-		<a id="logo" href="{{.Site.BaseURL}}">
-		  <span class="fa fa-gears" style="font-size:large"></span>
-		</a> -->
-		{{ T "create-header-md" }}
-		</small>
-		{{end}}
+      {{ partial "header.html" . }}
     </div>
     {{- if not .Site.Params.disableSearch}}
         <div class="searchbox">
@@ -35,11 +17,15 @@
 		<script type="text/javascript" src="{{"js/lunr.min.js" | relURL}}"></script>
 		<script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}"></script>
 		<script type="text/javascript">
-		    var baseurl = "{{.Site.BaseURL}}";
+        {{ if .Site.IsMultiLingual }}
+            var baseurl = "{{.Site.BaseURL}}{{.Site.LanguagePrefix}}";
+        {{ else }}
+            var baseurl = "{{.Site.BaseURL}}";
+        {{ end }}
 		</script>
 		<script type="text/javascript" src="{{"js/search.js" | relURL}}"></script>
     {{- end}}
-  </div>
+</div>
 
       <ul class="topics">
         {{- if not .Site.Params.disableHomeIcon}}

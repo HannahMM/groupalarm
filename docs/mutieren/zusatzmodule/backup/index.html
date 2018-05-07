@@ -40,19 +40,18 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-
-    
-		
-		<span style="font-size:smaller">
+      
+	
+  
+  <span style="font-size:smaller">
 		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
 		
 		  <span>
-		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
 		</a>
+    
+  
 
-		
-		</small>
-		
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -62,10 +61,12 @@
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
 		<script type="text/javascript">
-		    var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
 		</script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
-  </div>
+</div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent">
@@ -208,6 +209,11 @@
       <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
           <span>Texte</span>
+        </a>
+    </li>
+      <li data-nav-id="/mutieren/mutation/eric_pager/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/">
+          <span>ERIC Pager verwalten (Zweiwege-Paging)</span>
         </a>
     </li>
         </ul>
@@ -451,9 +457,19 @@
 
 <h3 id="backup-restore">Backup/Restore</h3>
 
-<p>In diesem Menü können Sie ein Backup Ihrer Datenbank erstellen sowie ein gespeichertes Backup zurückspielen.</p>
+<p>In diesem Menü können Sie ein Backup Ihrer gesamten Datenbank erstellen sowie ein gespeichertes Backup zurückspielen.</p>
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_backup.png?classes=shadow" alt="" /></p>
+
+<p>Um eine Backup-Datei zu erstellen und zu speichern, klicken Sie auf die Schaltfläche „Backup erstellen“. Die erstellte Datei ist ein passwortgeschütztes WinRAR-Archiv, welches mit Datum und Zeitpunkt der Erstellung versehen ist.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_backup_erstellen.png?classes=shadow" alt="" /></p>
+
+<p>Um ein zuvor erstelltes Backup wieder herzustellen, klicken Sie auf die Schaltfläche „Datei auswählen“ und wählen Sie die entsprechende Datei. Bestätigen Sie die Auswahl mit „Übertragen“</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_backup_zurueckspielen.png?classes=shadow" alt="" /></p>
+
+<p><strong>Achtung</strong>: Das Backup ist nicht inkrementell, d.h. die gesamte Datenbank wird mit den Daten aus dem Backup-Archiv überschrieben!</p>
 
 
     

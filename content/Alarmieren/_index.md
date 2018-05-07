@@ -15,16 +15,16 @@ Das Menü **„Alarm erstellen“** wird Ihnen nach erfolgreichem Login angezeig
  - Info-SMS versenden
  - Telefonkonferenzen (optionales Modul) starten
  
-![](/img/alarmieren_start.png?classes=shadow&width=900px)
+![](/img/alarmieren_start.png?classes=shadow&width=1000px)
 
 
 In den verschiedenen, voneinander unabhängigen Spalten werden Ihre Wurzeln,
 Gruppen, und Teilnehmer aufgelistet sowie weitere optionale Module wie Vorlagen, Drehbücher, Konferenzvorlagen oder Ereignisse (falls vorhanden) dargestellt. Durch einen
 Klick auf das Pfeilsymbol können sie den Inhalt der Spalten beliebig anpassen. 
-![](/img/alarmieren_start_spalten_auswaehlen.png?classes=shadow)
+![](/img/alarmieren_spalten_anpassen.png?classes=shadow)
 
 Die Anzahl der Spalten in der **„Alarmierungsmaske“** lässt sich im Register
-**„Admin“** unter dem Menü [„Registry“](/de/admin/registry/) anpassen.
+**„Admin“** unter dem Menü [„Registry“](/admin/registry/) anpassen.
 
 ### Alarm-Teilnehmer auswählen
 

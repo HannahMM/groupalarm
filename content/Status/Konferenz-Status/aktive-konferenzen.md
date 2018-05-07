@@ -11,9 +11,9 @@ der Auslöser und Auslösezeitpunkt sowie das voraussichtliche Ende (standardmä
 Mit einem Klick auf das Telefonsymbol <img src="/img/telefonsymbol.png" alt="telefon" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 können Sie die laufende Konferenz bearbeiten:
 
-![](/img/status_konferenz_status_aktive_konferenzen_uebersicht.png?width=900px&classes=shadow)
+![](/img/status_konferenz_status_aktive_konferenzen_uebersicht.png?width=1200px&classes=shadow)
 
--  Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer ![](/img/status_konferenz_status_aktive_konferenzen_teilnehmer_hinzufuegen.png?width=700px&classes=shadow)
+-  Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer ![](/img/status_konferenz_status_aktive_konferenzen_teilnehmer_hinzufuegen.png?classes=shadow)
  und mit der Eingabetaste oder Klick auf <img src="/img/konferenzstatus_hinzufuegen_symbol.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  bestätigen
 

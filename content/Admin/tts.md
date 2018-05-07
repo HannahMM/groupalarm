@@ -14,8 +14,10 @@ soll in das Feld „Sprechtext“. Wählen Sie dann die Sprache aus, für die di
 
 TTS bietet sich z.B. für Fälle an, in denen sich die Schreibweise bestimmter Begriffe von ihrer
 Aussprache unterscheidet.  
- 
-Darüber hinaus kann der Benutzer hier alle Abkürzungen definieren, die bei einer
+
+ - **Beispiel**: <img src="/img/admin_tts_bsp5.png" alt="tts" style='vertical-align:middle;display:inline;margin:0px 5px; '> 
+
+ Darüber hinaus kann der Benutzer hier alle Abkürzungen definieren, die bei einer
 Sprach-Alarmübertragung vollständig ausgesprochen werden.  
 
  - **Beispiel**: <img src="/img/admin_tts_bsp1.png" alt="tts" style='vertical-align:middle;display:inline;margin:0px 5px; '> 

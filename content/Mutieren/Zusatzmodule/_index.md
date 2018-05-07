@@ -24,7 +24,7 @@ sowie die optionalen Module
  
 
 
-![](/img/mutieren_zusatzmodule.png?width=1000px&classes=shadow)
+![](/img/mutieren_zusatzmodule.png?classes=shadow)
 
 
 

@@ -13,7 +13,7 @@ Im Menü „Im-/Export“ können Sie verschiedene Datenbanken und Teilnehmerdat
 ### Export/Verfügbare Reports
 
 Unter „Verfügbare Reports“ können Sie verschiedene Datensätze als CSV Datei herunterladen, archivieren, verschicken und 
-bei Bedarf bearbeiten. CSV Dateien öffnen Sie dabei in der Regel mit Excel. Im Menüpunkt [„Export“](/de/mutieren/zusatzmodule/importexport/export/) werden die einzelnen Reports und 
+bei Bedarf bearbeiten. CSV Dateien öffnen Sie dabei in der Regel mit Excel. Im Menüpunkt [„Export“](/mutieren/zusatzmodule/importexport/export/) werden die einzelnen Reports und 
 was zu beachten ist, erklärt.
 
 

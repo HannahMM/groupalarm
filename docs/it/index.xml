@@ -10,51 +10,5 @@
 	<atom:link href="https://hannahmm.github.io/groupalarm/it/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Allarme</title>
-      <link>https://hannahmm.github.io/groupalarm/it/alarmieren/alarm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/it/alarmieren/alarm/</guid>
-      <description>Indice  Generale
- Utenti
- Testi definiti
- Koorditnaten
- Opzioni di allarme
- Ora d’invio/Gestione del tempo
-  Dopo aver selezionato un utente, un gruppo o una radice e cliccato sul pulsante «Allarmare» si apre la schermata “Creare l’allarm”. Nominativo dell’allarme
-Generale: qui viene indicato il nominativo dell’allarme ed è possibile inserire una descrizione facoltativa dell’allarme attuale.
-Utenti: qui si vede qual è il numero previsto di utenti da allarmare e il numero delle rispettive unità.</description>
-    </item>
-    
-    <item>
-      <title>Fogli informativi</title>
-      <link>https://hannahmm.github.io/groupalarm/it/einfuehrung/merkblaetter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/it/einfuehrung/merkblaetter/</guid>
-      <description>Qui si possono trovare i principali fogli informativi su eAlarm emergency, tra cui:</description>
-    </item>
-    
-    <item>
-      <title>Concetti fondamentali</title>
-      <link>https://hannahmm.github.io/groupalarm/it/einfuehrung/grundkonzepte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/it/einfuehrung/grundkonzepte/</guid>
-      <description>Per facilitare all’utente l’accesso a eAlarm, nelle pagine seguenti vengono illustrati i concetti di base per iniziare a usare il software.
-Innanzitutto si consiglia all’utente di considerare la propria struttura aziendale. Quale unità organizzativa deve essere sovraordinata e quale subordinata? Inoltre è estremamente importante riflettere attentamente sui diritti di accesso.
-Chi sarà la persona che in futuro disporrà dei diritti per amministrare dati, modificare dati, inviare allarmi risp. dei rispettivi singoli diritti?</description>
-    </item>
-    
-    <item>
-      <title>Landing Page</title>
-      <link>https://hannahmm.github.io/groupalarm/it/einfuehrung/landingpage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/it/einfuehrung/landingpage/</guid>
-      <description>Nel proprio browser internet (preferibilmente Mozilla Firefox) aprire la pagina http://emergency.swisscom-alarm.ch e inserire nome utente e password. L’immagine sotto riportata mostra la Landing Page di eAlarm emergency.</description>
-    </item>
-    
   </channel>
 </rss>

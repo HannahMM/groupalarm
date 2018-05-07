@@ -16,7 +16,7 @@ Im Menü **„Zusatzmodule“** können Sie Ihre Zusatzmodule verwalten und anpa
 
 
 
-![](/img/mutieren.png?width=1000px&classes=shadow)
+![](/img/mutieren.png?classes=shadow)
 
 
 

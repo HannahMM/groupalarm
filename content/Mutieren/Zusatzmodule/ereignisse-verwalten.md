@@ -50,16 +50,18 @@ Damit gelangen Sie ins Menü „Ereignis“, wo Sie verschieden Optionen festleg
 Speichern Sie Ihre Einstellungen/Änderungen mit einem Klick auf „Ereignis speichern“
 
 
-<a name="allgemein"></a>
+
 #### Allgemein
 
 Im Reiter „Allgemein“ legen Sie Ereignis-Code und -Name fest sowie optional eine Beschreibung. 
-Die Funktion „Auslöseberechtigt“ können Sie erst nach erstmaligem Erstellen der Vorlage bearbeiten. 
+ 
 
 ![](/img/mutieren_zusatzmodule_ereignis_allgemein.png?classes=shadow)
 
+Die Funktion „Auslöseberechtigt“ können Sie erst nach erstmaligem Erstellen der Vorlage bearbeiten. Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, das Ereignis per Durchwahl auszulösen.
 
-<a name="vorlagenzuordnung"></a>
+![](/img/mutieren_zusatzmodule_ereignis_allgemein_ausloeseberechtigt.png?classes=shadow)
+
 #### Vorlagen-/Drehbuchzuordnung
 
 Im Dropdown-Menü „Vorlagen/Drehbuch zuweisen“ werden alle vorhandenen Alarm- und Konferenzvorlagen aufgelistet. Wählen Sie die gewünschte Vorlage aus.
@@ -74,7 +76,7 @@ Im Dropdown-Menü „Vorlagen/Drehbuch zuweisen“ werden alle vorhandenen Alarm
 
 Unter allen verfügbaren Texten, also vordefinierte Texte sowie Freitext wählen Sie mit dem Radiobutton <img src="/img/auswahl_rund.png" alt="radiobutton" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 einen Standardtext aus. Mit den Checkboxes <img src="/img/auswahl_eckig.png" alt="checkbox" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-können Sie alternative Texte auswählen, die bei der Auslösung in die engere Auswahl kommen \(analog zu [Alarmvorlagen verwalten](/de/mutieren/zusatzmodule/alarmvorlagen-verwalten/#text) \)
+können Sie alternative Texte auswählen, die bei der Auslösung in die engere Auswahl kommen.
 
 ![](/img/mutieren_zusatzmodule_ereignis_texte.png?classes=shadow)
 
@@ -98,6 +100,6 @@ Um ein Ereignis auszulösen, wählen Sie im Register „Alarmieren“ aus der Sp
 Per Drag&Drop, Doppelklick oder der Schaltfläche „Auswahl übernehmen“ fügen Sie das Ereignis der Teilnehmerliste auf der rechten Seite hinzu. Mit einem Klick auf „Alarm“ gelangen Sie in das entsprechende Auslöse-Menü. 
 Dort können Sie das Ereignis direkt mit seinen vordefinierten Attributen auslösen, aber auch Optionen anpassen.
 
-![](/img/mutieren_zusatzmodule_ereignis_ausloesen.png?classes=shadow)
+![](/img/mutieren_zusatzmodule_ereignis_ausloesen.png?classes=shadow&width=1000)
 
 

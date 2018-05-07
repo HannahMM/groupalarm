@@ -11,15 +11,15 @@ weight = 1
 Sobald ein Alarm ausgelöst wird, erscheint er in der Maske **„Alarm-Feedback“**. Hier erhalten Sie in Echtzeit 
 einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilnehmer. 
 
-![](/img/status_alarm_status_laufende_alarme.png?width=900px&classes=shadow)
+![](/img/status_alarm_status_laufende_alarme.png?width=1200px&classes=shadow)
 
 Mit der Schaltfläche „Kaskade beenden“ <img src="/img/status_alarm_status_laufende_alarme_kaskade_beenden.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schliessen“ <img src="/img/status_alarm_status_laufende_alarme_alarm_schliessen.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schliessen“ den Alarm beenden.
+auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schließen“ den Alarm beenden.
 
 
 
-#### Übersicht Alarm
+#### Zusammenfassung Alarm
 
 Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
 
@@ -27,7 +27,7 @@ Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
 
  - Auslösezeitpunkt und Dauer des Alarms, Alarmtext
  - Statusbalken der Quittierungen
- - Ampel: Gibt Aufschluss darüber, ob die vordefinierte Grenze erfolgreicher Alarmierungen erreicht wurde. **Gelb** bedeutet, eine vordefinierte Anzahl Teilnehmer hat
+ - Ampel: Gibt Aufschluss darüber, ob die vordefinierte Grenze erfolgreicher Alarmierungen erreicht wurde. Bei **Rot** wurde noch keine definierte Grenze erreicht. **Gelb** bedeutet, eine vordefinierte Anzahl Teilnehmer hat
  den Alarm bereits positiv quittiert. **Grün** bedeutet, die in der Registry vordefinierte Anzahl an nötigen positiven Rückmeldungen ist erreicht und Sie können den Alarm beenden. 
  - Übersicht Rückmeldungen <img src="/img/status_alarm_status_laufende_alarme_zusammenfassung_rueckmeldungen.png" alt="feedback" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  
@@ -78,7 +78,10 @@ erfolgt per Tastenfeld.
 
 #### E-Mail
 
-Bei Alarmierung per E-Mail können Sie entweder eine Antwort E-Mail schicken oder dem Link in der Mail folgen und dort quittieren. Folgen Sie dazu den Anleitungen in der Alarmierungsmail.
+Bei Alarmierung per E-Mail können Sie entweder eine Antwort E-Mail schicken oder dem Link in der Mail folgen und dort quittieren. 
+Folgen Sie dazu den Anleitungen in der Alarmierungsmail.
+
+![](/img/status_alarm_status_laufende_alarme_quittung_email2.png?classes=shadow)
 
 #### SMS
 
@@ -115,7 +118,7 @@ Der Auslöser/Disponent kann aufgrund des Textes das „Resultat“ manuell
 auf „Ja“ oder „Nein“ setzten, indem er das grüne Häkchen <img src="/img/status_alarm_status_laufende_alarme_quittung_haken.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 oder das rote Kreuzchen <img src="/img/status_alarm_status_laufende_alarme_quittung_kreuz.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 wählt. Setzt er den Teilnehmer beispielsweise manuell auf „Ja“ wird er
-in eAlarm emergency folgendermassen
+in GroupAlarm folgendermassen
 dargestellt. ![](/img/status_alarm_status_laufende_alarme_quittung_unklar2.png?classes=shadow)
 Der ursprüngliche Text im Resultat wird mit der Information zum
 manuellen Statuswechsel überschrieben.

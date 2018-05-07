@@ -10,13 +10,13 @@ weight = 1
 
 In diesem Menü findet die zentrale Verwaltung Ihrer Unternehmens- und Alarmierungsstruktur statt. 
 
-![](/img/mutieren_mutation_organigramm.png?width=1000px&classes=shadow)
+![](/img/mutieren_mutation_organigramm.png?width=1200px&classes=shadow)
 
 
 
 #### Baumansicht 
 
-Die Darstellung Ihrer Unternehmens und der entsprechenden Alarmierungsstrukturen erfolgt in einem Baumdiagramm. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und weitere Module angezeigt.  
+Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einem Baumdiagramm. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und weitere Module angezeigt.  
  
 Eine **Wurzel** stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordnern zugeordnet werden können. 
 
@@ -24,7 +24,7 @@ Eine **Wurzel** stellt jeweils die höchste Hierarchiestufe dar, welcher eine od
 Die **Gruppe** selber kann auch wiederum eine oder mehrere Gruppen beinhalten. Einer Gruppe wird ein oder mehrere Teilnehmer zugewiesen. Eine Gruppe und ein Teilnehmer
 können in der Organisationsstruktur auch mehrmals vorkommen (die gleiche Gruppe allerdings standardmäßig nur in einer anderen Wurzel).
    
-Gruppe und Teilnehmer lassen sich per Drag & Drop einer Wurzel / Gruppe
+Gruppen und Teilnehmer lassen sich per Drag & Drop einer Wurzel / Gruppe
 zuordnen. 
 ![](/img/mutieren_mutation_organigramm_hierarchie.png?classes=shadow)
 
@@ -51,9 +51,9 @@ hinzugefügt werden.
 
 Im unteren Teil werden vorhandene Teilnehmer, Ordner, Drehbücher etc. aufgelistet. Mit den Filtersymbolen <img src="/img/mutieren_mutation_organigramm_filtersymbole.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  am rechten Rand können Sie bestimmen, welche Datensätze angezeigt werden, bzw. über die Filterfunktion <img src="/img/mutieren_mutation_organigramm_filter.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>
- nach einem bestimmten Ordner/Teilnehmer suchen.
+ nach einem bestimmten Objekten suchen.
 
-![](/img/mutieren_mutation_organigramm_verfuegbar.png?width=700px&classes=shadow)
+![](/img/mutieren_mutation_organigramm_verfuegbar.png?width=1200px&classes=shadow)
 
 Wenn Sie hier mit dem Löschsymbol <img src="/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '> 
 Einträge wie Gruppen, Teilnehmer, Vorlagen etc. löschen, werden diese dauerhaft aus dem System und allen Strukturen entfernt! Untergeordneten Einheiten 
@@ -70,25 +70,25 @@ und bestätigen Sie mit einem Klick auf „anlegen“
 
 Die angelegte Wurzel wird sogleich im Anzeigefeld aufgelistet. Falls der
 gewählte Name bereits vergeben ist, erscheint ein Warnhinweis. Über das
-Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> öffnet sich der „Organisationsbereich, 
+Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> öffnet sich der Organisationsbereich, 
 in dem die Wurzel mit Namen, Kontakt und Adressen sowie weiteren Option ergänzt werden kann. 
 
-![](/img/mutieren_mutation_organigramm_organisationsbereich.png?width=900px&classes=shadow)
+![](/img/mutieren_mutation_organigramm_organisationsbereich.png?classes=shadow)
 
 #### Organisationsbereich Wurzel
 
-	- Name, Kontakt, Standort-Adresse: Geben Sie hier Kontakt- und Adressdaten der Wurzel an
+ - **Name, Kontakt, Standort-Adresse**: Geben Sie hier Kontakt- und Adressdaten der Wurzel an
 	
-	- Hierarchie: Zeigt die untergeordneten Ordner an (nur erste Ebene)
+ - **Hierarchie**: Zeigt die untergeordneten Ordner an (nur erste Ebene)
+ 
+ - **Einsatzplaner für die Gruppe**: Ordnen Sie der Wurzel einen im Menü [Einsatzpläne](/admin/einsatzplaene/) definierten Einsatzplan zu
 	
-	- Status Notalarmierung: Gibt an, ob die Wurzel Notalarm-Gruppe ist. Mehr Informationen hierzu unter [„Notalarmierung“](/notalarmierung)
-	
-	- Gruppenpager: Möglichkeit, einen Gruppenpager zu definieren. TODO
-
+ - **Gruppenpager**: Möglichkeit, einen Gruppenpager zu definieren. 
+ 
 Über das Schlüssel-Symbol <img src="/img/schluesselsymbol.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> können Sie die Rechte der Wurzel verwalten.
 Mehr dazu im Punkt [„Mitbenutzerverwaltung“](/einfuehrung/mitbenutzerverwaltung/)
 
-<a name="gruppe"></a>
+
 ### Gruppe 
 
 Eine neue Gruppe lässt sich unter „Verfügbar“ anlegen. Klicken Sie dazu auf die Option  **„Neuen
@@ -116,7 +116,7 @@ Kontakt und Adresse zu ergänzen.
 	
  - Status Notalarmierung: Gibt an, ob die Gruppe Notalarm-Gruppe ist. Mehr Informationen hierzu unter [„Notalarmierung“](/notalarmierung)
 	
- - Gruppenpager: Möglichkeit, einen Gruppenpager zu definieren. TODO
+ - Gruppenpager: Möglichkeit, einen Gruppenpager zu definieren.
 
 Mit der Löschfunktion <img src="/img/loesch-icon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 werden die angelegten Gruppen zwar unwiderruflich gelöscht, die darin
@@ -125,8 +125,23 @@ dieser Gruppe wird eliminiert.
 
 Per Drag & Drop lässt sich der Ordner nun einfach zu einer Wurzel oder einem anderen Ordner hinzufügen.
 
+#### Rotationsgruppe
 
-<a name="teilnehmer"></a>
+Rotationsgruppen ermöglichen eine automatische Abwechslung in der Alarmierung. Ordnen Sie einer Rotationsgruppe mehrere Einheiten zu. Im Falle eines Alarms wird nur eine der Einheiten alarmiert. Bei der nächsten Alarmierung der gleichen Rotationsgruppe 
+merkt das System, welche Einheit zuletzt alamiert wurde und wählt die nächste Einheit in der Abfolge aus.
+
+Eine neue Rotationsgruppe lässt sich unter „Verfügbar“ anlegen. Klicken Sie dazu auf die Option  **„Neue
+Rotationsgruppe“**, geben den Namen der Gruppe an und bestätigen die Erstellung der
+neuen Gruppen mit der „Enter“-Taste. 
+
+Ordnen Sie dann die Rotationsgruppe der Baumstruktur zu und füllen Sie per Drag & Drop mit den gewünschten Einheiten. 
+![](/img/mutieren_mutation_organigramm_rotationsgruppe.png?classes=shadow)
+
+Bei einer Alarmierung (manuell oder durch eine Vorlage) wird in Klammern angezeigt, bei welcher 
+Gruppe der Alarm eingehen wird.
+![](/img/mutieren_mutation_organigramm_rotationsgruppe_auswahl.png?classes=shadow)
+
+
 ### Teilnehmer 
 
 Analog zu den Gruppen lassen sich auch direkt neue Teilnehmer

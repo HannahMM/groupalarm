@@ -1,9 +1,9 @@
 +++
 title = "Merkblätter"
-weight = 4
+weight = 2
 +++
 
-Hier finden Sie die wichtigsten Merkblätter zu **eAlarm emergency**:
+Hier finden Sie die wichtigsten Merkblätter zu **GroupAlarm pro**:
 
 | Name | Dokumentname |
 | --- | --- |

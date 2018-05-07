@@ -31,13 +31,13 @@ Folgende Konventionen sind dabei zu beachten:
 - **Sprache**:  1 = Deutsch, 2 = Französisch, 3 = Italienisch,  4 = Englisch
 
 - **Pin**: Ist nur mit dem Modul „Teilnehmer-Identifikation” relevant. In diesem Fall muss dies eine systemübergreifend 
-eindeutige 6-stellige Zahl sein. Beim Import kann eine „Wunsch-PIN” definiert werden. Falls diese in eAlarm schon vergeben ist,
+eindeutige 6-stellige Zahl sein. Beim Import kann eine „Wunsch-PIN” definiert werden. Falls diese in GroupAlarm schon vergeben ist,
  wird sie einfach ignoriert; das Datenfeld bleibt dann leer. Ohne das Modul „Teilnehmer-Identifikation” kann das Feld leer gelassen werden. 
 
 - **Login**:  Das Login ist der Schlüssel des Teilnehmerdatensatzes und
-gleichzeitig der Benutzername für Mitbenutzer in eAlarm. Wenn das Feld
+gleichzeitig der Benutzername für Mitbenutzer in GroupAlarm . Wenn das Feld
 leer gelassen wird, definiert das System selbst einen Schlüssel. Falls
-sich der Teilnehmer aber auch in eAlarm einloggen können soll, kann hier
+sich der Teilnehmer aber auch in GroupAlarm  einloggen können soll, kann hier
 sein Benutzername definiert werden. Der Benutzername muss wie die PIN
 systemübergreifend eindeutig sein. Auch hier gilt: Falls der
 Benutzername bereits vergeben ist, wird beim Import das Feld ignoriert.
@@ -81,7 +81,7 @@ wird hochgezählt.
 
 
 
-### Gruppen mit Einsatzplänen TODO
+### Gruppen mit Einsatzplänen 
 
 **Dateiname**: import_ec.csv
 
@@ -93,7 +93,7 @@ Haben Sie im Admin-Bereich [Einsatzpläne](/admin/einsatzplaene/) erstellt und d
  - **Einsatzplan_ID und Einsatzplan_Name**: Nummer und Name des zugehörigen Plans
 
 
-### Gruppen in Zeitsteuerungen TODO
+### Gruppen in Zeitsteuerungen 
 
 
 **Dateiname**: import_c.csv
@@ -113,7 +113,7 @@ in Zeitsteuerungen eingeteilt, können Sie diese hier exportieren.
  die anschliessend über die LID zugewiesen wird. 
 
 
-### Hierarchiebaum TODO
+### Hierarchiebaum 
 
 **Dateiname**: import_h.csv
 
@@ -143,9 +143,9 @@ Ihre erste Wurzel hat dann die LinkID 10, die zweite 11 usw. – nur im Falle ei
 
  - **Name**: Der Name der Einheit
  
- Im folgenden exemplarisch die tabellarische Darstellung und die zugehörige Baumstruktur:
 
-![](/img/zusatzmodule_imexport_hierarchiebaum2.png?classes=shadow)
+
+![](/img/mutieren_zusatzmodule_imexport_export_hierarchiebaum_beispiel.png?classes=shadow)
 
 
 
@@ -205,6 +205,14 @@ gesperrt <img src="/img/schlosssymbol.png" alt="lock" style='vertical-align:midd
 
 ### Leere Vorlagen
 
-### Notalarmierungsliste
- 
+**Dateiname**: import_lv.csv
+
+Mit diesem Export erhalten Sie eine Liste von Vorlagen, die leer sind und daher nicht mehr verwendet werden sollen, z.B. falls die zugeordneten Teilnehmer inzwischen gelöscht wurden. Gerade bei vielen Alarmvorlagen lassen sich so schnell die 
+hinfällig gewordenen Vorlagen identifizieren.
+
+
+![](/img/mutieren_zusatzmodule_imexport_export_leere_vorlagen.png?classes=shadow)
+
+In der Tabelle werden Typ, Name, Auslösecode und Beschreibung der leeren Vorlagen aufgeführt, so dass Sie diese löschen oder bearbeiten können.
+
 

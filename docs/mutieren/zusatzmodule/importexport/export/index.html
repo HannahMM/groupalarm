@@ -40,19 +40,18 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-
-    
-		
-		<span style="font-size:smaller">
+      
+	
+  
+  <span style="font-size:smaller">
 		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
 		
 		  <span>
-		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
 		</a>
+    
+  
 
-		
-		</small>
-		
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -62,10 +61,12 @@
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
 		<script type="text/javascript">
-		    var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
 		</script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
-  </div>
+</div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent">
@@ -208,6 +209,11 @@
       <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
           <span>Texte</span>
+        </a>
+    </li>
+      <li data-nav-id="/mutieren/mutation/eric_pager/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/">
+          <span>ERIC Pager verwalten (Zweiwege-Paging)</span>
         </a>
     </li>
         </ul>
@@ -434,14 +440,13 @@
 <li><a href="#dynamischer-export">Dynamischer Export</a></li>
 <li><a href="#optionale-felder-pro-teilnehmer">Optionale Felder pro Teilnehmer</a></li>
 <li><a href="#gruppen">Gruppen</a></li>
-<li><a href="#gruppen-mit-einsatzplänen-todo">Gruppen mit Einsatzplänen TODO</a></li>
-<li><a href="#gruppen-in-zeitsteuerungen-todo">Gruppen in Zeitsteuerungen TODO</a></li>
-<li><a href="#hierarchiebaum-todo">Hierarchiebaum TODO</a></li>
+<li><a href="#gruppen-mit-einsatzplänen">Gruppen mit Einsatzplänen</a></li>
+<li><a href="#gruppen-in-zeitsteuerungen">Gruppen in Zeitsteuerungen</a></li>
+<li><a href="#hierarchiebaum">Hierarchiebaum</a></li>
 <li><a href="#teilnehmer-in-einheiten">Teilnehmer in Einheiten</a></li>
 <li><a href="#tts-ersetzungen">TTS Ersetzungen</a></li>
 <li><a href="#telefonliste">Telefonliste</a></li>
 <li><a href="#leere-vorlagen">Leere Vorlagen</a></li>
-<li><a href="#notalarmierungsliste">Notalarmierungsliste</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -491,13 +496,13 @@ Hierbei wird eine vollständige Liste aller Teilnehmer und deren Datenfeldern au
 <li><p><strong>Sprache</strong>:  1 = Deutsch, 2 = Französisch, 3 = Italienisch,  4 = Englisch</p></li>
 
 <li><p><strong>Pin</strong>: Ist nur mit dem Modul „Teilnehmer-Identifikation” relevant. In diesem Fall muss dies eine systemübergreifend
-eindeutige 6-stellige Zahl sein. Beim Import kann eine „Wunsch-PIN” definiert werden. Falls diese in eAlarm schon vergeben ist,
+eindeutige 6-stellige Zahl sein. Beim Import kann eine „Wunsch-PIN” definiert werden. Falls diese in GroupAlarm schon vergeben ist,
 wird sie einfach ignoriert; das Datenfeld bleibt dann leer. Ohne das Modul „Teilnehmer-Identifikation” kann das Feld leer gelassen werden.</p></li>
 
 <li><p><strong>Login</strong>:  Das Login ist der Schlüssel des Teilnehmerdatensatzes und
-gleichzeitig der Benutzername für Mitbenutzer in eAlarm. Wenn das Feld
+gleichzeitig der Benutzername für Mitbenutzer in GroupAlarm . Wenn das Feld
 leer gelassen wird, definiert das System selbst einen Schlüssel. Falls
-sich der Teilnehmer aber auch in eAlarm einloggen können soll, kann hier
+sich der Teilnehmer aber auch in GroupAlarm  einloggen können soll, kann hier
 sein Benutzername definiert werden. Der Benutzername muss wie die PIN
 systemübergreifend eindeutig sein. Auch hier gilt: Falls der
 Benutzername bereits vergeben ist, wird beim Import das Feld ignoriert.
@@ -543,7 +548,7 @@ wird hochgezählt.</p>
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_imexport_export_gruppen.png?classes=shadow" alt="" /></p>
 
-<h3 id="gruppen-mit-einsatzplänen-todo">Gruppen mit Einsatzplänen TODO</h3>
+<h3 id="gruppen-mit-einsatzplänen">Gruppen mit Einsatzplänen</h3>
 
 <p><strong>Dateiname</strong>: import_ec.csv</p>
 
@@ -556,7 +561,7 @@ wird hochgezählt.</p>
 <li><strong>Einsatzplan_ID und Einsatzplan_Name</strong>: Nummer und Name des zugehörigen Plans</li>
 </ul>
 
-<h3 id="gruppen-in-zeitsteuerungen-todo">Gruppen in Zeitsteuerungen TODO</h3>
+<h3 id="gruppen-in-zeitsteuerungen">Gruppen in Zeitsteuerungen</h3>
 
 <p><strong>Dateiname</strong>: import_c.csv</p>
 
@@ -576,7 +581,7 @@ Der Name dient hier nur der besseren Lesbarkeit des Exports, beim Import wird di
  muss, beginnen immer mindestens zwei Zeilen mit derselben CID, nämlich einmal für jede dazugehörige Gruppe,
  die anschliessend über die LID zugewiesen wird.</p>
 
-<h3 id="hierarchiebaum-todo">Hierarchiebaum TODO</h3>
+<h3 id="hierarchiebaum">Hierarchiebaum</h3>
 
 <p><strong>Dateiname</strong>: import_h.csv</p>
 
@@ -614,9 +619,7 @@ Ihre erste Wurzel hat dann die LinkID 10, die zweite 11 usw. – nur im Falle ei
 <li><strong>Name</strong>: Der Name der Einheit</li>
 </ul>
 
-<p>Im folgenden exemplarisch die tabellarische Darstellung und die zugehörige Baumstruktur:</p>
-
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_imexport_hierarchiebaum2.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_imexport_export_hierarchiebaum_beispiel.png?classes=shadow" alt="" /></p>
 
 <h3 id="teilnehmer-in-einheiten">Teilnehmer in Einheiten</h3>
 
@@ -671,7 +674,14 @@ gesperrt <img src="https://hannahmm.github.io/groupalarm/img/schlosssymbol.png" 
 
 <h3 id="leere-vorlagen">Leere Vorlagen</h3>
 
-<h3 id="notalarmierungsliste">Notalarmierungsliste</h3>
+<p><strong>Dateiname</strong>: import_lv.csv</p>
+
+<p>Mit diesem Export erhalten Sie eine Liste von Vorlagen, die leer sind und daher nicht mehr verwendet werden sollen, z.B. falls die zugeordneten Teilnehmer inzwischen gelöscht wurden. Gerade bei vielen Alarmvorlagen lassen sich so schnell die
+hinfällig gewordenen Vorlagen identifizieren.</p>
+
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_imexport_export_leere_vorlagen.png?classes=shadow" alt="" /></p>
+
+<p>In der Tabelle werden Typ, Name, Auslösecode und Beschreibung der leeren Vorlagen aufgeführt, so dass Sie diese löschen oder bearbeiten können.</p>
 
 
     

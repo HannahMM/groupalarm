@@ -5,8 +5,6 @@ weight = 3
 
 
 
-<a name="beendete_konferenzen"></a> 
-### Beendete Konferenzen
 
 Sobald die Konferenz beendet ist, wird ein Konferenzprotokoll und eine
 Kostenauswertung im Register „**Status**“ unter „**Beendete Konferenzen**“
@@ -31,7 +29,7 @@ In der Tabelle erscheinen von links nach rechts:
 - **Funktion:** Verfügbare Funktionen und Reports zur
     jeweiligen Konferenz.
 
-
+Folgende Funktionen sehen zur Verfügung:
 
 #### 1. Konferenzprotokoll <img src="/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 

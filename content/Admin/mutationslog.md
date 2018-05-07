@@ -3,7 +3,6 @@ title = "Mutationslog"
 weight = 10
 +++
 
-### Mutationslog 
 
 
 Im Mutationslog werden alle Änderungen der letzten 30 Tage erfasst, also z.B. das Erstellen und Ändern von Datensätzen wie Teilnehmern, 
@@ -11,7 +10,7 @@ Im Mutationslog werden alle Änderungen der letzten 30 Tage erfasst, also z.B. d
 
 Es können maximal 30 Tage und 100 Datensätze angezeigt werden.
 
-![](/img/admin_mutationslog.png?classes=shadow&width=900px)
+![](/img/admin_mutationslog.png?classes=shadow)
 
  Anhand der Tabelle ist ersichtlich, welche **„Änderung“** in welchem
 **„Objekt“** von welchem **„Benutzer“** in welcher **„Kategorie“** zu

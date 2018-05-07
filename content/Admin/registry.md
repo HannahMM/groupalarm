@@ -3,15 +3,15 @@ title = "Registry"
 weight = 6
 +++
 
-### Registry 
+
 
 ![](/img/admin_registry.png?classes=shadow)
 
-In der Registry können Sie viele detaillierte Konfigurationen vornehmen um eAlarm nach Ihren Bedürfnissen zu gestalten, z.B. das Verwalten von Mitbenutzer-Rechte, Automatischen Versand von Protokollen, Login-Timeout uvm.
-Um einen neuen Eintrag hinzuzufügen, wählen Sie ihn im Dropdown-Menü aus, geben Sie den entsprechenden Wert ein und für welche Nutzer der Eintrag gelten soll und bestätigen Sie mit „hinzufügen“. Einträge können Sie mit „entfernen“
+In der Registry können Sie viele detaillierte Konfigurationen vornehmen um GroupAlarm pro nach Ihren Bedürfnissen zu gestalten, z.B. das Verwalten von Mitbenutzer-Rechte, Automatischen Versand von Protokollen, Login-Timeout uvm.
+
+Um einen neuen Eintrag hinzuzufügen, wählen Sie ihn im Dropdown-Menü aus, geben den entsprechenden Wert ein und für welche Nutzer der Eintrag gelten soll und bestätigen  mit „hinzufügen“. Einträge können Sie mit „entfernen“
 wieder entfernen.
-In der folgenden Tabelle werden die
-Konfigurationselemente beschrieben sowie deren gültige Werte:
+In der folgenden Tabelle werden die Konfigurationselemente beschrieben sowie deren gültige Werte:
 {{% panel theme="info" header="Wichtig!" %}}Durch Komma getrennte Werte müssen zwingend ohne Leerzeichen
 eingegeben werden (z.B. de,fr,it).{{% /panel %}}
 
@@ -51,14 +51,10 @@ eingegeben werden (z.B. de,fr,it).{{% /panel %}}
 |Disable Combox Key (Modul Telefonkonferenz(en))|Unterdrückt den Tastendruck für den Eintritt in die Telefonkonferenz. ACHTUNG: Durch das Deaktivieren gelangen auch Comboxen und Anrufbeantworter in die Telefonkonferenzen.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |Disable Flash Sms|Schaltet die Alarmoption Flash-SMS(SMSPrio) ab, sodass SMS im normal Modus versendet werden|0,1|Flash standardmässig an |
 |Dry Run Validity (Modul Dry Run)| Bestimmt, ob Teilnehmer bei der Auslösung Dry Run Wert berücksichtigen soll oder nicht.| 0 oder 1 (0: nicht berücksichtigen, 1: berücksichtigen)|0 : nicht berücksichtigen|
-|EalarmApp Fallback On Info (Modul eAlarmApp)|Schaltet bei einer Info-Alarmierung an/aus, ob ein Fallback gesendet wird oder nicht|0 oder 1|Inaktiv|
-|EalarmApp Optional Text (Modul eAlarmApp)|Über die App können damit auch weitere Antworten neben „ja/nein“ gesendet werden|„Text“|leer|
-|EalarmApp Fallback Mode (Modul eAlarmApp)|Fallback Modus|„sms“, „flash-sms“, „disabled“|flash-sms|
-|EalarmApp Optional Waytime (Modul eAlarmApp)|Kann die Wegzeit in der App mit angeben, Standard ist „Call_waytime_acknowledge“|0 oder 1|0|
 |Emergency Call Always Add Group Nr (Modul Notalarmierung)|Gruppe die automatisch JEDEM Notalarm hinzugefügt wird||Inaktiv|
 |Emergency Call Mail To (Modul Notalarmierung)|Nach jeder Mutation die aktualisierte Notalarmierungsliste automatisch per E-Mail versenden an|Gültige E-Mail-Adresse|Inaktiv|
 |Emergency Call Report To (Modul Notalarmierung)|Nach jeder Notalarmierung das Notalarm-Konferenzprotokoll automatisch per E-Mail versenden an|Gültige E-Mail-Adresse|Inaktiv|
-|Email Alert Subject (Modul Email/Fax)|Ersetzt XXX im Betreff-Präfix bei der Email-Alarmierung „[ALARM XXX]“.|Beliebig, z.B. Organisationskürzel.|Inaktiv, d.h. es wird der Standard-Präfix verwendet: „[ALARM eAlarm]“.|
+|Email Alert Subject (Modul Email/Fax)|Ersetzt XXX im Betreff-Präfix bei der Email-Alarmierung „[ALARM XXX]“.|Beliebig, z.B. Organisationskürzel.|Inaktiv, d.h. es wird der Standard-Präfix verwendet: „[ALARM GroupAlarm ]“.|
 |Email Attach All Languages (Modul Email/Fax)|Bei der E-Mail-Alarmierungen werden alle verfügbaren Attachment-Sprachen angehängt, statt nur die Sprache des Teilnehmers.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |Export Template Group|Export für Alarmvorlagen mit Gruppen  |||
 |Feedback Hide Progressbar|Feedback Progress Bar wird ausgeblendet|0 oder 1 ||
@@ -67,10 +63,9 @@ eingegeben werden (z.B. de,fr,it).{{% /panel %}}
 |Light Percent Green (Basismodul)|Schwellenwert für grünes Licht der Ampel, d. h. sobald der definierte Prozentsatz an positiven Quittierungen erreicht ist, springt die Ampel auf Grün. (Siehe auch Auto Close Alert Light Green)|Ganze Zahl zwischen 1 und 100 (muss grösser sein als Light Percent Yellow)|80%|
 |Light Percent Yellow (Basismodul)|Schwellenwert für Gelblicht der Ampel, d. h. sobald der definierte Prozentsatz an positiven Quittierungen erreicht ist, springt die Ampel auf Gelb.|Ganze Zahl zwischen 0 und 99 (muss kleiner sein als Light Percent Green)|50%|
 |Login IP Restriction IP (kundenspezifisch)|Definiert die IP oder IP-Range von der aus sich ein Mitbenutzer oder eine Rechtegruppe einloggen darf. **ACHTUNG**: Diese Mitbenutzer können sich aus anderen IP-Ranges NICHT mehr einloggen!|IP-Adresse. Für Platzhalter bzw. IP-Ranges „\*“ verwenden.|Inaktiv|
-|Login Parallel Sessions| Ein User mit denselben Credentials kann sich gleichzeitig mehrfach an mehreren Arbeitsstationen in eAlarm einloggen. Seine aktuellen Handlungen (beispielsweise das Befüllen der Alarmierungsliste etc.) werden auf den jeweils anderen Sessions resp. Arbeitsstationen angezeigt. D.h. die Sessions beeinflussen sich gegenseitig.|Ganze Zahl 0 bis 20 ||
+|Login Parallel Sessions| Ein User mit denselben Credentials kann sich gleichzeitig mehrfach an mehreren Arbeitsstationen in GroupAlarm  einloggen. Seine aktuellen Handlungen (beispielsweise das Befüllen der Alarmierungsliste etc.) werden auf den jeweils anderen Sessions resp. Arbeitsstationen angezeigt. D.h. die Sessions beeinflussen sich gegenseitig.|Ganze Zahl 0 bis 20 ||
 |Login Timeout Seconds (Basismodul)|Login-Timeout nach x Sekunden|Ganze Zahl ab 1.|900 (=15 Min)|
-|Mass Alert Threshold| Anzahl der Teilnehmer, ab wann ein Alarm als Grossalarm gilt                                                                                                                                                                                                                                                                                                                                                                                                               | Ganze Zahl von 0 bis inf.                                                                                                                                                                                                                                                                                                                                                                                             | Lokal                                                                                     |  
-|Mass Alert Delay|Verzögerung in Sekunden bei einem Grossalarm für alle Mittel nach eAlarmApp| Ganze Zahl von 0 bis unendlich| 
+|Mass Alert Threshold| Anzahl der Teilnehmer, ab wann ein Alarm als Grossalarm gilt 
 |Max alert participants warnlevel| Ab dieser Anzahl an Teilnehmern wird eine Warnung beim Alarm angezeigt| ganze Zahl ab 1| 0 - deaktiviert|
 |Max alert participants blocklevel| Ab dieser Anzahl an Teilnehmern wird die Alarmierung verhindert (GUI) | ganze Zahl ab 1| 0 - deaktiviert |
 |Max Conference Show (Modul Conference Call)| Anzahl angezeigten Konferenzen in der Alarmierungsansicht| ganze Zahl ab 1 | 100| 
@@ -79,7 +74,7 @@ eingegeben werden (z.B. de,fr,it).{{% /panel %}}
 |Max Templates Show (Modul Alert Templates)| Anzahl angezeigten Alarmvorlagen in der Alarmierungsansicht| ganze Zahl ab 1| 100|                       
 |Memberlist Keep Filter On Login (Basismodul)|Behält den zuletzt verwendeten Filter auf der Teilnehmerliste über die Session hinaus bei.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |Multiple Folder In Tree (kundenspezifisch)|Erlaubt das mehrfache Einfügen der gleichen Gruppe in einen Baum.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
-|Multiple Sessions| Ein User mit denselben Credentials kann sich, "Login Parallel Sessions" vorausgesetzt, gleichzeitig mehrfach an mehreren Arbeitsstationen in eAlarm einloggen. Seine aktuellen Handlungen werden jedoch nicht auf den jeweils anderen Sessions resp. Arbeitsstationen angezeigt. D.h. das Aktivieren dieses Keys führt dazu, dass die Sessions als eigenständig betrachtet werden, ohne dass die eine Session eine andere beeinflusst.  | 0 oder 1||
+|Multiple Sessions| Ein User mit denselben Credentials kann sich, "Login Parallel Sessions" vorausgesetzt, gleichzeitig mehrfach an mehreren Arbeitsstationen in GroupAlarm  einloggen. Seine aktuellen Handlungen werden jedoch nicht auf den jeweils anderen Sessions resp. Arbeitsstationen angezeigt. D.h. das Aktivieren dieses Keys führt dazu, dass die Sessions als eigenständig betrachtet werden, ohne dass die eine Session eine andere beeinflusst.  | 0 oder 1||
 |Num Temporary Texts (Basismodul)|Definiert die Anzahl der angezeigten „bisherigen Alarmtexte“. Bedingt die Aktivierung von „Show Temporary Texts“.|Ganze Zahl ab 1.|5|
 |Parallel Alert Is Default (Basismodul)|Setzt „parallele Mittel“ als Standard.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |PDF on demand| Erlaubt das Erzeugen von PDFs auf der Feedback-Seite|||
@@ -104,7 +99,9 @@ eingegeben werden (z.B. de,fr,it).{{% /panel %}}
 |Show Temporary Texts (Basismodul)|History bisheriger Texte in der Textauswahl einblenden. Die Anzahl wird über „Num Temporary Textes“ definiert.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |Suppress SMS Reply (Modul Fernauslösung)|Unterdrückt die Bestätigungs-SMS bei der Auslösung per SMS|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |Table Block Size| Default Anzahl abgeschlossene Alarme| ganz Zahl| 100| 
-|Tree Session Persistant| die aktuelle Baumansicht wird beim Verlassen der Seite gespeichert| 0,1| inaktiv| 
+|Tree Session Persistant| die aktuelle Baumansicht wird beim Verlassen der Seite gespeichert| 0,1| inaktiv|
+|Unitronic Allow Alert |  Der hier eingetrage Teilnehmer ist berechtigt den Nachrichtenstil „Alarm“ auszuwählen| 0 oder 1| Inaktiv| 
+|Unitronic Allow Prio Alert| Der hier eingetrage Teilnehmer ist berechtigt den Nachrichtenstil „Prio-Alarm“ auszuwählen| 0 oder 1| Inaktiv|
 |User Allow Billing-Info (Basismodul)|Mitbenutzer das Recht zuordnen, die Billing-Info PDF`s einzusehen.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |User Allow Gis Config (kundenspezifisch)|Mitbenutzern das Recht zuordnen, Ortungsbaken und Endgeräte zu pflegen.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
 |User Allow Import Export (Basismodul)|Mitbenutzern das Recht zuordnen, die Im-/Export-Funktionalität zu nutzen|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|

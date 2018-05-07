@@ -26,7 +26,7 @@ und bestätigen Sie mit Klick auf das Filtersymbol
 Folgende Funktionen stehen zur Verfügung
 
  - **Bearbeiten** <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
- Bearbeiten einer vorhandenen Alarmvorlage. Mehr Informationen im Abschnitt [Neue Alarmvorlage anlegen](#allgemein).
+ Bearbeiten einer vorhandenen Alarmvorlage. Mehr Informationen dazu im Abschnitt [Neue Alarmvorlage anlegen](#allgemein).
  
  - **Vorlage sperren** <img src="/img/schlosssymbol.png" alt="schloss" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
  Option, eine Alarmvorlage zu sperren. Unberechtigte Personen können eine gesperrte Vorlage weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann eine Vorlage nur vom Ersteller oder dem Superuser.
@@ -62,31 +62,33 @@ Es gibt verschiedene Möglichkeiten, eine neue Alarmvorlage anzulegen:
  
  2. Im Register **„Mutieren“** im Menü „Teilnehmerliste“ fügen Sie die gewünschte/n Gruppe/n per Drag & Drop oder Doppelklick
  der rechten Spalte hinzu und klicken auf „Alarmvorlage erstellen“
- ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage2.png?width=700px&classes=shadow) 
+ ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage2.png?width=800px&classes=shadow) 
  
  3. Im Register **„Mutieren“** im Menü „Zusatzmodule“, „Alarmvorlagen verwalten“ mit der Schaltfläche „Neue Alarmvorlage anlegen“
  <img src="/img/mutieren_zusatzmodule_alarmvorlagen_neue_alarmvorlage_anlegen.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  Damit gelangen Sie in die bereits bekannte Alarmmaske. Hier können Sie Wurzeln und Gruppen per Drag & Drop oder Doppelklick in die rechte Spalte schieben. Klicken Sie dann auf „Alarmvorlage erstellen“
- ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage3.png?width=700px&classes=shadow)
+ ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage3.png?width=800px&classes=shadow)
  
   
   
   
 Mit allen Optionen gelangen Sie ins Menü „Alarmvorlage erstellen“. Ähnlich wie im Abschnitt [„Alarm erstellen“](/de/alarmieren/alarm/) legen Sie
 hier die Details des Alarms fest. 
-![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen.png?width=700px&classes=shadow)
+![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen.png?classes=shadow)
 Speichern Sie zum Abschluss ihre Alarmvorlage mit der Schaltfläche „Alarm als Vorlage speichern“.
 
 
-<a name="allgemein"></a>
+
 #### Allgemein
 
 Im Reiter „Allgemein“ legen Sie Auslösecode und Alarmname fest sowie optional eine Beschreibung des Alarms.
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul).
+
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein.png?classes=shadow)
 
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Alarmvorlage per Durchwahl auszulösen.
 
-<a name="teilnehmer"></a>
+![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein_ausloeseberechtigt.png?classes=shadow)
+
 #### Teilnehmer
 
 Hier werden die Teilnehmer aufgelistet. Sie können Gruppen mit dem Löschsymbol
@@ -95,17 +97,14 @@ Hier werden die Teilnehmer aufgelistet. Sie können Gruppen mit dem Löschsymbol
 
 
 
-<a name="text"></a>
 #### Text
 
 Unter allen verfügbaren Texten, also vordefinierte Texte sowie Freitext wählen Sie mit dem Radiobutton <img src="/img/auswahl_rund.png" alt="radiobutton" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 einen Standardtext aus. Mit den Checkboxes <img src="/img/auswahl_eckig.png" alt="checkbox" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 können Sie alternative Texte auswählen, die bei der Alarmauslösung in die engere Auswahl kommen.  
-Im folgenden Screenshot wurde z.B. der Freitext „Test“ als Standardtext ausgewählt und der vordefinierte Alarmtext „Alarm“ als Alternative.
-Löst man hinterher die Alarmvorlage aus, werden die ausgewählten Texte im Menü „Text“ angezeigt, wobei der Standardtext (in diesem
-Fall „Test“) vorselektiert ist.
 
-![](/img/zusatzmodule_alarmvorlage_erstellen3.png?width=700px&classes=shadow)
+
+![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_texte.png?classes=shadow)
 
 
 
@@ -122,10 +121,44 @@ der Enter-Taste bestätigen, diese wird automatisch in das WGS84-Format umgewand
 <a name="alarmoptionen"></a>
 #### Alarmoptionen
 
-Analog zum Erstellen eines Alarms legen Sie hier fest, welche Mittel alarmiert werden sollen, ob ein Abbruch nach einer bestimmten Anzahl Quittierungen 
-erfolgen soll oder ob ein Info-Versand getätigt werden soll. 
+Analog zum Erstellen eines Alarms legen Sie hier die Alarmoptionen fest.
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_alarmoptionen.png?classes=shadow)
+
+ - **Folgende Mittel alarmieren**: Welche Alarmmittel sollen alarmiert werden?
+ 
+ - **Alert-SMS**(Flash-SMS): SMS wird direkt auf dem Handy-Display dargestellt wird, sobald sie eingegangen ist.
+
+ - **Dry-Run**: Startet den Alarm nur als eine Art Probealarm, die Alarmmittel der Teilnehmer werden hierbei nicht ausgelöst. 
+ 
+ - **PIN-Schutz**: Relevant für Alarmierung via Anruf. Wurde im [Teilnehmerbereich](/mutieren/mutation/teilnehmerliste/#teilnehmerbereich) ein PIN definiert, muss dieser vom Teilnehmer zunächst eingegeben werden, bevor die Sprachnachricht abgespielt wird.
+ 
+ - **Wochenplaner**:(optionales Modul)
+
+	- Aus Teilnehmerdaten: Die Teilnehmer werden anhand des [vordefinierten
+    Wochenplaners](/admin/wochenplaner) alarmiert
+
+	- Standard (default): Bei dieser Option wird der vordefinierte
+    Wochenplaner (optionales Modul) nicht berücksichtigt
+
+ - **Abbruch**: Bestimmung der Abbruchkriterien für die automatische Beendigung eines
+Alarms. Wird ein definiertes Abbruchkriterium erreicht, wird der Alarm
+gestoppt und geschlossen.
+
+	- Abbruch aufgrund x % der Teilnehmer, welche positiv quittiert haben
+
+	- Abbruch aufgrund x Teilnehmern, welche positiv quittiert haben
+
+	- Abbruch nach x Minuten nach der Alarmauslösung
+
+ - **Info-Versand**: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen inkl. PG)
+ 
+ - **Unitronic Alarm Prio**: Art der Benachrichtigung/Alarmierung 
+	- Textnachricht: Nicht lautstärken-übersteuernde Nachricht an den Pager (eigener Klingelton kann gesetzt werden)
+	- Alarm: Lautstärken-übersteuernde Nachricht (eigener Klingelton kann gesetzt werden)
+	- Prio-Alarm: Maximale Signalisierung (max. Lautstärke, Vibration) der Nachricht am Pager (eigener Klingelton kann gesetzt werden)
+
+
 
 <a name="versandzeit"></a>
 #### Versandzeit
@@ -136,7 +169,7 @@ Hier legen Sie fest, ob ein Alarm sofort versendet werden soll oder für einen s
 
  
  
-<a name="alarmvorlage_ausloesen"></a> 
+
 ### Alarmvorlage auslösen
 
 Um eine Alarmvorlage auszulösen, wählen Sie im Register **„Alarmieren“** aus der Spalte „Vorlagen“ die gewünschte Vorlage aus. Eventuell
@@ -148,19 +181,19 @@ Per Drag & Drop, Doppelklick oder der Schaltfläche „Auswahl übernehmen“ f�
 Mit einem Klick auf „Alarm“ gelangen Sie in das bereits bekannte Menü „Alarm erstellen“. Dort können Sie den Alarm direkt mit seinen vordefinierten Attributen auslösen, aber auch Optionen anpassen (z.B. Koordinaten ändern, 
 Einheiten bearbeiten)
 
-![](/img/mutieren_zusatzmodule_alarmvorlagen_ausloesen.png?width=800px&classes=shadow)
+![](/img/mutieren_zusatzmodule_alarmvorlagen_ausloesen.png?width=1000px&classes=shadow)
 
 <a name="teilnehmer_nachtraeglich_hinzufuegen"></a>
 ### Teilnehmer nachträglich hinzufügen
 
-Es ist auch möglich, nachträglich Teilnehmer einer Alarmvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen sie per Drag&Drop, Doppelklick oder der Schaltfläche
+Es ist auch möglich, nachträglich Teilnehmer einer Alarmvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen sie per Drag & Drop, Doppelklick oder der Schaltfläche
 „Auswahl übernehmen“ zu der Spalte „Teilnehmer“ am rechten Rand hinzu. Mit der Schaltfläche „Alarmvorlage aktualisieren“ bestätigen Sie Ihre Auswahl.
 
- ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren1.png?width=700px&classes=shadow)
+ ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren1.png?width=1000px&classes=shadow)
  
  Im nachfolgenden Menü „Alarmvorlage aktualisieren“ können Sie im Dropdown-Menü die Alarmvorlage auswählen, zu der Sie die
  Teilnehmer hinzufügen wollen.
-  ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren2.png?width=700px&classes=shadow)
+  ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren2.png?classes=shadow)
  
  Bestätigen Sie mit einem Klick auf *„übernehmen“*.
  

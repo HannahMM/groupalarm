@@ -40,19 +40,18 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-
-    
-		
-		<span style="font-size:smaller">
+      
+	
+  
+  <span style="font-size:smaller">
 		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
 		
 		  <span>
-		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
 		</a>
+    
+  
 
-		
-		</small>
-		
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -62,10 +61,12 @@
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
 		<script type="text/javascript">
-		    var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
 		</script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
-  </div>
+</div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent">
@@ -208,6 +209,11 @@
       <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
           <span>Texte</span>
+        </a>
+    </li>
+      <li data-nav-id="/mutieren/mutation/eric_pager/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/">
+          <span>ERIC Pager verwalten (Zweiwege-Paging)</span>
         </a>
     </li>
         </ul>
@@ -355,21 +361,6 @@
 					
 					
 						
-					
-						
-							
-								<option id="en" value="/en/mutieren/mutation/organigramm/">en</option>
-							
-						
-					
-						
-					
-						
-					
-				
-					
-					
-						
 							
 								<option id="de" value="/mutieren/mutation/organigramm/" selected>de</option>
 							
@@ -377,21 +368,6 @@
 					
 						
 					
-						
-					
-						
-					
-				
-					
-					
-						
-					
-						
-					
-						
-							
-								<option id="fr" value="/fr/mutieren/mutation/organigramm/">fr</option>
-							
 						
 					
 						
@@ -467,6 +443,7 @@
 <li><a href="#gruppe">Gruppe</a>
 <ul>
 <li><a href="#organisationsbereich-gruppen">Organisationsbereich Gruppen</a></li>
+<li><a href="#rotationsgruppe">Rotationsgruppe</a></li>
 </ul></li>
 <li><a href="#teilnehmer">Teilnehmer</a></li>
 </ul></li>
@@ -498,18 +475,18 @@
 
 <p>In diesem Menü findet die zentrale Verwaltung Ihrer Unternehmens- und Alarmierungsstruktur statt.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm.png?width=1000px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm.png?width=1200px&amp;classes=shadow" alt="" /></p>
 
 <h4 id="baumansicht">Baumansicht</h4>
 
-<p>Die Darstellung Ihrer Unternehmens und der entsprechenden Alarmierungsstrukturen erfolgt in einem Baumdiagramm. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und weitere Module angezeigt.</p>
+<p>Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einem Baumdiagramm. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und weitere Module angezeigt.</p>
 
 <p>Eine <strong>Wurzel</strong> stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordnern zugeordnet werden können.</p>
 
 <p>Die <strong>Gruppe</strong> selber kann auch wiederum eine oder mehrere Gruppen beinhalten. Einer Gruppe wird ein oder mehrere Teilnehmer zugewiesen. Eine Gruppe und ein Teilnehmer
 können in der Organisationsstruktur auch mehrmals vorkommen (die gleiche Gruppe allerdings standardmäßig nur in einer anderen Wurzel).</p>
 
-<p>Gruppe und Teilnehmer lassen sich per Drag &amp; Drop einer Wurzel / Gruppe
+<p>Gruppen und Teilnehmer lassen sich per Drag &amp; Drop einer Wurzel / Gruppe
 zuordnen.
 <img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_hierarchie.png?classes=shadow" alt="" /></p>
 
@@ -531,9 +508,9 @@ hinzugefügt werden.</p>
 
 <p>Im unteren Teil werden vorhandene Teilnehmer, Ordner, Drehbücher etc. aufgelistet. Mit den Filtersymbolen <img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_filtersymbole.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  am rechten Rand können Sie bestimmen, welche Datensätze angezeigt werden, bzw. über die Filterfunktion <img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_filter.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>
- nach einem bestimmten Ordner/Teilnehmer suchen.</p>
+ nach einem bestimmten Objekten suchen.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_verfuegbar.png?width=700px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_verfuegbar.png?width=1200px&amp;classes=shadow" alt="" /></p>
 
 <p>Wenn Sie hier mit dem Löschsymbol <img src="https://hannahmm.github.io/groupalarm/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 Einträge wie Gruppen, Teilnehmer, Vorlagen etc. löschen, werden diese dauerhaft aus dem System und allen Strukturen entfernt! Untergeordneten Einheiten
@@ -548,26 +525,25 @@ und bestätigen Sie mit einem Klick auf „anlegen“</p>
 
 <p>Die angelegte Wurzel wird sogleich im Anzeigefeld aufgelistet. Falls der
 gewählte Name bereits vergeben ist, erscheint ein Warnhinweis. Über das
-Bearbeitungs-Icon <img src="https://hannahmm.github.io/groupalarm/img/bearbeitungsicon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> öffnet sich der „Organisationsbereich,
+Bearbeitungs-Icon <img src="https://hannahmm.github.io/groupalarm/img/bearbeitungsicon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> öffnet sich der Organisationsbereich,
 in dem die Wurzel mit Namen, Kontakt und Adressen sowie weiteren Option ergänzt werden kann.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_organisationsbereich.png?width=900px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_organisationsbereich.png?classes=shadow" alt="" /></p>
 
 <h4 id="organisationsbereich-wurzel">Organisationsbereich Wurzel</h4>
 
-<pre><code>- Name, Kontakt, Standort-Adresse: Geben Sie hier Kontakt- und Adressdaten der Wurzel an
+<ul>
+<li><p><strong>Name, Kontakt, Standort-Adresse</strong>: Geben Sie hier Kontakt- und Adressdaten der Wurzel an</p></li>
 
-- Hierarchie: Zeigt die untergeordneten Ordner an (nur erste Ebene)
+<li><p><strong>Hierarchie</strong>: Zeigt die untergeordneten Ordner an (nur erste Ebene)</p></li>
 
-- Status Notalarmierung: Gibt an, ob die Wurzel Notalarm-Gruppe ist. Mehr Informationen hierzu unter [„Notalarmierung“](/notalarmierung)
+<li><p><strong>Einsatzplaner für die Gruppe</strong>: Ordnen Sie der Wurzel einen im Menü <a href="https://hannahmm.github.io/groupalarm/admin/einsatzplaene/">Einsatzpläne</a> definierten Einsatzplan zu</p></li>
 
-- Gruppenpager: Möglichkeit, einen Gruppenpager zu definieren. TODO
-</code></pre>
+<li><p><strong>Gruppenpager</strong>: Möglichkeit, einen Gruppenpager zu definieren.</p></li>
+</ul>
 
 <p>Über das Schlüssel-Symbol <img src="https://hannahmm.github.io/groupalarm/img/schluesselsymbol.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> können Sie die Rechte der Wurzel verwalten.
 Mehr dazu im Punkt <a href="https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/">„Mitbenutzerverwaltung“</a></p>
-
-<p><a name="gruppe"></a></p>
 
 <h3 id="gruppe">Gruppe</h3>
 
@@ -597,7 +573,7 @@ Kontakt und Adresse zu ergänzen.</p>
 
 <li><p>Status Notalarmierung: Gibt an, ob die Gruppe Notalarm-Gruppe ist. Mehr Informationen hierzu unter <a href="https://hannahmm.github.io/groupalarm/notalarmierung">„Notalarmierung“</a></p></li>
 
-<li><p>Gruppenpager: Möglichkeit, einen Gruppenpager zu definieren. TODO</p></li>
+<li><p>Gruppenpager: Möglichkeit, einen Gruppenpager zu definieren.</p></li>
 </ul>
 
 <p>Mit der Löschfunktion <img src="https://hannahmm.github.io/groupalarm/img/loesch-icon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
@@ -607,7 +583,21 @@ dieser Gruppe wird eliminiert.</p>
 
 <p>Per Drag &amp; Drop lässt sich der Ordner nun einfach zu einer Wurzel oder einem anderen Ordner hinzufügen.</p>
 
-<p><a name="teilnehmer"></a></p>
+<h4 id="rotationsgruppe">Rotationsgruppe</h4>
+
+<p>Rotationsgruppen ermöglichen eine automatische Abwechslung in der Alarmierung. Ordnen Sie einer Rotationsgruppe mehrere Einheiten zu. Im Falle eines Alarms wird nur eine der Einheiten alarmiert. Bei der nächsten Alarmierung der gleichen Rotationsgruppe
+merkt das System, welche Einheit zuletzt alamiert wurde und wählt die nächste Einheit in der Abfolge aus.</p>
+
+<p>Eine neue Rotationsgruppe lässt sich unter „Verfügbar“ anlegen. Klicken Sie dazu auf die Option  <strong>„Neue
+Rotationsgruppe“</strong>, geben den Namen der Gruppe an und bestätigen die Erstellung der
+neuen Gruppen mit der „Enter“-Taste.</p>
+
+<p>Ordnen Sie dann die Rotationsgruppe der Baumstruktur zu und füllen Sie per Drag &amp; Drop mit den gewünschten Einheiten.
+<img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_rotationsgruppe.png?classes=shadow" alt="" /></p>
+
+<p>Bei einer Alarmierung (manuell oder durch eine Vorlage) wird in Klammern angezeigt, bei welcher
+Gruppe der Alarm eingehen wird.
+<img src="https://hannahmm.github.io/groupalarm/img/mutieren_mutation_organigramm_rotationsgruppe_auswahl.png?classes=shadow" alt="" /></p>
 
 <h3 id="teilnehmer">Teilnehmer</h3>
 

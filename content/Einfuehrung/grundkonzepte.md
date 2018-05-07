@@ -1,9 +1,9 @@
 +++
 title = "Grundkonzept"
-weight = 5
+weight = 3
 +++
 
-Um Ihnen den Einstieg in **eAlarm** zu erleichtern und eine optimale und effektive Alarmauslösung zu gewährleisten, 
+Um Ihnen den Einstieg in **GroupAlarm pro** zu erleichtern und eine optimale und effektive Alarmauslösung zu gewährleisten, 
 empfehlen wir Ihnen, die Alarmierungs- und Mobilisationsstruktur
 Ihres Unternehmens vor Beginn zu skizzieren. 
 
@@ -15,7 +15,7 @@ Folgende Fragen können Ihnen dabei behilflich sein:
  - Welche Nutzer sollen Zugriffsrechte bekommen, d.h. wer soll künftig administrieren, mutieren,
 alarmieren können?
 
-Die Struktur Ihrer Organisation lässt sich in **eAlarm emergency** übersichtlich durch sogenannte 
+Die Struktur Ihrer Organisation lässt sich in **GroupAlarm pro** übersichtlich durch sogenannte 
 **„Wurzeln“, „Gruppen“** und **„Teilnehmer“** abbilden. Diese Kategorien folgen einer logischen Hierarchie 
 und sind flexibel gestaltbar. 
 
@@ -38,12 +38,19 @@ Datensätzen und Rechten versehen und können mehreren Wurzen oder Gruppen zugeo
 Strukturen können jederzeit angepasst oder modifiziert werden. 
 
 
-TODO 
-Ablauf einer eAlarm emergency Konfiguration
+
+#### Ablauf einer GroupAlarm pro Konfiguration
+
  1. Mittelbezeichner festlegen
+ 
  2. Optionale Freifelder für Teilnehmer festlegen
+ 
  3. Wurzel eröffnen
+ 
  4. Gruppen anlegen und zuweisen
+ 
  5. Teilnehmer in die Gruppen zuweisen
+ 
  6. ggf Alarmvorlagen, Drehbücher und Konferenzvorlagen anlegen
+ 
  7. Registry Einträge anpassen

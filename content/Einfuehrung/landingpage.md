@@ -1,6 +1,6 @@
 +++
 title = "Startseite"
-weight = 6
+weight = 4
 +++
 
 
@@ -9,13 +9,13 @@ weight = 6
 Um Zugang zu Ihrem Account zu erhalten, melden Sie sich auf   {{< button href="https://pro.groupalarm.de/" >}} https://pro.groupalarm.de/ {{< /button >}}   mit zugewiesenem Benutzernamen und
 Passwort an.
 
-<img src="/img/einfuehrung_startseite.png" width="900" class="shadow"/>
+<img src="/img/einfuehrung_startseite.png" width="1000" class="shadow"/>
 
 
 Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf die (Ihrer Mitbenutzer-Rolle entsprechenden) Funktionen von 
 **GroupAlarm pro**.
 
-![login](/img/einfuehrung_startseite_nach_login.png?width=800px&classes=border)
+![login](/img/einfuehrung_startseite_nach_login.png?width=1000px&classes=border)
 
 
 
@@ -28,7 +28,7 @@ Die Struktur dieses Handbuches ist analog zu der Struktur von **GroupAlarm pro**
 ![](/img/einfuehrung_startseite_navigation.png?width=1000px&classes=shadow)
 
 
-TODO 
+
 #### Register
 
 Hier rot markiert sind die vier Hauptregister [„Alarmieren“](/alarmieren/), [„Status“](/status/), [„Mutieren“](/mutieren/), [„Admin“](/admin/). 

@@ -3,10 +3,9 @@ title = "Mittelbezeichner"
 weight = 5
 +++
 
-### Mittelbezeichner 
 
 
-Hier müssen Sie Ihre Alarmmittel definieren und mit einer einheitlichen Bezeichnung versehen.
+In diesem Menü müssen Sie Ihre Alarmmittel definieren und mit einer einheitlichen Bezeichnung versehen.
 Wählen Sie im Dropdown-Menü ein vorgeschlagenes Mittel
 (SMS, Anruf usw.) aus und geben Sie ihm eine kurze und nachvollziehbare
 Bezeichnung.

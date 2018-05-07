@@ -63,10 +63,13 @@ Speichern Sie Ihre Einstellungen/Änderungen mit einem Klick auf „Drehbuch spe
 #### Allgemein
 
 Im Reiter „Allgemein“ legen Sie Auslösecode und Drehbuchname fest sowie optional eine Beschreibung des Drehbuches. 
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten. 
+ 
 
 ![](/img/mutieren_zusatzmodule_drehbuecher_allgemein.png?classes=shadow)
 
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten. Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, das Drehbuch per Durchwahl auszulösen.
+
+![](/img/mutieren_zusatzmodule_drehbuecher_allgemein_ausloeseberechtigt.png?classes=shadow)
 
 <a name="vorlagenzuordnung"></a>
 #### Vorlagenzuordnung
@@ -100,7 +103,7 @@ Im Menü Texte können Sie entscheiden, ob Sie die in den Vorlagen festgelegten 
 
 
 
-<a name="drehbuch_ausloesen"></a>
+
 ### Drehbuch auslösen
 
 
@@ -112,7 +115,7 @@ müssen Sie die angezeigten Spalten in dem Dropdown-Menü noch anpassen.
 Per Drag & Drop, Doppelklick oder der Schaltfläche „Auswahl übernehmen“ fügen Sie das Drehbuch der Teilnehmerliste auf der rechten Seite hinzu.
 Mit einem Klick auf „Alarm“ gelangen Sie in das Menü „Drehbuch auslösen“. Dort können Sie das Drehbuch direkt mit seinen vordefinierten Attributen auslösen, aber auch Optionen anpassen (z.B. Reihenfolge der Vorlagen ändern)
 
-![](/img/mutieren_zusatzmodule_drehbuecher_ausloesen.png?width=800px&classes=shadow)
+![](/img/mutieren_zusatzmodule_drehbuecher_ausloesen.png?width=1000px&classes=shadow)
 
 
 

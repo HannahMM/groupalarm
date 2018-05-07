@@ -12,7 +12,7 @@ Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und der Button
 **„Info-SMS“** <img src="/img/alarmieren_info_sms.png" alt="info" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 geklickt wurde, öffnet sich die Maske „Info-SMS“.  
 
-![](/img/alarmieren_info_sms_start.png?width=700&classes=shadow)
+![](/img/alarmieren_info_sms_start.png?width=1000&classes=shadow)
 
 Beim Versand einer „**Info-SMS**“ ist keine Quittierung durch den
 Empfänger möglich. Deshalb wird im Register „**Status**“ auch keinerlei

@@ -4,7 +4,7 @@ weight = 12
 +++
 
 
-### Passwort 
+
 
 
 
@@ -41,7 +41,7 @@ angekündigt.
 
 ### Quick-Login
 
-Wenn Sie den unten angezeigten Link *„eAlarm emergency Quicklogin“* als Lesezeichen speichern, gelangen Sie direkt auf
+Wenn Sie den unten angezeigten Link *„GroupAlarm Quicklogin“* als Lesezeichen speichern, gelangen Sie direkt auf
 die Startseite, **OHNE** nach dem Passwort gefragt zu werden. Dies ist ein **SICHERHEITSRISIKO**.
 
 

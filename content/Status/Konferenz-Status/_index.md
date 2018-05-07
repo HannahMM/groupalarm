@@ -11,4 +11,4 @@ alwaysopen = true
  - [**beendete Konferenzen**](/status/konferenz-status/beendete-konferenzen/)
 
 
-![](/img/status_konferenz_status.png?classes=shadow&width=900px)
+![](/img/status_konferenz_status.png?classes=shadow)

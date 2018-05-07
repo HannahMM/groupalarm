@@ -65,11 +65,11 @@ ausgelöst werden, die Kombination mehrerer Einheiten wird nicht
 unterstützt. Dieser Umstand ist bei der Definition von Alarmvorlagen/Drehbüchern und Konferenzvorlagen zu berücksichtigen.{{% /panel %}}
 
 
-Um in **eAlarm emergency** eine Alarmvorlage, ein Drehbuch oder eine
+Um in **GroupAlarm pro** eine Alarmvorlage, ein Drehbuch oder eine
 Konferenzvorlage per SMS auszulösen muss eine Auslöse-SMS an die Nummer
 079 252 76 32 gesendet werden.
 
-Beachten Sie dabei: Damit von eAlarm emergency überhaupt eine Auslösung per SMS
+Beachten Sie dabei: Damit von GroupAlarm überhaupt eine Auslösung per SMS
 in Betracht gezogen wird, muss die Absendernummer der Auslöse-SMS mit
 einer der als „auslöseberechtigt“ konfigurierten Nummern übereinstimmen.
 
@@ -79,7 +79,7 @@ Der Inhalt der Auslöse-SMS muss folgender Syntax folgen:
 **PINa\_@xyz\_TEXT**
 
  - **PIN:** Die 4-stellige PIN muss mit der online konfigurierten
-Auslöse-PIN korrespondieren (siehe 2.1 Konfiguration).
+Auslöse-PIN korrespondieren
 
  - **a:** a=0 Wird a=0 gesetzt, so wird der TEXT-Teil nicht als Freitext
 interpretiert, sondern nach definierten Alarm- Variablen geparst
@@ -102,7 +102,7 @@ aktiviertem Modul Fernauslösung online in der jeweiligen Verwaltung
  
  Ist der Parameter a=0 gesetzt, dann wird der TEXT-Teil nicht
 1:1 als Alarmtext übernommen, sondern der Inhalt des Freitextes nach
-allfälligen Variablen geparst und entsprechend die Platzhalter im
+auffälligen Variablen geparst und entsprechend die Platzhalter im
 Standard-Alarmtext der ausgelösten Einheit mit den Parsing-Ergebnissen
 substituiert
 

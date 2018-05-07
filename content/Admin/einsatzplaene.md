@@ -5,7 +5,7 @@ weight = 7
 
 
 
-### Einsatzpläne 
+
 
 Mit dem optionalen Modul „Einsatzpläne“  können Sie Einsatzzeiten abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen,
 Kalenderwochen und Monaten festgelegen.
@@ -18,7 +18,7 @@ oder löschen <img src="/img/loesch-icon.png" alt="del" style='vertical-align:mi
 ![](/img/admin_einsatzplaene_liste.png?classes=shadow)
 
 
-#### Einsatzpläne erstellen
+### Einsatzpläne erstellen
 
 
  - **Neuen Plan erstellen**: Legen Sie einen eindeutigen Namen und Nummer für den Plan fest.
@@ -37,15 +37,15 @@ Das Schema gilt für alle kommenden Jahre.
 	![](/img/admin_einsatzplaene_serienmuster.png?classes=shadow)
 
  - **„gültig an Feiertagen“**: Legen Sie fest, ob der Einsatzplan auch an Feiertagen gültig sein soll. Standardmässig werden 
- Feiertage nicht berücksichtigt, sondern nur Wochentage und die Standardalarmierung wird vorgenommen. Durch **„ausschliessen“** wird an Feiertagen 
- nicht alarmiert, der Tag wird als rot angezeigt. **„einschliessen“** integriert den Feiertag von 00.00 - 23.59 in den Einsatzplan; alle haben Einsatz und der
+ Feiertage nicht berücksichtigt, sondern nur Wochentage und die Standardalarmierung wird vorgenommen. Durch **„ausschließen“** wird an Feiertagen 
+ nicht alarmiert, der Tag wird als rot angezeigt. **„einschließen“** integriert den Feiertag von 00.00 - 23.59 in den Einsatzplan; alle haben Einsatz und der
  Tag wird grün angezeigt.
  Die angezeigten Feiertage lassen sich im Menü [„Feiertage“](/admin/feiertage/) modifizieren.
 	![](/img/admin_einsatzplaene_feiertage.png?classes=shadow)
  
 Speichern Sie den erstellten Einsatzplan mit der Schaltfläche „Plan hinzufügen“
 
-#### Einsatzplan einer Gruppe zuordnen
+### Einsatzplan einer Gruppe zuordnen
 
 Um einen Einsatzplan einer Gruppe zuzuordnen, gehen Sie in das Register **„Mutieren“** und das Menü „Organigramm/Baumansicht“.
 Wählen Sie hier den gewünschten Ordner aus und klicken Sie auf das Bearbeitungsicon <img src="/img/bearbeitungsicon.png" alt="plan" style='vertical-align:middle;display:inline;margin:0px 5px; '>.

@@ -40,19 +40,18 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-
-    
-		
-		<span style="font-size:smaller">
+      
+	
+  
+  <span style="font-size:smaller">
 		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
 		
 		  <span>
-		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
 		</a>
+    
+  
 
-		
-		</small>
-		
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -62,10 +61,12 @@
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
 		<script type="text/javascript">
-		    var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
 		</script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
-  </div>
+</div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent">
@@ -208,6 +209,11 @@
       <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
           <span>Texte</span>
+        </a>
+    </li>
+      <li data-nav-id="/mutieren/mutation/eric_pager/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/">
+          <span>ERIC Pager verwalten (Zweiwege-Paging)</span>
         </a>
     </li>
         </ul>
@@ -367,36 +373,6 @@
 						
 					
 				
-					
-					
-						
-					
-						
-					
-						
-							
-								<option id="fr" value="/fr/admin/einsatzplaene/">fr</option>
-							
-						
-					
-						
-					
-				
-					
-					
-						
-					
-						
-							
-								<option id="en" value="/en/admin/einsatzplaene/">en</option>
-							
-						
-					
-						
-					
-						
-					
-				
 			</select>
 		</li>
 
@@ -450,11 +426,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#einsatzpläne">Einsatzpläne</a>
-<ul>
 <li><a href="#einsatzpläne-erstellen">Einsatzpläne erstellen</a></li>
 <li><a href="#einsatzplan-einer-gruppe-zuordnen">Einsatzplan einer Gruppe zuordnen</a></li>
-</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -478,8 +451,6 @@
     
     
 
-<h3 id="einsatzpläne">Einsatzpläne</h3>
-
 <p>Mit dem optionalen Modul „Einsatzpläne“  können Sie Einsatzzeiten abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen,
 Kalenderwochen und Monaten festgelegen.</p>
 
@@ -490,7 +461,7 @@ oder löschen <img src="https://hannahmm.github.io/groupalarm/img/loesch-icon.pn
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/admin_einsatzplaene_liste.png?classes=shadow" alt="" /></p>
 
-<h4 id="einsatzpläne-erstellen">Einsatzpläne erstellen</h4>
+<h3 id="einsatzpläne-erstellen">Einsatzpläne erstellen</h3>
 
 <ul>
 <li><p><strong>Neuen Plan erstellen</strong>: Legen Sie einen eindeutigen Namen und Nummer für den Plan fest.
@@ -511,8 +482,8 @@ Das Schema gilt für alle kommenden Jahre.
 <img src="https://hannahmm.github.io/groupalarm/img/admin_einsatzplaene_serienmuster.png?classes=shadow" alt="" /></p></li>
 
 <li><p><strong>„gültig an Feiertagen“</strong>: Legen Sie fest, ob der Einsatzplan auch an Feiertagen gültig sein soll. Standardmässig werden
-Feiertage nicht berücksichtigt, sondern nur Wochentage und die Standardalarmierung wird vorgenommen. Durch <strong>„ausschliessen“</strong> wird an Feiertagen
-nicht alarmiert, der Tag wird als rot angezeigt. <strong>„einschliessen“</strong> integriert den Feiertag von 00.00 - 23.59 in den Einsatzplan; alle haben Einsatz und der
+Feiertage nicht berücksichtigt, sondern nur Wochentage und die Standardalarmierung wird vorgenommen. Durch <strong>„ausschließen“</strong> wird an Feiertagen
+nicht alarmiert, der Tag wird als rot angezeigt. <strong>„einschließen“</strong> integriert den Feiertag von 00.00 - 23.59 in den Einsatzplan; alle haben Einsatz und der
 Tag wird grün angezeigt.
 Die angezeigten Feiertage lassen sich im Menü <a href="https://hannahmm.github.io/groupalarm/admin/feiertage/">„Feiertage“</a> modifizieren.
 <img src="https://hannahmm.github.io/groupalarm/img/admin_einsatzplaene_feiertage.png?classes=shadow" alt="" /></p></li>
@@ -520,7 +491,7 @@ Die angezeigten Feiertage lassen sich im Menü <a href="https://hannahmm.github.
 
 <p>Speichern Sie den erstellten Einsatzplan mit der Schaltfläche „Plan hinzufügen“</p>
 
-<h4 id="einsatzplan-einer-gruppe-zuordnen">Einsatzplan einer Gruppe zuordnen</h4>
+<h3 id="einsatzplan-einer-gruppe-zuordnen">Einsatzplan einer Gruppe zuordnen</h3>
 
 <p>Um einen Einsatzplan einer Gruppe zuzuordnen, gehen Sie in das Register <strong>„Mutieren“</strong> und das Menü „Organigramm/Baumansicht“.
 Wählen Sie hier den gewünschten Ordner aus und klicken Sie auf das Bearbeitungsicon <img src="https://hannahmm.github.io/groupalarm/img/bearbeitungsicon.png" alt="plan" style='vertical-align:middle;display:inline;margin:0px 5px; '>.

@@ -39,7 +39,7 @@ Folgende Funktionen stehen zur Verfügung
  - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Löschen der Konferenzvorlagevorlage.
  
  - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy“ der Konferenzvorlagevorlage, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode
- ![](/img/zusatzmodule_konferenzvorlagen_kopieren.png?classes=shadow)
+ ![](/img/mutieren_zusatzmodule_konferenzvorlagen_kopieren.png?classes=shadow)
  
  
  
@@ -57,12 +57,12 @@ Es gibt verschiedene Möglichkeiten, eine neue Konferenzvorlage anzulegen:
  
  1. Im Register **„Mutieren“** im Menü „Teilnehmerliste“ fügen Sie die gewünschten Gruppen per Drag & Drop oder Doppelklick
  der rechten Spalte hinzu und klicken auf Konferenzvorlage erstellen“
- ![](/img/mutieren_zusatzmodule_konferenzvorlagen_neue_vorlage1.png?width=800px&classes=shadow) 
+ ![](/img/mutieren_zusatzmodule_konferenzvorlagen_neue_vorlage1.png?width=1000px&classes=shadow) 
  
  2. Im Register **„Mutieren“** im Menü „Zusatzmodule“, „Alarmvorlagen verwalten“ mit der Schaltfläche „Neue Konferenzvorlage anlegen“
  <img src="/img/mutieren_zusatzmodule_konferenzvorlagen_neue_konferenzvorlage_anlegen.png" alt="konf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  Damit gelangen Sie in die bereits bekannte Alarmmaske. Hier können Sie Gruppen per Drag & Drop oder Doppelklick in die rechte Spalte schieben. Klicken Sie dann auf „Konferenzvorlage erstellen“
- ![](/img/mutieren_zusatzmodule_konferenzvorlagen_neue_vorlage2.png?width=800px&classes=shadow)
+ ![](/img/mutieren_zusatzmodule_konferenzvorlagen_neue_vorlage2.png?width=1000px&classes=shadow)
  
 
    
@@ -70,7 +70,8 @@ Es gibt verschiedene Möglichkeiten, eine neue Konferenzvorlage anzulegen:
 Mit beiden Optionen gelangen Sie ins Menü „Konferenzvorlage erstellen“. Hier legen Sie den Namen der Vorlage und Auslösecode fest, sowie optional eine Beschreibung der Konferenz. Die folgenden Optionen können Sie 
 per Checkbox auswählen:
 
-
+![](/img/mutieren_zusatzmodule_konferenzvorlagen_erstellen.png?classes=shadow)
+ 
  -  **Auslöser in Konferenz aufnehmen:** Dabei wird der
     Konferenzauslöser in die Telefonkonferenz aufgenommen. Dies ist aber
     nicht möglich, wenn die Konferenzauslösung z.B. per Weblink erfolgt.
@@ -83,8 +84,8 @@ per Checkbox auswählen:
     Erster entgegennimmt. Alle anderen Teilnehmer erhalten einen Hinweistext „Diese Konferenz ist gesperrt“
 	und wissen somit, dass der erste Teilnehmer bereits mit dem Anrufenden in Kontakt ist.
 	
- ![](/img/mutieren_zusatzmodule_konferenzvorlagen_erstellen.png?classes=shadow)
- 
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). 
+
 Im unteren Bereich der Anzeige werden die Gruppen aufgelistet.  
 Speichern Sie am Ende Ihre Vorlage mit der Schaltfläche „Konferenzvorlage speichern“.
 
@@ -102,13 +103,13 @@ müssen Sie die angezeigten Spalten in dem Dropdown-Menü noch anpassen.
 Per Drag & Drop, Doppelklick oder der Schaltfläche „Auswahl übernehmen“ fügen Sie die Vorlage der Teilnehmerliste auf der rechten Seite hinzu.
 Mit einem Klick auf „Telefonkonferenz“ gelangen Sie in das bereits bekannte Menü „Telefonkonferenz“. Dort können Sie die Konferenz direkt mit den vordefinierten Attributen auslösen, aber auch Optionen anpassen (z.B. Konferenzmittel deaktivieren)
 
-![](/img/mutieren_zusatzmodule_konferenzvorlagen_ausloesen.png?width=800px&classes=shadow)
+![](/img/mutieren_zusatzmodule_konferenzvorlagen_ausloesen.png?width=1000px&classes=shadow)
 
 ### Konferenzvorlage bearbeiten
 
 Nachdem eine Konfrenzvorlage erstellt wurde, kann Sie bearbeitet werden. Sie können Name, Beschreibung, Auslösecode, Absendernummer sowie die Optionen ändern.
 
-![](/img/mutieren_zusatzmodule_konferenzvorlagen_bearbeiten.png?width=800px&classes=shadow)
+![](/img/mutieren_zusatzmodule_konferenzvorlagen_bearbeiten.png?classes=shadow)
 
 Erst nach dem erstmaligen Erstellen ist es möglich, auslöseberechtigte Nummern hinzuzufügen. Klicken Sie dazu auf *bearbeiten*, geben Sie Nummer und Name der auslöseberechtigten Person ein und bestätigen Sie mit der Schaltfläche „anlegen“.
 
@@ -125,7 +126,7 @@ Bestätigen Sie die Änderungen mit der Schaltfläche „Konferenzvorlage speich
 Es ist auch möglich, nachträglich Teilnehmer einer Konferenzvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen sie per Drag&Drop, Doppelklick oder der Schaltfläche
 „Auswahl übernehmen“ zu der Spalte „Teilnehmer“ am rechten Rand hinzu. Mit der Schaltfläche „Konferenzvorlage aktualisieren“ bestätigen Sie Ihre Auswahl.
 
- ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren1.png?width=800px&classes=shadow)
+ ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren1.png?width=1000px&classes=shadow)
  
  Im nachfolgenden Menü „Konferenzvorlage aktualisieren“ können Sie im Dropdown-Menü die Alarmvorlage auswählen, zu der Sie die
  Teilnehmer hinzufügen wollen.

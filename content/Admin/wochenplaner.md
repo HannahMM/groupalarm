@@ -3,7 +3,7 @@ title = "Wochenplaner (optionales Modul)"
 weight = 9
 +++
 
-### Wochenplaner (optionales Modul) 
+
 
 Hier können bis zu zehn Wochenplaner mit jeweils bis zu vier
 Zeitprofilen erstellt werden. Einer der zehn Wochenplaner kann dabei als
@@ -22,11 +22,11 @@ kann festgelegt werden, dass alle Mittel parallel ausgelöst werden.
 
 
 
-![](/img/admin_wochenplaner.png?classes=shadow&width=1000px)
+![](/img/admin_wochenplaner.png?classes=shadow&width=1200px)
 
 
 
-#### Neuen Plan anlegen
+### Neuen Plan anlegen
 
 Um einen neuen Wochenplan zu erstellen, geben Sie den Namen in das Feld „Planname“ ein und klicken Sie auf \[neuer Plan\].
 
@@ -51,7 +51,7 @@ dieses Profil gilt.
 
 ![](/img/admin_wochenplaner_plan_anlegen.png?classes=shadow)
 
-#### Wochenplan zuordnen
+### Wochenplan zuordnen
 
 Sie können einem Teilnehmer einen Wochenplan zuordnen, indem Sie in dessen [Teilnehmerbereich](/mutieren/mutation/teilnehmerliste/#teilnehmerbereich)
 den Reiter „Wochenplan“ auswählen und dann den gewünschten Plan auswählen und mit „anwenden“ bestätigen. 

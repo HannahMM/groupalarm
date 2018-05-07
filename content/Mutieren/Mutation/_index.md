@@ -26,7 +26,7 @@ zum Beispiel Alarmmittel, Kontaktdaten etc.
 Alarmtexten zur Textvorlage für spätere Verwendung. 
 
 
- - [**Zweiwege-Paging:**](/mutieren/mutation/zweiwegepaging/) Verwaltung der ERIC Pager TODO
+ - [**ERIC Pager verwalten:**](/mutieren/mutation/eric_pager/) Verwaltung der ERIC Pager
  
 
 ![](/img/mutieren_mutation.png?classes=shadow)

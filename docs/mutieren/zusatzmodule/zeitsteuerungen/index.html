@@ -40,19 +40,18 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-
-    
-		
-		<span style="font-size:smaller">
+      
+	
+  
+  <span style="font-size:smaller">
 		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
 		
 		  <span>
-		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
 		</a>
+    
+  
 
-		
-		</small>
-		
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -62,10 +61,12 @@
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
 		<script type="text/javascript">
-		    var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
 		</script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
-  </div>
+</div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent">
@@ -208,6 +209,11 @@
       <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
           <span>Texte</span>
+        </a>
+    </li>
+      <li data-nav-id="/mutieren/mutation/eric_pager/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/">
+          <span>ERIC Pager verwalten (Zweiwege-Paging)</span>
         </a>
     </li>
         </ul>
@@ -425,7 +431,11 @@
 <ul>
 <li>
 <ul>
-<li><a href="#zeitsteuerung">Zeitsteuerung</a></li>
+<li><a href="#zeitsteuerung-anlegen">Zeitsteuerung anlegen</a>
+<ul>
+<li><a href="#zeitsteuerung-füllen">Zeitsteuerung füllen</a></li>
+<li><a href="#rotations-und-einsatzplanung">Rotations- und Einsatzplanung</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -449,17 +459,15 @@
     
     
 
-<h3 id="zeitsteuerung">Zeitsteuerung</h3>
-
 <p>Das optionale Zusatzmodul „Zeitsteuerung“ ermöglichet das Erfassen von Bereitschaftsdiensten.</p>
+
+<h3 id="zeitsteuerung-anlegen">Zeitsteuerung anlegen</h3>
 
 <p>Um einen neue Zeitsteuerung anzulegen, gehen Sie im Register <strong>„Mutieren“</strong> in das Menü „Organigramm/Baumansicht“ und klicken Sie in der rechten Spalte unter „Verfügbar“
 auf „Neue Zeitsteuerung“
-<img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung.png?classes=shadow" alt="" /></p>
+<img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_neu.png?classes=shadow" alt="" /></p>
 
 <p>Fügen Sie die erstellte Zeitsteuerung zu einer Wurzel oder einem Ordner hinzu.</p>
-
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung1.png?classes=shadow" alt="" /></p>
 
 <p>Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern
 gefüllt, die den Bereitschaftsdienst an bestimmten Tagen haben werden.
@@ -472,11 +480,11 @@ Im folgenden Beispiel sind das:</p>
 
 <p>Fügen sie die erstellten Gruppen im Baumdiagramm der Zeitsteuerung hinzu.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung2.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_fuellen.png?classes=shadow" alt="" /></p>
 
 <div class="panel panel-danger">
 	<div class="panel-heading">Achtung!</div>
-	<div class="panel-body"><p>Sobald eine Gruppe einer Zeitsteuerung angehängt wird, lassen sich keine weiteren Teilnehmer hinzufügen. Füllen Sie
+	<div class="panel-body"><p>Sobald eine Gruppe einer Zeitsteuerung angehängt wird, lassen sich den Gruppen in der Zeitsteuerung direkt keine weiteren Teilnehmer hinzufügen. Füllen Sie
 die Gruppe daher vor dem Anhängen mit den gewünschten Teilnehmern.</p>
 </div>
 	
@@ -487,37 +495,41 @@ die Gruppe daher vor dem Anhängen mit den gewünschten Teilnehmern.</p>
 Sie die Dienstpläne definieren und bearbeiten können.<br />
 Im diesem Menü sehen Sie einen Kalender und daneben die ausgewählten Gruppen, jede mit einer eigenen Farbe hinterlegt. Auf der rechten Seite können Sie unter „Name“ den Namen und die Bezeichnung der Zeitsteuerung bearbeiten.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung3.png?width=900px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung.png?width=1000px&amp;classes=shadow" alt="" /></p>
 
-<p>Wählen Sie zunächst im Dropdown-Menü oberhalb des Kalenders die Einheit, die Sie einem bestimmten Zeitraum zuordnen möchten. Klicken Sie dann auf ein Datum. Es öffnet sich eine detailliertere Ansicht, in der
+<h4 id="zeitsteuerung-füllen">Zeitsteuerung füllen</h4>
+
+<p>Wählen Sie zunächst im Dropdown-Menü oberhalb des Kalenders die Einheit, die Sie einem bestimmten Zeitraum zuordnen möchten. Klicken Sie dann auf ein Datum. Es öffnet sich eine detailliertere Wochenansicht, in der
 die Einsatzplanung nach Stunden vorgenommen werden kann.</p>
 
 <p>Legen Sie die Einsatzzeiten fest, indem Sie die linke Maustaste gedrückt halten und über den gewünschten Zeitraum ziehen.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung4.png?width=1000px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_zuordnen.png?width=1000px&amp;classes=shadow" alt="" /></p>
 
-<p>Ordnen Sie so allen Gruppen die entsprechenden Zeiträume zu.<br />
-Falls die eine Zuordnung wieder löschen möchten, wählen Sie „Zeiten löschen“ im Dropdown-Menü oberhalb des Kalenders.
-<img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung5.png" alt="zusatz" style='vertical-align:middle;display:inline;margin:0px 5px; '></p>
+<p>Ordnen Sie so allen Einheiten die entsprechenden Zeiträume zu.</p>
 
-<p>Mit einem Klick auf [X] in der oberen linken Ecke der Stundenansicht gelangen Sie zurück zur Wochenansicht.
-Hier sehen Sie die Tage nun den Gruppen entsprechend farblich hinterlegt.</p>
+<p>Mit einem Klick auf [X] in der oberen linken Ecke der Wochenansicht gelangen Sie zurück zur Monatsansicht.
+Hier sehen Sie die Tage nun den Einheiten entsprechend farblich hinterlegt.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung6.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_monatsansicht.png?classes=shadow" alt="" /></p>
 
-<p>Sie können nun beliebige Zeiträume mit Einsatzplänen versehen. Falls Sie jede Woche die gleichen Einsatzpläne haben, bietet es sich jedoch an, einen Einsatzplan anzulegen.
-Klicken Sie dazu rechts unten auf die Schaltfläche „Rotations- und Einsatzplanung“<img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung_einsatzplanung.png" alt="zusatz" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-Hier können Sie für einen Zyklus von bis zu 4 Wochen Einsatzzeiten für die verschiedenen Einheiten festlegen.</p>
+<p>Sie können nun beliebige Zeiträume mit Einsatzplänen versehen.</p>
+
+<h4 id="rotations-und-einsatzplanung">Rotations- und Einsatzplanung</h4>
+
+<p>Falls Sie jede Woche die gleichen Einsatzpläne haben, bietet es sich jedoch an, einen Einsatzplan anzulegen.
+Klicken Sie dazu rechts unten auf die Schaltfläche „Rotations- und Einsatzplanung“<img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_einsatzplanung.png" alt="zusatz" style='vertical-align:middle;display:inline;margin:0px 5px; '>.
+Hier können Sie für einen Zyklus von (standardmäßig) bis zu 4 Wochen Einsatzzeiten für die verschiedenen Einheiten festlegen.</p>
 
 <p>Im folgenden Beispiel wurde die Einheit „Werktage“ Mo-Fr von 06:00-23:30 Uhr eingeteilt, die Einheit „Wochenende“ für Sa, So und Feiertage. Bestätigen Sie mit der Schaltfläche „Speichern“</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung_einsatzplanung1.png?width=700px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_einsatzplanung_plan.png?classes=shadow" alt="" /></p>
 
-<p>Wenn Sie nun im Menü „Zeitsteuerung“ auf eine Woche klicken, z.B. Kalenderwoche 02, öffnet sich ein Popup-Fenster, in dem angegeben werden kann, für wie viele Wochen der aktuelle Einsatzplan übernommen werden soll.</p>
+<p>Wenn Sie nun im Menü „Zeitsteuerung“ in der Spalte „Woche“ auf eine bestimmte Kalenderwoche klicken, z.B. Kalenderwoche 18, öffnet sich ein Popup-Fenster, in dem angegeben werden kann, für wie viele Wochen der aktuelle Einsatzplan übernommen werden soll.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung7.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_einsatzplanung_anwenden.png?classes=shadow" alt="" /></p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/zusatzmodule_zeitsteuerung8.png?classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/mutieren_zusatzmodule_zeitsteuerung_einsatzplanung_anwenden2.png?classes=shadow" alt="" /></p>
 
 
     

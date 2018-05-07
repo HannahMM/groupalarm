@@ -40,19 +40,18 @@
 <div class="highlightable">
   <div id="header-wrapper">
     <div id="header">
-
-    
-		
-		<span style="font-size:smaller">
+      
+	
+  
+  <span style="font-size:smaller">
 		<a id="logo" href="https://hannahmm.github.io/groupalarm/">
 		
 		  <span>
-		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=40px alt="groupalarm logo" align="absmiddle"></span>
+		  <img src="https://hannahmm.github.io/groupalarm/img/groupalarm_logo.png" height=50px alt="groupalarm logo" align="absmiddle"></span>
 		</a>
+    
+  
 
-		
-		</small>
-		
     </div>
         <div class="searchbox">
 		    <label for="search-by"><i class="fa fa-search"></i></label>
@@ -62,10 +61,12 @@
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/lunr.min.js"></script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/auto-complete.js"></script>
 		<script type="text/javascript">
-		    var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
+            var baseurl = "https:\/\/hannahmm.github.io\/groupalarm\/";
+        
 		</script>
 		<script type="text/javascript" src="https://hannahmm.github.io/groupalarm/js/search.js"></script>
-  </div>
+</div>
 
       <ul class="topics">
     <li data-nav-id="/einfuehrung/" class="dd-item parent">
@@ -208,6 +209,11 @@
       <li data-nav-id="/mutieren/mutation/texte/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/">
           <span>Texte</span>
+        </a>
+    </li>
+      <li data-nav-id="/mutieren/mutation/eric_pager/" class="dd-item">
+        <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/">
+          <span>ERIC Pager verwalten (Zweiwege-Paging)</span>
         </a>
     </li>
         </ul>
@@ -367,51 +373,6 @@
 						
 					
 				
-					
-					
-						
-					
-						
-					
-						
-							
-								<option id="fr" value="/fr/alarmieren/alarm/">fr</option>
-							
-						
-					
-						
-					
-				
-					
-					
-						
-					
-						
-							
-								<option id="en" value="/en/alarmieren/alarm/">en</option>
-							
-						
-					
-						
-					
-						
-					
-				
-					
-					
-						
-					
-						
-					
-						
-					
-						
-							
-								<option id="it" value="/it/alarmieren/alarm/">it</option>
-							
-						
-					
-				
 			</select>
 		</li>
 
@@ -468,7 +429,7 @@
 <li><a href="#alarm-erstellen">Alarm erstellen</a>
 <ul>
 <li><a href="#allgemein">Allgemein</a></li>
-<li><a href="#teilnehmer">Teilnehmer</a></li>
+<li><a href="#einheiten">Einheiten</a></li>
 <li><a href="#text">Text</a></li>
 <li><a href="#koordinaten">Koordinaten</a></li>
 <li><a href="#alarmoptionen">Alarmoptionen</a></li>
@@ -497,15 +458,13 @@
     
     
 
-<p><a name="alarm_erstellen"></a></p>
-
 <h3 id="alarm-erstellen">Alarm erstellen</h3>
 
 <p>Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche
 <strong>„Alarm“</strong> <img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm.png" alt="alarm" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 geklickt wurde, öffnet sich die Maske „Alarm erstellen“.</p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen.png?classes=shadow&amp;width=900px" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen.png?classes=shadow&amp;width=1000px" alt="" /></p>
 
 <p>Hier können Sie verschiedene Einstellung für Ihren Alarm vornehmen und anschließend mit der Schaltfläche
 <img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_ausloesen.png?classes=shadow" alt="" /> auslösen. Die Schaltfläche wird grau dargestellt solange noch
@@ -516,25 +475,18 @@ nicht alle nötigen Einstellungen vorgenommen wurden.</p>
 Anruf und DTMF-Menü, Durchwahl und über einen Web-Link, die Auslösung
 ist von nahezu allen Plattformen realisierbar.</p>
 
-<p><a name="allgemein"></a></p>
-
 <h4 id="allgemein">Allgemein</h4>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_allgemein.png?width=700px&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_allgemein.png?classes=shadow" alt="" /></p>
 
-<p>Der <strong>„Alarmname“</strong> kann den Wünschen entsprechend angepasst werden.
-Unter <strong>„Beschreibung“</strong> kann der Alarm beschrieben werden (optional).
-Unter <strong>„Ersteller“</strong> wird ersichtlich, wer diesen Alarm erstellt hat
-und unter <strong>„Datum/Zeit“</strong> wird angezeigt, wann der Alarm erstellt
-wurde.</p>
+<p>Legen Sie hier Alarmname und optional eine Beschreibung des Alarms fest.
+Ebenfalls ist hier Ersteller und Erstellzeitpunkt ersichtlich.</p>
 
-<p><a name="teilnehmer"></a></p>
+<h4 id="einheiten">Einheiten</h4>
 
-<h4 id="teilnehmer">Teilnehmer</h4>
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_einheiten.png?classes=shadow" alt="" /></p>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_einheiten.png?width=700px&amp;classes=shadow" alt="" /></p>
-
-<p>Unter <strong>„Einheit“</strong> werden Ihnen die selektierten Teilnehmer und Einheiten angezeigt. Mit <img src="https://hannahmm.github.io/groupalarm/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>
+<p>Unter <strong>„Einheiten“</strong> werden Ihnen die selektierten Teilnehmer und Einheiten angezeigt. Mit <img src="https://hannahmm.github.io/groupalarm/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 können Sie Teilnehmer oder Gruppen direkt löschen, über <em>[bearbeiten]</em> gelangen Sie zurück in das Menü <em>Alarm erstellen</em> und können
 weitere Teilnehmer und Gruppen hinzufügen.</p>
 
@@ -551,7 +503,7 @@ weitere Teilnehmer und Gruppen hinzufügen.</p>
 erstellt werden. Durch einen Klick auf <em>[QuickEdit]</em>
 können Sie die Vorlage direkt anpassen.</p></li>
 
-<li><p><strong>Freitext</strong>: Verfassen Sie einen neuen Alarmtext. Mit der Schaltfläche „Datei auswählen“ können Sie der Nachricht eine Datei anhängen. (Dateiformate: TODO, PDF, Word-Doc)</p></li>
+<li><p><strong>Freitext</strong>: Verfassen Sie einen neuen Alarmtext. Mit der Schaltfläche „Datei auswählen“ können Sie der Nachricht eine Datei anhängen.</p></li>
 </ul>
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_text2.png?classes=shadow" alt="" /></p>
@@ -560,15 +512,13 @@ können Sie die Vorlage direkt anpassen.</p></li>
 <li><p><strong>Live-Sprachaufnahme</strong>: Option, eine eigene Sprachnachricht aufzunehmen. Geben Sie hierzu eine gültige Rufnummer ein und klicken Sie auf „Alarmansage aufnehmen“. Sie werden nun auf dieser Nummer angerufen; folgen Sie den Anweisungen der Ansage um die
 Nachricht aufzunehmen.</p></li>
 
-<li><p><strong>Audio-Datei hochladen</strong>: Laden Sie eine gespeicherte Audio-Datei hoch (Dateiformate: TODO)</p></li>
+<li><p><strong>Audio-Datei hochladen</strong>: Laden Sie eine gespeicherte Audio-Datei hoch</p></li>
 </ul>
-
-<p><a name="koordinaten"></a></p>
 
 <h4 id="koordinaten">Koordinaten</h4>
 
 <p>Unter „Koordinaten übermitteln“ können Sie entscheiden, ob Sie Koordinaten oder eine Adresse eingeben möchten.
-<img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_koordinaten.png?width=700px&amp;classes=shadow" alt="" /></p>
+<img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_koordinaten.png?classes=shadow" alt="" /></p>
 
 <ul>
 <li><p><strong>Adresse angeben</strong>: Geben Sie hier eine Adresse, z.B. „Hauptstraße 10, Berlin“ oder ein Sonderziel, z.B. „Bahnhof Berlin“ ein
@@ -579,22 +529,20 @@ und bestätigen Sie mit der Eingabetaste. Die gefundene Adresse wird automatisch
 Die Koordinaten werden automatisch in das WGS84 Format umgewandelt.</p></li>
 </ul>
 
-<p><a name="alarmoptionen"></a></p>
-
 <h4 id="alarmoptionen">Alarmoptionen</h4>
 
-<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_alarmoptionen.png?width=700&amp;classes=shadow" alt="" /></p>
+<p><img src="https://hannahmm.github.io/groupalarm/img/alarmieren_alarm_erstellen_alarmoptionen.png?width=1000px&amp;classes=shadow" alt="" /></p>
 
 <p>Unter den <strong>„Alarmoptionen“</strong> sind weitere Optionen definierbar.:</p>
 
 <ul>
 <li><p><strong>Folgende Mittel alarmieren</strong>: Welche Alarmmittel sollen alarmiert werden?</p></li>
 
-<li><p><strong>Alert-SMS</strong>: TODO</p></li>
+<li><p><strong>Alert-SMS</strong>(Flash-SMS): SMS wird direkt auf dem Handy-Display dargestellt wird, sobald sie eingegangen ist.</p></li>
 
-<li><p><strong>Dry-Run</strong>: TODO</p></li>
+<li><p><strong>Dry-Run</strong>: Startet den Alarm nur als eine Art Probealarm, die Alarmmittel der Teilnehmer werden hierbei nicht ausgelöst.</p></li>
 
-<li><p><strong>PIN-Schutz</strong>: TODO</p></li>
+<li><p><strong>PIN-Schutz</strong>: Relevant für Alarmierung via Anruf. Wurde im <a href="https://hannahmm.github.io/groupalarm/mutieren/mutation/teilnehmerliste/#teilnehmerbereich">Teilnehmerbereich</a> ein PIN definiert, muss dieser vom Teilnehmer zunächst eingegeben werden, bevor die Sprachnachricht abgespielt wird.</p></li>
 
 <li><p><strong>Wochenplaner</strong>:(optionales Modul)</p>
 
@@ -618,12 +566,16 @@ gestoppt und geschlossen.</p>
 <li><p>Abbruch nach x Minuten nach der Alarmauslösung</p></li>
 </ul></li>
 
-<li><p><strong>Info-Versand</strong>: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse</p></li>
+<li><p><strong>Info-Versand</strong>: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen inkl. PG)</p></li>
 
-<li><p><strong>Unitronic Alarm Prio</strong>: TODO</p></li>
+<li><p><strong>Unitronic Alarm Prio</strong>: Art der Benachrichtigung/Alarmierung</p>
+
+<ul>
+<li>Textnachricht: Nicht lautstärken-übersteuernde Nachricht an den Pager (eigener Klingelton kann gesetzt werden)</li>
+<li>Alarm: Lautstärken-übersteuernde Nachricht (eigener Klingelton kann gesetzt werden)</li>
+<li>Prio-Alarm: Maximale Signalisierung (max. Lautstärke, Vibration) der Nachricht am Pager (eigener Klingelton kann gesetzt werden)</li>
+</ul></li>
 </ul>
-
-<p><a name="versandzeitzeitsteuerung"></a></p>
 
 <h4 id="zeitsteuerung">Zeitsteuerung</h4>
 

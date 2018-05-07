@@ -4,15 +4,13 @@ weight = 1
 +++
 
 
-
-<a name="alarm_erstellen"></a>
 ### Alarm erstellen 
 
 Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche
 **„Alarm“** <img src="/img/alarmieren_alarm.png" alt="alarm" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 geklickt wurde, öffnet sich die Maske „Alarm erstellen“.
 
-![](/img/alarmieren_alarm_erstellen.png?classes=shadow&width=900px)
+![](/img/alarmieren_alarm_erstellen.png?classes=shadow&width=1000px)
 
 
 Hier können Sie verschiedene Einstellung für Ihren Alarm vornehmen und anschließend mit der Schaltfläche 
@@ -27,24 +25,21 @@ Anruf und DTMF-Menü, Durchwahl und über einen Web-Link, die Auslösung
 ist von nahezu allen Plattformen realisierbar. 
 
 
-<a name="allgemein"></a>
+
 #### Allgemein 
 
-![](/img/alarmieren_alarm_erstellen_allgemein.png?width=700px&classes=shadow)
+![](/img/alarmieren_alarm_erstellen_allgemein.png?classes=shadow)
 
-Der **„Alarmname“** kann den Wünschen entsprechend angepasst werden.
-Unter **„Beschreibung“** kann der Alarm beschrieben werden (optional).
-Unter **„Ersteller“** wird ersichtlich, wer diesen Alarm erstellt hat
-und unter **„Datum/Zeit“** wird angezeigt, wann der Alarm erstellt
-wurde.
+Legen Sie hier Alarmname und optional eine Beschreibung des Alarms fest. 
+Ebenfalls ist hier Ersteller und Erstellzeitpunkt ersichtlich.
 
 
-<a name="teilnehmer"></a>
-#### Teilnehmer 
 
-![](/img/alarmieren_alarm_erstellen_einheiten.png?width=700px&classes=shadow)
+#### Einheiten 
 
-Unter **„Einheit“** werden Ihnen die selektierten Teilnehmer und Einheiten angezeigt. Mit <img src="/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>
+![](/img/alarmieren_alarm_erstellen_einheiten.png?classes=shadow)
+
+Unter **„Einheiten“** werden Ihnen die selektierten Teilnehmer und Einheiten angezeigt. Mit <img src="/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 können Sie Teilnehmer oder Gruppen direkt löschen, über *\[bearbeiten\]* gelangen Sie zurück in das Menü *Alarm erstellen* und können
 weitere Teilnehmer und Gruppen hinzufügen.
 
@@ -61,23 +56,20 @@ Bevor ein Alarm ausgelöst werden kann, muss ein Alarmtext gewählt werden. Folg
  erstellt werden. Durch einen Klick auf *\[QuickEdit\]* 
  können Sie die Vorlage direkt anpassen.
  
- - **Freitext**: Verfassen Sie einen neuen Alarmtext. Mit der Schaltfläche „Datei auswählen“ können Sie der Nachricht eine Datei anhängen. (Dateiformate: TODO, PDF, Word-Doc)
+ - **Freitext**: Verfassen Sie einen neuen Alarmtext. Mit der Schaltfläche „Datei auswählen“ können Sie der Nachricht eine Datei anhängen. 
  
  ![](/img/alarmieren_alarm_erstellen_text2.png?classes=shadow)
  
  - **Live-Sprachaufnahme**: Option, eine eigene Sprachnachricht aufzunehmen. Geben Sie hierzu eine gültige Rufnummer ein und klicken Sie auf „Alarmansage aufnehmen“. Sie werden nun auf dieser Nummer angerufen; folgen Sie den Anweisungen der Ansage um die
  Nachricht aufzunehmen.
  
- - **Audio-Datei hochladen**: Laden Sie eine gespeicherte Audio-Datei hoch (Dateiformate: TODO)
+ - **Audio-Datei hochladen**: Laden Sie eine gespeicherte Audio-Datei hoch 
 
 
-
-
-<a name="koordinaten"></a>
 #### Koordinaten 
 
 Unter „Koordinaten übermitteln“ können Sie entscheiden, ob Sie Koordinaten oder eine Adresse eingeben möchten.
-![](/img/alarmieren_alarm_erstellen_koordinaten.png?width=700px&classes=shadow)
+![](/img/alarmieren_alarm_erstellen_koordinaten.png?classes=shadow)
 
 
  - **Adresse angeben**: Geben Sie hier eine Adresse, z.B. „Hauptstraße 10, Berlin“ oder ein Sonderziel, z.B. „Bahnhof Berlin“ ein 
@@ -89,20 +81,19 @@ Die Koordinaten werden automatisch in das WGS84 Format umgewandelt.
 
 
 
-<a name="alarmoptionen"></a>
 #### Alarmoptionen 
 
-![](/img/alarmieren_alarm_erstellen_alarmoptionen.png?width=700&classes=shadow)
+![](/img/alarmieren_alarm_erstellen_alarmoptionen.png?width=1000px&classes=shadow)
 
 Unter den **„Alarmoptionen“** sind weitere Optionen definierbar.:
 
  - **Folgende Mittel alarmieren**: Welche Alarmmittel sollen alarmiert werden?
  
- - **Alert-SMS**: TODO
+ - **Alert-SMS**(Flash-SMS): SMS wird direkt auf dem Handy-Display dargestellt wird, sobald sie eingegangen ist.
 
- - **Dry-Run**: TODO
+ - **Dry-Run**: Startet den Alarm nur als eine Art Probealarm, die Alarmmittel der Teilnehmer werden hierbei nicht ausgelöst. 
  
- - **PIN-Schutz**: TODO
+ - **PIN-Schutz**: Relevant für Alarmierung via Anruf. Wurde im [Teilnehmerbereich](/mutieren/mutation/teilnehmerliste/#teilnehmerbereich) ein PIN definiert, muss dieser vom Teilnehmer zunächst eingegeben werden, bevor die Sprachnachricht abgespielt wird.
  
  - **Wochenplaner**:(optionales Modul)
 
@@ -122,12 +113,14 @@ gestoppt und geschlossen.
 
 	- Abbruch nach x Minuten nach der Alarmauslösung
 
- - **Info-Versand**: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse
+ - **Info-Versand**: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen inkl. PG)
  
- - **Unitronic Alarm Prio**: TODO
+ - **Unitronic Alarm Prio**: Art der Benachrichtigung/Alarmierung 
+	- Textnachricht: Nicht lautstärken-übersteuernde Nachricht an den Pager (eigener Klingelton kann gesetzt werden)
+	- Alarm: Lautstärken-übersteuernde Nachricht (eigener Klingelton kann gesetzt werden)
+	- Prio-Alarm: Maximale Signalisierung (max. Lautstärke, Vibration) der Nachricht am Pager (eigener Klingelton kann gesetzt werden)
 
 
-<a name="versandzeitzeitsteuerung"></a>
 #### Zeitsteuerung 
 
 ![](/img/alarmieren_alarm_erstellen_zeitsteuerung.png?classes=shadow)

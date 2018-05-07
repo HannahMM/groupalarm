@@ -9,7 +9,7 @@ weight = 2
 
 In der Teilnehmerliste werden alle Teilnehmer und deren hinterlegte Informationen tabellarisch aufgelistet. 
 
-![](/img/mutieren_mutation_teilnehmerliste.png?width=900px&classes=shadow)
+![](/img/mutieren_mutation_teilnehmerliste.png?width=1200px&classes=shadow)
 
 Die angezeigten Spalten können über das <img src="/img/mutieren_mutation_teilnehmerliste_spalten_anpassen1.png" alt="spalte" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 Symbol angepasst werden. 
@@ -31,7 +31,7 @@ Neue Kriterien können im Admin-Bereich unter dem Menü **„Datenfelder“** de
   
 
 
-Aus der Teilnehmerliste kann man einzelne Teilnehmer per Drag & Drop
+Aus der Teilnehmerliste können Sie einzelne Teilnehmer per Drag & Drop
 (oder Doppelklick) in die rechte Spalte übernehmen bzw. mit „alle in Alarmliste“ <img src="/img/mutieren_mutation_teilnehmerliste_alle_in_alarmliste.png" alt="spalte" style='vertical-align:middle;display:inline;margin:0px 5px; '> alle angezeigten 
 Teilnehmer.
 
@@ -43,11 +43,11 @@ In dieser Spalte können folgende Aktionen vorgenommen werden:
 
 - Zu Ordner hinzu (Teilnehmer zu einer bestehenden Gruppen hinzufügen)
 
-- Alarmvorlage erstellen
+- [Alarmvorlage erstellen](/mutieren/zusatzmodule/alarmvorlagen-verwalten/#neue-alarmvorlage-anlegen)
 
 - Alarmvorlage aktualisieren
 
-- Konferenzvorlage erstellen
+- [Konferenzvorlage erstellen](/mutieren/zusatzmodule/konferenzvorlagen-verwalten/#neue-konferenzvorlage-anlegen)
 
 - Konferenzvorlage aktualisieren
 
@@ -98,35 +98,32 @@ Sie können Filter beliebig kombinieren. Mit dem Filtersymbol oben links <img sr
 Mit einem Klick auf das Bearbeitungssymbol <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> neben einem Teilnehmer
 gelangen Sie in dessen **Teilnehmerbereich**. Hier lassen sich sämtliche relevanten Merkmale der Person definieren und bearbeiten.   
 
-{{% panel theme="info" header="Wichtig!" %}}Denken Sie daran, Ihre Änderungen mit dem Feld <img src="/img/teilnehmerbereich_speichern.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px;'> zu speichern, bevor Sie
-den Teilnehmerbereich wieder verlassen.{{% /panel %}}
+{{% panel theme="info" header="Wichtig!" %}}Denken Sie daran, Ihre Änderungen mit der Schaltfläche „Teilnehmer speichern“ zu speichern, bevor Sie den Teilnehmerbereich wieder verlassen.{{% /panel %}}
 
 
 
-<a name="allgemein"></a>
 #### Allgemein
 
-![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_allgemein.png?classes=shadow&width=700px)
+![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_allgemein.png?classes=shadow)
 In der Rubrik Allgemein werden die Kontaktdaten des Teilnehmers sowie seine Sprache gespeichert.
 Login und PIN des Teilnehmers müssen nicht zwingend definiert
 werden, weil diese automatisch vom System zugewiesen werden.
 
-<a name="optionales"></a>
 #### Optionales
 
-![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_optionales.png?classes=shadow&width=700px)
+![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_optionales.png?classes=shadow)
 
 Im der Rubrik Optionales können weitere Kriterien (wie z.B. Schuhgröße, Abteilung,
 Funktion, Ausbildung) hinzugefügt werden, welche bspw. die Suche nach
 den Zielpersonen oder deren Gruppierung nach diesen
 Kriterien erleichtern. Optionale [Datenfelder](/admin/datenfelder/) können im ADMIN-Bereich im Menü „Datenfelder“ definiert werden.
 
-<a name="alarmmittel"></a>
+
 #### Alarmmittel
 
 Im Register „Alarmmittel“ können die verfügbaren Alarmmittel eines Teilnehmers hinzugefügt, angezeigt und verwaltet werden. Alarmmittel müssen zwingend bei der ersten Erfassung im ADMIN-Bereich unter [Mittelbezeichner](/admin/mittelbezeichner/)
  definiert werden.
-![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel.png?classes=shadow&width=700px)
+![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel.png?classes=shadow)
 
 Um ein neues Alarmmittel hinzuzufügen, wählen Sie zunächst über das Dropdown-Menü **„Alarmmittel“** das gewünschte Mittel aus, geben Sie im  Feld **„Nummer“** die entsprechende Nummer oder Adresse ein und wählen Sie im Feld **„Mittelbezeichner“**
 die Bezeichnung aus. Das System prüft dabei automatisch auf zulässige Formate. Soll ein Alarmmittel auch als Konferenzmittel nutzbar sein, setzen sie das entsprechende Häkchen
@@ -160,15 +157,15 @@ Löschsymbol <img src="/img/loesch-icon.png" alt="bearbeiten" style='vertical-al
 
 #### Wochenplaner
 
-![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_wochenplaner.png?classes=shadow&width=700px)
+![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_wochenplaner.png?classes=shadow)
 
-Im Menü „Wochenplaner“ kann dem Teilnehmer ein zuvor definierter Wochenplan zugeordnet werden. Wählen Sie dazu im Dropdown-Menü „Wochenplaner“ den gewünschten Plan aus und bestätigen die Auswahl mit „anwenden“. Sie können den Plan noch modifizieren indem
+Im Menü „Wochenplaner“ kann dem Teilnehmer ein [zuvor definierter Wochenplan](/admin/wochenplaner/) zugeordnet werden. Wählen Sie dazu im Dropdown-Menü „Wochenplaner“ den gewünschten Plan aus und bestätigen die Auswahl mit „anwenden“. Sie können den Plan noch modifizieren indem
 Sie das entsprechende Profil im Dropdown-Menü links auswählen und in der Kalenderansicht neu zuordnen.
 
 <a name="abwesenheit"></a>
 #### Abwesenheit
 
-![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_abwesenheit.png?classes=shadow&width=700px)
+![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_abwesenheit.png?classes=shadow)
 
 Im Menü **„Abwesenheit“** können Zeiträume definiert werden, in denen ein Teilnehmer nicht erreichbar ist (z.B. aufgrund von Krankheit oder Urlaub).
 
@@ -176,7 +173,7 @@ Im Menü **„Abwesenheit“** können Zeiträume definiert werden, in denen ein
 #### Gruppen
 
 Im Menü **„Gruppen“** kann ein Teilnehmer direkt einer Gruppe zugeordnet werden. 
-![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_gruppen.png?width=700px&classes=shadow)
+![](/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_gruppen.png?classes=shadow)
 
 Links befinden sich die frei verfügbaren Gruppen und rechts die
 Gruppe(n) in welcher der Teilnehmer bereits vorhanden ist.

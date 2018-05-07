@@ -1,6 +1,6 @@
 +++
 title = "Mitbenutzerverwaltung"
-weight = 9
+weight = 5
 +++
 
 
@@ -13,13 +13,11 @@ Bei GroupAlarm pro kann sich jeder angelegte Teilnehmer mit seinem
 persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Hauptaccount vergeben)auf der Einstiegsseite
 identifizieren und anmelden. 
 Seine Rechte sind zunächst auf **Eigene Daten**
-beschränkt, d. h. die einzigen Daten, die er einsehen und bearbeiten
+beschränkt, d.h. die einzigen Daten, die er einsehen und bearbeiten
 kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und
 -Adressen, Abwesenheiten und die optionalen Felder.
 
 **Wichtig:** Ein Login ist noch kein Mitbenutzer.
-
-
 
 
 Die Voraussetzung für einen Mitbenutzer, d. h. für einen Zugang mit mehr
@@ -38,7 +36,7 @@ GroupAlarm pro hat verschiedene Mitbenutzer-Rollen.
 
 -   
 
-    **Superuser**: Dieser Nutzer hat uneingeschränkte
+    **Masteruser**: Dieser Nutzer hat uneingeschränkte
     Rechte und kann auch die Rechte anderer uneingeschränkt definieren.
 **Diese Rolle ist fest dem Hauptaccount des
 Kunden zugeordnet und kann nicht an weitere Mitbenutzer vergeben
@@ -146,7 +144,7 @@ entsprechenden Gruppen zu.
 <img src="/img/bearbeitungsicon.png" alt="edit" style='vertical-align:middle;display:inline;margin:0px 5px; '> und
 setzen Sie im Organisationsbereich den Typ auf **„Rechtegruppe“**.
 
-![](/img/einfuehrung_mitbenutzerverwaltung_berechtigung4.png?classes=shadow)
+![](/img/einfuehrung_mitbenutzerverwaltung_berechtigung4.png?classes=shadow&width=1200px)
 
 
 Wechslen Sie anschließen wieder auf die Wurzel Ihrer Unternehmensstruktur und ordnen Sie den verschiedenen Ordnern die 
