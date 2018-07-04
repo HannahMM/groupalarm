@@ -7,7 +7,7 @@ pages:
   - hugo
   artifacts:
     paths:
-    - docs
+    - public
   only:
   - master
   
