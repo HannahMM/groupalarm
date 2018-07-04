@@ -1,7 +1,6 @@
-image: monachus/hugo
-
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/hugo
+image: dettmering/hugo-build
 
 pages:
   script:
@@ -10,4 +9,10 @@ pages:
     paths:
     - docs
   only:
+  - master
+  
+test:
+  script:
+  - hugo
+  except:
   - master
