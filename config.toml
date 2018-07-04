@@ -1,6 +1,6 @@
-baseURL = "https://hannahmm.github.io/groupalarm/"
+baseURL = ""
 languageCode = "en-us"
-publishDir  = "docs"
+publishDir  = "public"
 title = "GroupAlarm Handbuch"
 defaultContentLanguage = "de"
 canonifyURLs = true
