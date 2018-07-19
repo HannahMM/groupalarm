@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.37.1" />
 
-<title>Fernauslöse :: GroupAlarm Handbuch</title>
+<title>Fernauslösung :: GroupAlarm Handbuch</title>
 <link rel="shortcut icon" href="https://hannahmm.github.io/groupalarm/img/ga_solo.png" type="image/x-icon" />
 <link href="https://hannahmm.github.io/groupalarm/css/nucleus.css" rel="stylesheet">
 <link href="https://hannahmm.github.io/groupalarm/css/font-awesome.min.css" rel="stylesheet">
@@ -120,7 +120,7 @@
     </li>
       <li data-nav-id="/alarmieren/fernausloese/" class="dd-item active">
         <a href="https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/">
-          <span>Fernauslöse</span>
+          <span>Fernauslösung</span>
         </a>
     </li>
         </ul>
@@ -176,11 +176,6 @@
         </a>
     </li>
         </ul>
-    </li>
-    <li data-nav-id="/status/lagekarte/" class="dd-item">
-      <a href="https://hannahmm.github.io/groupalarm/status/lagekarte/">
-        <span>Lagekarte Einsatzkräfte (Aktuelle Karte)</span>
-      </a>
     </li>
     <li data-nav-id="/status/auswertung/" class="dd-item">
       <a href="https://hannahmm.github.io/groupalarm/status/auswertung/">
@@ -390,7 +385,7 @@
 
 
 
- <a href='https://hannahmm.github.io/groupalarm/'></a> > <a href='https://hannahmm.github.io/groupalarm/alarmieren/'>Alarmieren</a> > Fernauslöse
+ <a href='https://hannahmm.github.io/groupalarm/'></a> > <a href='https://hannahmm.github.io/groupalarm/alarmieren/'>Alarmieren</a> > Fernauslösung
 
  
 
@@ -409,15 +404,15 @@
 <ul>
 <li>
 <ul>
-<li><a href="#auslöse-per-sms">Auslöse per SMS</a>
+<li><a href="#auslösung-per-sms">Auslösung per SMS</a>
 <ul>
 <li><a href="#bestätigung-per-sms">Bestätigung per SMS</a></li>
 </ul></li>
-<li><a href="#auslöse-per-anruf-mit-dtfm-menü">Auslöse per Anruf mit DTFM-Menü</a>
+<li><a href="#auslösung-per-anruf-mit-dtmf-menü">Auslösung per Anruf mit DTMF-Menü</a>
 <ul>
 <li><a href="#ablauf">Ablauf</a></li>
 </ul></li>
-<li><a href="#auslöse-per-durchwahl-anruf">Auslöse per Durchwahl-Anruf</a>
+<li><a href="#auslösung-per-durchwahl-anruf">Auslösung per Durchwahl-Anruf</a>
 <ul>
 <li><a href="#ablauf-1">Ablauf</a></li>
 </ul></li>
@@ -434,7 +429,7 @@
 
 <div id="body-inner">
   
-    <h1>Fernauslöse</h1>
+    <h1>Fernauslösung</h1>
   
 
 
@@ -444,13 +439,13 @@
     
     
 
-<p>Groupalarm pro unterstützt neben der Auslöung über die Web-Oberfläche mehrere Arten der Fernauslöung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.</p>
+<p>GroupAlarm pro unterstützt neben der Auslösung über die Web-Oberfläche mehrere Arten der Fernauslösung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.</p>
 
-<h3 id="auslöse-per-sms">Auslöse per SMS</h3>
+<h3 id="auslösung-per-sms">Auslösung per SMS</h3>
 
-<p>Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegtem Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.</p>
+<p>Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegter Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.</p>
 
-<p><strong>Wichtig</strong>: Damit die Auslöse per SMS funktioniert, muss die Absendernummer im Menü <a href="https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/">Grundeinstellungen</a> unter „Auslöseberechtigt“ gespeichert sein.</p>
+<p><strong>Wichtig</strong>: Damit die Auslösung per SMS funktioniert, muss die Absendernummer im Menü <a href="https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/">Grundeinstellungen</a> unter „Auslöseberechtigt“ gespeichert sein.</p>
 
 <p>Der Inhalt der Auslöse-SMS muss folgender Syntax folgen:
 <strong>PIN @xyz TEXT</strong></p>
@@ -468,31 +463,32 @@
 
 <li><p><strong>xyz:</strong> steht für den jeweiligen Auslösecode der gewählten Einheit.</p></li>
 
-<li><p><strong>TEXT:</strong> Beliebigen Alarmtext. Wird dieser Parameter freigelassen, wird der Alarmtext aus der Vorlage verwendet</p></li>
+<li><p><strong>TEXT:</strong> Beliebiger Alarmtext. Wird dieser Parameter leer gelassen, wird der Alarmtext aus der Vorlage verwendet</p></li>
 </ul>
 
-<p><strong>Wichtig</strong>: Beachten Sie die Leerzeichen zwischen Pin, Einheitstyp+Auslösecode und Alarmtext</p>
+<p><strong>Wichtig</strong>: Beachten Sie die Leerzeichen zwischen PIN, Einheitstyp + Auslösecode und Alarmtext</p>
 
-<p>Um beispielsweise die Alarmvorlage mit Auslösecode 1 mit dem Alarmtext „Test“ auszulösen, senden Sie folgende SMS (1234 entspricht hier der Auslöse-PIN):</p>
+<p>Um beispielsweise die Alarmvorlage mit Auslösecode 1 und dem Alarmtext „Test“ auszulösen, senden Sie folgende SMS (1234 entspricht hier der Auslöse-PIN):</p>
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/admin_grundeinstellungen_ausloese_sms.png?width=300px&amp;classes=shadow" alt="" /></p>
 
 <h4 id="bestätigung-per-sms">Bestätigung per SMS</h4>
 
-<p>Standardmässig wird eine Auslösung per SMS mit einer Antwort-SMS an die
-auslösende Nummer bestätigt. Dies kann durch den Masteruser bei Bedarf in
+<p>Standardmäßig wird eine Auslösung per SMS mit einer Antwort-SMS an die
+auslösende Nummer bestätigt. Dies kann durch den Master-User bei Bedarf in
 der Admin Registry unterdrückt werden, indem der Key „Suppress SMS
 Reply“ mit einer 1 aktiviert wird.</p>
 
-<p>Die Bestätigung kann sowohl positiv ausfallen (OK) oder negativ
+<p>Die Bestätigung kann sowohl positiv ausfallen (OK) als auch negativ
 (NOT_OK), wenn aufgrund fehlender oder falscher Informationen der Alarm
 nicht ausgelöst werden konnte. Details zu einem auffälligen Fehler sind
 in englischer Sprache ebenfalls in der SMS enthalten.</p>
 
-<h3 id="auslöse-per-anruf-mit-dtfm-menü">Auslöse per Anruf mit DTFM-Menü</h3>
+<h3 id="auslösung-per-anruf-mit-dtmf-menü">Auslösung per Anruf mit DTMF-Menü</h3>
 
-<p>Bei  der  Auslösung  per  Anruf  mit  DTMF-Menü  wird  der  Anrufer  durch  ein  Sprachmenü  geführt,  in dem er Schritt  für  Schritt  angeleitet  wird  die  nötigen  Eingaben  über  die  Telefontastatur  zu  machen  um  eine
-Vorlage auszulösen. Die Auslöseberechtigung wird entweder über die Absendernummer oder an Hand der 6-stelligen Syspin in Kombination mit der 4-stelligen PIN (siehe Auslösung per SMS) sicher gestellt. Sie finden beide Nummern im Menü <a href="https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/">Grundeinstellungen</a>.</p>
+<p>Bei  der  Auslösung  per  Anruf  mit  DTMF-Menü  wird  der  Anrufer  durch  ein  Sprachmenü  geführt,  in dem er Schritt  für  Schritt  angeleitet  wird,  die  nötigen  Eingaben  über  die  Telefontastatur  zu  machen,  um  eine
+Vorlage auszulösen. Die Auslöseberechtigung wird entweder über die Absendernummer oder anhand der 6-stelligen Syspin in Kombination mit der 4-stelligen PIN (siehe Auslösung per SMS) sichergestellt.
+Sie finden beide Nummern im Menü <a href="https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/">Grundeinstellungen</a>.</p>
 
 <h4 id="ablauf">Ablauf</h4>
 
@@ -508,13 +504,13 @@ Vorlage auszulösen. Die Auslöseberechtigung wird entweder über die Absendernu
 <li>4-stellige Auslöse-PIN eingeben</li>
 <li>6-stellige Syspin eingeben (nur wenn die Absendernummer nicht berechtigt ist!)</li>
 <li>Auszulösenden Einheitstyp wählen (Alarmvorlage, Drehbuch oder Konferenzvorlage)</li>
-<li>Auslösecode eingeben und mit der Raute-Taste abschliessen</li>
+<li>Auslösecode eingeben und mit der Raute-Taste abschließen</li>
 </ol>
 
-<h3 id="auslöse-per-durchwahl-anruf">Auslöse per Durchwahl-Anruf</h3>
+<h3 id="auslösung-per-durchwahl-anruf">Auslösung per Durchwahl-Anruf</h3>
 
 <p>Die  Auslösung  per  Durchwahl-Anruf  erlaubt  die  direkte  Auslösung  einer Vorlage  (Alarmvorlage,  Drehbuch,    Konferenzvorlage)    ohne    Umwege    über  ein    DTMF-Menü    oder    andere    Abfragen.    Die Auslöseberechtigung  wird  hierfür  über  eine
-eindeutige  Kombination  aus  Absender-  und  Zielnummer  sichergestellt, welches wiederum eindeutig einer Vorlage zugeordnet wird.</p>
+eindeutige  Kombination  aus  Absender-  und  Zielnummer  sichergestellt.</p>
 
 <p>Die Auslösung per Durchwahl wird direkt in den Einstellungen der entsprechenden Vorlagen (<a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/#allgemein">Alarmvorlage</a>, <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/konferenzvorlagen-verwalten/#konferenzvorlage-bearbeiten">Konferenzvorlage</a>, <a href="https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/drehbuecher-verwalten/#allgemein">Drehbuch</a>) konfiguriert.</p>
 
@@ -524,7 +520,7 @@ eindeutige  Kombination  aus  Absender-  und  Zielnummer  sichergestellt, welche
 
 <ul>
 <li><strong>Nummer</strong>: Die Telefonnummer des Auslöseberechtigten. Beachten Sie das vom System festgelegte Format.</li>
-<li><strong>Durchwahl</strong>: Liste von 200 möglichen Durchwahlnummern. Wählen Sie eine Zielnummern aus, um eine eindeutige Zuordnung zu ermöglichen.</li>
+<li><strong>Durchwahl</strong>: Liste von 200 möglichen Durchwahlnummern. Wählen Sie eine Zielnummer aus, um eine eindeutige Zuordnung zu ermöglichen.</li>
 <li><strong>Name</strong>: Dient der besseren Lesbarkeit</li>
 </ul>
 

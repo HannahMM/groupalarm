@@ -120,7 +120,7 @@
     </li>
       <li data-nav-id="/alarmieren/fernausloese/" class="dd-item">
         <a href="https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/">
-          <span>Fernauslöse</span>
+          <span>Fernauslösung</span>
         </a>
     </li>
         </ul>
@@ -176,11 +176,6 @@
         </a>
     </li>
         </ul>
-    </li>
-    <li data-nav-id="/status/lagekarte/" class="dd-item">
-      <a href="https://hannahmm.github.io/groupalarm/status/lagekarte/">
-        <span>Lagekarte Einsatzkräfte (Aktuelle Karte)</span>
-      </a>
     </li>
     <li data-nav-id="/status/auswertung/" class="dd-item">
       <a href="https://hannahmm.github.io/groupalarm/status/auswertung/">
@@ -442,7 +437,7 @@
 <h3 id="mitbenutzerverwaltung">Mitbenutzerverwaltung</h3>
 
 <p>Bei GroupAlarm pro kann sich jeder angelegte Teilnehmer mit seinem
-persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Hauptaccount vergeben)auf der Einstiegsseite
+persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Haupt-Account vergeben) auf der Einstiegsseite
 identifizieren und anmelden.
 Seine Rechte sind zunächst auf <strong>Eigene Daten</strong>
 beschränkt, d.h. die einzigen Daten, die er einsehen und bearbeiten
@@ -461,19 +456,21 @@ wird.</p>
 
 <h3 id="mitbenutzer-rollen">Mitbenutzer-Rollen</h3>
 
-<p>GroupAlarm pro hat verschiedene Mitbenutzer-Rollen.</p>
+<p>GroupAlarm pro hat verschiedene Mitbenutzer-Rollen. Diese sind lokal, d. h. die Rechte
+beschränken sich auf die Gruppen, Untergruppen und die darin enthaltenen
+Teilnehmer.</p>
 
 <ul>
-<li><p><strong>Masteruser</strong>: Dieser Nutzer hat uneingeschränkte
+<li><p><strong>Master-User</strong>: Dieser Nutzer hat uneingeschränkte
 Rechte und kann auch die Rechte anderer uneingeschränkt definieren.
-<strong>Diese Rolle ist fest dem Hauptaccount des
+<strong>Diese Rolle ist fest dem Haupt-Account des
 Kunden zugeordnet und kann nicht an weitere Mitbenutzer vergeben
 werden.</strong></p></li>
 
 <li><p><strong>Alarmieren &amp; Mutieren</strong>: Diese Rolle erlaubt es dem Teilnehmer,
 die dafür definierten Einheiten und alle Untereinheiten zu
 bearbeiten, zu löschen und neue Einheiten zu erstellen. Er kann
-Alarme an sie auslösen. Und schliesslich kann er das Feedback
+Alarme an sie auslösen. Und schließlich kann er das Feedback
 einsehen und gegebenenfalls nachalarmieren.</p></li>
 
 <li><p><strong>Alarmieren</strong>: Diese Rolle erlaubt es dem Teilnehmer, die dafür
@@ -484,17 +481,11 @@ Feedback einzusehen und gegebenenfalls nachzualarmieren.</p></li>
 definierten Einheiten und alle Untereinheiten zu bearbeiten, zu
 löschen und neue Einheiten zu erstellen.</p></li>
 
-<li><p><strong>Feedback</strong>: Diese Rolle erlaubt es dem Teilnehmer nur,
-Alarmfeedbacks einzusehen. Der Teilnehmer hat keine funktionalen
+<li><p><strong>Feedback</strong>: Diese Rolle erlaubt es dem Teilnehmer nur Alarmfeedbacks einzusehen. Der Teilnehmer hat keine funktionalen
 Rechte wie Alarmieren, Nachalarmieren und Mutieren.</p></li>
 
-<li><p><strong>Admin</strong>: Diese Rolle erlaubt dem Mitbenutzer nichts anderes, als
-das Admin-Register einzusehen und zu bearbeiten.</p></li>
+<li><p><strong>Admin</strong>: Diese Rolle erlaubt dem Mitbenutzer ausschließlich das Admin-Register einzusehen und zu bearbeiten.</p></li>
 </ul>
-
-<p>Es bleiben also verschiedene Rechte-Rollen für die Mitbenutzer. Diese sind lokal, d. h. die Rechte
-beschränken sich auf die Gruppen, Untergruppen und die darin enthaltenen
-Teilnehmer.</p>
 
 <p><a name="zuweisung_der_rechte-rolle"></a></p>
 
@@ -524,7 +515,7 @@ derselbe Mitbenutzer sogar in verschiedenen Bäumen und Gruppen bestimmte
 Rollen zugeteilt bekommen haben. Wenn nun ein solcher Mitbenutzer
 geändert wird oder er andere Rechte erhalten soll, müssen Sie an ihn
 jeder Stelle, an denen er Rechte hat, entsprechend mutieren. Das kann
-umständlich und bei grösseren Organisationen auch unübersichtlich
+umständlich und bei größeren Organisationen auch unübersichtlich
 werden.</p>
 </div>
 	
@@ -535,15 +526,15 @@ werden.</p>
 dann ganzen Gruppen (statt einzelnen Teilnehmern) Rechte über die
 Rechteverwaltung zuzuordnen. Dieses Vorgehen hat den Vorteil, dass die
 Rechte-Verwaltung praktisch nur einmal konfiguriert werden muss. So
-findet die gesamte Rechte-Verwaltung nur noch in der Wurzle „Mitbenutzerverwaltung“ statt.</p>
+findet die gesamte Rechte-Verwaltung nur noch in der Wurzel „Mitbenutzerverwaltung“ statt.</p>
 
 <h4 id="rechtevergabe-an-rechtegruppen-empfohlen">Rechtevergabe an Rechtegruppen (empfohlen)</h4>
 
 <p>Ist ein Mitbenutzer in einer Rechtegruppe, hat er
 automatisch alle Rechte auf allen definierten Stufen, die dieser
 Rechtegruppe zugeordnet wurden. Wird der Mitbenutzer aus allen
-Rechtegruppe entfernt, verfallen auch alle Rechte, die er
-ursprünglich hatte, und er fällt zurück auf das Benutzerlogin-Recht
+Rechtegruppen entfernt, verfallen auch alle Rechte, die er
+ursprünglich hatte und er fällt zurück auf das Benutzerlogin-Recht
 Eigene Daten.</p>
 
 <p>Erstellen Sie also eine neue Wurzel und verschiedene Ordner, die die Mitbenutzer-Rollen darstellen. Ordnen Sie dann die Teilnehmer den
@@ -556,7 +547,7 @@ setzen Sie im Organisationsbereich den Typ auf <strong>„Rechtegruppe“</stron
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung4.png?classes=shadow&amp;width=1200px" alt="" /></p>
 
-<p>Wechslen Sie anschließen wieder auf die Wurzel Ihrer Unternehmensstruktur und ordnen Sie den verschiedenen Ordnern die
+<p>Wechseln Sie anschließend wieder zur Wurzel Ihrer Unternehmensstruktur und ordnen Sie den verschiedenen Ordnern die
 entsprechenden Rechte-Ordner zu. Alle Teilnehmer, die in der Rechtegruppe „Berechtigung Admin“ sind, haben nun Admin-Rechte für den Ordner „Ordner_1“.</p>
 
 <p><img src="https://hannahmm.github.io/groupalarm/img/einfuehrung_mitbenutzerverwaltung_berechtigung5.png?classes=shadow" alt="" /></p>

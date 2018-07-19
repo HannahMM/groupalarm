@@ -16,10 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/aktive-konferenzen/</guid>
-      <description>Im Menü „aktive Konferenzen“ sehen Sie einen Überblick über die aktuell laufenden Telefonkonferenzen. Aufgeführt wird der Name der Konferenz, der Auslöser und Auslösezeitpunkt sowie das voraussichtliche Ende (standardmässig nach einer Stunde).
+      <description>Im Menü „aktive Konferenzen“ sehen Sie einen Überblick über die aktuell laufenden Telefonkonferenzen. Aufgeführt wird der Name der Konferenz, der Auslöser und Auslösezeitpunkt sowie das voraussichtliche Ende (standardmäßig nach einer Stunde).
 Mit einem Klick auf das Telefonsymbol können Sie die laufende Konferenz bearbeiten:
- Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer und mit der Eingabetaste oder Klick auf bestätigen
- Teilnehmer aus der Konferenz ausschliessen mit einem Klick auf das rote Kreuz  Teilnehmer stummschalten (Teilnehmer kann nur noch zuhören, wird aber selber nicht gehört) und die Stummschaltung wieder aufheben mit Klick auf das Lautsprechersymbol  Die Konferenz beenden:   </description>
+ Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer (formatgerecht) eingeben und mit der Eingabetaste oder Klick auf bestätigen
+ Teilnehmer aus der Konferenz ausschließen mit einem Klick auf das rote Kreuz  Teilnehmer stummschalten (Teilnehmer kann nur noch zuhören, wird aber selber nicht gehört) und die Stummschaltung wieder aufheben mit Klick auf das Lautsprechersymbol  Die Konferenz beenden:   </description>
     </item>
     
     <item>
@@ -29,7 +29,7 @@ Mit einem Klick auf das Telefonsymbol können Sie die laufende Konferenz bearbei
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</guid>
       <description>Alarm erstellen Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche „Alarm“ geklickt wurde, öffnet sich die Maske „Alarm erstellen“.
-Hier können Sie verschiedene Einstellung für Ihren Alarm vornehmen und anschließend mit der Schaltfläche auslösen. Die Schaltfläche wird grau dargestellt solange noch nicht alle nötigen Einstellungen vorgenommen wurden.
+Hier können Sie verschiedene Einstellungen für Ihren Alarm vornehmen und anschließend mit der Schaltfläche auslösen. Die Schaltfläche wird grau dargestellt solange noch nicht alle nötigen Einstellungen vorgenommen wurden.
 Neben einer Alarmauslösung direkt aus dem Webbrowser unterstützt GroupAlarm pro mehrere Wege der Fernauslösung. Ob Alarm per SMS, Anruf und DTMF-Menü, Durchwahl und über einen Web-Link, die Auslösung ist von nahezu allen Plattformen realisierbar.</description>
     </item>
     
@@ -39,8 +39,8 @@ Neben einer Alarmauslösung direkt aus dem Webbrowser unterstützt GroupAlarm pr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/alarmvorlagen-verwalten/</guid>
-      <description>Alarmvorlagen Alarmvorlagen sind ideal für vordefinierte Vorfälle/Ereignisse welche eintreten können. Das bedeutet, der Teilnehmerkreis und die möglichen Alarmtexte sind bereits festgelegt. Im Ernstfall kann bei der Alarmierung die vorgängig erfasste Alarmvorlage ausgelöst werden und die definierten Alarmteilnehmer werden über die entsprechenden Mittel mit dem Alarmtext alarmiert.
-Im Menü „Alarmvorlagen“ werden Ihre vorhandenen Alarmvorlagen aufgelistet. Sie können die Vorlagen nach Alarmname, Auslösecode, Beschreibung, Zeitpunkt der letzten Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
+      <description>Alarmvorlagen Alarmvorlagen sind ideal für vordefinierte Vorfälle/Ereignisse. Das bedeutet, dass der Teilnehmerkreis und die möglichen Alarmtexte bereits festgelegt sind. Im Ernstfall kann bei der Alarmierung die vorgängig erfasste Alarmvorlage ausgelöst werden, sodass die definierten Alarmteilnehmer über die entsprechenden Mittel mit dem Alarmtext alarmiert werden.
+Im Menü „Alarmvorlagen“ werden Ihre vorhandenen Alarmvorlagen aufgelistet. Sie können die Vorlagen nach Alarmname, Auslösecode, Beschreibung, Zeitpunkt der letzten Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol .</description>
     </item>
     
     <item>
@@ -61,7 +61,7 @@ Sie können den Report auch nur als Textdatei herunterladen. Klicken Sie dazu au
       <guid>https://hannahmm.github.io/groupalarm/admin/grundeinstellungen/</guid>
       <description>Auslöseberechtigungen In „Grundeinstellungen” werden die Berechtigungen für die Fernauslösung per SMS und per Anruf mit DTMF-Menü konfiguriert.
 Als Auslöse-PIN dient ein 4-stelliger Code. Dieser kann beliebig gewählt werden und darf innerhalb des Systems mehrfach vorkommen. In Kombination mit einer auslöseberechtigten Nummer kann der Teilnehmer damit einen Alarm per SMS oder Anruf auslösen.
-Auslöseberechtigte Nummern Hier wird angezeigt, wie viele Nummern für die Fernauslöse berechtigt sind.
+Auslöseberechtigte Nummern Hier wird angezeigt, wie viele Nummern für die Fernauslösung berechtigt sind.
 Über den Link [bearbeiten] gelangt man zu einer Liste mit den Nummern, die eine Auslöseberechtigung für den Account haben.</description>
     </item>
     
@@ -71,8 +71,8 @@ Auslöseberechtigte Nummern Hier wird angezeigt, wie viele Nummern für die Fern
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</guid>
-      <description>Alarm-Feedback Sobald ein Alarm ausgelöst wird, erscheint er in der Maske „Alarm-Feedback“. Hier erhalten Sie in Echtzeit einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilnehmer.
-Mit der Schaltfläche „Kaskade beenden“ können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schliessen“ auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schließen“ den Alarm beenden.
+      <description>Alarm-Feedback Sobald ein Alarm ausgelöst wird, erfolt ein Wechsel der Maske, d.h. der Alarm wird in der Maske „Alarm-Feedback“ dargestellt. Hier erhalten Sie in Echtzeit einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilnehmer.
+Mit der Schaltfläche „Kaskade beenden“ können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schließen“ auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schließen“ den Alarm beenden.
 Zusammenfassung Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.</description>
     </item>
     
@@ -82,9 +82,9 @@ Zusammenfassung Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusam
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</guid>
-      <description>Organigramm / Baumansicht In diesem Menü findet die zentrale Verwaltung Ihrer Unternehmens- und Alarmierungsstruktur statt.
-Baumansicht Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einem Baumdiagramm. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und weitere Module angezeigt.
-Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordnern zugeordnet werden können.
+      <description>Organigramm / Baumansicht In diesem Menü findet die zentrale Verwaltung Ihrer Organisation statt.
+Baumansicht Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einer Baumstruktur. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und optionale Module (z.B. Telefonkonferenz oder Zeitsteuerung) angezeigt.
+Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordner zugeordnet werden können.
 Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten.</description>
     </item>
     
@@ -94,7 +94,7 @@ Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/disponierte-alarme/</guid>
-      <description>Alarme, die nicht sofort gestartet werden, sondern mit einem Auslösezeitpunkt definiert wurden, sind im Register „Status“ unter „disponierte Alarme“ einsehbar. Disponierte Alarme können nur gelöscht, jedoch nicht mutiert werden.</description>
+      <description>Alarme, die nicht sofort gestartet werden, sondern mit einem Auslösezeitpunkt definiert wurden, sind im Register „Status“ unter „disponierte Alarme“ einsehbar. Disponierte Alarme können nur gelöscht, jedoch nicht bearbeitet werden.</description>
     </item>
     
     <item>
@@ -113,8 +113,7 @@ Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten.</desc
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/ereignisse-verwalten/</guid>
       <description>Ereignisse Mit dem Modul „Ereignisse“ können Sie bestimmten Ereignissen eine Ihrer erstellten Vorlagen zuordnen. Diese Ereignisse können z.B. von externen Systemen aktiviert werden. Der Vorteil dabei ist, dass Änderungen direkt an der Vorlage vorgenommen werden können, während das Ereignis unverändert bleibt.
-Im Menü „Ereignisse“ werden Ihre vorhandenen Ereignisse aufgelistet. Sie können die Vorlagen nach Ereignisname,
-Beschreibung, Bearbeitungszeitpunkt und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
+Im Menü „Ereignisse“ werden Ihre vorhandenen Ereignisse aufgelistet. Sie können die Vorlagen nach Ereignisname, Beschreibung, Bearbeitungszeitpunkt und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein und bestätigen Sie mit Klick auf das Filtersymbol</description>
     </item>
     
     <item>
@@ -136,7 +135,7 @@ Klicken Sie hierzu auf die Schaltfläche „Dateien auswählen“ und wählen Si
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/info-sms/</guid>
       <description>Info SMS Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und der Button „Info-SMS“ geklickt wurde, öffnet sich die Maske „Info-SMS“.
 Beim Versand einer „Info-SMS“ ist keine Quittierung durch den Empfänger möglich. Deshalb wird im Register „Status“ auch keinerlei Feedback zum Versand der „Info-SMS“ gegeben.
-Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurde, leuchtet Schaltfläche „Info versenden“ (unten rechts) rot auf: Die Info SMS kann nun an die selektierten Teilnehmer versendet werden.</description>
+Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurden, leuchtet die Schaltfläche „Info versenden“ (unten rechts) rot auf: Die Info-SMS kann nun an die selektierten Teilnehmer versendet werden.</description>
     </item>
     
     <item>
@@ -168,7 +167,7 @@ Neue Kriterien können im Admin-Bereich unter dem Menü „Datenfelder“ defini
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/tts/</guid>
-      <description>Die Abkürzung „TTS“ steht für Text-to-Speech (Automatische Umwandlung von Schreibtext zu Sprechtext). Geben Sie dazu den zu ersetzenden Text in das Feld „Text“ ein, und den Text der gesprochen werden soll in das Feld „Sprechtext“. Wählen Sie dann die Sprache aus, für die die Textersetzung gelten soll.
+      <description>Die Abkürzung „TTS“ steht für Text-To-Speech (Automatische Umwandlung von Schreibtext zu Sprechtext). Geben Sie dazu den zu ersetzenden Text in das Feld „Text“ ein und den Text der gesprochen werden soll in das Feld „Sprechtext“. Wählen Sie dann die Sprache aus, für die die Textersetzung gelten soll.
 TTS bietet sich z.B. für Fälle an, in denen sich die Schreibweise bestimmter Begriffe von ihrer Aussprache unterscheidet.
  Beispiel:   Darüber hinaus kann der Benutzer hier alle Abkürzungen definieren, die bei einer Sprach-Alarmübertragung vollständig ausgesprochen werden.</description>
     </item>
@@ -181,9 +180,8 @@ TTS bietet sich z.B. für Fälle an, in denen sich die Schreibweise bestimmter B
       <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</guid>
       <description>Abgeschlossene Alarme Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein Alarm-Log und eine Kostenauswertung unter dem Register „Status“ unter „Abgeschlossene Alarme“ abgelegt.
 Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen.
-Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst.
 Folgende Funktionen stehen zur Verfügung:
-1. PDF-Alarmprotokoll  Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format. Folgende Informationen sind darin verzeichnet:
+1. PDF-Alarmprotokoll  Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format. Folgende Informationen sind darin enthalten:
  Alarmname, Auslöser, Auslöse- und Endzeitpunkt mit exaktem Datum und Uhrzeit   alarmierte Einheiten (Klammervermerk gibt an, wie viele Teilnehmer der Gruppe zugeteilt sind und wie viele davon alarmiert wurden) und Alarmtext   Alarmoptionen:</description>
     </item>
     
@@ -193,7 +191,7 @@ Folgende Funktionen stehen zur Verfügung:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/status/konferenz-status/beendete-konferenzen/</guid>
-      <description>Sobald die Konferenz beendet ist, wird ein Konferenzprotokoll und eine Kostenauswertung im Register „Status“ unter „Beendete Konferenzen“ abgelegt. Der gesamte Verlauf einer Konferenz wird in unterschiedlichen Reports zusammengefasst. Diese können anschliessend per E-Mail versendet werden.
+      <description>Sobald die Konferenz beendet ist, wird ein Konferenzprotokoll und eine Kostenauswertung im Register „Status“ unter „Beendete Konferenzen“ abgelegt. Der gesamte Verlauf einer Konferenz wird in unterschiedlichen Reports zusammengefasst. Diese können anschließend per E-Mail versendet werden.
 In der Tabelle erscheinen von links nach rechts:
  Konferenz: Die Konferenznummer.
  Disponent: Wer hat die Konferenz ausgelöst?
@@ -219,7 +217,7 @@ Im Menü „Drehbücher“ werden Ihre vorhandenen Drehbücher aufgelistet. Sie 
       <guid>https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/</guid>
       <description>Um Ihnen den Einstieg in GroupAlarm pro zu erleichtern und eine optimale und effektive Alarmauslösung zu gewährleisten, empfehlen wir Ihnen, die Alarmierungs- und Mobilisationsstruktur Ihres Unternehmens vor Beginn zu skizzieren.
 Folgende Fragen können Ihnen dabei behilflich sein:
- Welche über-/untergeordneten Organisation-/Einsatzseinheiten liegen vor ? Welche Spezialeinheiten gibt es? Welche Alarmierungsszenarien erwarten Sie und welche Alarmierungs- und Mobilisationsabläufe entstehen daraus? Welche Nutzer sollen Zugriffsrechte bekommen, d.h. wer soll künftig administrieren, mutieren, alarmieren können?</description>
+ Welche über-/untergeordneten Organisations-/Einsatzseinheiten liegen vor? Welche Spezialeinheiten gibt es? Welche Alarmierungsszenarien erwarten Sie und welche Alarmierungs- und Mobilisationsabläufe entstehen daraus? Welche Nutzer sollen Zugriffsrechte bekommen, d.h. wer soll künftig administrieren, mutieren, alarmieren können?</description>
     </item>
     
     <item>
@@ -228,8 +226,8 @@ Folgende Fragen können Ihnen dabei behilflich sein:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</guid>
-      <description>Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die zu alarmierenden Einheiten angezeigt.
-In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefeld kann, wenn der Initiator Teil der Konferenz sein möchte, die eigene Nummer eingetragen werden. Die ausgewählten Konferenzteilnehmer werden separat aufgeführt. Für jeden Teilnehmer werden alle konferenzfähigen Kommunikationsmittel (Mobile- und Festnetznummern) angezeigt. Die Checkboxen der Alarmmittel, welche beim Teilnehmer vorgängig als „Konferenzmittel“ definiert wurden, sind standardmässig vorausgewählt und können bei Bedarf deaktiviert werden.</description>
+      <description>Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die Einheiten angezeigt, die an der Telefonkonferenz teilnehmen.
+In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefeld kann, wenn der Initiator Teil der Konferenz sein möchte, die eigene Nummer eingetragen werden. Die ausgewählten Konferenzteilnehmer werden separat aufgeführt. Für jeden Teilnehmer werden alle konferenzfähigen Kommunikationsmittel (Mobile- und Festnetznummern) angezeigt.</description>
     </item>
     
     <item>
@@ -238,9 +236,9 @@ In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/statusfelder/</guid>
-      <description>Im Menü „Statusfelder“ lassen sich erweiterte Quittierungsstatus definieren. Wählen Sie dazu im Dropdown-Menü den gewünschten Status aus und geben den entsprechenden Wert ein. Bestätigen Sie die Eingabe mit „hinzufügen“.
-Bei einer Alarmierung per SMS oder Anruf kann nun anstatt einer reinen JA/NEIN Quittierung auch eine spezielle Statusmeldung zurückgegeben werden. Bei einem laufenden Alarm sehen Sie neben den standartmäßigen Feedback-Optionen auch die entsprechenden Status-Ziffer.
-Anruf Wählen Sie nach dem Ansagetext auf dem Ziffernblock die Nummer des entsprecheneden Status.</description>
+      <description>Dieses Modul ist nicht standardmäßig aktiviert. Wenden Sie sich zur Freischaltung an einen Mitarbeiter der cubos GmbH.
+Im Menü „Statusfelder“ lassen sich erweiterte Quittierungsstatus definieren. Wählen Sie dazu im Dropdown-Menü den gewünschten Status aus und geben den entsprechenden Wert ein. Bestätigen Sie die Eingabe mit „hinzufügen“.
+Bei einer Alarmierung per SMS oder Anruf kann nun anstatt einer reinen JA/NEIN Quittierung auch eine spezielle Statusmeldung zurückgegeben werden. Bei einem laufenden Alarm sehen Sie neben den standartmäßigen Feedback-Optionen auch die entsprechenden Status-Ziffer.</description>
     </item>
     
     <item>
@@ -275,18 +273,18 @@ Die individuellen Werte für die jeweiligen Datenfelder können in der Rubrik �
  Teilnehmer: Welchem Teilnehmer der Pager zugeordnet ist
  Ladung.: Ladestatus des Pagers (Aktualisierung in Echtzeit)
  Verfügbarkeit: Aktueller Bereitschaftsstatus
- ok, aktiv: voll einsatzbereit und erreichbar abgeschaltet, aktiv: einsatzbereit jedoch nicht erreichbar inaktiv: nicht einsatzbereit, nciht erreichbar   Funktion : Übersicht der aktuellen Konfiguration, Event-Log sowie Verwaltung des Pagers  Pager sperren/entsperren: Fernsperre des Pagers Sperrtext senden/löschen: Individuellen Text zur Sperrung des Pagers senden Name setzen: Anpassung des Pager-Namen auf den zugeordneten Teilnehmernamen Notruf-Vorlage setzen: Absetzen des Notrufs einer vordefinierten Alarmvorlage (Eintrag Auslösecode) Pager neu starten Pager initialisieren (Werkseinstellungen): Zurücksetzen des Pagers auf Auslieferungszustand Pager zum Update auffordern    </description>
+ ok, aktiv: voll einsatzbereit und erreichbar abgeschaltet, aktiv: einsatzbereit jedoch nicht erreichbar inaktiv: nicht einsatzbereit, nicht erreichbar   Funktion : Übersicht der aktuellen Konfiguration, Event-Log sowie Verwaltung des Pagers  Pager sperren/entsperren: Fernsperre des Pagers Sperrtext senden/löschen: Individuellen Text zur Sperrung des Pagers senden Name setzen: Anpassung des Pager-Namens auf den zugeordneten Teilnehmernamen Notruf-Vorlage setzen: Absetzen des Notrufs einer vordefinierten Alarmvorlage (Eintrag Auslösecode) Pager neu starten Pager initialisieren (Werkseinstellungen): Zurücksetzen des Pagers auf Auslieferungszustand Pager zum Update auffordern    </description>
     </item>
     
     <item>
-      <title>Fernauslöse</title>
+      <title>Fernauslösung</title>
       <link>https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/</guid>
-      <description>Groupalarm pro unterstützt neben der Auslöung über die Web-Oberfläche mehrere Arten der Fernauslöung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.
-Auslöse per SMS Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegtem Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.
-Wichtig: Damit die Auslöse per SMS funktioniert, muss die Absendernummer im Menü Grundeinstellungen unter „Auslöseberechtigt“ gespeichert sein.</description>
+      <description>GroupAlarm pro unterstützt neben der Auslösung über die Web-Oberfläche mehrere Arten der Fernauslösung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.
+Auslösung per SMS Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegter Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.
+Wichtig: Damit die Auslösung per SMS funktioniert, muss die Absendernummer im Menü Grundeinstellungen unter „Auslöseberechtigt“ gespeichert sein.</description>
     </item>
     
     <item>
@@ -317,7 +315,7 @@ Register Hier rot markiert sind die vier Hauptregister „Alarmieren“, „Stat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/einfuehrung/mitbenutzerverwaltung/</guid>
-      <description>Mitbenutzerverwaltung Bei GroupAlarm pro kann sich jeder angelegte Teilnehmer mit seinem persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Hauptaccount vergeben)auf der Einstiegsseite identifizieren und anmelden. Seine Rechte sind zunächst auf Eigene Daten beschränkt, d.h. die einzigen Daten, die er einsehen und bearbeiten kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und -Adressen, Abwesenheiten und die optionalen Felder.
+      <description>Mitbenutzerverwaltung Bei GroupAlarm pro kann sich jeder angelegte Teilnehmer mit seinem persönlichen Login (Benutzername) und Passwort (diese Daten werden über den Haupt-Account vergeben) auf der Einstiegsseite identifizieren und anmelden. Seine Rechte sind zunächst auf Eigene Daten beschränkt, d.h. die einzigen Daten, die er einsehen und bearbeiten kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und -Adressen, Abwesenheiten und die optionalen Felder.
 Wichtig: Ein Login ist noch kein Mitbenutzer.
 Die Voraussetzung für einen Mitbenutzer, d.</description>
     </item>
@@ -338,7 +336,7 @@ Die hier definierten Mittelbezeichnungen sind eindeutig und werden bei der Erfas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</guid>
-      <description>Das optionale Zusatzmodul „Zeitsteuerung“ ermöglichet das Erfassen von Bereitschaftsdiensten.
+      <description>Das optionale Zusatzmodul „Zeitsteuerung“ ermöglicht das Erfassen von Bereitschaftsdiensten.
 Zeitsteuerung anlegen Um einen neue Zeitsteuerung anzulegen, gehen Sie im Register „Mutieren“ in das Menü „Organigramm/Baumansicht“ und klicken Sie in der rechten Spalte unter „Verfügbar“ auf „Neue Zeitsteuerung“ Fügen Sie die erstellte Zeitsteuerung zu einer Wurzel oder einem Ordner hinzu.
 Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt, die den Bereitschaftsdienst an bestimmten Tagen haben werden. Im folgenden Beispiel sind das:</description>
     </item>
@@ -351,7 +349,7 @@ Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt,
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/backup/</guid>
       <description>Backup/Restore In diesem Menü können Sie ein Backup Ihrer gesamten Datenbank erstellen sowie ein gespeichertes Backup zurückspielen.
 Um eine Backup-Datei zu erstellen und zu speichern, klicken Sie auf die Schaltfläche „Backup erstellen“. Die erstellte Datei ist ein passwortgeschütztes WinRAR-Archiv, welches mit Datum und Zeitpunkt der Erstellung versehen ist.
-Um ein zuvor erstelltes Backup wieder herzustellen, klicken Sie auf die Schaltfläche „Datei auswählen“ und wählen Sie die entsprechende Datei. Bestätigen Sie die Auswahl mit „Übertragen“</description>
+Um ein zuvor erstelltes Backup wiederherzustellen, klicken Sie auf die Schaltfläche „Datei auswählen“ und wählen Sie die entsprechende Datei. Bestätigen Sie die Auswahl mit „Übertragen“</description>
     </item>
     
     <item>
@@ -360,7 +358,7 @@ Um ein zuvor erstelltes Backup wieder herzustellen, klicken Sie auf die Schaltfl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/registry/</guid>
-      <description>In der Registry können Sie viele detaillierte Konfigurationen vornehmen um GroupAlarm pro nach Ihren Bedürfnissen zu gestalten, z.B. das Verwalten von Mitbenutzer-Rechte, Automatischen Versand von Protokollen, Login-Timeout uvm.
+      <description>In der Registry können Sie viele detaillierte Konfigurationen vornehmen um GroupAlarm pro nach Ihren Bedürfnissen zu gestalten, z.B. das Verwalten von Mitbenutzer-Rechten, automatischen Versand von Protokollen, Login-Timeout u.v.m.
 Um einen neuen Eintrag hinzuzufügen, wählen Sie ihn im Dropdown-Menü aus, geben den entsprechenden Wert ein und für welche Nutzer der Eintrag gelten soll und bestätigen mit „hinzufügen“. Einträge können Sie mit „entfernen“ wieder entfernen. In der folgenden Tabelle werden die Konfigurationselemente beschrieben sowie deren gültige Werte: Wichtig!</description>
     </item>
     
@@ -370,7 +368,7 @@ Um einen neuen Eintrag hinzuzufügen, wählen Sie ihn im Dropdown-Menü aus, geb
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/einsatzplaene/</guid>
-      <description>Mit dem optionalen Modul „Einsatzpläne“ können Sie Einsatzzeiten abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen, Kalenderwochen und Monaten festgelegen.
+      <description>Mit dem optionalen Modul „Einsatzpläne“ können Sie Einsatzpläne abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen, Kalenderwochen und Monaten festgelegen und diese Einsatzpläne Gruppen zuordnen.
 Im linken Bereich sehen Sie eine Liste Ihrer bereits erstellten Einsatzpläne. Sie können diese nach Nummer oder Plan-Name filtern, sowie einzelne Pläne bearbeiten oder löschen .
 Einsatzpläne erstellen  Neuen Plan erstellen: Legen Sie einen eindeutigen Namen und Nummer für den Plan fest.  Wochenplan: Geben Sie Zeitfenster und Wochentage an, an denen der Plan gelten soll.</description>
     </item>
@@ -403,7 +401,7 @@ Im Wochenplaner ist es auf Basis der Mittelbezeichnung möglich, für jedes Zeit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/admin/mutationslog/</guid>
-      <description>Im Mutationslog werden alle Änderungen der letzten 30 Tage erfasst, also z.B. das Erstellen und Ändern von Datensätzen wie Teilnehmern, Änderungen in der Registry.
+      <description>Im Mutationslog werden alle Änderungen der letzten 30 Tage erfasst, also z.B. das Erstellen und Ändern von Datensätzen wie Teilnehmern; Änderungen in der Registry.
 Es können maximal 30 Tage und 100 Datensätze angezeigt werden.
 Anhand der Tabelle ist ersichtlich, welche „Änderung“ in welchem „Objekt“ von welchem „Benutzer“ in welcher „Kategorie“ zu welcher/welchem „Zeit und Datum“ geändert worden ist. Die Einträge der Tabelle werden mit einer laufenden „LogNr.“ versehen.
 Auf der linken Seite können Sie die Mutationen nach Zeitraum, Kategorie und Benutzer filtern.</description>
@@ -429,7 +427,7 @@ Auf der linken Seite können Sie die Alarme nach Zeitraum, Kategorie und Benutze
       <description>Hier kann das Masteruser Passwort geändert werden. Um die sensiblen Daten in GroupAlarm pro gegen unbefugten Zugriff besser zu schützen, werden Mindestanforderungen an Applikationspasswörter gestellt.
 Diese lauten:
  Mindestens 8 Zeichen
- Mind. je 1 Grossbuchstabe, 1 Kleinbuchstabe und 1 Ziffer
+ Mind. je 1 Großbuchstabe, 1 Kleinbuchstabe und 1 Ziffer
  Keine Sequenzierungen und Dopplungen (z.B. 1234, dcba, 5555)
   BEMERKUNG: Die Passwörter haben seitens GroupAlarm pro nach wie vor keine Beschränkung der Gültigkeitsdauer. Es wird nie von Seiten des Herstellers oder des Providers ein Passwortwechsel erzwungen oder angekündigt.</description>
     </item>
