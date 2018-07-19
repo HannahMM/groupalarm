@@ -20,10 +20,10 @@ Alarme“/„disponierte Konferenzen“** angezeigt.
 Sobald der Alarm bzw. die Konferenz beendet ist, wird ein
 Alarm-/Konferenzprotokoll unter **„abgeschlossene Alarme“/„beendete
 Konferenzen“** abgelegt. Der gesamte Verlauf des Alarms bzw. der
-Konferenz wird in unterschiedlichen Reports zusammengefasst, die so für
+Konferenz wird in unterschiedlichen PDF-Reports zusammengefasst, die so für
 weitere Anwendungen zur Verfügung stehen.
 
-Unter dem Menüpunkt **„Versandstatistik“** kann nach verschiedenen Kriterien eine Verkehrs- und Kostenauswertungen erstellt werden.
+Unter dem Menüpunkt **„Versandstatistik“** können nach verschiedenen Kriterien Verkehrs- und Kostenauswertungen erstellt werden.
 
 
 

@@ -16,7 +16,7 @@ sowie die optionalen Module
  
  - **Ereignisse verwalten**: Zuordnen von Vorlagen zu Ereignissen
  
- - **Drehbücher verwalten**: Vordefinieren einer zeitlichen Abfolge von Alarm- und Konfernzvorlagen 
+ - **Drehbücher verwalten**: Vordefinieren einer zeitlichen Abfolge von Alarm- und Konferenzvorlagen 
  
  - **Konferenzvorlagen verwalten**: Vordefinieren von Konferenzen
  

@@ -9,7 +9,7 @@ Ihres Unternehmens vor Beginn zu skizzieren.
 
 Folgende Fragen können Ihnen dabei behilflich sein:
 
- - Welche über-/untergeordneten Organisation-/Einsatzseinheiten liegen vor ? 
+ - Welche über-/untergeordneten Organisations-/Einsatzseinheiten liegen vor? 
  - Welche Spezialeinheiten gibt es?
  - Welche Alarmierungsszenarien erwarten Sie und welche Alarmierungs- und Mobilisationsabläufe  entstehen daraus?
  - Welche Nutzer sollen Zugriffsrechte bekommen, d.h. wer soll künftig administrieren, mutieren,
@@ -23,16 +23,16 @@ und sind flexibel gestaltbar.
 
 1. Erstellen der übergeordneten Wurzeln für übergeordneten Alarmierungs- und 
 Mobilisationseinheiten. 
-Abbildung von Sachbereiche, Divisionen, Unternehmensgruppen etc.
+Abbildung von Sachbereichen, Divisionen, Unternehmensgruppen etc.
 
 
-2. Erstellen von Ordner oder Gruppen, welche einer Wurzel zugewiesen werden. Eine Wurzel kann mehrere Gruppen haben und 
+2. Erstellen von Ordnern oder Gruppen, welche einer Wurzel zugewiesen werden. Eine Wurzel kann mehrere Gruppen haben und 
 Gruppen können selbst einer Gruppe zugeteilt sein (Untergruppen).
 Abbildung von Teams, Stellen, Einsatzeinheiten
  
 
-3. Erstellen und Hinzufügen der von Teilnehmer, welche die Mitglieder Ihrer Organisation abbilden. Teilnehmer werden mit bestimmten
-Datensätzen und Rechten versehen und können mehreren Wurzen oder Gruppen zugeordnet werden
+3. Erstellen und Hinzufügen von Teilnehmern, die den Mitgliedern Ihrer Organisation entsprechen. Teilnehmer werden mit bestimmten
+Datensätzen und Rechten versehen und können mehreren Wurzeln oder Gruppen zugeordnet werden.
 
 
 Strukturen können jederzeit angepasst oder modifiziert werden. 

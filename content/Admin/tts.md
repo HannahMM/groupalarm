@@ -7,8 +7,8 @@ weight = 2
 ![](/img/admin_tts.png?classes=shadow)
 
 
-Die Abkürzung „TTS“ steht für **T**ext-**t**o-**S**peech (Automatische
-Umwandlung von Schreibtext zu Sprechtext).  Geben Sie dazu den zu ersetzenden Text in das Feld „Text“ ein, und den Text der gesprochen werden 
+Die Abkürzung „TTS“ steht für **T**ext-**T**o-**S**peech (Automatische
+Umwandlung von Schreibtext zu Sprechtext).  Geben Sie dazu den zu ersetzenden Text in das Feld „Text“ ein und den Text der gesprochen werden 
 soll in das Feld „Sprechtext“. Wählen Sie dann die Sprache aus, für die die Textersetzung gelten soll.
 
 
@@ -22,7 +22,7 @@ Sprach-Alarmübertragung vollständig ausgesprochen werden.
 
  - **Beispiel**: <img src="/img/admin_tts_bsp1.png" alt="tts" style='vertical-align:middle;display:inline;margin:0px 5px; '> 
 
- {{% panel theme="danger" header="Achtung!" %}}Beachten Sie, dass auf Gross- und Kleinschreibung geachtet wird. „GA“ würde in diesem Fall nicht ersetzt werden.
+ {{% panel theme="danger" header="Achtung!" %}}Beachten Sie, dass auf Groß- und Kleinschreibung geachtet wird. „GA“ würde in diesem Fall nicht ersetzt werden.
  
  Weiterhin wird jedes Vorkommen des definierten Textes ersetzt. In diesem Fall würde auch im Wort „Auf**ga**be“ das „ga“ ersetzt werden, d.h. das Wort wird zu „Auf**GroupAlarm**be“.{{% /panel %}}
  

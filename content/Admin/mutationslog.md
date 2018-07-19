@@ -5,7 +5,7 @@ weight = 10
 
 
 
-Im Mutationslog werden alle Änderungen der letzten 30 Tage erfasst, also z.B. das Erstellen und Ändern von Datensätzen wie Teilnehmern, 
+Im Mutationslog werden alle Änderungen der letzten 30 Tage erfasst, also z.B. das Erstellen und Ändern von Datensätzen wie Teilnehmern; 
 Änderungen in der Registry. 
 
 Es können maximal 30 Tage und 100 Datensätze angezeigt werden.

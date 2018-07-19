@@ -11,7 +11,7 @@ weight = 6
 Es besteht die Möglichkeit, Ordner seriell vertikal alarmieren zu
 lassen.
 
-Üblicherweise werden Teilnehmer (bei mehr als zwei) gleichzeitig
+Üblicherweise werden Teilnehmer gleichzeitig (parallel)
 alarmiert. Dabei wird immer das erste definierte Alarmierungsmittel
 alarmiert, dann das zweite und so weiter.
 
@@ -22,15 +22,15 @@ festgelegten Alarmierungsmittel alarmiert wird, bevor der Alarm zum
 nächsten Teilnehmer übergeht. Bestätigt jedoch der erste Teilnehmer eine
 Alarmierung positiv, wird der nächste Teilnehmer **NICHT** mehr
 alarmiert. Bestätigt der erste Teilnehmer die Alarmierung hingegen
-negativ, wird der nächsten Teilnehmer alarmiert. Der Alarm geht auch zum
-zweiten Teilnehmer über falls der erste Teilnehmer keines seiner
+negativ, wird der nächste Teilnehmer alarmiert. Der Alarm geht auch zum
+zweiten Teilnehmer über, falls der erste Teilnehmer keines seiner
 Alarmierungsmittel bestätigt.
 
 Gehen Sie hierzu im Register **„Mutieren“** in das Menü **„Organigramm / Baumansicht“.**
 Klicken Sie auf das Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="edit" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 der gewünschten Gruppe (in dieser dürfen nur Teilnehmer gespeichert sein, 
 keine Vorlagen, Zeitsteuerungen etc.).
-Im Bereich „Name“ ändern Sie nun den Typ des Ordners auf **„seriell vertikal“**(standardmäßig steht dieser auf „default“).
+Im Bereich „Name“ ändern Sie nun den Typ des Ordners auf **„seriell vertikal“** (standardmäßig steht dieser auf „default“).
 
 ![](/img/serielle_vertikale_eskalation.png?classes=shadow)
 

@@ -4,7 +4,7 @@ weight = 1
 +++
 
 Im Menü **„aktive Konferenzen“** sehen Sie einen Überblick über die aktuell laufenden Telefonkonferenzen. Aufgeführt wird der Name der Konferenz, 
-der Auslöser und Auslösezeitpunkt sowie das voraussichtliche Ende (standardmässig nach einer Stunde).
+der Auslöser und Auslösezeitpunkt sowie das voraussichtliche Ende (standardmäßig nach einer Stunde).
 
 ![](/img/status_konferenz_status_aktive_konferenzen.png?width=700px&classes=shadow)
 
@@ -13,12 +13,12 @@ können Sie die laufende Konferenz bearbeiten:
 
 ![](/img/status_konferenz_status_aktive_konferenzen_uebersicht.png?width=1200px&classes=shadow)
 
--  Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer ![](/img/status_konferenz_status_aktive_konferenzen_teilnehmer_hinzufuegen.png?classes=shadow)
+-  Einen Teilnehmer hinzufügen, indem Sie eine Telefonnummer (formatgerecht) eingeben ![](/img/status_konferenz_status_aktive_konferenzen_teilnehmer_hinzufuegen.png?classes=shadow)
  und mit der Eingabetaste oder Klick auf <img src="/img/konferenzstatus_hinzufuegen_symbol.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  bestätigen
 
 - 
-    Teilnehmer aus der Konferenz ausschliessen mit einem Klick auf das rote
+    Teilnehmer aus der Konferenz ausschließen mit einem Klick auf das rote
     Kreuz <img src="/img/loesch-icon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 
 

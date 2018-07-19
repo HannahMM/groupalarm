@@ -19,8 +19,8 @@ Das Menü **„Alarm erstellen“** wird Ihnen nach erfolgreichem Login angezeig
 
 
 In den verschiedenen, voneinander unabhängigen Spalten werden Ihre Wurzeln,
-Gruppen, und Teilnehmer aufgelistet sowie weitere optionale Module wie Vorlagen, Drehbücher, Konferenzvorlagen oder Ereignisse (falls vorhanden) dargestellt. Durch einen
-Klick auf das Pfeilsymbol können sie den Inhalt der Spalten beliebig anpassen. 
+Gruppen und Teilnehmer aufgelistet sowie weitere optionale Module wie Vorlagen, Drehbücher, Konferenzvorlagen oder Ereignisse (falls vorhanden) dargestellt. Durch einen
+Klick auf das Pfeilsymbol können Sie den Inhalt der Spalten beliebig anpassen. 
 ![](/img/alarmieren_spalten_anpassen.png?classes=shadow)
 
 Die Anzahl der Spalten in der **„Alarmierungsmaske“** lässt sich im Register
@@ -37,7 +37,7 @@ Gruppen und Untergruppen der Wurzel übernommen.
 Sie können jederzeit Teilnehmer oder Gruppen mit einem Klick auf
 <img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '> wieder entfernen. 
 Fügen Sie einen Teilnehmer hinzu, der einer bereits hinzugefügten Gruppe/Wurzel angehört, wird er durchgestrichen dargestellt.
-Somit ist sicher gestellt, das bei diesem Teilnehmer die Alarmmeldung im gleichen Alarm nicht mehrfach versendet wird.
+Somit ist sichergestellt, dass bei diesem Teilnehmer die Alarmmeldung im gleichen Alarm nicht mehrfach versendet wird.
 
 ![](/img/alarmieren_teilnehmerliste.png?classes=shadow)
 

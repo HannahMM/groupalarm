@@ -19,24 +19,22 @@ Alarm per SMS oder Anruf auslösen.
 
 #### Auslöseberechtigte Nummern
 
-Hier wird angezeigt, wie viele Nummern für die Fernauslöse berechtigt sind. 
+Hier wird angezeigt, wie viele Nummern für die Fernauslösung berechtigt sind. 
 
 Über den Link \[*bearbeiten*\] gelangt man zu einer Liste mit den
 Nummern, die eine Auslöseberechtigung für den Account haben. Sie können die Einträge ändern oder löschen. Unter
 **„Neuer Eintrag“** kann eine neue Nummer mit folgenden Parametern erstellt werden:
 
- -  Nummer: Absender-Nummer des berechtigten Endgeräts. Das Format muss
-    dabei exakt mit dem signalisierten Format übereinstimmen; der
-    Hinweis zum Format ist daher zu beachten.
+ -  Nummer: Absender-Nummer des berechtigten Endgeräts. Bitte achten Sie auf das richtige Format.
 
  -  Name: Name des auslöseberechtigten Teilnehmers. Der Name dient
-    ausschliesslich der späteren Lesbarkeit der Liste
+    ausschließlich der späteren Lesbarkeit der Liste
     der Auslöseberechtigten.
 
 ![](/img/admin_grundeinstellungen_ausloeseberechtigte.png?classes=shadow)
 
-{{% panel theme="danger" header="Achtung" %}}Für die Fernauslöse per Anruf muss die Nummer ohne Ländervorwahl hinterlegt sein, also 0178 1234567.
-Für die Fernauslöse per SMS muss die Nummer jedoch dem Angezeigten Syntax entsprechen, also Ländervorwahl ohne + oder Ähnliches, z.B. 491781234567{{% /panel %}}
+{{% panel theme="danger" header="Achtung" %}}Für die Fernauslösung per Anruf muss die Nummer ohne Ländervorwahl hinterlegt sein, also 0178 1234567.
+Für die Fernauslösung per SMS muss die Nummer jedoch der angezeigten Syntax entsprechen, also Ländervorwahl ohne + oder Ähnliches, z.B. 491781234567{{% /panel %}}
 
 
 
@@ -47,7 +45,7 @@ Anruf mit DTMF-Menü zusätzlich die Möglichkeit der
 Anrufer-Identifizierung über die sogenannte Syspin. Ist die Checkbox
 **Berechtigung am Telefon mit Syspin XXXXXX** aktiviert, wird damit die
 Möglichkeit geschaffen, von einem beliebigen Telefonanschluss aus Alarme
-auszulösen. Voraussetzung ist dann die Kenntnis der 6-stelligen Syspin,
+auszulösen. Voraussetzung dafür ist die 6-stellige Syspin,
 die im Sprachmenü eingegeben werden muss.
 
 **Die Syspin ist eine global eindeutige Nummer und wird von GroupAlarm fest vorgegeben.** Sie stellt sicher, dass ein Anrufer dem

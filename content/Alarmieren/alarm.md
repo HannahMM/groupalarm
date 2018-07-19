@@ -13,7 +13,7 @@ geklickt wurde, öffnet sich die Maske „Alarm erstellen“.
 ![](/img/alarmieren_alarm_erstellen.png?classes=shadow&width=1000px)
 
 
-Hier können Sie verschiedene Einstellung für Ihren Alarm vornehmen und anschließend mit der Schaltfläche 
+Hier können Sie verschiedene Einstellungen für Ihren Alarm vornehmen und anschließend mit der Schaltfläche 
 ![](/img/alarmieren_alarm_erstellen_ausloesen.png?classes=shadow) auslösen. Die Schaltfläche wird grau dargestellt solange noch 
 nicht alle nötigen Einstellungen vorgenommen wurden.
 
@@ -31,7 +31,7 @@ ist von nahezu allen Plattformen realisierbar.
 ![](/img/alarmieren_alarm_erstellen_allgemein.png?classes=shadow)
 
 Legen Sie hier Alarmname und optional eine Beschreibung des Alarms fest. 
-Ebenfalls ist hier Ersteller und Erstellzeitpunkt ersichtlich.
+Ebenfalls sind hier Ersteller und Erstellzeitpunkt ersichtlich.
 
 
 
@@ -85,7 +85,7 @@ Die Koordinaten werden automatisch in das WGS84 Format umgewandelt.
 
 ![](/img/alarmieren_alarm_erstellen_alarmoptionen.png?width=1000px&classes=shadow)
 
-Unter den **„Alarmoptionen“** sind weitere Optionen definierbar.:
+Unter den **„Alarmoptionen“** sind weitere Optionen definierbar:
 
  - **Folgende Mittel alarmieren**: Welche Alarmmittel sollen alarmiert werden?
  
@@ -113,7 +113,7 @@ gestoppt und geschlossen.
 
 	- Abbruch nach x Minuten nach der Alarmauslösung
 
- - **Info-Versand**: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen inkl. PG)
+ - **Info-Versand**: Versand eines Alarm-Reports (nach Beendigung des Alarmierungsprozesses) und/oder periodische Zusammenfassungen (während des Alarmierungsprozesses) an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen inkl. PG)
  
  - **Unitronic Alarm Prio**: Art der Benachrichtigung/Alarmierung 
 	- Textnachricht: Nicht lautstärken-übersteuernde Nachricht an den Pager (eigener Klingelton kann gesetzt werden)

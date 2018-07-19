@@ -9,7 +9,7 @@ weight = 3
 Sobald die Konferenz beendet ist, wird ein Konferenzprotokoll und eine
 Kostenauswertung im Register „**Status**“ unter „**Beendete Konferenzen**“
 abgelegt. Der gesamte Verlauf einer Konferenz wird in unterschiedlichen
-Reports zusammengefasst. Diese können anschliessend per E-Mail versendet
+Reports zusammengefasst. Diese können anschließend per E-Mail versendet
 werden.
 
 ![](/img/status_konferenz_status_beendete_konferenzen.png?classes=shadow)
@@ -49,7 +49,7 @@ Die Optionen können in der Konferenzvorlage eingestellt werden.
 
  - Alarmierte Einheiten
 
- - detaillierte Auflistung der Teilnehmer incl. Zeitstempel. Beachten Sie die Legende zur Erklärung der Symbole und Zeitstempel
+ - Detaillierte Auflistung der Teilnehmer inkl. Zeitstempel. Beachten Sie die Legende zur Erklärung der Symbole und Zeitstempel
 
  - Zusammenfassung des generierten Versand-/Verkehrsvolumen
 
@@ -68,10 +68,8 @@ Die Optionen können in der Konferenzvorlage eingestellt werden.
 <a name="protokoll_per_email"></a>
 #### 3. Protokoll per E-Mail <img src="/img/emailsymbol.png" alt="mail" style='vertical-align:middle;display:inline;margin:0px 5px; '>
   
- Es öffnet sich ein Fenster, in dem eine beliebige E-Mail-Adresse
-angegeben werden kann. An diese Adresse wird dann das Konferenzprotokoll
-versendet.
 
+Geben Sie eine beliebige Email-Adresse an, an die das Protokoll versendet werden soll. 
 
 
 

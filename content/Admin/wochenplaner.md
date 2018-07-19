@@ -40,9 +40,6 @@ Wochenansicht angezeigt. In diesem Beispiel gibt es die Profile „Tag“ und �
 ![](/img/admin_wochenplaner_profile.png?classes=shadow)
 
 Wenn Sie im Dropdown-Menü „Zeitprofil“ das gewünschte Profil auswählen, können Sie rechts die gewünschten Alarmmittel auswählen.
-Hier sollen nachts nur private Alarmmittel alarmiert wählen währen tagsüber die ausgewählte geschäftliche Mittel parallel alarmiert werden sollen.
-
-![](/img/admin_wochenplaner_profile_alarmmittel.png?classes=shadow)
 
 
 Wählen Sie nun im Dropdown-Menü „Zeitprofil“ das gewünschte Profil aus und wählen Sie in der Grafik die Zeitfenster aus, in denen 

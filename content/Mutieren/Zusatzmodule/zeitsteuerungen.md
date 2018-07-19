@@ -5,7 +5,7 @@ weight = 5
 
 
 
-Das optionale Zusatzmodul „Zeitsteuerung“ ermöglichet das Erfassen von Bereitschaftsdiensten. 
+Das optionale Zusatzmodul „Zeitsteuerung“ ermöglicht das Erfassen von Bereitschaftsdiensten. 
 
 
 ### Zeitsteuerung anlegen
@@ -28,8 +28,9 @@ Fügen sie die erstellten Gruppen im Baumdiagramm der Zeitsteuerung hinzu.
 
 ![](/img/mutieren_zusatzmodule_zeitsteuerung_fuellen.png?classes=shadow)
 
-{{% panel theme="danger" header="Achtung!" %}}Sobald eine Gruppe einer Zeitsteuerung angehängt wird, lassen sich den Gruppen in der Zeitsteuerung direkt keine weiteren Teilnehmer hinzufügen. Füllen Sie 
-die Gruppe daher vor dem Anhängen mit den gewünschten Teilnehmern. {{% /panel %}}
+{{% panel theme="danger" header="Achtung!" %}}Die Teilnehmer lassen sich in den Ordnern unter der Zeitsteuerung nicht mehr bearbeiten, an anderer Stelle aber schon. So können immer Teilnehmer hinzugefügt und gelöscht werden, was in die Zeitsteuerung übernommen wird. 
+Mehr Informationen dazu finden Sie im Leitfaden Zeitsteuerung.
+ {{% /panel %}}
 
 
 Mit einem Klick auf das Bearbeitungssymbol <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> gelangen Sie in das Menü **„Zeitsteuerung“**, wo

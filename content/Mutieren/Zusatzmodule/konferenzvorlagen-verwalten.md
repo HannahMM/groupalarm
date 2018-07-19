@@ -23,28 +23,28 @@ und bestätigen Sie mit Klick auf das Filtersymbol
 <a name="funktionen"></a>
 #### Funktionen
 
-Folgende Funktionen stehen zur Verfügung
+Folgende Funktionen stehen zur Verfügung:
 
  - **Bearbeiten** <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
  Bearbeiten einer vorhandenen Konferenz. Mehr Informationen im Abschnitt [Konferenzvorlage bearbeiten](#konferenzvorlage-bearbeiten).
  
  - **Vorlage sperren** <img src="/img/schlosssymbol.png" alt="schloss" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
- Option, eine Konferenzvorlage zu sperren. Unberechtigte Personen können eine gesperrte Vorlage weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann eine Vorlage nur vom Ersteller oder dem Superuser.
+ Unberechtigte Personen können eine gesperrte Vorlage weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann eine Vorlage nur vom Ersteller oder dem Superuser.
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_funktionen_sperren.png?classes=shdadow)
  
- - **Report als PDF herunterladen** <img src="/img/pdfsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '> : Erstellt einen Report im PDF Format über die Konferenzvorlage. 
+ - **Report als PDF herunterladen** <img src="/img/pdfsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '> : Erstellt einen Report im PDF-Format über die Konferenzvorlage. 
  Hier werden Ersteller, Konferenzname und Beschreibung, sowie die Teilnehmer aufgelistet und weitere Optionen aufgeführt.
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_funktionen_pdf.png?classes=shdadow&width=800px)
  
- - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Löschen der Konferenzvorlagevorlage.
+ - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  
- - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy“ der Konferenzvorlagevorlage, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode
+ - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy 1“ der Konferenzvorlagevorlage, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode.
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_kopieren.png?classes=shadow)
  
  
  
 Mit der Schaltfläche *„Report herunterladen“* <img src="/img/mutieren_zusatzmodule_konferenzvorlagen_report.png" alt="report" style='vertical-align:middle;display:inline;margin:0px 5px; '>
- können Sie einen PDF Report erstellen, in dem alle aktuell angezeigten Konferenzvorlagen aufgeführt werden. Haben Sie z.B. mit der Filteroption nur die Konferenzvorlagen erstellt am 1.1.2018 angezeigt 
+ können Sie einen PDF-Report erstellen, in dem alle aktuell angezeigten Konferenzvorlagen aufgeführt werden. Haben Sie z.B. mit der Filteroption nur die Konferenzvorlagen erstellt am 1.1.2018 angezeigt 
 und klicken auf *„Report herunterladen“*, werden auch nur diese Vorlagen im Report aufgeführt.
 
 
@@ -84,8 +84,8 @@ per Checkbox auswählen:
     Erster entgegennimmt. Alle anderen Teilnehmer erhalten einen Hinweistext „Diese Konferenz ist gesperrt“
 	und wissen somit, dass der erste Teilnehmer bereits mit dem Anrufenden in Kontakt ist.
 	
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). 
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Konferenzvorlage per 
+
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales kostenpflichtiges Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Konferenzvorlage per 
 [Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
 
 ![](/img/mutieren_zusatzmodule_konferenzvorlagen_erstellen_ausloeseberechtigt.png?classes=shadow)
@@ -105,13 +105,13 @@ müssen Sie die angezeigten Spalten in dem Dropdown-Menü noch anpassen.
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_dropdown.png?classes=shadow)
  
 Per Drag & Drop, Doppelklick oder der Schaltfläche „Auswahl übernehmen“ fügen Sie die Vorlage der Teilnehmerliste auf der rechten Seite hinzu.
-Mit einem Klick auf „Telefonkonferenz“ gelangen Sie in das bereits bekannte Menü „Telefonkonferenz“. Dort können Sie die Konferenz direkt mit den vordefinierten Attributen auslösen, aber auch Optionen anpassen (z.B. Konferenzmittel deaktivieren)
+Mit einem Klick auf „Telefonkonferenz“ gelangen Sie in das bereits bekannte Menü „Telefonkonferenz“. Dort können Sie die Konferenz direkt mit den vordefinierten Attributen auslösen, aber auch Optionen anpassen (z.B. Konferenzmittel deaktivieren).
 
 ![](/img/mutieren_zusatzmodule_konferenzvorlagen_ausloesen.png?width=1000px&classes=shadow)
 
 ### Konferenzvorlage bearbeiten
 
-Nachdem eine Konfrenzvorlage erstellt wurde, kann Sie bearbeitet werden. Sie können Name, Beschreibung, Auslösecode, Absendernummer sowie die Optionen ändern.
+Nachdem eine Konferenzvorlage erstellt wurde, kann Sie bearbeitet werden. Sie können Name, Beschreibung, Auslösecode, Absendernummer sowie die Optionen ändern.
 
 ![](/img/mutieren_zusatzmodule_konferenzvorlagen_bearbeiten.png?classes=shadow)
 
@@ -121,13 +121,13 @@ Erst nach dem erstmaligen Erstellen ist es möglich, auslöseberechtigte Nummern
 
 Haben Sie die Option „Auslöser in Konferenz aufnehmen“ gewählt, können Sie zusätzlich einen Ansage- und Schlusstext festlegen.
 
-Bestätigen Sie die Änderungen mit der Schaltfläche „Konferenzvorlage speichern“
+Bestätigen Sie die Änderungen mit der Schaltfläche „Konferenzvorlage speichern“.
 
 
 <a name="teilnehmer_nachtraeglich_hinzufuegen"></a>
 ### Teilnehmer nachträglich hinzufügen
 
-Es ist auch möglich, nachträglich Teilnehmer einer Konferenzvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen sie per Drag&Drop, Doppelklick oder der Schaltfläche
+Es ist auch möglich, nachträglich Teilnehmer einer Konferenzvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen diese per Drag & Drop, Doppelklick oder der Schaltfläche
 „Auswahl übernehmen“ zu der Spalte „Teilnehmer“ am rechten Rand hinzu. Mit der Schaltfläche „Konferenzvorlage aktualisieren“ bestätigen Sie Ihre Auswahl.
 
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren1.png?width=1000px&classes=shadow)

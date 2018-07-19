@@ -7,8 +7,7 @@ weight = 7
 
 
 
-Mit dem optionalen Modul „Einsatzpläne“  können Sie Einsatzzeiten abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen,
-Kalenderwochen und Monaten festgelegen.
+Mit dem optionalen Modul „Einsatzpläne“  können Sie Einsatzpläne abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen, Kalenderwochen und Monaten festgelegen und diese Einsatzpläne Gruppen zuordnen.
 
 ![](/img/admin_einsatzplaene.png?classes=shadow&width=900px)
 
@@ -27,7 +26,7 @@ oder löschen <img src="/img/loesch-icon.png" alt="del" style='vertical-align:mi
  - **Wochenplan**: Geben Sie Zeitfenster und Wochentage an, an denen der Plan gelten soll. Die ausgewählten Zeiten werden in 
 der Grafik rechts grün angezeigt. Es ist nicht möglich, die Einsatzzeiten einzuzeichnen. Wählen Sie die Option „+ X Tage“ werden ab dem Starttermin die entsprechenden Tage dazugezählt. 
 
-	Im Folgenden zwei Beispiele: Das linke Beispiel zeigt regelmässige Arbeitszeiten Montag bis Freitag, jeweils 08:00 - 16:00 Uhr. Rechts beginnt die Schicht Freitag, 17:00 Uhr und geht durchgängig bis Montag, 06:00 Uhr 
+	Im Folgenden zwei Beispiele: Das linke Beispiel zeigt regelmäßige Arbeitszeiten Montag bis Freitag, jeweils 08:00 - 16:00 Uhr. Rechts beginnt die Schicht Freitag, 17:00 Uhr und geht durchgängig bis Montag, 06:00 Uhr 
 => 17.00 Uhr - 06.00 Uhr +2Tage.
 
 ![](/img/admin_einsatzplaene_wochenplan.png?classes=shadow&width=900px)
@@ -36,7 +35,7 @@ der Grafik rechts grün angezeigt. Es ist nicht möglich, die Einsatzzeiten einz
 Das Schema gilt für alle kommenden Jahre.
 	![](/img/admin_einsatzplaene_serienmuster.png?classes=shadow)
 
- - **„gültig an Feiertagen“**: Legen Sie fest, ob der Einsatzplan auch an Feiertagen gültig sein soll. Standardmässig werden 
+ - **„gültig an Feiertagen“**: Legen Sie fest, ob der Einsatzplan auch an Feiertagen gültig sein soll. Standardmäßig werden 
  Feiertage nicht berücksichtigt, sondern nur Wochentage und die Standardalarmierung wird vorgenommen. Durch **„ausschließen“** wird an Feiertagen 
  nicht alarmiert, der Tag wird als rot angezeigt. **„einschließen“** integriert den Feiertag von 00.00 - 23.59 in den Einsatzplan; alle haben Einsatz und der
  Tag wird grün angezeigt.

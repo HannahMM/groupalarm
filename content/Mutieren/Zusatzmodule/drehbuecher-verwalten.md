@@ -24,25 +24,25 @@ werden, die ansonsten manuell durchgeführt werden müssten.
 Im Menü **„Drehbücher“** werden Ihre vorhandenen Drehbücher aufgelistet. Sie können die Vorlagen nach Drehbuchname, Auslösecode, 
 Beschreibung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein 
 und bestätigen Sie mit Klick auf das Filtersymbol 
-<img src="/img/filtersymbol.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>
+<img src="/img/filtersymbol.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>.
 
 ![](/img/mutieren_zusatzmodule_drehbuecher.png?classes=shadow)
 
 <a name="funktionen"></a>
 #### Funktionen
 
-Folgende Funktionen stehen zur Verfügung
+Folgende Funktionen stehen zur Verfügung:
 
  - **Bearbeiten** <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
  Bearbeiten eines vorhandenen Drehbuchs. Mehr Informationen im Abschnitt [Neues Drehbuch anlegen](#neues_drehbuch_anlegen).
  
  - **Drehbuch sperren** <img src="/img/schlosssymbol.png" alt="schloss" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
- Option, ein Drehbuch zu sperren. Unberechtigte Personen können ein gesperrtes Drehbuch weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann ein Drehbuch nur vom Ersteller oder dem Superuser.
+ Unberechtigte Personen können ein gesperrtes Drehbuch weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann ein Drehbuch nur vom Ersteller oder dem Superuser.
  ![](/img/mutieren_zusatzmodule_drehbuecher_funktionen_sperren.png?classes=shdadow)
   
- - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Löschen des Drehbuches.
+ - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  
- - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy“ des Drehbuches, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode.
+ - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy 1“ des Drehbuches, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode.
  ![](/img/mutieren_zusatzmodule_drehbuecher_funktionen_kopieren.png?classes=shadow)
 
 
@@ -68,7 +68,7 @@ Im Reiter „Allgemein“ legen Sie Auslösecode und Drehbuchname fest sowie opt
 ![](/img/mutieren_zusatzmodule_drehbuecher_allgemein.png?classes=shadow)
 
 Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten. Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, das Drehbuch per 
-[Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
+[Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) (kostenpflichtiges Zusatzmodul) auszulösen.
 
 ![](/img/mutieren_zusatzmodule_drehbuecher_allgemein_ausloeseberechtigt.png?classes=shadow)
 

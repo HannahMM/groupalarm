@@ -6,7 +6,7 @@ weight = 3
 
 Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche
 **„Telefonkonferenz“** <img src="/img/alarmieren_telefonkonferenz.png" alt="telefon" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die zu alarmierenden Einheiten angezeigt.
+geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die Einheiten angezeigt, die an der Telefonkonferenz teilnehmen.
 
 ![](/img/alarmieren_telefonkonferenz_start.png?width=1000px&classes=shadow)
 
@@ -19,9 +19,9 @@ Eingabefeld kann, wenn der Initiator Teil der Konferenz sein möchte, die eigene
 Die ausgewählten Konferenzteilnehmer werden separat aufgeführt. Für jeden Teilnehmer werden
 alle konferenzfähigen Kommunikationsmittel (Mobile- und Festnetznummern) angezeigt. Die Checkboxen der Alarmmittel,
 welche beim Teilnehmer vorgängig als „Konferenzmittel“ definiert wurden,
-sind standardmässig vorausgewählt und können bei Bedarf deaktiviert
+sind standardmäßig vorausgewählt und können bei Bedarf deaktiviert
 werden. Aus den nicht ausgewählten Mitteln können über die Checkboxen
-bei Bedarf Weitere dazu selektiert werden. Es können somit pro
+bei Bedarf weitere dazu selektiert werden. Es können somit pro
 Teilnehmer mehrere Konferenzmittel gleichzeitig angerufen werden.
 
 ![](/img/alarmieren_telefonkonferenz_teilnehmer.png?classes=shadow)

@@ -110,7 +110,7 @@ in Zeitsteuerungen eingeteilt, können Sie diese hier exportieren.
 
 Über die LID können der Zeitsteuerungen Gruppen hinzugefügt werden. Da eine Zeitsteuerung aus mindestens zwei Untergruppen bestehen
  muss, beginnen immer mindestens zwei Zeilen mit derselben CID, nämlich einmal für jede dazugehörige Gruppe,
- die anschliessend über die LID zugewiesen wird. 
+ die anschließend über die LID zugewiesen wird. 
 
 
 ### Hierarchiebaum 
@@ -125,7 +125,7 @@ Hier können Sie die Baumstruktur Ihrer Organisation, also Wurzeln, Ordner, Zeit
  - **HID**: Der Schlüssel für die Elemente in der Baumstruktur. 
  Der Schlüssel beginnt analog zur LID und CID bei 1 und wird hochgezählt (also 1, 2, 3, 4, 5 usw.). 
  
- - **Wurzel**: In der Tabelle werden die Elemente der Baumstruktur nach Wurzeln sortiert angezeigt. Die Spalte „Wurzel“ numeriert 
+ - **Wurzel**: In der Tabelle werden die Elemente der Baumstruktur nach Wurzeln sortiert angezeigt. Die Spalte „Wurzel“ nummeriert 
   eben diese und gibt jedem untergeordneten Element der Wurzel dessen Nummer.
   
  - **TopID**: Die HID des direkten Vorgängers der Einheit im Baum, d.h. jener Einheit, der die neue direkt untergeordnet ist.
@@ -154,7 +154,7 @@ Ihre erste Wurzel hat dann die LinkID 10, die zweite 11 usw. – nur im Falle ei
 
 **Dateiname**: import_u.csv
 
-Hierbei können Sie exportieren, welchen Gruppen die einzelnen Teilnehmer zugeordnen sind.
+Hierbei können Sie exportieren, welche Gruppen den einzelnen Teilnehmern zugeordnet sind.
 
 ![](/img/mutieren_zusatzmodule_imexport_export_teilnehmer_in_einheiten.png?classes=shadow)
 
@@ -185,7 +185,7 @@ Haben Sie im Admin-Bereich „Text-to-Speech“-Ersetzungen definiert, können S
 
 
 Hier können Sie eine Liste mit beliebigen Angaben erstellen und exportieren. Wählen Sie dazu in der Spalte links die gewünschten 
-Datenfelder aus. Diese sind farblich sortiert nach Standardfeldern, optionalen Feldern, Einheiten und Alarmmitteln. Per Drag&Drop
+Datenfelder aus. Diese sind farblich sortiert nach Standardfeldern, optionalen Feldern, Einheiten und Alarmmitteln. Per Drag & Drop
 können Sie die Reihenfolge der Datenfelder nach Ihren Wünschen sortieren. Anschließend können Sie die Liste als PDF 
 <img src="/img/mutieren_zusatzmodule_imexport_export_telefonliste_als_pdf_speichern.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 oder CSV Datei 

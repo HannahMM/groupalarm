@@ -15,7 +15,7 @@ unter „**Abgeschlossene Alarme**“ abgelegt.
 
 Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen. 
 
-Der gesamte Verlauf des Alarms wird in unterschiedlichen Reports zusammengefasst.
+
 
 Folgende Funktionen stehen zur Verfügung:
 
@@ -24,7 +24,7 @@ Folgende Funktionen stehen zur Verfügung:
  
 Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format. 
 ![](/img/status_alarm_status_abgeschlossene_alarme_protokoll.png?classes=shadow)
-Folgende Informationen sind darin verzeichnet:
+Folgende Informationen sind darin enthalten:
   
 - Alarmname, Auslöser, Auslöse- und Endzeitpunkt mit exaktem Datum und Uhrzeit 
 
@@ -62,7 +62,7 @@ Folgende Informationen sind darin verzeichnet:
 
 #### 2. Alarmlog <img src="/img/pdficon.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 
-Ein detaillierter Überblick zu den einzelnen alarmierten Teilnehmern im PDF-Format.
+Das Alarmlog ist ein detaillierter Überblick zu den einzelnen alarmierten Teilnehmern im PDF-Format.
 Hieraus geht hervor, wer, wie, über welches Mittel und wann alarmiert
 worden ist (inkl. der jeweiligen Zeitstempel). In der Symbol-Legende
 werden die verschiedenen Status und Symbole erläutert.
@@ -73,14 +73,14 @@ werden die verschiedenen Status und Symbole erläutert.
 
 #### 3. Kostenauswertung <img src="/img/kostenauswertungsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 
-Übersicht der entstandenen Kosten im PDF-Format.
+Die Kostenauswertung bietet eine Übersicht der entstandenen Kosten im PDF-Format.
 
 ![](/img/status_alarm_status_abgeschlossene_alarme_kostenauswertung.png?width=700px&classes=shadow)
 
 
 
 #### 4. CSV-Protokoll <img src="/img/csvsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-Öffnet ein Excel Dokument, welches einen Überblick über Ablauf und Rückmeldungen des Alarms gibt
+Das CSV-Protokoll öffnet ein Excel Dokument, welches einen Überblick über Ablauf und Rückmeldungen des Alarms gibt.
 ![](/img/status_alarm_status_abgeschlossene_alarme_csv_protokoll.png?width=700px&classes=shadow)
 
 - Spalte A: Zeitpunkt
@@ -95,4 +95,4 @@ werden die verschiedenen Status und Symbole erläutert.
 #### 5. Protokolle per E-Mail <img src="/img/emailsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 
 Öffnet ein Fenster, in dem eine beliebige E-Mail-Adresse angegeben
-werden kann. An diese Adresse wird dann das Alarmprotokoll versendet.
+werden kann, an die das Alarmprotokoll versendet wird.

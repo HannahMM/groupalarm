@@ -34,7 +34,7 @@ Das folgende Beispiel zeigt alle Vorgänge mit dem Wort 'Demo' im Namen die im M
 
 Neben der Auflistung der zutreffenden Ereignisse erhalten Sie eine Kostenaufstellung. 
 
-Die gewählte Statistik können Sie als CVS-Logfile herunterladen, auf einer neuen Seite als Druckversion öffnen oder als E-Mail versenden.
+Die gewählte Statistik können Sie als CSV-Logfile herunterladen, auf einer neuen Seite als Druckversion öffnen oder als E-Mail versenden.
 
 
 

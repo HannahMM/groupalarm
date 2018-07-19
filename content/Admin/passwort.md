@@ -22,7 +22,7 @@ Diese lauten:
 
 -   
 
-    Mind. je 1 Grossbuchstabe, 1 Kleinbuchstabe und 1 Ziffer
+    Mind. je 1 Großbuchstabe, 1 Kleinbuchstabe und 1 Ziffer
 
     
 

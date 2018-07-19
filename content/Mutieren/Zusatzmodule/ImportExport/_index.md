@@ -13,14 +13,13 @@ Im Menü „Im-/Export“ können Sie verschiedene Datenbanken und Teilnehmerdat
 ### Export/Verfügbare Reports
 
 Unter „Verfügbare Reports“ können Sie verschiedene Datensätze als CSV Datei herunterladen, archivieren, verschicken und 
-bei Bedarf bearbeiten. CSV Dateien öffnen Sie dabei in der Regel mit Excel. Im Menüpunkt [„Export“](/mutieren/zusatzmodule/importexport/export/) werden die einzelnen Reports und 
-was zu beachten ist, erklärt.
+bei Bedarf bearbeiten. CSV Dateien öffnen Sie dabei in der Regel mit Excel. Im Menüpunkt [„Export“](/mutieren/zusatzmodule/importexport/export/) werden die einzelnen Reports erklärt.
 
 
 ### Import/Datenbank Import
 
 
-Der Import erlaubt, die zuvor exportierten und dann mutierten Datensätze wieder in das System zu importieren. 
+Der Import erlaubt die zuvor exportierten und dann mutierten Datensätze wieder in das System zu importieren. 
 Der Import ist primär für einen manuellen „Erstimport“ ausgelegt.
 
 **Aktualisieren über den Import:** Jeder Datensatz enthält einen
@@ -37,7 +36,7 @@ vorhanden, so wird der dazugehörige Datensatz gelöscht.
 
 ### Beispiel: Anlegen eines neuen Teilnehmers
 
-Zur Verdeutlichung des Export/Import Prozesses folgt nun beispielhaft das Anlegen eines neuen Teilnehmers:
+Zur Verdeutlichung des Export-/Import-Prozesses folgt nun beispielhaft das Anlegen eines neuen Teilnehmers:
 
  1. Speichern und Öffnen der Datei „import.cvs“ über den [dynamischen Export](/mutieren/zusatzmodule/importexport/export/#dynamischer-export) ![](/img/mutieren_zusatzmodule_imexport_demo1.png?classes=shadow&width=1000px)
 

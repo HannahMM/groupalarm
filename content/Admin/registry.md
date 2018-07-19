@@ -7,7 +7,7 @@ weight = 6
 
 ![](/img/admin_registry.png?classes=shadow)
 
-In der Registry können Sie viele detaillierte Konfigurationen vornehmen um GroupAlarm pro nach Ihren Bedürfnissen zu gestalten, z.B. das Verwalten von Mitbenutzer-Rechte, Automatischen Versand von Protokollen, Login-Timeout uvm.
+In der Registry können Sie viele detaillierte Konfigurationen vornehmen um GroupAlarm pro nach Ihren Bedürfnissen zu gestalten, z.B. das Verwalten von Mitbenutzer-Rechten, automatischen Versand von Protokollen, Login-Timeout u.v.m.
 
 Um einen neuen Eintrag hinzuzufügen, wählen Sie ihn im Dropdown-Menü aus, geben den entsprechenden Wert ein und für welche Nutzer der Eintrag gelten soll und bestätigen  mit „hinzufügen“. Einträge können Sie mit „entfernen“
 wieder entfernen.
@@ -49,7 +49,7 @@ eingegeben werden (z.B. de,fr,it).{{% /panel %}}
 |Custom Report Header (Basismodul)|Definiert die Kopfzeile im kundenspezifischen Seitenlayout (z.B. Alarmprotokoll und -Log)|Beliebig, z.B. Organisationsnamen. Nur einzeilig möglich.|Inaktiv, d.h. leer (aktuell kann das Swisscom-Logo der Kopfzeile noch nicht ersetzt werden).|
 |Definite Identification|Bestimmt, welche optionale Felder im Namen der Teilnehmer angezeigt werden sollen. |Namen der optionalen Felder |Inaktiv|
 |Disable Combox Key (Modul Telefonkonferenz(en))|Unterdrückt den Tastendruck für den Eintritt in die Telefonkonferenz. ACHTUNG: Durch das Deaktivieren gelangen auch Comboxen und Anrufbeantworter in die Telefonkonferenzen.|0 oder 1 (0: inaktiv, 1: aktiv)|Inaktiv|
-|Disable Flash Sms|Schaltet die Alarmoption Flash-SMS(SMSPrio) ab, sodass SMS im normal Modus versendet werden|0,1|Flash standardmässig an |
+|Disable Flash Sms|Schaltet die Alarmoption Flash-SMS (SMSPrio) ab, sodass SMS im normal Modus versendet werden|0,1|Flash standardmässig an |
 |Dry Run Validity (Modul Dry Run)| Bestimmt, ob Teilnehmer bei der Auslösung Dry Run Wert berücksichtigen soll oder nicht.| 0 oder 1 (0: nicht berücksichtigen, 1: berücksichtigen)|0 : nicht berücksichtigen|
 |Emergency Call Always Add Group Nr (Modul Notalarmierung)|Gruppe die automatisch JEDEM Notalarm hinzugefügt wird||Inaktiv|
 |Emergency Call Mail To (Modul Notalarmierung)|Nach jeder Mutation die aktualisierte Notalarmierungsliste automatisch per E-Mail versenden an|Gültige E-Mail-Adresse|Inaktiv|

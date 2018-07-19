@@ -20,11 +20,11 @@ Feedback zum Versand der „**Info-SMS**“ gegeben.
 
 
 
-Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurde, leuchtet Schaltfläche **„Info
+Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurden, leuchtet die Schaltfläche **„Info
 versenden“** (unten rechts) rot auf:
 <img src="/img/alarmieren_info_sms_info_versenden.png" alt="versenden" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 
-Die Info SMS kann nun an die selektierten Teilnehmer versendet werden.
+Die Info-SMS kann nun an die selektierten Teilnehmer versendet werden.
 
 <a name="alarm_an"></a>
 #### Alarm an
@@ -36,7 +36,9 @@ werden sämtliche Teilnehmer, die dem eingegebenen Namen entsprechen, angezeigt 
  
  - **Alarmliste**: 
 Falls Sie im Menü "Alarm erstellen" bereits Teilnehmer/Gruppen ausgewählt haben, können Sie diese mit „Alarmliste“ direkt auswählen
-und sie anzeigen/bearbeiten. **Achtung!**: Wenn sie mit *\[bearbeiten\]* ihre Alarmliste bearbeiten, geht Ihr Alarmtext verloren. 
+und sie anzeigen/bearbeiten. 
+
+**Achtung**: Wenn sie mit *\[bearbeiten\]* ihre Alarmliste bearbeiten, geht Ihr Alarmtext verloren. 
 Kopieren Sie den Text in Ihre Zwischenablage, um ihn nach dem Bearbeiten wieder einzufügen.
 
 ![](/img/alarmieren_info_sms_alarm_an.png?classes=shadow)
@@ -48,7 +50,7 @@ Kopieren Sie den Text in Ihre Zwischenablage, um ihn nach dem Bearbeiten wieder 
 
 
 
-Bevor eine Info-SMS verschickt werden kann, müssen Sie im Textfeld einen Alarmtext verfassen (max. 160 Zeichen). Ausserdem kann hier noch die
+Bevor eine Info-SMS verschickt werden kann, müssen Sie im Textfeld einen Alarmtext verfassen (max. 160 Zeichen). Außerdem kann hier noch die
 Sprache des Textes definiert werden.
 
 

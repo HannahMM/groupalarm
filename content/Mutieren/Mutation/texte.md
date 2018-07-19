@@ -49,8 +49,8 @@ geändert und mit *Löschen* gelöscht werden.
 
 Jeder angelegte Text kann über das  *[Sprachmenü]* abgespielt werden.
  Im Sprachmenü können Audiodateien im Windows-Wave-Format (*.wav) hochgeladen werden. Wenn keine Audiodatei hochgeladen werden kann, 
- besteht alternativ die Möglichkeit, die Telefonnummer 0241 98099076 anzurufen und entsprechend Freitext aufzunehmen.
- Nach der Einwahl wird nach der Legitimations-PIN gefragt, die dem Sprachmenü entnehmbar ist. Die PIN wird nach 5 Minuten ungültig. 
+ besteht alternativ die Möglichkeit, die Telefonnummer 0241 98099076 anzurufen und einen Text aufzunehmen.
+ Nach der Einwahl wird nach einer Legitimations-PIN gefragt, die dem Sprachmenü entnehmbar ist. Die PIN wird nach 5 Minuten ungültig. 
 
 
 ![](/img/mutieren_mutation_texte_sprachmenue.png?classes=shadow)

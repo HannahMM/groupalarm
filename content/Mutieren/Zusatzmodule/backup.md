@@ -14,7 +14,7 @@ Um eine Backup-Datei zu erstellen und zu speichern, klicken Sie auf die Schaltfl
 
 ![](/img/mutieren_zusatzmodule_backup_erstellen.png?classes=shadow)
 
-Um ein zuvor erstelltes Backup wieder herzustellen, klicken Sie auf die Schaltfläche „Datei auswählen“ und wählen Sie die entsprechende Datei. Bestätigen Sie die Auswahl mit „Übertragen“
+Um ein zuvor erstelltes Backup wiederherzustellen, klicken Sie auf die Schaltfläche „Datei auswählen“ und wählen Sie die entsprechende Datei. Bestätigen Sie die Auswahl mit „Übertragen“
 
 ![](/img/mutieren_zusatzmodule_backup_zurueckspielen.png?classes=shadow)
 

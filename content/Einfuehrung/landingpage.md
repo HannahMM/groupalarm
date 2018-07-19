@@ -37,16 +37,16 @@ Alle Funktionen, die Sie unter diesen Registern finden, werden in den entspreche
 #### Navigationsleiste
 
 Mit der Navigationsleiste am oberen Bildschirmrand, hier grün markiert, können Sie schnell auf einzelne Menüpunkte der 
-verschiedenen Register zugreifen. Klicken Sie hier z.B. auf Mutation können Sie direkt zur Teilnehmerliste wechseln.
-Je nachdem, welche Zusatzmodule Sie aktiv haben, können weitere Menüpunkte dazukommen, z.B. Konferenzstatus.
+verschiedenen Register zugreifen. Klicken Sie hier z.B. auf Mutation, können Sie direkt zur Teilnehmerliste wechseln.
+Je nachdem, welche Zusatzmodule Sie aktiviert haben, können weitere Menüpunkte hinzukommen, z.B. Konferenzstatus.
 
 
 ![](/img/einfuehrung_startseite_navigation_leiste.png?classes=shadow)
 
-Im Menüpunkt „Sitzung“ befindet sich zudem der Logoutbutton. 
+Im Menüpunkt „Sitzung“ befindet sich zudem der Logout-Button. 
 
 #### Schnellstart-Schaltflächen
 
-Im oberen rechten Bereich, hier blau markiert, finden sie die Schnellstart-Schaltflächen. Standardmäßig können Sie hier direkt zu 
+Im oberen rechten Bereich, hier blau markiert, finden Sie die Schnellstart-Schaltflächen. Standardmäßig können Sie hier direkt zu 
 den laufenden Alarmen, der Teilnehmerliste oder der Erstellung einer Info-SMS gelangen. Auch hier sind weitere Schaltflächen für optionale
 Module möglich, z.B. aktive Konferenzen.

@@ -8,7 +8,7 @@ Hier finden Sie die wichtigsten Merkblätter und Leitfäden zu **GroupAlarm pro*
 | Name | Dokumentname |
 | --- | --- |
 |ERIC Handbuch |[ERIC_Handbuch_pagerV3_2](/pdf/ERIC_Handbuch_pagerV3_2.pdf) |
-|ERIC FAQ | [ERIC FAQ](/pdf/ERIC FAQ.pdf) |
+|ERIC FAQ | [ERIC FAQ](/pdf/ERIC_FAQ.pdf) |
 |Leitfaden: Alarmvorlage erstellen | [Leitfaden_Alarmvorlagen_erstellen](/pdf/Leitfaden_Alarmvorlagen_erstellen.pdf) |
 |Leitfaden: Alarmvorlage bearbeiten| [Leitfaden_Alarmvorlagen_bearbeiten](/pdf/Leitfaden_Alarmvorlagen_bearbeiten.pdf) |
 |Leitfaden: Alarmieren |[Leitfaden_Disponenten](/pdf/Leitfaden_Disponenten.pdf) |

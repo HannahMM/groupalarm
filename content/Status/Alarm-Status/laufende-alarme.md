@@ -8,13 +8,13 @@ weight = 1
 ### Alarm-Feedback 
 
 
-Sobald ein Alarm ausgelöst wird, erscheint er in der Maske **„Alarm-Feedback“**. Hier erhalten Sie in Echtzeit 
+Sobald ein Alarm ausgelöst wird, erfolt ein Wechsel der Maske, d.h. der Alarm wird in der Maske **„Alarm-Feedback“** dargestellt. Hier erhalten Sie in Echtzeit 
 einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilnehmer. 
 
 ![](/img/status_alarm_status_laufende_alarme.png?width=1200px&classes=shadow)
 
 Mit der Schaltfläche „Kaskade beenden“ <img src="/img/status_alarm_status_laufende_alarme_kaskade_beenden.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schliessen“ <img src="/img/status_alarm_status_laufende_alarme_alarm_schliessen.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
+können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schließen“ <img src="/img/status_alarm_status_laufende_alarme_alarm_schliessen.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schließen“ den Alarm beenden.
 
 
@@ -25,15 +25,16 @@ Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
 
 ![](/img/status_alarm_status_laufende_alarme_zusammenfassung.png?classes=shadow)
 
- - Auslösezeitpunkt und Dauer des Alarms, Alarmtext
- - Statusbalken der Quittierungen
+ - Auslösezeitpunkt und Dauer des Alarms
+ 
+ - Alarmtext und Statusbalken der Quittierungen
  - Ampel: Gibt Aufschluss darüber, ob die vordefinierte Grenze erfolgreicher Alarmierungen erreicht wurde. Bei **Rot** wurde noch keine definierte Grenze erreicht. **Gelb** bedeutet, eine vordefinierte Anzahl Teilnehmer hat
  den Alarm bereits positiv quittiert. **Grün** bedeutet, die in der Registry vordefinierte Anzahl an nötigen positiven Rückmeldungen ist erreicht und Sie können den Alarm beenden. 
  - Übersicht Rückmeldungen <img src="/img/status_alarm_status_laufende_alarme_zusammenfassung_rueckmeldungen.png" alt="feedback" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  
  	- **Ja**: Positive Rückmeldung
 	- **Nein**: Negative Rückmeldung
-	- **Ungültig**: Rückmeldung mit ungültigem Syntax (mehr Informationen im Abschnitt [„Quittierung“](#quittierung))
+	- **Ungültig**: Rückmeldung mit ungültiger Syntax (mehr Informationen im Abschnitt [„Quittierung“](#quittierung))
 	- **Versendet**
 	- **Sendefehler**
     - **Nicht quittiert**: Noch keine Rückmeldung
@@ -41,7 +42,7 @@ Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
  
 #### Übersicht Teilnehmer
 
-Im unteren Teil des Feedback-Menüs werden die zu alarmierenden Teilnehmer und ihre jeweiligen Status und Alarmmitteln aufgelistet. Wählen Sie die Option „Gruppenansicht“ aus, um die alarmierten Einheiten anzuzeigen.
+Im unteren Teil des Feedback-Menüs werden die zu alarmierenden Teilnehmer und ihre jeweiligen Status und Alarmmittel aufgelistet. Wählen Sie die Option „Gruppenansicht“ aus, um die alarmierten Einheiten anzuzeigen.
 
 ![](/img/status_alarm_status_laufende_alarme_teilnehmer.png?classes=shadow)
 
@@ -73,7 +74,7 @@ kann die Liste nach Status der Teilnehmer gefiltert werden, um beispielsweise nu
 
 #### Anruf
 
-Bei Alarmierung per Anruf liest eine Ansagestimme den Alarmtext vor und gibt Anweisungen zur korrekten Quittierung. Diese 
+Bei Alarmierung per Anruf liest eine Ansagestimme den Alarmtext vor und gibt Anweisungen zur korrekten Quittierung („Drücken Sie 1…drücken Sie 2…drücken Sie 3…“). Diese 
 erfolgt per Tastenfeld.
 
 #### E-Mail
@@ -90,12 +91,12 @@ Schlüsselwörter beginnen:
 
 {{% panel theme="default" %}}**"Ja"** oder **"Nein"**, **"OK"** oder **"NOK"**, **"Yes"** oder **"No"**, **"Oui"** oder **"Non"**,  **"Si"** oder **"No"**.{{% /panel %}}
 
-Zusätzlicher Text muss mit einem Leerzeichen vom Schlüsselwort abgetrennt sein!  
+Zusätzlicher Text **muss** mit einem Leerzeichen vom Schlüsselwort abgetrennt sein!  
 
  
 Beispiele für gültige Antworten:  
  
-| Positiv                | Negativ                 |
+| Gültig                 | Ungültig                |
 |------------------------|-------------------------|
 | JA                     | NEIN                    |
 | Ja ich komme in 20 min | nein ich bin verhindert |
@@ -123,11 +124,11 @@ angezeigt. ![](/img/status_alarm_status_laufende_alarme_quittung_unklar.png?clas
 Der Auslöser/Disponent kann aufgrund des Textes das „Resultat“ manuell
 auf „Ja“ oder „Nein“ setzten, indem er das grüne Häkchen <img src="/img/status_alarm_status_laufende_alarme_quittung_haken.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 oder das rote Kreuzchen <img src="/img/status_alarm_status_laufende_alarme_quittung_kreuz.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-wählt. Setzt er den Teilnehmer beispielsweise manuell auf „Ja“ wird er
-in GroupAlarm folgendermassen
+wählt. Setzt er den Teilnehmer beispielsweise manuell auf „Ja“, wird er
+in GroupAlarm folgendermaßen
 dargestellt. ![](/img/status_alarm_status_laufende_alarme_quittung_unklar2.png?classes=shadow)
 Der ursprüngliche Text im Resultat wird mit der Information zum
-manuellen Statuswechsel überschrieben.
+manuellen Statuswechsel überschrieben, im Protokoll taucht aber lediglich der letzte gesetzte Status auf, NICHT jedoch die Historie der Statussetzung.
 
 
 

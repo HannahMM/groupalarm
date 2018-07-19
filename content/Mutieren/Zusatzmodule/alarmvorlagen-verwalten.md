@@ -7,13 +7,13 @@ weight = 1
 
 ### Alarmvorlagen
 
-Alarmvorlagen sind ideal für vordefinierte Vorfälle/Ereignisse welche eintreten können. Das bedeutet, der Teilnehmerkreis und die möglichen Alarmtexte sind bereits festgelegt. 
-Im Ernstfall kann bei der Alarmierung die vorgängig erfasste Alarmvorlage ausgelöst werden und die definierten Alarmteilnehmer werden über die entsprechenden Mittel mit dem Alarmtext alarmiert.   
+Alarmvorlagen sind ideal für vordefinierte Vorfälle/Ereignisse. Das bedeutet, dass der Teilnehmerkreis und die möglichen Alarmtexte bereits festgelegt sind. 
+Im Ernstfall kann bei der Alarmierung die vorgängig erfasste Alarmvorlage ausgelöst werden, sodass die definierten Alarmteilnehmer  über die entsprechenden Mittel mit dem Alarmtext alarmiert werden.
 
 Im Menü **„Alarmvorlagen“** werden Ihre vorhandenen Alarmvorlagen aufgelistet. Sie können die Vorlagen nach Alarmname, Auslösecode, 
 Beschreibung, Zeitpunkt der letzten Bearbeitung und Disponent filtern. Geben Sie dazu die gewünschten Filterkriterien in die Filterleiste ein 
 und bestätigen Sie mit Klick auf das Filtersymbol 
-<img src="/img/filtersymbol.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>
+<img src="/img/filtersymbol.png" alt="filter" style='vertical-align:middle;display:inline;margin:0px 5px; '>.
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen.png?classes=shadow)
 
@@ -23,29 +23,29 @@ und bestätigen Sie mit Klick auf das Filtersymbol
 <a name="funktionen"></a>
 #### Funktionen
 
-Folgende Funktionen stehen zur Verfügung
+Folgende Funktionen stehen zur Verfügung:
 
  - **Bearbeiten** <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
  Bearbeiten einer vorhandenen Alarmvorlage. Mehr Informationen dazu im Abschnitt [Neue Alarmvorlage anlegen](#allgemein).
  
  - **Vorlage sperren** <img src="/img/schlosssymbol.png" alt="schloss" style='vertical-align:middle;display:inline;margin:0px 5px; '> : 
- Option, eine Alarmvorlage zu sperren. Unberechtigte Personen können eine gesperrte Vorlage weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann eine Vorlage nur vom Ersteller oder dem Superuser.
+ Unberechtigte Personen können eine gesperrte Vorlage weder bearbeiten noch löschen, aber weiterhin auslösen. Entsperrt werden kann eine Vorlage nur vom Ersteller oder dem Superuser.
  ![](/img/mutieren_zusatzmodule_alarmvorlagen_funktionen_sperren.png?classes=shdadow)
  
- - **Report als PDF herunterladen** <img src="/img/pdfsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '> : Erstellt einen Report im PDF Format über die Alarmvorlage. 
- Hier werden Ersteller, Alarmname und Beschreibung, die alarmierten Einheiten, die gewählten Texte und weitere Optionen aufgeführt
+ - **Report als PDF herunterladen** <img src="/img/pdfsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '> : Erstellt einen Report im PDF-Format über die Alarmvorlage. 
+ Hier werden Ersteller, Alarmname und Beschreibung, die alarmierten Einheiten, die gewählten Texte und weitere Optionen aufgeführt.
  
  ![](/img/mutieren_zusatzmodule_alarmvorlagen_funktionen_pdf.png?width=700px&classes=shadow)
  
  - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Löschen der Alarmvorlage.
  
- - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy“ der Alarmvorlage, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode
+ - **Kopieren**<img src="/img/kopiersymbol.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Erstellt eine Kopie mit Zusatz „copy“ der Alarmvorlage, übernimmt dabei alle Datensätze aber verteilt neuen Auslösecode.
  ![](/img/mutieren_zusatzmodule_alarmvorlagen_funktionen_kopieren.png?classes=shadow)
  
  
  
 Mit der Schaltfläche *„Report herunterladen“* <img src="/img/mutieren_zusatzmodule_alarmvorlagen_report.png" alt="report" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-können Sie einen PDF Report erstellen, in dem alle aktuell angezeigten Alarmvorlagen aufgeführt werden. Haben Sie z.B. mit der Filteroption nur die Alarmvorlagen erstellt am 1.1.2018 angezeigt 
+können Sie einen PDF-Report erstellen, in dem alle aktuell angezeigten Alarmvorlagen aufgeführt werden. Haben Sie z.B. mit der Filteroption nur die Alarmvorlagen erstellt am 1.1.2018 angezeigt 
 und klicken auf *„Report herunterladen“*, werden auch nur diese Vorlagen im Report aufgeführt.
 
 
@@ -58,7 +58,7 @@ Es gibt verschiedene Möglichkeiten, eine neue Alarmvorlage anzulegen:
 
  1. Im Register **„Mutieren“** im Menü „Organigramm/Baumansicht“ klicken Sie in der rechten Spalte unter „Verfügbar“ auf „Neue Vorlage“
  ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage1.png?classes=shadow)
- Damit gelangen Sie in die Teilnehmerliste, weiter im nächsten Stichpunkt
+ Damit gelangen Sie in die Teilnehmerliste, weiter im nächsten Stichpunkt.
  
  2. Im Register **„Mutieren“** im Menü „Teilnehmerliste“ fügen Sie die gewünschte/n Gruppe/n per Drag & Drop oder Doppelklick
  der rechten Spalte hinzu und klicken auf „Alarmvorlage erstellen“
@@ -66,7 +66,7 @@ Es gibt verschiedene Möglichkeiten, eine neue Alarmvorlage anzulegen:
  
  3. Im Register **„Mutieren“** im Menü „Zusatzmodule“, „Alarmvorlagen verwalten“ mit der Schaltfläche „Neue Alarmvorlage anlegen“
  <img src="/img/mutieren_zusatzmodule_alarmvorlagen_neue_alarmvorlage_anlegen.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>
- Damit gelangen Sie in die bereits bekannte Alarmmaske. Hier können Sie Wurzeln und Gruppen per Drag & Drop oder Doppelklick in die rechte Spalte schieben. Klicken Sie dann auf „Alarmvorlage erstellen“
+ Damit gelangen Sie in die bereits bekannte Alarmmaske. Hier können Sie Wurzeln und Gruppen per Drag & Drop oder Doppelklick in die rechte Spalte schieben. Klicken Sie dann auf „Alarmvorlage erstellen“.
  ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage3.png?width=800px&classes=shadow)
  
   
@@ -85,7 +85,7 @@ Im Reiter „Allgemein“ legen Sie Auslösecode und Alarmname fest sowie option
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein.png?classes=shadow)
 
-Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (Optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Alarmvorlage per [Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
+Die Funktion „Auslöseberechtigt“ können Sie erst nach Erstellen der Vorlage bearbeiten (kostenpflichtiges optionales Modul). Legen Sie hier Name und Nummer der Personen fest, die berechtigt sind, die Alarmvorlage per [Durchwahl](/alarmieren/fernausloese/#auslöse-per-durchwahl-anruf) auszulösen.
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein_ausloeseberechtigt.png?classes=shadow)
 
@@ -101,7 +101,7 @@ Hier werden die Teilnehmer aufgelistet. Sie können Gruppen mit dem Löschsymbol
 
 Unter allen verfügbaren Texten, also vordefinierte Texte sowie Freitext wählen Sie mit dem Radiobutton <img src="/img/auswahl_rund.png" alt="radiobutton" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 einen Standardtext aus. Mit den Checkboxes <img src="/img/auswahl_eckig.png" alt="checkbox" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-können Sie alternative Texte auswählen, die bei der Alarmauslösung in die engere Auswahl kommen.  
+können Sie alternative Texte auswählen. Bei der späteren Alarmauslösung ist der als Standardtext gewählte Text vorselektiert und nur die als Alternativen markierten Texte werden angezeigt.  
 
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_texte.png?classes=shadow)
@@ -127,13 +127,13 @@ Analog zum Erstellen eines Alarms legen Sie hier die Alarmoptionen fest.
 
  - **Folgende Mittel alarmieren**: Welche Alarmmittel sollen alarmiert werden?
  
- - **Alert-SMS**(Flash-SMS): SMS wird direkt auf dem Handy-Display dargestellt wird, sobald sie eingegangen ist.
+ - **Alert-SMS** (Flash-SMS): SMS wird direkt auf dem Handy-Display dargestellt, sobald sie eingegangen ist und nicht im Telefon gespeichert.
 
  - **Dry-Run**: Startet den Alarm nur als eine Art Probealarm, die Alarmmittel der Teilnehmer werden hierbei nicht ausgelöst. 
  
- - **PIN-Schutz**: Relevant für Alarmierung via Anruf. Wurde im [Teilnehmerbereich](/mutieren/mutation/teilnehmerliste/#teilnehmerbereich) ein PIN definiert, muss dieser vom Teilnehmer zunächst eingegeben werden, bevor die Sprachnachricht abgespielt wird.
+ - **PIN-Schutz**: Relevant für Alarmierung via Anruf. Wurde im [Teilnehmerbereich](/mutieren/mutation/teilnehmerliste/#teilnehmerbereich) im Reiter „Admin“ ein PIN definiert, muss dieser vom Teilnehmer zunächst eingegeben werden, bevor die Sprachnachricht abgespielt wird.
  
- - **Wochenplaner**:(optionales Modul)
+ - **Wochenplaner** (optionales Modul):
 
 	- Aus Teilnehmerdaten: Die Teilnehmer werden anhand des [vordefinierten
     Wochenplaners](/admin/wochenplaner) alarmiert
@@ -151,7 +151,7 @@ gestoppt und geschlossen.
 
 	- Abbruch nach x Minuten nach der Alarmauslösung
 
- - **Info-Versand**: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen inkl. PG)
+ - **Info-Versand**: Versand eines Alarm-Reports und/oder periodische Zusammenfassungen an Fax-/Mailadresse/ERIC Pager (Pagernummer eintragen mit vorangestelltem „PG“)
  
  - **Unitronic Alarm Prio**: Art der Benachrichtigung/Alarmierung 
 	- Textnachricht: Nicht lautstärken-übersteuernde Nachricht an den Pager (eigener Klingelton kann gesetzt werden)

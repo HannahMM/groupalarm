@@ -21,14 +21,14 @@ Hier sehen Sie eine Übersicht der mit Ihrem Account verbunden ERIC Pager.
  
 	- ok, aktiv: voll einsatzbereit und erreichbar
 	- abgeschaltet, aktiv: einsatzbereit jedoch nicht erreichbar
-	- inaktiv: nicht einsatzbereit, nciht erreichbar
+	- inaktiv: nicht einsatzbereit, nicht erreichbar
 	
  - **Funktion** <img src="/img/bearbeitungsicon.png" alt="telefon" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Übersicht der aktuellen Konfiguration, Event-Log sowie Verwaltung des Pagers
 	![](/img/mutieren_mutation_eric_pager_verwalten_bearbeiten.png?classes=shadow)
 	
 	- Pager sperren/entsperren: Fernsperre des Pagers
 	- Sperrtext senden/löschen: Individuellen Text zur Sperrung des Pagers senden
-	- Name setzen: Anpassung des Pager-Namen auf den zugeordneten Teilnehmernamen
+	- Name setzen: Anpassung des Pager-Namens auf den zugeordneten Teilnehmernamen
 	- Notruf-Vorlage setzen: Absetzen des Notrufs einer vordefinierten Alarmvorlage (Eintrag Auslösecode)
 	- Pager neu starten
 	- Pager initialisieren (Werkseinstellungen): Zurücksetzen des Pagers auf Auslieferungszustand
