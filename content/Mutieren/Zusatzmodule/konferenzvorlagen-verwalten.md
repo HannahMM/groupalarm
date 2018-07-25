@@ -59,7 +59,7 @@ Es gibt verschiedene Möglichkeiten, eine neue Konferenzvorlage anzulegen:
  der rechten Spalte hinzu und klicken auf Konferenzvorlage erstellen“
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_neue_vorlage1.png?width=1000px&classes=shadow) 
  
- 2. Im Register **„Mutieren“** im Menü „Zusatzmodule“, „Alarmvorlagen verwalten“ mit der Schaltfläche „Neue Konferenzvorlage anlegen“
+ 2. Im Register **„Mutieren“** im Menü „Zusatzmodule“, „Konferenzvorlagen verwalten“ mit der Schaltfläche „Neue Konferenzvorlage anlegen“
  <img src="/img/mutieren_zusatzmodule_konferenzvorlagen_neue_konferenzvorlage_anlegen.png" alt="konf" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  Damit gelangen Sie in die bereits bekannte Alarmmaske. Hier können Sie Gruppen per Drag & Drop oder Doppelklick in die rechte Spalte schieben. Klicken Sie dann auf „Konferenzvorlage erstellen“
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_neue_vorlage2.png?width=1000px&classes=shadow)
@@ -124,18 +124,32 @@ Haben Sie die Option „Auslöser in Konferenz aufnehmen“ gewählt, können Si
 Bestätigen Sie die Änderungen mit der Schaltfläche „Konferenzvorlage speichern“.
 
 
-<a name="teilnehmer_nachtraeglich_hinzufuegen"></a>
+
+
 ### Teilnehmer nachträglich hinzufügen
 
-Es ist auch möglich, nachträglich Teilnehmer einer Konferenzvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen diese per Drag & Drop, Doppelklick oder der Schaltfläche
+
+Es gibt verschiedene Möglichkeiten, nachträglich Teilnehmer einer Konferenzvorlage zuzuordnen:
+
+ 
+ 
+ - Wählen  Sie im Register „Mutieren“ das Modul „Konferenzvorlagen verwalten“ aus und klicken Sie auf die Schaltfläche „Neue Konvorlage anlegen“. Wählen Sie in der bereits bekannten Maske die gewünschten Alarmobjekte aus.
+ Bestätigen Sie die Auswahl mit der Schaltfläche „Konferenzvorlage aktualisieren“
+ 
+	**Achtung:** Wählen Sie alle Alarmobjekte aus, die in der aktualisierten  Konferenzvorlage enthalten sein sollen, auch die, die vorher schon in der Konferenzvorlage waren. 
+  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren3.png?width=1000px&classes=shadow)
+  Im nachfolgenden Menü „Konferenzvorlage aktualisieren“ können Sie im Dropdown-Menü die Konferenzvorlage auswählen, zu der Sie die
+ Teilnehmer hinzufügen wollen.
+  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren2.png?classes=shadow)
+  Bestätigen Sie mit einem Klick auf *„übernehmen“*.
+  
+ - Wählen Sie im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen diese per Drag & Drop, Doppelklick oder der Schaltfläche
 „Auswahl übernehmen“ zu der Spalte „Teilnehmer“ am rechten Rand hinzu. Mit der Schaltfläche „Konferenzvorlage aktualisieren“ bestätigen Sie Ihre Auswahl.
 
+	**Achtung:** Diese Option überschreibt die vorhandenen Teilnehmer. Wenn die bereits vorhandenen Teilnehmer in der Vorlage bleiben sollen, müssen Sie diese ebenfalls auswählen!
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren1.png?width=1000px&classes=shadow)
- 
- Im nachfolgenden Menü „Konferenzvorlage aktualisieren“ können Sie im Dropdown-Menü die Alarmvorlage auswählen, zu der Sie die
+ Im nachfolgenden Menü „Konferenzvorlage aktualisieren“ können Sie im Dropdown-Menü die Konferenzvorlage auswählen, zu der Sie die
  Teilnehmer hinzufügen wollen.
  ![](/img/mutieren_zusatzmodule_konferenzvorlagen_aktualisieren2.png?classes=shadow)
  
- Bestätigen Sie mit einem Klick auf *„übernehmen“*.
-
 

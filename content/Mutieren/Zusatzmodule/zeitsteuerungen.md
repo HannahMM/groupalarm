@@ -5,7 +5,7 @@ weight = 5
 
 
 
-Das optionale Zusatzmodul „Zeitsteuerung“ ermöglicht das Erfassen von Bereitschaftsdiensten. 
+Das optionale Zusatzmodul „Zeitsteuerung“ ermöglicht das Erfassen von Bereitschaftsdiensten. Beachten Sie auch den [Leitfaden Zeitsteuerung](/pdf/Leitfaden_Zeitsteuerung.pdf) für weitere Informationen.
 
 
 ### Zeitsteuerung anlegen

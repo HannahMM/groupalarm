@@ -1,6 +1,7 @@
 +++
 title = "Grundkonzept"
 weight = 3
+draft = true
 +++
 
 Um Ihnen den Einstieg in **GroupAlarm pro** zu erleichtern und eine optimale und effektive Alarmauslösung zu gewährleisten, 

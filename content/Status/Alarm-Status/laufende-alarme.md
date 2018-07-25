@@ -13,9 +13,8 @@ einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilneh
 
 ![](/img/status_alarm_status_laufende_alarme.png?width=1200px&classes=shadow)
 
-Mit der Schaltfläche „Kaskade beenden“ <img src="/img/status_alarm_status_laufende_alarme_kaskade_beenden.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schließen“ <img src="/img/status_alarm_status_laufende_alarme_alarm_schliessen.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
-auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schließen“ den Alarm beenden.
+Mit der Schaltfläche „Alarm schließen“ <img src="/img/status_alarm_status_laufende_alarme_alarm_schliessen.png" alt="end" style='vertical-align:middle;display:inline;margin:0px 5px; '>
+können Sie den Alarm beenden.
 
 
 

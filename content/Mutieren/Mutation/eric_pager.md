@@ -3,8 +3,11 @@ title = "ERIC Pager verwalten (Zweiwege-Paging)"
 weight= 4
 +++
 
-### ERIC Pager verwalten
 
+
+Für umfassende Informationen zu den ERIC Pagern beachten Sie bitte auch das [ERIC-Pager-Handbuch](/pdf/ERIC_Handbuch_pagerV3_2.pdf) sowie die [FAQ](/pdf/ERIC_FAQ.pdf).
+
+### ERIC Pager verwalten
 
 
 Hier sehen Sie eine Übersicht der mit Ihrem Account verbunden ERIC Pager.

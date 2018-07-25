@@ -42,10 +42,7 @@ Folgende Informationen sind darin enthalten:
 
  - Konferenzname, Auslöser, Auslöse- und Endzeitpunkt mit exaktem Datum und Uhrzeit
 
-
- - Konferenzoptionen: War Konferenz ein First
-Responder? Konferenz über einen Auslöser gestartet wurde.
-Die Optionen können in der Konferenzvorlage eingestellt werden.
+ - Konferenzoptionen: War Auslöser Teilnhemer der Konferenz? War Konferenz ein Firstresponder?  
 
  - Alarmierte Einheiten
 

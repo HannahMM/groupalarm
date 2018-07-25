@@ -37,16 +37,12 @@ Um den erstellten Plan zu füllen, müssen Sie zunächst Profile anlegen. Geben 
 ein und bestätigen Sie mit der Schaltfläche \[neues Profil\]. Die erstellten Profile werden farblich markiert rechts von der graphischen
 Wochenansicht angezeigt. In diesem Beispiel gibt es die Profile „Tag“ und „Nacht“.
 
-![](/img/admin_wochenplaner_profile.png?classes=shadow)
-
-Wenn Sie im Dropdown-Menü „Zeitprofil“ das gewünschte Profil auswählen, können Sie rechts die gewünschten Alarmmittel auswählen.
-
-
-Wählen Sie nun im Dropdown-Menü „Zeitprofil“ das gewünschte Profil aus und wählen Sie in der Grafik die Zeitfenster aus, in denen 
-dieses Profil gilt. 
+Wählen Sie im Dropdown-Menü „Zeitprofil“ ein Profil aus und wählen Sie rechts die gewünschten Alarmmittel für dieses Profil aus. 
+Wählen Sie dann in Wochenansicht die Zeitfenster aus, in denen dieses Profil gilt, indem Sie die linke Maustaste gedrückt halten und über die gewünschten Zeiträume ziehen. 
 
 
-![](/img/admin_wochenplaner_plan_anlegen.png?classes=shadow)
+
+![](/img/admin_wochenplaner_plan_anlegen1.png?classes=shadow)
 
 ### Wochenplan zuordnen
 

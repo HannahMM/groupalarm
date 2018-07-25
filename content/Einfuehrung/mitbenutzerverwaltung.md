@@ -21,10 +21,14 @@ kann, sind seine persönlichen Daten wie Adresse, Alarmmittel-Nummern und
 
 
 Die Voraussetzung für einen Mitbenutzer, d. h. für einen Zugang mit mehr
-Rechten als nur für **Eigene Daten**, ist ein Benutzerlogin. Sobald der
-Teilnehmer ein Benutzerlogin hat, kann er über die Rechteverwaltung zu
+Rechten als nur für **Eigene Daten**, ist ein Benutzerlogin. Dieser wird im Teilnehmerbereich konfiguriert und besteht aus einem Login-Namen sowie einem Passwort, welches Sie selbst wählen  oder mit einem Klick auf 
+<img src="/img/einfuehrung_mitbenutzerverwaltung_passwort.png" alt="" style='vertical-align:middle;display:inline;margin:0px 5px; '> generieren lassen können. Bestätigen Sie die Änderungen unbedingt mit der Schaltfläche „Teilnehmer speichern“.
+
+![](/img/einfuehrung_mitbenutzerverwaltung_benutzerlogin.png?classes=shadow)
+
+Sobald der Teilnehmer ein Benutzerlogin hat, kann er über die Rechteverwaltung zu
 einem Mitbenutzer gemacht werden, indem ihm eine Mitbenutzer-Rolle zugewiesen
-wird.
+wird. 
 
 
 <a name="mitbenutzer-rollen"></a>

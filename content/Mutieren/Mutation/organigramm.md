@@ -16,7 +16,7 @@ In diesem Menü findet die zentrale Verwaltung Ihrer Organisation statt.
 
 #### Baumansicht 
 
-Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einer Baumstruktur. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und optionale Module (z.B. Telefonkonferenz oder
+Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einer Baumstruktur. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und optionale Module (z.B. Konferenzvorlage oder
  Zeitsteuerung) angezeigt.  
  
 Eine **Wurzel** stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordner zugeordnet werden können. 
@@ -142,7 +142,7 @@ Bei einer Alarmierung (manuell oder durch eine Vorlage) wird in Klammern angezei
 Gruppe der Alarm eingehen wird.
 ![](/img/mutieren_mutation_organigramm_rotationsgruppe_auswahl.png?classes=shadow)
 
-Mehr Informationen finden Sie im Leitfaden Rotationsgruppe.
+Mehr Informationen finden Sie auch im [Leitfaden Rotationsgruppe](/pdf/Leitfaden_Rotationsgruppen.pdf).
 
 
 ### Teilnehmer 

@@ -6,10 +6,17 @@ weight = 4
 
 GroupAlarm pro unterstützt neben der Auslösung über die Web-Oberfläche mehrere Arten der Fernauslösung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.
 
+Beachten Sie hierbei auch das Merkblatt [„Fernauslösung“](/pdf/Merkblatt_Fernausloesung.pdf)
+
 ### Auslösung per SMS
 
 
-Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegter Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.
+Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegter Syntax an eine der folgenden festgelegten Auslösenummern senden:
+
+ - T-Mobile: 0160-94816136
+ - Vodafone: 0173-3624818
+ - E-Plus: 0177-2342352
+ - O2: 0179-2371724
 
 **Wichtig**: Damit die Auslösung per SMS funktioniert, muss die Absendernummer im Menü [Grundeinstellungen](/admin/grundeinstellungen/) unter „Auslöseberechtigt“ gespeichert sein.
 

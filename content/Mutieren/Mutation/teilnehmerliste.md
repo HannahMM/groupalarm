@@ -152,7 +152,8 @@ Ist eine parallele Alarmierung gewünscht, bei der alle Alarmmittel eines Teilne
 „parallele Alarmierung“ <img src="/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_alarmmittel_parallel.png" alt="konferenz" style='vertical-align:middle;display:inline;margin:0px 5px; '> gesetzt werden:
 
 Über das Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> kann ein Alarmmittel bearbeitet werden und mit dem 
-Löschsymbol <img src="/img/loesch-icon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> gelöscht werden. Bestätigen Sie die Veränderungen/Anpassungen mit dem Drücken des Speichern-Buttons! 
+Löschsymbol <img src="/img/loesch-icon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '> gelöscht werden. Bestätigen Sie die Veränderungen/Anpassungen mit dem Drücken des 
+Speichern-Buttons! <img src="/img/mutieren_mutation_teilnehmerliste_teilnehmerbereich_speichern.png" alt="" style='vertical-align:middle;display:inline;margin:0px 5px; '> 
 
 
 #### Wochenplaner

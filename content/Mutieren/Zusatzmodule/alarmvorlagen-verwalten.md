@@ -183,54 +183,37 @@ Einheiten bearbeiten)
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_ausloesen.png?width=1000px&classes=shadow)
 
-<a name="teilnehmer_nachtraeglich_hinzufuegen"></a>
+
+
+
 ### Teilnehmer nachträglich hinzufügen
 
-Es ist auch möglich, nachträglich Teilnehmer einer Alarmvorlage zuzuordnen. Wählen Sie dazu im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen sie per Drag & Drop, Doppelklick oder der Schaltfläche
-„Auswahl übernehmen“ zu der Spalte „Teilnehmer“ am rechten Rand hinzu. Mit der Schaltfläche „Alarmvorlage aktualisieren“ bestätigen Sie Ihre Auswahl.
+Es gibt verschiedene Möglichkeiten, nachträglich Teilnehmer einer Alarmvorlage zuzuordnen:
 
- ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren1.png?width=1000px&classes=shadow)
  
- Im nachfolgenden Menü „Alarmvorlage aktualisieren“ können Sie im Dropdown-Menü die Alarmvorlage auswählen, zu der Sie die
+ 
+ - Wählen  Sie im Register „Mutieren“ das Modul „Alarmvorlagen verwalten“ aus und klicken Sie auf die Schaltfläche „Neue Alarmvorlage anlegen“. Wählen Sie in der bereits bekannten Maske die gewünschten Alarmobjekte aus.
+ Bestätigen Sie die Auswahl mit der Schaltfläche „Alarmvorlage aktualisieren“
+ 
+	**Achtung:** Wählen Sie alle Alarmobjekte aus, die in der aktualisierten  Alarmvorlage enthalten sein sollen, auch die, die vorher schon in der Alarmvorlage waren. 
+  ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren3.png?width=1000px&classes=shadow)
+  Im nachfolgenden Menü „Alarmvorlage aktualisieren“ können Sie im Dropdown-Menü die Alarmvorlage auswählen, zu der Sie die
  Teilnehmer hinzufügen wollen.
   ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren2.png?classes=shadow)
+  
+ -  Wählen Sie im Register **„Mutieren“** im Menü „Teilnehmerliste“ die gewünschten Teilnehmer aus und fügen sie per Drag & Drop, Doppelklick oder der Schaltfläche
+ „Auswahl übernehmen“ zu der Spalte „Teilnehmer“ am rechten Rand hinzu. Mit der Schaltfläche „Alarmvorlage aktualisieren“ bestätigen Sie Ihre Auswahl.
  
- Bestätigen Sie mit einem Klick auf *„übernehmen“*.
+	**Achtung:** Diese Option überschreibt die vorhandenen Teilnehmer. Wenn die bereits vorhandenen Teilnehmer in der Vorlage bleiben sollen, müssen Sie diese ebenfalls auswählen!
+ ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren1.png?width=1000px&classes=shadow)
+ Im nachfolgenden Menü „Alarmvorlage aktualisieren“ können Sie im Dropdown-Menü die Alarmvorlage auswählen, zu der Sie die Teilnehmer hinzufügen wollen.
+  ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren2.png?classes=shadow)
+	Bestätigen Sie mit einem Klick auf *„übernehmen“*.
+ 
+ - Wählen Sie im Register **„Mutieren“** das Modul „Organigramm/Baumansicht“ aus und klappen das Organigramm bis zur Ebene der gewünschten Alarmvorlage aus. Wählen Sie anschließend in der Baumstruktur oder in der Liste „Verfügbar“ die gewünschte Gruppe aus
+  und ziehen diese per Drag & Drop in die Alarmvorlage.
+   ![](/img/mutieren_zusatzmodule_alarmvorlagen_aktualisieren4.png?width=1000px&classes=shadow)
+
+  
  
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -50,3 +50,5 @@ Im Menüpunkt „Sitzung“ befindet sich zudem der Logout-Button.
 Im oberen rechten Bereich, hier blau markiert, finden Sie die Schnellstart-Schaltflächen. Standardmäßig können Sie hier direkt zu 
 den laufenden Alarmen, der Teilnehmerliste oder der Erstellung einer Info-SMS gelangen. Auch hier sind weitere Schaltflächen für optionale
 Module möglich, z.B. aktive Konferenzen.
+
+
