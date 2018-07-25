@@ -72,8 +72,10 @@ Auslöseberechtigte Nummern Hier wird angezeigt, wie viele Nummern für die Fern
       
       <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/laufende-alarme/</guid>
       <description>Alarm-Feedback Sobald ein Alarm ausgelöst wird, erfolt ein Wechsel der Maske, d.h. der Alarm wird in der Maske „Alarm-Feedback“ dargestellt. Hier erhalten Sie in Echtzeit einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilnehmer.
-Mit der Schaltfläche „Kaskade beenden“ können Sie die Kaskade beenden und anschließend mit der Schaltfläche „Alarm schließen“ auch den Alarm. Falls keine Kaskade aktiv ist, können Sie direkt mit „Alarm schließen“ den Alarm beenden.
-Zusammenfassung Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.</description>
+Mit der Schaltfläche „Alarm schließen“ können Sie den Alarm beenden.
+Zusammenfassung Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
+ Auslösezeitpunkt und Dauer des Alarms
+ Alarmtext und Statusbalken der Quittierungen</description>
     </item>
     
     <item>
@@ -83,7 +85,7 @@ Zusammenfassung Alarm Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusam
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/organigramm/</guid>
       <description>Organigramm / Baumansicht In diesem Menü findet die zentrale Verwaltung Ihrer Organisation statt.
-Baumansicht Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einer Baumstruktur. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und optionale Module (z.B. Telefonkonferenz oder Zeitsteuerung) angezeigt.
+Baumansicht Die Darstellung Ihrer Unternehmens- und der entsprechenden Alarmierungsstrukturen erfolgt in einer Baumstruktur. Auf der linken Seite wird die aktuelle Wurzel und deren untergeordnete Gruppen, Teilnehmer und optionale Module (z.B. Konferenzvorlage oder Zeitsteuerung) angezeigt.
 Eine Wurzel stellt jeweils die höchste Hierarchiestufe dar, welcher eine oder mehrere Gruppen/Ordner zugeordnet werden können.
 Die Gruppe selber kann auch wiederum eine oder mehrere Gruppen beinhalten.</description>
     </item>
@@ -139,13 +141,13 @@ Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurden, leuchtet 
     </item>
     
     <item>
-      <title>Merkblätter</title>
+      <title>Quickguides</title>
       <link>https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/einfuehrung/merkblaetter/</guid>
-      <description>Hier finden Sie die wichtigsten Merkblätter und Leitfäden zu GroupAlarm pro und dem ERIC Pager:
-   Name Dokumentname     ERIC Handbuch ERIC_Handbuch_pagerV3_2   ERIC FAQ ERIC FAQ   Leitfaden: Alarmvorlage erstellen Leitfaden_Alarmvorlagen_erstellen   Leitfaden: Alarmvorlage bearbeiten Leitfaden_Alarmvorlagen_bearbeiten   Leitfaden: Alarmieren Leitfaden_Disponenten   Leitfaden: Einsatzpläne Leitfaden_Einsatzpläne   Leitfaden: Rotationsgruppe Leitfaden_Rotationsgruppen   Leitfaden: Teilnehmer Leitfaden_Teilnehmer   Leitfaden: Zeitsteuerung Leitfaden_Zeitsteuerung    Durch das Klicken auf ein Merkblatt wird die Datei aufgerufen.</description>
+      <description>In den folgenden PDF-Leitfäden werden Schritt für Schritt die wichtigsten Funktionen von GroupAlarm pro erklärt - für einen schnellen und einfachen Einstieg in das System.
+   Name Dokumentname     Leitfaden: Alarmvorlage erstellen Leitfaden_Alarmvorlagen_erstellen   Leitfaden: Alarmvorlage bearbeiten Leitfaden_Alarmvorlagen_bearbeiten   Leitfaden: Alarmieren Leitfaden_Disponenten   Leitfaden: Einsatzpläne Leitfaden_Einsatzpläne   Leitfaden: Rotationsgruppe Leitfaden_Rotationsgruppen   Leitfaden: Teilnehmer Leitfaden_Teilnehmer   Leitfaden: Zeitsteuerung Leitfaden_Zeitsteuerung    Durch das Klicken auf einen Leitfaden wird die Datei aufgerufen.</description>
     </item>
     
     <item>
@@ -210,24 +212,14 @@ Im Menü „Drehbücher“ werden Ihre vorhandenen Drehbücher aufgelistet. Sie 
     </item>
     
     <item>
-      <title>Grundkonzept</title>
-      <link>https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hannahmm.github.io/groupalarm/einfuehrung/grundkonzepte/</guid>
-      <description>Um Ihnen den Einstieg in GroupAlarm pro zu erleichtern und eine optimale und effektive Alarmauslösung zu gewährleisten, empfehlen wir Ihnen, die Alarmierungs- und Mobilisationsstruktur Ihres Unternehmens vor Beginn zu skizzieren.
-Folgende Fragen können Ihnen dabei behilflich sein:
- Welche über-/untergeordneten Organisations-/Einsatzseinheiten liegen vor? Welche Spezialeinheiten gibt es? Welche Alarmierungsszenarien erwarten Sie und welche Alarmierungs- und Mobilisationsabläufe entstehen daraus? Welche Nutzer sollen Zugriffsrechte bekommen, d.h. wer soll künftig administrieren, mutieren, alarmieren können?</description>
-    </item>
-    
-    <item>
       <title>Konferenz (optionales Modul)</title>
       <link>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</guid>
-      <description>Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die Einheiten angezeigt, die an der Telefonkonferenz teilnehmen.
-In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefeld kann, wenn der Initiator Teil der Konferenz sein möchte, die eigene Nummer eingetragen werden. Die ausgewählten Konferenzteilnehmer werden separat aufgeführt. Für jeden Teilnehmer werden alle konferenzfähigen Kommunikationsmittel (Mobile- und Festnetznummern) angezeigt.</description>
+      <description>Mit dem Modul „Konferenz“ ist es möglich, einen geschlossenen Benutzerkreis von Teilnehmern (standardmäßig bis zu 20 Personen) in eine Telefonkonferenz einzubinden. Diese Teilnehmer müssen alle mit konferenzfähigen Alarmmitteln im System angelegt sein.
+Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die Einheiten angezeigt, die an der Telefonkonferenz teilnehmen.
+In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefeld kann, wenn der Initiator Teil der Konferenz sein möchte, die eigene Nummer eingetragen werden.</description>
     </item>
     
     <item>
@@ -268,7 +260,8 @@ Die individuellen Werte für die jeweiligen Datenfelder können in der Rubrik �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/eric_pager/</guid>
-      <description> ERIC Pager verwalten Hier sehen Sie eine Übersicht der mit Ihrem Account verbunden ERIC Pager.
+      <description> Für umfassende Informationen zu den ERIC Pagern beachten Sie bitte auch das ERIC-Pager-Handbuch sowie die FAQ.
+ERIC Pager verwalten Hier sehen Sie eine Übersicht der mit Ihrem Account verbunden ERIC Pager.
  Pager ID: Rufnummer des Pagers
  Teilnehmer: Welchem Teilnehmer der Pager zugeordnet ist
  Ladung.: Ladestatus des Pagers (Aktualisierung in Echtzeit)
@@ -283,8 +276,9 @@ Die individuellen Werte für die jeweiligen Datenfelder können in der Rubrik �
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/fernausloese/</guid>
       <description>GroupAlarm pro unterstützt neben der Auslösung über die Web-Oberfläche mehrere Arten der Fernauslösung. So können Sie entweder per Anruf oder SMS eine zuvor definierte Alarmvorlage, Konferenzvorlage oder Drehbuch auslösen.
-Auslösung per SMS Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegter Syntax an eine festgelegte Auslösenummer senden. Diese wird jedem Kunden individuell bei Übergabe des Accounts mitgeteilt.
-Wichtig: Damit die Auslösung per SMS funktioniert, muss die Absendernummer im Menü Grundeinstellungen unter „Auslöseberechtigt“ gespeichert sein.</description>
+Beachten Sie hierbei auch das Merkblatt „Fernauslösung“
+Auslösung per SMS Um eine Vorlage per SMS auszulösen, müssen Sie eine SMS mit festgelegter Syntax an eine der folgenden festgelegten Auslösenummern senden:
+ T-Mobile: 0160-94816136 Vodafone: 0173-3624818 E-Plus: 0177-2342352 O2: 0179-2371724  Wichtig: Damit die Auslösung per SMS funktioniert, muss die Absendernummer im Menü Grundeinstellungen unter „Auslöseberechtigt“ gespeichert sein.</description>
     </item>
     
     <item>
@@ -336,9 +330,9 @@ Die hier definierten Mittelbezeichnungen sind eindeutig und werden bei der Erfas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/zeitsteuerungen/</guid>
-      <description>Das optionale Zusatzmodul „Zeitsteuerung“ ermöglicht das Erfassen von Bereitschaftsdiensten.
+      <description>Das optionale Zusatzmodul „Zeitsteuerung“ ermöglicht das Erfassen von Bereitschaftsdiensten. Beachten Sie auch den Leitfaden Zeitsteuerung für weitere Informationen.
 Zeitsteuerung anlegen Um einen neue Zeitsteuerung anzulegen, gehen Sie im Register „Mutieren“ in das Menü „Organigramm/Baumansicht“ und klicken Sie in der rechten Spalte unter „Verfügbar“ auf „Neue Zeitsteuerung“ Fügen Sie die erstellte Zeitsteuerung zu einer Wurzel oder einem Ordner hinzu.
-Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt, die den Bereitschaftsdienst an bestimmten Tagen haben werden. Im folgenden Beispiel sind das:</description>
+Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt, die den Bereitschaftsdienst an bestimmten Tagen haben werden.</description>
     </item>
     
     <item>
