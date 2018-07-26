@@ -15,7 +15,7 @@ Passwort an.
 Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf die (Ihrer Mitbenutzer-Rolle entsprechenden) Funktionen von 
 **GroupAlarm pro**.
 
-![login](/img/einfuehrung_startseite_nach_login.png?width=80%&classes=shadow)
+![login](/img/einfuehrung_startseite_nach_login.png?width=1000px&classes=shadow)
 
 
 
