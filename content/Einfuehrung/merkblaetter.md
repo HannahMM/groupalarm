@@ -14,7 +14,7 @@ In den folgenden PDF-Leitfäden werden Schritt für Schritt die wichtigsten Funk
 |Leitfaden: Rotationsgruppe|[Leitfaden_Rotationsgruppen](/pdf/Leitfaden_Rotationsgruppen.pdf) |
 |Leitfaden: Teilnehmer|[Leitfaden_Teilnehmer](/pdf/Leitfaden_Teilnehmer.pdf) |
 |Leitfaden: Zeitsteuerung|[Leitfaden_Zeitsteuerung](/pdf/Leitfaden_Zeitsteuerung.pdf) |
-
+|Leitfaden: Fernauslösung|[Merkblatt_Fernausloesung](/pdf/Merkblatt_Fernausloesung.pdf) |
 
 Durch das Klicken auf einen Leitfaden wird die Datei aufgerufen. Sie kann
 im Browser angesehen oder lokal abgespeichert werden.

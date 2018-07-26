@@ -81,7 +81,8 @@ Speichern Sie zum Abschluss ihre Alarmvorlage mit der Schaltfläche „Alarm als
 
 #### Allgemein
 
-Im Reiter „Allgemein“ legen Sie Auslösecode und Alarmname fest sowie optional eine Beschreibung des Alarms.
+Im Reiter „Allgemein“ legen Sie Auslösecode und Alarmname fest sowie optional eine Beschreibung des Alarms. Unter „Absendernummer-SMS/Anruf“ werden die Nummern aufgeführt, von der die Alarmteilnehmer angerufen bzw. Alarm-SMS erhalten werden. 
+Sie können die Endung dieser Nummer mit dem Dropdown-Menü „Absendernummer“ individualisieren.
 
 ![](/img/mutieren_zusatzmodule_alarmvorlagen_erstellen_allgemein.png?classes=shadow)
 

@@ -15,7 +15,7 @@ Passwort an.
 Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf die (Ihrer Mitbenutzer-Rolle entsprechenden) Funktionen von 
 **GroupAlarm pro**.
 
-![login](/img/einfuehrung_startseite_nach_login.png?width=1000px&classes=border)
+![login](/img/einfuehrung_startseite_nach_login.png?width=80%&classes=shadow)
 
 
 
@@ -50,5 +50,18 @@ Im Menüpunkt „Sitzung“ befindet sich zudem der Logout-Button.
 Im oberen rechten Bereich, hier blau markiert, finden Sie die Schnellstart-Schaltflächen. Standardmäßig können Sie hier direkt zu 
 den laufenden Alarmen, der Teilnehmerliste oder der Erstellung einer Info-SMS gelangen. Auch hier sind weitere Schaltflächen für optionale
 Module möglich, z.B. aktive Konferenzen.
+
+
+#### Symbole
+
+Die wichtigsten Icons von GroupAlarm pro:
+
+ - Bearbeitungssymbol <img src="/img/bearbeitungsicon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '>:  Klicken Sie auf dieses Symbol um Objekte wie Teilnehmer, Vorlagen, Konferenzen etc. zu bearbeiten
+ 
+ - Schlüsselsymbol <img src="/img/schluesselsymbol.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '>: Ermöglicht Vergabe von Rechten an Teilnehmergruppen, siehe [Mitbenutzerverwaltung](/einfuehrung/mitbenutzerverwaltung/)
+ 
+ - Filtersymbol <img src="/img/filtersymbol.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '>:  Ermöglicht in vielen Menüs und Listen, diese nach bestimmten Kriterien zu filtern oder Objekte zu suchen
+ 
+ - Löschsymbol <img src="/img/loesch-icon.png" alt="bearbeiten" style='vertical-align:middle;display:inline;margin:0px 5px; '>:  Entfernt Elemente aus der jeweiligen Struktur oder komplett aus dem System
 
 
