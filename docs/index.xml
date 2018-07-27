@@ -28,7 +28,7 @@ Mit einem Klick auf das Telefonsymbol können Sie die laufende Konferenz bearbei
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/alarm/</guid>
-      <description>Alarm erstellen Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche „Alarm“ geklickt wurde, öffnet sich die Maske „Alarm erstellen“.
+      <description>Neuen Alarm erstellen Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche „Alarm“ geklickt wurde, öffnet sich die Maske „Alarm erstellen“.
 Hier können Sie verschiedene Einstellungen für Ihren Alarm vornehmen und anschließend mit der Schaltfläche auslösen. Die Schaltfläche wird grau dargestellt solange noch nicht alle nötigen Einstellungen vorgenommen wurden.
 Neben einer Alarmauslösung direkt aus dem Webbrowser unterstützt GroupAlarm pro mehrere Wege der Fernauslösung. Ob Alarm per SMS, Anruf und DTMF-Menü, Durchwahl und über einen Web-Link, die Auslösung ist von nahezu allen Plattformen realisierbar.</description>
     </item>
@@ -124,7 +124,7 @@ Im Menü „Ereignisse“ werden Ihre vorhandenen Ereignisse aufgelistet. Sie k�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/importexport/import/</guid>
-      <description>Import/Datenbank Import Hier können Sie erstellte bzw. modifizierte Datensätze wieder in das System importieren. Wichtig ist hierbei, dass die Spaltenbezeichnungen nicht verändert wurden und Sie die entsprechenden Konventionen einhalten.
+      <description>Hier können Sie erstellte bzw. modifizierte Datensätze wieder in das System importieren. Wichtig ist hierbei, dass die Spaltenbezeichnungen nicht verändert wurden und Sie die entsprechenden Konventionen einhalten.
 Dynamischer Import Mit dem dynamischen Import importieren Sie die im dynamischen Export erstellte Datei wieder in das System. Er bietet sich vor allem für den Erstimport an, um die Datenbank schnell und einfach mit Teilnehmern zu füllen.
 Klicken Sie hierzu auf die Schaltfläche „Dateien auswählen“ und wählen Sie die Datei „import.</description>
     </item>
@@ -135,7 +135,7 @@ Klicken Sie hierzu auf die Schaltfläche „Dateien auswählen“ und wählen Si
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/info-sms/</guid>
-      <description>Info SMS Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und der Button „Info-SMS“ geklickt wurde, öffnet sich die Maske „Info-SMS“.
+      <description>Info SMS versenden Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und der Button „Info-SMS“ geklickt wurde, öffnet sich die Maske „Info-SMS“.
 Beim Versand einer „Info-SMS“ ist keine Quittierung durch den Empfänger möglich. Deshalb wird im Register „Status“ auch keinerlei Feedback zum Versand der „Info-SMS“ gegeben.
 Sobald die Teilnehmer ausgewählt und ein Alarmtext eingegeben wurden, leuchtet die Schaltfläche „Info versenden“ (unten rechts) rot auf: Die Info-SMS kann nun an die selektierten Teilnehmer versendet werden.</description>
     </item>
@@ -180,7 +180,7 @@ TTS bietet sich z.B. für Fälle an, in denen sich die Schreibweise bestimmter B
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/status/alarm-status/abgeschlossene-alarme/</guid>
-      <description>Abgeschlossene Alarme Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein Alarm-Log und eine Kostenauswertung unter dem Register „Status“ unter „Abgeschlossene Alarme“ abgelegt.
+      <description>Sobald ein Alarm abgeschlossen ist, wird ein Alarmprotokoll, ein Alarm-Log und eine Kostenauswertung unter dem Register „Status“ unter „Abgeschlossene Alarme“ abgelegt.
 Sie können mit dem Filtermenü in der ersten Spalte nach bestimmten Alarmen suchen.
 Folgende Funktionen stehen zur Verfügung:
 1. PDF-Alarmprotokoll  Sie erhalten ein vollständiges Protokoll des Alarms im PDF-Format. Folgende Informationen sind darin enthalten:
@@ -218,8 +218,8 @@ Im Menü „Drehbücher“ werden Ihre vorhandenen Drehbücher aufgelistet. Sie 
       
       <guid>https://hannahmm.github.io/groupalarm/alarmieren/telefonkonferenz/</guid>
       <description>Mit dem Modul „Konferenz“ ist es möglich, einen geschlossenen Benutzerkreis von Teilnehmern (standardmäßig bis zu 20 Personen) in eine Telefonkonferenz einzubinden. Diese Teilnehmer müssen alle mit konferenzfähigen Alarmmitteln im System angelegt sein.
-Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die Einheiten angezeigt, die an der Telefonkonferenz teilnehmen.
-In der ersten Zeile wird der Initiator der Konferenz angezeigt. In das Eingabefeld kann, wenn der Initiator Teil der Konferenz sein möchte, die eigene Nummer eingetragen werden.</description>
+Neue Konferenz erstellen Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche „Telefonkonferenz“ geklickt wurde, öffnet sich die Maske „Telefonkonferenz“. Ganz oben werden die Einheiten angezeigt, die an der Telefonkonferenz teilnehmen.
+In der ersten Zeile wird der Initiator der Konferenz angezeigt.</description>
     </item>
     
     <item>
@@ -239,7 +239,7 @@ Bei einer Alarmierung per SMS oder Anruf kann nun anstatt einer reinen JA/NEIN Q
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/mutation/texte/</guid>
-      <description>Texte Mit GroupAlarm pro können Sie vordefinierte Alarmtexte in vier Sprachen verfassen: Deutsch, Englisch, Französisch und Italienisch.
+      <description>Texte bearbeiten Mit GroupAlarm pro können Sie vordefinierte Alarmtexte in vier Sprachen verfassen: Deutsch, Englisch, Französisch und Italienisch.
 Im Menü „Texte“ können Sie Ihre vorhandenen Alarmtexte einsehen und bearbeiten sowie mit dem Text-Editor neue Texte in entsprechender Sprache anlegen. Neuer Text Um einen neuen Text anzulegen, geben Sie den Text in das der jeweiligen Sprache entsprechende Eingabefenster ein und bestätigen Sie mit der Schaltfläche „anlegen“. Für einen Alarm bzw. eine Nachricht stehen 160 Zeichen zur Verfügung.</description>
     </item>
     
@@ -300,7 +300,7 @@ Im Menü „Konferenzvorlagen“ werden Ihre vorhandenen Konferenzvorlagen aufge
       <description>Login Um Zugang zu Ihrem Account zu erhalten, melden Sie sich auf https://pro.groupalarm.de/ mit zugewiesenem Benutzernamen und Passwort an.
 Nach dem Login befinden Sie sich im Register „Alarmieren“. Von hier aus haben Sie Zugriff auf die (Ihrer Mitbenutzer-Rolle entsprechenden) Funktionen von GroupAlarm pro.
 Navigation Die Struktur dieses Handbuches ist analog zu der Struktur von GroupAlarm pro aufgebaut.
-Register Hier rot markiert sind die vier Hauptregister „Alarmieren“, „Status“, „Mutieren“, „Admin“.</description>
+Register Hier rot markiert sind die vier Hauptregister Alarmieren, Status, Mutieren, Admin.</description>
     </item>
     
     <item>
@@ -341,7 +341,7 @@ Im zweiten Schritt werden die Gruppen angelegt und mit den Teilnehmern gefüllt,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hannahmm.github.io/groupalarm/mutieren/zusatzmodule/backup/</guid>
-      <description>Backup/Restore In diesem Menü können Sie ein Backup Ihrer gesamten Datenbank erstellen sowie ein gespeichertes Backup zurückspielen.
+      <description>In diesem Menü können Sie ein Backup Ihrer gesamten Datenbank erstellen sowie ein gespeichertes Backup zurückspielen.
 Um eine Backup-Datei zu erstellen und zu speichern, klicken Sie auf die Schaltfläche „Backup erstellen“. Die erstellte Datei ist ein passwortgeschütztes WinRAR-Archiv, welches mit Datum und Zeitpunkt der Erstellung versehen ist.
 Um ein zuvor erstelltes Backup wiederherzustellen, klicken Sie auf die Schaltfläche „Datei auswählen“ und wählen Sie die entsprechende Datei. Bestätigen Sie die Auswahl mit „Übertragen“</description>
     </item>
