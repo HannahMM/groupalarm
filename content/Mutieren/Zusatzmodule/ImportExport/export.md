@@ -193,7 +193,7 @@ oder CSV Datei
 herunterladen oder die Liste als Report speichern 
 <img src="/img/mutieren_zusatzmodule_imexport_export_telefonliste_reportvorlage_speichern.png" alt="report" style='vertical-align:middle;display:inline;margin:0px 5px; '>.
 
-![](/img/mutieren_zusatzmodule_imexport_export_telefonliste.png?width=800px&classes=shadow)
+![](/img/mutieren_zusatzmodule_imexport_export_telefonliste.png?width=1000px&classes=shadow)
 
 
 Gespeicherte Reporte werden in einer Liste angezeigt und können bearbeitet <img src="/img/bearbeitungsicon.png" alt="edit" style='vertical-align:middle;display:inline;margin:0px 5px; '>, 

@@ -4,7 +4,7 @@ weight = 6
 +++
 
 
-### Backup/Restore
+
 
 In diesem Menü können Sie ein Backup Ihrer gesamten Datenbank erstellen sowie ein gespeichertes Backup zurückspielen.
 

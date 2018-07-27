@@ -74,7 +74,7 @@ gewählte Name bereits vergeben ist, erscheint ein Warnhinweis. Über das
 Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="schluessel" style='vertical-align:middle;display:inline;margin:0px 5px; '> öffnet sich der Organisationsbereich, 
 in dem die Wurzel mit Namen, Kontakt und Adressen sowie weiteren Optionen ergänzt werden kann. 
 
-![](/img/mutieren_mutation_organigramm_organisationsbereich.png?classes=shadow)
+![](/img/mutieren_mutation_organigramm_organisationsbereich.png?classes=shadow&width=1200px)
 
 #### Organisationsbereich Wurzel
 
@@ -105,7 +105,7 @@ mit dem Bearbeitungs-Icon <img src="/img/bearbeitungsicon.png" alt="schluessel" 
 weiter zu bearbeiten und analog zur Wurzel mit Detailangaben wie Namen,
 Kontakt und Adresse zu ergänzen. 
 
-![](/img/mutieren_mutation_organigramm_organisationsbereich_ordner.png?classes=shadow)  
+![](/img/mutieren_mutation_organigramm_organisationsbereich_ordner.png?classes=shadow&width=1200px)  
 
 #### Organisationsbereich Gruppen
 

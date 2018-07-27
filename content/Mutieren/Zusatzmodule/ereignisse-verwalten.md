@@ -99,6 +99,6 @@ Um ein Ereignis auszulösen, wählen Sie im Register „Alarmieren“ aus der Sp
 Per Drag & Drop, Doppelklick oder der Schaltfläche „Auswahl übernehmen“ fügen Sie das Ereignis der Teilnehmerliste auf der rechten Seite hinzu. Mit einem Klick auf „Alarm“ gelangen Sie in das entsprechende Auslöse-Menü. 
 Dort können Sie das Ereignis direkt mit seinen vordefinierten Attributen auslösen, aber auch Optionen anpassen.
 
-![](/img/mutieren_zusatzmodule_ereignis_ausloesen.png?classes=shadow&width=1000)
+![](/img/mutieren_zusatzmodule_ereignis_ausloesen.png?classes=shadow&width=1000px)
 
 

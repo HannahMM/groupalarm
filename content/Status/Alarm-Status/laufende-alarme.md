@@ -22,7 +22,7 @@ können Sie den Alarm beenden.
 
 Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
 
-![](/img/status_alarm_status_laufende_alarme_zusammenfassung.png?classes=shadow)
+![](/img/status_alarm_status_laufende_alarme_zusammenfassung.png?classes=shadow&width=1200px)
 
  - Auslösezeitpunkt und Dauer des Alarms
  
@@ -43,7 +43,7 @@ Im oberen Teil des Feedback-Menüs erhalten Sie eine Zusammenfassung des Alarms.
 
 Im unteren Teil des Feedback-Menüs werden die zu alarmierenden Teilnehmer und ihre jeweiligen Status und Alarmmittel aufgelistet. Wählen Sie die Option „Gruppenansicht“ aus, um die alarmierten Einheiten anzuzeigen.
 
-![](/img/status_alarm_status_laufende_alarme_teilnehmer.png?classes=shadow)
+![](/img/status_alarm_status_laufende_alarme_teilnehmer.png?classes=shadow&width=1200px)
 
 Mit der <img src="/img/statussymbol.png" alt="status" style='vertical-align:middle;display:inline;margin:0px 5px; '> Schaltfläche
 kann die Liste nach Status der Teilnehmer gefiltert werden, um beispielsweise nur positive Rückmeldungen anzuzeigen. 

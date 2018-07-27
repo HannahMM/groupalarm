@@ -42,7 +42,7 @@ Wählen Sie dann in Wochenansicht die Zeitfenster aus, in denen dieses Profil gi
 
 
 
-![](/img/admin_wochenplaner_plan_anlegen1.png?classes=shadow)
+![](/img/admin_wochenplaner_plan_anlegen1.png?classes=shadow&width=1200px)
 
 ### Wochenplan zuordnen
 

@@ -14,7 +14,7 @@ abgebildet werden, dass sie den Bedürfnissen des Anwenders entspricht.
 
 
 
-![](/img/mutieren.png?classes=shadow)
+![](/img/mutieren.png?classes=shadow&width=1200px)
 
 
 

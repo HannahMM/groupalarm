@@ -3,8 +3,12 @@ title = "Konferenz (optionales Modul)"
 weight = 3
 +++
 
+
+
+
 Mit dem Modul „Konferenz“ ist es möglich, einen geschlossenen Benutzerkreis von Teilnehmern (standardmäßig bis zu 20 Personen) in eine Telefonkonferenz einzubinden. Diese Teilnehmer müssen alle mit konferenzfähigen Alarmmitteln im System angelegt sein.
 
+### Neue Konferenz erstellen 
 
 Sobald Teilnehmer oder Gruppen ausgewählt und die Schaltfläche
 **„Telefonkonferenz“** <img src="/img/alarmieren_telefonkonferenz.png" alt="telefon" style='vertical-align:middle;display:inline;margin:0px 5px; '>

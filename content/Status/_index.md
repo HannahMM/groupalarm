@@ -6,8 +6,6 @@ pre ="<i class='fa fa-list-alt'></i> "
 +++
 
 
-### Status
-
 Im Register **„Status“** können laufende und abgeschlossene Alarme bzw.
 aktive und beendete Konferenzen abgefragt, überprüft und beendet werden.
 
@@ -27,7 +25,7 @@ Unter dem Menüpunkt **„Versandstatistik“** können nach verschiedenen Krite
 
 
 
-![](/img/status.png?classes=shadow)
+![](/img/status.png?classes=shadow&width=1200px)
 
 
 

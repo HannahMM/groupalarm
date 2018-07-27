@@ -5,12 +5,12 @@ weight = 3
 
 
 
-### Texte
+### Texte bearbeiten
 
 Mit **GroupAlarm pro** können Sie vordefinierte Alarmtexte in vier
 Sprachen verfassen: **Deutsch, Englisch, Französisch und Italienisch**.  
 Im Menü **„Texte“** können Sie Ihre vorhandenen Alarmtexte einsehen und bearbeiten sowie mit dem Text-Editor neue Texte in entsprechender Sprache anlegen.
-![](/img/mutieren_mutation_texte.png?width=700px&classes=shadow)
+![](/img/mutieren_mutation_texte.png?classes=shadow)
 
 #### Neuer Text
 

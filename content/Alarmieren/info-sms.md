@@ -6,7 +6,7 @@ weight = 2
 
 
 <a name="info_sms"></a>
-### Info SMS 
+### Info SMS versenden
 
 Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und der Button
 **„Info-SMS“** <img src="/img/alarmieren_info_sms.png" alt="info" style='vertical-align:middle;display:inline;margin:0px 5px; '>

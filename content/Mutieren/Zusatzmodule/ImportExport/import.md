@@ -3,7 +3,7 @@ title = "Import"
 weight = 2
 +++
 
-### Import/Datenbank Import
+
 
 Hier können Sie erstellte bzw. modifizierte Datensätze wieder in das System importieren. Wichtig ist hierbei, dass die Spaltenbezeichnungen nicht verändert wurden
 und Sie die entsprechenden Konventionen einhalten.

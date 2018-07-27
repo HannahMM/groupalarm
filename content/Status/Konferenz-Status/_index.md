@@ -11,4 +11,4 @@ Der **Konferenz-Status** ist unterteilt in drei Kategorien:
  - [**beendete Konferenzen**](/status/konferenz-status/beendete-konferenzen/)
 
 
-![](/img/status_konferenz_status.png?classes=shadow)
+![](/img/status_konferenz_status.png?classes=shadow&width=1200px)

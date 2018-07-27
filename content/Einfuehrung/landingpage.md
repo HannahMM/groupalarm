@@ -31,7 +31,7 @@ Die Struktur dieses Handbuches ist analog zu der Struktur von **GroupAlarm pro**
 
 #### Register
 
-Hier rot markiert sind die vier Hauptregister [„Alarmieren“](/alarmieren/), [„Status“](/status/), [„Mutieren“](/mutieren/), [„Admin“](/admin/). 
+Hier rot markiert sind die vier Hauptregister [**Alarmieren**](/alarmieren/), [**Status**](/status/), [**Mutieren**](/mutieren/), [**Admin**](/admin/). 
 Alle Funktionen, die Sie unter diesen Registern finden, werden in den entsprechenden Menüpunkten erläutert.
 
 #### Navigationsleiste

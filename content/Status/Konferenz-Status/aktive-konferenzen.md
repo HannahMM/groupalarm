@@ -6,7 +6,7 @@ weight = 1
 Im Menü **„aktive Konferenzen“** sehen Sie einen Überblick über die aktuell laufenden Telefonkonferenzen. Aufgeführt wird der Name der Konferenz, 
 der Auslöser und Auslösezeitpunkt sowie das voraussichtliche Ende (standardmäßig nach einer Stunde).
 
-![](/img/status_konferenz_status_aktive_konferenzen.png?width=700px&classes=shadow)
+![](/img/status_konferenz_status_aktive_konferenzen.png?classes=shadow)
 
 Mit einem Klick auf das Telefonsymbol <img src="/img/telefonsymbol.png" alt="telefon" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 können Sie die laufende Konferenz bearbeiten:

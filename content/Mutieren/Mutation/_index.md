@@ -44,7 +44,7 @@ Datensätzen und Rechten versehen und können mehreren Wurzeln oder Gruppen zuge
 
 
 
-![](/img/mutieren_mutation.png?classes=shadow)
+![](/img/mutieren_mutation.png?classes=shadow&width=1200px)
 
 
  - [**Organigramm / Baumansicht:**](/mutieren/mutation/organigramm/) Zentrale Verwaltung der Struktur der Alarmorganisation. Dies

@@ -34,7 +34,7 @@ Folgende Funktionen stehen zur Verfügung:
  
  - **Report als PDF herunterladen** <img src="/img/pdfsymbol.png" alt="pdf" style='vertical-align:middle;display:inline;margin:0px 5px; '> : Erstellt einen Report im PDF-Format über die Konferenzvorlage. 
  Hier werden Ersteller, Konferenzname und Beschreibung, sowie die Teilnehmer aufgelistet und weitere Optionen aufgeführt.
- ![](/img/mutieren_zusatzmodule_konferenzvorlagen_funktionen_pdf.png?classes=shdadow&width=800px)
+ ![](/img/mutieren_zusatzmodule_konferenzvorlagen_funktionen_pdf.png?classes=shadow&width=800px)
  
  - **Löschen**<img src="/img/loesch-icon.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  

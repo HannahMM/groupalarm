@@ -10,6 +10,6 @@ alwaysopen = true
  - [**disponierte Alarme**] (/status/alarm-status/disponierte-alarme/)
  - [**abgeschlossene Alarme**] (/status/alarm-status/abgeschlossene-alarme/)
 
-![](/img/status_alarm_status.png?classes=shadow)
+![](/img/status_alarm_status.png?classes=shadow&width=1200px)
 
 

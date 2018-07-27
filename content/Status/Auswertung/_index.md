@@ -6,7 +6,7 @@ weight = 4
 
 ### Versandstatistik
 
-![](/img/status_versandstatistik.png?width=1000px&classes=shadow)
+![](/img/status_versandstatistik.png?width=1200px&classes=shadow)
 
 Im Register **„Versandstatistik“** können Sie nach verschiedenen Kriterien Verkehrs- und Kostenauswertungen
 erstellen.   

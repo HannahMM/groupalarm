@@ -4,7 +4,7 @@ weight = 1
 +++
 
 
-### Alarm erstellen 
+### Neuen Alarm erstellen 
 
 Sobald Teilnehmer, Gruppen und Wurzeln ausgewählt und die Schaltfläche
 **„Alarm“** <img src="/img/alarmieren_alarm.png" alt="alarm" style='vertical-align:middle;display:inline;margin:0px 5px; '>

@@ -15,7 +15,7 @@ Das Menü **„Alarm erstellen“** wird Ihnen nach erfolgreichem Login angezeig
  - Info-SMS versenden
  - Telefonkonferenzen (optionales Modul) starten
  
-![](/img/alarmieren_start.png?classes=shadow&width=1000px)
+![](/img/alarmieren_start.png?classes=shadow&width=1200px)
 
 
 In den verschiedenen, voneinander unabhängigen Spalten werden Ihre Wurzeln,

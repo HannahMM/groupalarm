@@ -36,7 +36,7 @@ Folgende Funktionen sehen zur Verfügung:
 
 Sie erhalten ein vollständiges Protokoll der Konferenz im PDF-Format.
 
-![](/img/status_konferenz_status_beendete_konferenzen_konferenzprotokoll.png?width=700px&classes=shadow)
+![](/img/status_konferenz_status_beendete_konferenzen_konferenzprotokoll.png?classes=shadow)
 
 Folgende Informationen sind darin enthalten: 
 
@@ -58,7 +58,7 @@ Folgende Informationen sind darin enthalten:
 #### 2. Kostenaufstellung <img src="/img/kostenauswertungsymbol.png" alt="cost" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 
  Sie erhalten eine Übersicht der entstandenen Kosten im PDF-Format.
- ![](/img/status_konferenz_status_beendete_konferenzen_kostenauswertung.png?width=700px&classes=shadow)
+ ![](/img/status_konferenz_status_beendete_konferenzen_kostenauswertung.png?classes=shadow)
 
  
  

@@ -3,7 +3,7 @@ title = "Quickguides"
 weight = 2
 +++
 
-In den folgenden PDF-Leitfäden werden Schritt für Schritt die wichtigsten Funktionen von GroupAlarm pro erklärt - für einen schnellen und einfachen Einstieg in das System.
+In den folgenden PDF-Leitfäden werden Schritt für Schritt die wichtigsten Funktionen von **GroupAlarm pro** erklärt - für einen schnellen und einfachen Einstieg in das System.
 
 | Name | Dokumentname |
 | --- | --- |

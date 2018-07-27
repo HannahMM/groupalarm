@@ -38,11 +38,11 @@ vorhanden, so wird der dazugehörige Datensatz gelöscht.
 
 Zur Verdeutlichung des Export-/Import-Prozesses folgt nun beispielhaft das Anlegen eines neuen Teilnehmers:
 
- 1. Speichern und Öffnen der Datei „import.cvs“ über den [dynamischen Export](/mutieren/zusatzmodule/importexport/export/#dynamischer-export) ![](/img/mutieren_zusatzmodule_imexport_demo1.png?classes=shadow&width=1000px)
+ 1. Speichern und Öffnen der Datei „import.cvs“ über den [dynamischen Export](/mutieren/zusatzmodule/importexport/export/#dynamischer-export) ![](/img/mutieren_zusatzmodule_imexport_demo1.png?classes=shadow&width=1200px)
 
  2. Anlegen des neuen Teilnehmers „Karl Koch“, mit Adresse, einigen Kontaktdaten, Schuhgröße, Führerscheinklasse sowie als Sprache Französisch. Beachten Sie hier die festgelegten Konventionen.
 
-	![](/img/mutieren_zusatzmodule_imexport_demo2.png?classes=shadow&width=1000px)
+	![](/img/mutieren_zusatzmodule_imexport_demo2.png?classes=shadow&width=1200px)
     
 	Speichern Sie anschließend die Datei. Eventuell warnt ein Popup-Fenster davor „einige Features der Arbeitsmappe gehen
 	möglicherweise verloren“. Bestätigen Sie trotzdem die Verwendung des Formats mit „Ja“.
@@ -54,6 +54,6 @@ Zur Verdeutlichung des Export-/Import-Prozesses folgt nun beispielhaft das Anleg
  
  4. In der Teilnehmerliste können Sie nun den neuen Eintrag sehen. 
  
-	![](/img/mutieren_zusatzmodule_imexport_demo4.png?classes=shadow&width=1000px)
+	![](/img/mutieren_zusatzmodule_imexport_demo4.png?classes=shadow&width=1200px)
 
 

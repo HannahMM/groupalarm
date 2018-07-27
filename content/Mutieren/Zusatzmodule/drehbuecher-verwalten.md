@@ -84,7 +84,7 @@ Im Dropdown-Menü „Zuweisbare Vorlagen“ werden alle vorhandenen Alarm- und K
 Die ausgewählten Vorlagen werden unter „Zugewiesene Vorlagen“ in einem grauen Kasten angezeigt.
 
 
-![](/img/mutieren_zusatzmodule_drehbuecher_vorlagenzuordnung2.png?width=800px&classes=shadow)
+![](/img/mutieren_zusatzmodule_drehbuecher_vorlagenzuordnung2.png?classes=shadow)
 
 Hier können Sie die Reihenfolge, in der die Vorlagen ausgelöst werden sollen, festlegen. Ziehen Sie dazu per Drag & Drop die Vorlage auf die gewünschte Position.   
 Sie können auch manuell die „zeitliche Verzögerung nach der Drehbuchauslösung“ festlegen, indem Sie die Minuten und Sekunden in die Felder eintragen und mit *„ändern“* bestätigen. Mit einem Klick auf das Löschsymbol

@@ -9,7 +9,7 @@ weight = 7
 
 Mit dem optionalen Modul „Einsatzpläne“  können Sie Einsatzpläne abhängig von Tages- und Nachtzeit, Wochen- und Feiertagen, Kalenderwochen und Monaten festgelegen und diese Einsatzpläne Gruppen zuordnen.
 
-![](/img/admin_einsatzplaene.png?classes=shadow&width=900px)
+![](/img/admin_einsatzplaene.png?classes=shadow&width=1000px)
 
 Im linken Bereich sehen Sie eine Liste Ihrer bereits erstellten Einsatzpläne. Sie können diese nach Nummer oder Plan-Name filtern, sowie einzelne Pläne bearbeiten <img src="/img/bearbeitungsicon.png" alt="edit" style='vertical-align:middle;display:inline;margin:0px 5px; '>
 oder löschen <img src="/img/loesch-icon.png" alt="del" style='vertical-align:middle;display:inline;margin:0px 5px; '>.
@@ -29,7 +29,7 @@ der Grafik rechts grün angezeigt. Es ist nicht möglich, die Einsatzzeiten einz
 	Im Folgenden zwei Beispiele: Das linke Beispiel zeigt regelmäßige Arbeitszeiten Montag bis Freitag, jeweils 08:00 - 16:00 Uhr. Rechts beginnt die Schicht Freitag, 17:00 Uhr und geht durchgängig bis Montag, 06:00 Uhr 
 => 17.00 Uhr - 06.00 Uhr +2Tage.
 
-![](/img/admin_einsatzplaene_wochenplan.png?classes=shadow&width=900px)
+![](/img/admin_einsatzplaene_wochenplan.png?classes=shadow&width=1000px)
 
  - **„Serienmuster“**: Legen Sie die Wochen bzw. Monate fest, in denen der Plan gültig ist (z.B. Juni-August; KW 1,2,3)
 Das Schema gilt für alle kommenden Jahre.
@@ -50,7 +50,7 @@ Um einen Einsatzplan einer Gruppe zuzuordnen, gehen Sie in das Register **„Mut
 Wählen Sie hier den gewünschten Ordner aus und klicken Sie auf das Bearbeitungsicon <img src="/img/bearbeitungsicon.png" alt="plan" style='vertical-align:middle;display:inline;margin:0px 5px; '>.
 Im Abschnitt **„Einsatzplaner für die Gruppe“** können Sie den gewünschten Plan auswählen und mit „speichern“ bestätigen.
 
-![](/img/admin_einsatzplaene_zuordnen.png?classes=shadow)
+![](/img/admin_einsatzplaene_zuordnen.png?classes=shadow&width=1200px)
  
  
 

@@ -50,8 +50,6 @@ und klicken auf *„Report herunterladen“*, werden auch nur diese Vorlagen im 
 
 
 
-
-<a name="neue_alarmvorlage_anlegen"></a>
 ### Neue Alarmvorlage anlegen 
 
 Es gibt verschiedene Möglichkeiten, eine neue Alarmvorlage anzulegen:
@@ -62,12 +60,12 @@ Es gibt verschiedene Möglichkeiten, eine neue Alarmvorlage anzulegen:
  
  2. Im Register **„Mutieren“** im Menü „Teilnehmerliste“ fügen Sie die gewünschte/n Gruppe/n per Drag & Drop oder Doppelklick
  der rechten Spalte hinzu und klicken auf „Alarmvorlage erstellen“
- ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage2.png?width=800px&classes=shadow) 
+ ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage2.png?width=1000px&classes=shadow) 
  
  3. Im Register **„Mutieren“** im Menü „Zusatzmodule“, „Alarmvorlagen verwalten“ mit der Schaltfläche „Neue Alarmvorlage anlegen“
  <img src="/img/mutieren_zusatzmodule_alarmvorlagen_neue_alarmvorlage_anlegen.png" alt="lösch" style='vertical-align:middle;display:inline;margin:0px 5px; '>
  Damit gelangen Sie in die bereits bekannte Alarmmaske. Hier können Sie Wurzeln und Gruppen per Drag & Drop oder Doppelklick in die rechte Spalte schieben. Klicken Sie dann auf „Alarmvorlage erstellen“.
- ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage3.png?width=800px&classes=shadow)
+ ![](/img/mutieren_zusatzmodule_alarmvorlagen_neue_vorlage3.png?width=1000px&classes=shadow)
  
   
   
