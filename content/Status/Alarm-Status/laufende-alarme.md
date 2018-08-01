@@ -8,7 +8,7 @@ weight = 1
 ### Alarm-Feedback 
 
 
-Sobald ein Alarm ausgelöst wird, erfolt ein Wechsel der Maske, d.h. der Alarm wird in der Maske **„Alarm-Feedback“** dargestellt. Hier erhalten Sie in Echtzeit 
+Sobald ein Alarm ausgelöst wird, erfolgt ein Wechsel der Maske, d.h. der Alarm wird in der Maske **„Alarm-Feedback“** dargestellt. Hier erhalten Sie in Echtzeit 
 einen Überblick über Alarmverlauf und Rückmeldungen Ihrer alarmierten Teilnehmer. 
 
 ![](/img/status_alarm_status_laufende_alarme.png?width=1200px&classes=shadow)
